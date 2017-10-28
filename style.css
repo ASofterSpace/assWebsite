@@ -35,16 +35,27 @@ div.header {
 }
 
 div.header a {
-	color: #555;
-	font-weight: bold;
+	color: #222;
 	text-decoration: none;
-	margin: 0px 8px 0px 4px;
+	margin: 0px 16px 0px 8px;
 }
 
 div.header a:hover {
-	color: #777;
+	color: #555;
 	box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 1);
 	background-color: rgba(255, 255, 255, 1);
+}
+
+div.headerbar {
+	position: absolute;
+	top: 25px;
+	left: 250px;
+	font-size: 125%;
+}
+
+img.logo {
+	width: 200px;
+	height: 49px;
 }
 
 div.footerplaceholder {
