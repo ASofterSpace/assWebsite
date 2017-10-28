@@ -1,0 +1,128 @@
+html {
+	margin: 0;
+}
+
+body {
+	background-color: #000;
+	background-image: url('pics/bg1_final_1.jpg');
+	background-size: cover;
+	margin: 0;
+	position: relative;
+	font-family: Calibri, sans-serif;
+}
+
+body > div {
+	background-color: rgba(255, 255, 255, 0.98);
+	box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.98);
+	color: #222;
+}
+
+body > div.header:hover {
+	background-color: rgba(245, 245, 245, 1);
+	box-shadow: 0px 0px 6px 6px rgba(245, 245, 245, 1);
+}
+
+body > div.contentarea:hover {
+	background-color: rgba(255, 255, 255, 1);
+	box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 1);
+	color: #000;
+}
+
+div.header {
+	margin: 20px 0px 20px 0px;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+div.header a {
+	color: #555;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 0px 8px 0px 4px;
+}
+
+div.header a:hover {
+	color: #777;
+	box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 1);
+	background-color: rgba(255, 255, 255, 1);
+}
+
+div.footerplaceholder {
+	height: 70px;
+	visibility: hidden;
+}
+
+div.footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 20px 0px 0px 0px;
+	padding: 10px 10px 30px 10px;
+	background-color: rgba(20, 20, 20, 0.9);
+	box-shadow: 0px 0px 5px 5px rgba(20, 20, 20, 0.9);
+	color: #ddd;
+}
+
+div.footer:hover {
+	background-color: rgba(25, 25, 25, 0.95);
+	box-shadow: 0px 0px 10px 10px rgba(25, 25, 25, 0.95);
+	color: #eee;
+}
+
+div.footer a {
+	color: #eee;
+}
+
+div.contentarea {
+	margin: 40px 5% 40px 5%;
+	padding: 10px;
+}
+
+div.content {
+	margin: 8px 0 0 0;
+}
+
+div.item {
+	display:inline-block;
+}
+
+div.aligncontainer {
+	position: relative;
+}
+
+div.right {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+div.person > div.name {
+	margin-left: 170px;
+	font-style: italic;
+	font-size: 110%;
+}
+
+div.picbiocontainer {
+	position: relative;
+}
+
+div.picbiocontainer > img.pic {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 150px;
+	width: 150px;
+	border-radius: 75px;
+}
+
+div.picbiocontainer > div.bio {
+	margin-left: 170px;
+	min-height: 150px;
+}
+
+h3 {
+	margin: 0;
+	font-size: 125%;
+	font-weight: normal;
+}
