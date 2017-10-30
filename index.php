@@ -21,7 +21,7 @@
 	<body>
 		<a name="topofpage"></a>
 	
-		<div class="header">
+		<header>
 			<img class="logo" alt="a softer space logo" src="pics/logo.png" />
 			
 			<div class="headerbar">
@@ -38,9 +38,9 @@
 					<a href="#experience">Experience</a>
 				</div>
 			</div>
-		</div>
+		</header>
 
-		<div class="contentarea">
+		<section>
 			<a name="aboutus"></a>
 			
 			<h3>What We Do</h3>
@@ -70,9 +70,9 @@
 				Have fun exploring our site and do not hesitate to get in contact,<br>
 				Moya
 			</div>
-		</div>
+		</section>
 			
-		<div class="contentarea">
+		<section>
 			<a name="ourteam"></a>
 			
 			<h3>Our Team</h3>
@@ -92,9 +92,9 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 
-		<div class="contentarea">
+		<section>
 			<a name="contact"></a>
 			
 			<h3>Contact</h3>
@@ -105,9 +105,9 @@
 				Just send me an email!<br><br>
 				<a href="mailto:moya{{-- TODO :: @asofterspace.com! --}}ccercchi@hotmail.de">moya{{-- TODO :: @asofterspace.com! --}}ccercchi@hotmail.de</a>
 			</div>
-		</div>
+		</section>
 
-		<div class="contentarea">
+		<section>
 			<a name="experience"></a>
 			
 			<h3>Experience</h3>
@@ -122,12 +122,12 @@
 					<a href="https://nasa.github.io/openmct/"><img alt="OpenMCT logo" src="pics/exp_openmct.png" style="height: 50px; width: 241px;" /></a>
 				</div>
 			</div>
-		</div>
+		</section>
 
 		<div class="footerplaceholder">
 		</div>
 		
-		<div class="footer">
+		<footer>
 			<div class="aligncontainer">
 				<div class="label">
 					A Softer Space, 2017
@@ -136,7 +136,7 @@
 					<a href="#topofpage">Back to Top</a>
 				</div>
 			</div>
-		</div>
+		</footer>
 		
 	</body>
 	

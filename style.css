@@ -11,36 +11,36 @@ body {
 	font-family: Calibri, sans-serif;
 }
 
-body > div {
+section {
 	background-color: rgba(255, 255, 255, 0.98);
 	box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.98);
 	color: #222;
 }
 
-body > div.header:hover {
+header:hover {
 	background-color: rgba(245, 245, 245, 1);
 	box-shadow: 0px 0px 6px 6px rgba(245, 245, 245, 1);
 }
 
-body > div.contentarea:hover {
+section:hover {
 	background-color: rgba(255, 255, 255, 1);
 	box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 1);
 	color: #000;
 }
 
-div.header {
+header {
 	margin: 20px 0px 20px 0px;
 	padding: 10px;
 	background-color: rgba(255, 255, 255, 0.9);
 }
 
-div.header a {
+header a {
 	color: #222;
 	text-decoration: none;
 	margin: 0px 16px 0px 8px;
 }
 
-div.header a:hover {
+header a:hover {
 	color: #555;
 	box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 1);
 	background-color: rgba(255, 255, 255, 1);
@@ -63,7 +63,7 @@ div.footerplaceholder {
 	visibility: hidden;
 }
 
-div.footer {
+footer {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -75,24 +75,24 @@ div.footer {
 	color: #ddd;
 }
 
-div.footer:hover {
+footer:hover {
 	background-color: rgba(25, 25, 25, 0.95);
 	box-shadow: 0px 0px 10px 10px rgba(25, 25, 25, 0.95);
 	color: #eee;
 }
 
-div.footer a {
+footer a {
 	color: #eee;
 }
 
-div.contentarea {
+section {
 	margin: 40px auto 40px auto;
 	padding: 10px;
 	width: 80%;
 	max-width: 900px;
 }
 
-div.contentarea a {
+section a {
 	color: #666;
 }
 
