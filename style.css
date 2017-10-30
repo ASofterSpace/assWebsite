@@ -86,8 +86,10 @@ div.footer a {
 }
 
 div.contentarea {
-	margin: 40px 5% 40px 5%;
+	margin: 40px auto 40px auto;
 	padding: 10px;
+	width: 80%;
+	max-width: 900px;
 }
 
 div.content {
@@ -136,4 +138,19 @@ h3 {
 	margin: 0;
 	font-size: 125%;
 	font-weight: normal;
+}
+
+div.carouselcontainer {
+	height: 55px;
+	position: relative;
+	overflow: hidden;
+}
+
+div.carousel {
+	position: absolute;
+	width: 200%;
+}
+
+div.carousel > a {
+	margin-right: 40px;
 }

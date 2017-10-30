@@ -13,14 +13,16 @@
 		<meta name="description" content="@content(description)">
 
 		{{-- CSS --}}
-		<link href="style.css?v=@version" media="all" rel="stylesheet" type="text/css">
+		<link href="style.css?v=@version" media="all" rel="stylesheet" type="text/css"></link>
+		
+		<script src="carousel.js?v=@version"></script>
 	</head>
 	
 	<body>
 		<a name="topofpage"></a>
 	
 		<div class="header">
-			<img class="logo" src="pics/logo.png" />
+			<img class="logo" alt="a softer space logo" src="pics/logo.png" />
 			
 			<div class="headerbar">
 				<div class="item">
@@ -32,6 +34,9 @@
 				<div class="item">
 					<a href="#contact">Contact</a>
 				</div>
+				<div class="item">
+					<a href="#experience">Experience</a>
+				</div>
 			</div>
 		</div>
 
@@ -42,7 +47,7 @@
 			
 			<div class="content">
 				Our goal in creating A Softer Space is to enable exciting and wonderful science to happen - especially in the space sector (Mars, we are coming!), but in any other field as well.<br>
-				To do that, we intend to write the best software we can - as we are all software-people (sorry, we cannot help you with building any interesting hardware just yet!)
+				To do that, we intend to write the best software we can, in whatever language or environment might be best in your particular case.
 			</div>
 			
 			<div class="content">
@@ -78,7 +83,7 @@
 						Tom Moya Schiller
 					</div>
 					<div class="picbiocontainer">
-						<img class="pic" src="pics/moya_2.jpg" />
+						<img class="pic" alt="picture of moya" src="pics/moya_2.jpg" />
 						<div class="bio">
 							As a Young Graduate Trainee at ESA's European Space Operations Centre in Germany, Moya is working with and creating EGS-CC based software.<br>
 							Interested in various fields, Moya previously worked as front- and backend developer for an aviation startup in Reykjavík and a horse racing track in Berlin.<br>
@@ -88,7 +93,7 @@
 				</div>
 			</div>
 		</div>
-			
+
 		<div class="contentarea">
 			<a name="contact"></a>
 			
@@ -98,10 +103,27 @@
 				Interested?<br>
 				Seen something you like?<br>
 				Just send me an email!<br><br>
-				moya@asofterspace.com
+				moya{{-- TODO :: @asofterspace.com! --}}ccercchi@hotmail.de
 			</div>
 		</div>
+
+		<div class="contentarea">
+			<a name="experience"></a>
+			
+			<h3>Experience</h3>
 		
+			<div class="content carouselcontainer">
+				<div class="carousel" id="expcarousel">
+					{{-- first round --}}
+					<a href="http://www.egscc.esa.int/"><img alt="EGS-CC logo" src="pics/exp_egscc.png" style="height: 50px; width: 278px;" /></a>
+					<a href="https://nasa.github.io/openmct/"><img alt="OpenMCT logo" src="pics/exp_openmct.png" style="height: 50px; width: 241px;" /></a>
+					{{-- second round --}}
+					<a href="http://www.egscc.esa.int/"><img id="expcarouselFirstImgSecondRound" alt="EGS-CC logo" src="pics/exp_egscc.png" style="height: 50px; width: 278px;" /></a>
+					<a href="https://nasa.github.io/openmct/"><img alt="OpenMCT logo" src="pics/exp_openmct.png" style="height: 50px; width: 241px;" /></a>
+				</div>
+			</div>
+		</div>
+
 		<div class="footerplaceholder">
 		</div>
 		
@@ -115,6 +137,7 @@
 				</div>
 			</div>
 		</div>
+		
 	</body>
 	
 </html>
