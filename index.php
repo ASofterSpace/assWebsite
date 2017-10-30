@@ -103,7 +103,7 @@
 				Interested?<br>
 				Seen something you like?<br>
 				Just send me an email!<br><br>
-				moya{{-- TODO :: @asofterspace.com! --}}ccercchi@hotmail.de
+				<a href="mailto:moya{{-- TODO :: @asofterspace.com! --}}ccercchi@hotmail.de">moya{{-- TODO :: @asofterspace.com! --}}ccercchi@hotmail.de</a>
 			</div>
 		</div>
 
