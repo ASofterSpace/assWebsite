@@ -102,8 +102,25 @@
 			<div class="content">
 				Interested?<br>
 				Seen something you like?<br>
-				Just send me an email!<br><br>
+				Just send me an email!
+			</div>
+
+			<div class="content">
 				<a href="mailto:moya{{-- TODO :: @asofterspace.com! --}}ccercchi@hotmail.de">moya{{-- TODO :: @asofterspace.com! --}}ccercchi@hotmail.de</a>
+			</div>
+
+			<div class="content">
+				&nbsp;
+			</div>
+				
+			<div class="content">
+				If you feel particularly retro, then you can also send a letter:
+			</div>
+
+			<div class="content">
+				Tom Moya Schiller<br>
+				Heerstraße 3 b<br>
+				D-60488 Frankfurt
 			</div>
 		</section>
 
