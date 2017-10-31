@@ -5,3 +5,6 @@ pics/*_photo_*.png
 # Local preview files converted from PHP
 *.htm
 *.html
+
+# Local compiled files that are ready to be uploaded to the server
+compiled/*

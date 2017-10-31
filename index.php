@@ -47,7 +47,7 @@
 			
 			<div class="content">
 				Our goal in creating A Softer Space is to enable exciting and wonderful science to happen - especially in the space sector (Mars, we are coming!), but in any other field as well.<br>
-				To do that, we intend to write the best software we can, in whatever language or environment might be best in your particular case.
+				To do that, we intend to write the best software we can for you, in whatever language or environment might be suited best for your particular case.
 			</div>
 			
 			<div class="content">
