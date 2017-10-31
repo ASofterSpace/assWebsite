@@ -25,7 +25,7 @@
 			<img class="logo" alt="a softer space logo" src="pics/logo.png" />
 			
 			<div class="headerbar">
-				<div class="item">
+				<div class="item" id="whatwedoitem">
 					<a href="#aboutus">What We Do</a>
 				</div>
 				<div class="item">
@@ -83,11 +83,24 @@
 						Tom Moya Schiller
 					</div>
 					<div class="picbiocontainer">
-						<img class="pic" alt="picture of moya" src="pics/moya_2.jpg" />
+						<img class="pic" alt="Picture of Moya" src="pics/moya_2.jpg" />
 						<div class="bio">
 							As a Young Graduate Trainee at ESA's European Space Operations Centre in Germany, Moya is working with and creating EGS-CC based software.<br>
 							Interested in various fields, Moya previously worked as front- and backend developer for an aviation startup in Reykjavík and a horse racing track in Berlin.<br>
 							He graduated from the University of Iceland with a Master's degree in Computer Sciences after studying Mathematics and Physics, having written a thesis in Bioinformatics.
+						</div>
+					</div>
+				</div>
+				
+				<div class="person">
+					<div class="name">
+						Rosemary Anne Milton
+					</div>
+					<div class="picbiocontainer">
+						<img class="pic" alt="Picture of Rosemary" src="pics/rosemary_1.jpg" />
+						<div class="bio">
+							Ms. Milton attained a BSc. Psychology from The University of Manchester, which is an elite Russell Group university and ranked 7th in the United Kingdom.<br>
+							With a focus on research and practical knowledge gained by being an Assistant Manager she is the human management aspect of this startup.
 						</div>
 					</div>
 				</div>

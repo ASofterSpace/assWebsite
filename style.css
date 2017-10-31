@@ -32,6 +32,8 @@ header {
 	margin: 20px 0px 20px 0px;
 	padding: 10px;
 	background-color: rgba(255, 255, 255, 0.9);
+	position: relative;
+	overflow-x: hidden;
 }
 
 header a {
@@ -51,6 +53,21 @@ div.headerbar {
 	top: 25px;
 	left: 250px;
 	font-size: 125%;
+	width: 1000px;
+}
+
+/* between 550px and 700px, display the whole header bar nicely, but without the first item */
+@media (max-width: 699px) {
+	#whatwedoitem {
+		display: none;
+	}
+}
+
+/* below 550px, only display our logo at the top, and avoid the items at all */
+@media (max-width: 549px) {
+	div.headerbar {
+		display: none;
+	}
 }
 
 img.logo {
@@ -112,6 +129,10 @@ div.right {
 	position: absolute;
 	top: 0;
 	right: 0;
+}
+
+div.person {
+	margin-bottom: 20px;
 }
 
 div.person > div.name {
