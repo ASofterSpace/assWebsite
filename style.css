@@ -15,11 +15,7 @@ section {
 	background-color: rgba(255, 255, 255, 0.98);
 	box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.98);
 	color: #222;
-}
-
-header:hover {
-	background-color: rgba(245, 245, 245, 1);
-	box-shadow: 0px 0px 6px 6px rgba(245, 245, 245, 1);
+	transition: background 0.5s, box-shadow 0.5s;
 }
 
 section:hover {
@@ -34,6 +30,12 @@ header {
 	background-color: rgba(255, 255, 255, 0.9);
 	position: relative;
 	overflow-x: hidden;
+	transition: background 0.5s, box-shadow 0.5s;
+}
+
+header:hover {
+	background-color: rgba(245, 245, 245, 1);
+	box-shadow: 0px 0px 6px 6px rgba(245, 245, 245, 1);
 }
 
 header a {
@@ -90,6 +92,7 @@ footer {
 	background-color: rgba(20, 20, 20, 0.9);
 	box-shadow: 0px 0px 5px 5px rgba(20, 20, 20, 0.9);
 	color: #ddd;
+	transition: background 0.5s, box-shadow 0.5s;
 }
 
 footer:hover {
@@ -145,13 +148,23 @@ div.picbiocontainer {
 	position: relative;
 }
 
-div.picbiocontainer > img.pic {
+div.person img.pic {
 	position: absolute;
 	top: 0;
-	left: 0;
-	height: 150px;
-	width: 150px;
+	left: 10px;
+	height: 130px;
+	width: 130px;
 	border-radius: 75px;
+	transition: transform 0.5s;
+}
+
+div.person:hover img.pic {
+	transform: scale(1.35);
+}
+
+div.person:hover {
+	box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.02);
+	background-color: rgba(0,0,0,0.02);
 }
 
 div.picbiocontainer > div.bio {
