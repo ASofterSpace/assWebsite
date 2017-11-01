@@ -145,14 +145,15 @@
 			<div class="content carouselcontainer">
 				<div class="carousel" id="expcarousel">
 					{{-- first round --}}
-					<a href="http://www.egscc.esa.int/"><img alt="EGS-CC logo" src="pics/exp_egscc.png" style="height: 50px; width: 278px;" /></a>
-					<a href="https://nasa.github.io/openmct/"><img alt="OpenMCT logo" src="pics/exp_openmct.png" style="height: 50px; width: 241px;" /></a>
+					<a href="http://www.egscc.esa.int/" target="_blank"><img alt="EGS-CC logo" src="pics/exp_egscc.png" style="height: 50px; width: 278px;" /></a>
+					<a href="http://skyhook.is/" target="_blank"><img alt="Skyhook logo" src="pics/exp_skyhook.png" style="height: 55px; width: 246px;" /></a>
+					<a href="https://nasa.github.io/openmct/" target="_blank"><img alt="OpenMCT logo" src="pics/exp_openmct.png" style="height: 50px; width: 241px;" /></a>
+					<a href="http://www.bluebirdcargo.com/" target="_blank"><img alt="Bluebird Cargo logo" src="pics/exp_bluebird.png" style="height: 55px; width: 196px;" /></a>
 					{{-- second round --}}
-					<a href="http://www.egscc.esa.int/"><img id="expcarouselFirstImgSecondRound" alt="EGS-CC logo" src="pics/exp_egscc.png" style="height: 50px; width: 278px;" /></a>
-					<a href="https://nasa.github.io/openmct/"><img alt="OpenMCT logo" src="pics/exp_openmct.png" style="height: 50px; width: 241px;" /></a>
-					{{-- for now, as there are so few of them, we also need a third round --}}
-					<a href="http://www.egscc.esa.int/"><img alt="EGS-CC logo" src="pics/exp_egscc.png" style="height: 50px; width: 278px;" /></a>
-					<a href="https://nasa.github.io/openmct/"><img alt="OpenMCT logo" src="pics/exp_openmct.png" style="height: 50px; width: 241px;" /></a>
+					<a href="http://www.egscc.esa.int/" target="_blank"><img id="expcarouselFirstImgSecondRound" alt="EGS-CC logo" src="pics/exp_egscc.png" style="height: 50px; width: 278px;" /></a>
+					<a href="http://skyhook.is/" target="_blank"><img alt="Skyhook logo" src="pics/exp_skyhook.png" style="height: 55px; width: 246px;" /></a>
+					<a href="https://nasa.github.io/openmct/" target="_blank"><img alt="OpenMCT logo" src="pics/exp_openmct.png" style="height: 50px; width: 241px;" /></a>
+					<a href="http://www.bluebirdcargo.com/" target="_blank"><img alt="Bluebird Cargo logo" src="pics/exp_bluebird.png" style="height: 55px; width: 196px;" /></a>
 				</div>
 			</div>
 		</section>
