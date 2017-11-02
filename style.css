@@ -224,3 +224,7 @@ img.backtotop {
 	margin-top: 5px;
 	margin-right: 10px;
 }
+
+strong {
+	font-weight: bold;
+}

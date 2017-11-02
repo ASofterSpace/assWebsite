@@ -63,7 +63,7 @@
 						Scientists at universities struggle as students produce wonderful programs that can do amazing things - but then leave, and never manage to fully complete their projects, or to maintain them to ensure they are still working a year down the road
 					</li>
 				</ul>
-				Our answer is A <b>Softer</b> Space - we are upfront, do not overpromise, and are flexible in adapting even when your needs change, or when your ideas become clearer and more refined throughout the project.
+				Our answer is A <strong>Softer</strong> Space - we are upfront, do not overpromise, and are flexible in adapting even when your needs change, or when your ideas become clearer and more refined throughout the project.
 			</div>
 				
 			<div class="content">

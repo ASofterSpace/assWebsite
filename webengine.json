@@ -1,1 +1,9 @@
-{"version": 59, "content": {"keywords": "software, space, java, javascript, php, egscc, openmct", "description": "A Softer Space is a startup focused on creating software for space and scientific research in general with enthusiasm and flexibility rather than bureaucracy and legalese.", "title": "a softer space", "lang": "en"}}
+{
+	"content": {
+		"description": "A Softer Space is a startup focused on creating software for space and scientific research in general with enthusiasm and flexibility rather than bureaucracy and legalese.",
+		"keywords": "software, space, java, javascript, php, egscc, openmct",
+		"lang": "en",
+		"title": "a softer space"
+	},
+	"version": 63
+}
