@@ -121,20 +121,6 @@
 			<div class="content">
 				<a href="mailto:moya{{-- TODO :: @asofterspace.com! --}}ccercchi@hotmail.de">moya{{-- TODO :: @asofterspace.com! --}}ccercchi@hotmail.de</a>
 			</div>
-
-			<div class="content">
-				&nbsp;
-			</div>
-				
-			<div class="content">
-				If you feel particularly retro, then you can also send a letter:
-			</div>
-
-			<div class="content">
-				Tom Moya Schiller<br>
-				Heerstraße 3 b<br>
-				D-60488 Frankfurt
-			</div>
 		</section>
 
 		<section>
@@ -166,10 +152,15 @@
 		<footer>
 			<div class="aligncontainer">
 				<div class="label">
-					A Softer Space, 2017
+					Tom Moya Schiller<br>
+					Heerstraße 3 b<br>
+					D-60488 Frankfurt
+				</div>
+				<div class="label center">
+					A Softer Space, 2017<br>
 				</div>
 				<div class="label right">
-					<a href="#topofpage">Back to Top</a>
+					<a href="#topofpage"><img class="backtotop" alt="Back to Top" src="pics/backtotop_light.png" /></a>
 				</div>
 			</div>
 		</footer>
