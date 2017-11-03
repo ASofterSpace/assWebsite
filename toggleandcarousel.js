@@ -11,16 +11,22 @@ window.expand = {
 		var targetHeight = 55;
 			
 		if ((el.style.height == "") || (el.style.height == "55px")) {
-			targetHeight = el.scrollHeight;
+			this.expand(elementNr);
+		} else {
+			this.collapse(elementNr);
 		}
-		
-		this.expand(el, targetHeight);
 	},
-	getElementAndExpand: function(elementNr) {
+	expand: function(elementNr) {
+		document.getElementById("expandlabel" + elementNr).innerHTML = "[collapse this]";
 		var el = document.getElementById("expand" + elementNr);
-		this.expand(el, el.scrollHeight);
+		this.resizeTo(el, el.scrollHeight);
 	},
-	expand: function(element, targetHeight) {
+	collapse: function(elementNr) {
+		document.getElementById("expandlabel" + elementNr).innerHTML = "[expand this]";
+		var el = document.getElementById("expand" + elementNr);
+		this.resizeTo(el, 55);
+	},
+	resizeTo: function(element, targetHeight) {
 		for (var i = 0; i < this.toanimate.length; i++) {
 			if (this.toanimate[i].element === element) {
 				this.toanimate[i].height = targetHeight;
@@ -31,12 +37,12 @@ window.expand = {
 		this.toanimate.push({element: element, height: targetHeight});
 	},
 	toggleAll: function() {
-		this.getElementAndExpand(1);
-		this.getElementAndExpand(2);
-		this.getElementAndExpand(3);
-		this.getElementAndExpand(4);
-		this.getElementAndExpand(5);
-		this.getElementAndExpand(6);
+		this.expand(1);
+		this.expand(2);
+		this.expand(3);
+		this.expand(4);
+		this.expand(5);
+		this.expand(6);
 	},
 }
 

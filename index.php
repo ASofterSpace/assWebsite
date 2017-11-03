@@ -56,8 +56,6 @@
 			<div onclick="expand.toggle(1)" id="expand1" class="expandable">
 				<h2>Hippies Into Space!</h2>
 				
-				<div class="expander"><div>toggle this</div><div onclick="expand.toggleAll()">expand all</div></div>
-				
 				<div class="content">
 					Hippies! Queers! Vegans! Punks! Feminists! Nerds! Kinksters! Refugees!<br>
 					Everyone is welcome here - we want to do fun space and science things together,
@@ -72,11 +70,11 @@
 				</div>
 			</div>
 			
+			<div class="expander" onclick="expand.toggle(1)" id="expandlabel1">[expand this]</div><div class="expander" onclick="expand.toggleAll()">[expand all]</div>
+
 			<div onclick="expand.toggle(2)" id="expand2" class="expandable">
 				<h2>Why Space?</h2>
 				
-				<div class="expander"><div>toggle this</div><div onclick="expand.toggleAll()">expand all</div></div>
-
 				<div class="content">
 					We love space!<br>
 					Look at some slick Soviet-designed space vehicles with their
@@ -98,11 +96,11 @@
 				</div>
 			</div>
 				
+			<div class="expander" onclick="expand.toggle(2)" id="expandlabel2">[expand this]</div><div class="expander" onclick="expand.toggleAll()">[expand all]</div>
+
 			<div onclick="expand.toggle(3)" id="expand3" class="expandable">
 				<h2>But what about the people on Earth?</h2>
 				
-				<div class="expander"><div>toggle this</div><div onclick="expand.toggleAll()">expand all</div></div>
-
 				<div class="content">
 					<i>Shouldn't you spend, like, all your efforts on directly decreasing problems here on Earth,
 					as long as there are still people living in poverty, and wars going on, and diseases spreading around, and...?</i>
@@ -130,11 +128,11 @@
 				</div>
 			</div>
 				
+			<div class="expander" onclick="expand.toggle(3)" id="expandlabel3">[expand this]</div><div class="expander" onclick="expand.toggleAll()">[expand all]</div>
+
 			<div onclick="expand.toggle(4)" id="expand4" class="expandable">
 				<h2>Science and Universities</h2>
 				
-				<div class="expander"><div>toggle this</div><div onclick="expand.toggleAll()">expand all</div></div>
-
 				<div class="content">
 					We love science too!<br>
 					As focusing on space alone would be very narrow and ultimately might be a bit boring,
@@ -162,11 +160,11 @@
 				</div>
 			</div>
 				
+			<div class="expander" onclick="expand.toggle(4)" id="expandlabel4">[expand this]</div><div class="expander" onclick="expand.toggleAll()">[expand all]</div>
+
 			<div onclick="expand.toggle(5)" id="expand5" class="expandable">
 				<h2>Open Everything</h2>
 				
-				<div class="expander"><div>toggle this</div><div onclick="expand.toggleAll()">expand all</div></div>
-
 				<div class="content">
 					We love FOSS
 					(<a href="https://en.wikipedia.org/wiki/Free_and_open-source_software" target="_blank">free and open source software</a>),
@@ -180,11 +178,11 @@
 				</div>
 			</div>
 				
+			<div class="expander" onclick="expand.toggle(5)" id="expandlabel5">[expand this]</div><div class="expander" onclick="expand.toggleAll()">[expand all]</div>
+
 			<div onclick="expand.toggle(6)" id="expand6" class="expandable">
 				<h2>Military</h2>
 				
-				<div class="expander"><div>toggle this</div><div onclick="expand.toggleAll()">expand all</div></div>
-
 				<div class="content">
 					We said before that everyone is welcome with us - however, there is one sector
 					we gladly choose to not work with: The miliary.<br>
@@ -203,6 +201,8 @@
 					Srsly.
 				</div>
 			</div>
+			
+			<div class="expander" onclick="expand.toggle(6)" id="expandlabel6">[expand this]</div><div class="expander" onclick="expand.toggleAll()">[expand all]</div>
 		</section>
 			
 		<section>

@@ -78,7 +78,7 @@ img.logo {
 }
 
 div.footerplaceholder {
-	height: 85px;
+	height: 90px;
 	visibility: hidden;
 }
 
@@ -134,19 +134,14 @@ div.expanded {
 }
 
 div.expander {
-	position: absolute;
-	top: 0;
-	right: 8px;
-	text-align: right;
+	display: inline-block;
 	cursor: pointer;
-}
-
-div.expander > div {
 	transition: transform 0.5s;
-	line-height: 0.95;
+	margin-right: 20px;
+	opacity: 0.8;
 }
 
-div.expander > div:hover {
+div.expander:hover {
 	transform: scale(1.25);
 }
 
