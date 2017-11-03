@@ -122,6 +122,34 @@ section a {
 	color: #666;
 }
 
+div.expandable {
+	margin-top: 20px;
+	height: 55px;
+	overflow: hidden;
+	position: relative;
+}
+
+div.expanded {
+	height: auto;
+}
+
+div.expander {
+	position: absolute;
+	top: 0;
+	right: 8px;
+	text-align: right;
+	cursor: pointer;
+}
+
+div.expander > div {
+	transition: transform 0.5s;
+	line-height: 0.95;
+}
+
+div.expander > div:hover {
+	transform: scale(1.25);
+}
+
 div.content {
 	margin: 8px 0 0 0; /* 8px 0 0 0: magic number 1 */
 }
@@ -185,10 +213,21 @@ div.picbiocontainer > div.bio {
 	min-height: 150px;
 }
 
-h3 {
+h1 {
 	margin: 0;
 	font-size: 125%;
 	font-weight: normal;
+}
+
+h2 {
+	margin: 0;
+	font-size: 115%;
+	font-weight: normal;
+	font-style: italic;
+}
+
+i {
+	font-style: italic;
 }
 
 div.carouselcontainer {
