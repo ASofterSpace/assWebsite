@@ -8,9 +8,9 @@ window.expand = {
 	toanimate: [],
 	toggle: function(elementNr) {
 		var el = document.getElementById("expand" + elementNr);
-		var targetHeight = 55;
+		var targetHeight = 54; // TODO :: replace 54 by config item once webengine can do this
 			
-		if ((el.style.height == "") || (el.style.height == "55px")) {
+		if ((el.style.height == "") || (el.style.height == "54px")) { // TODO :: replace 54 by config item once webengine can do this
 			this.expand(elementNr);
 		} else {
 			this.collapse(elementNr);
@@ -24,7 +24,7 @@ window.expand = {
 	collapse: function(elementNr) {
 		document.getElementById("expandlabel" + elementNr).innerHTML = "[expand this]";
 		var el = document.getElementById("expand" + elementNr);
-		this.resizeTo(el, 55);
+		this.resizeTo(el, 54);
 	},
 	resizeTo: function(element, targetHeight) {
 		for (var i = 0; i < this.toanimate.length; i++) {
@@ -60,7 +60,7 @@ window.setInterval(function() {
 		var anim = expand.toanimate[i];
 		var curHeight = anim.element.style.height;
 		if (curHeight == "") {
-			curHeight = 55;
+			curHeight = 54; // TODO :: replace 54 by config item once webengine can do this
 		} else {
 			curHeight = parseFloat(curHeight);
 		}
