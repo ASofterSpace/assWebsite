@@ -252,7 +252,7 @@
 			</div>
 
 			<div class="content">
-				<a href="mailto:moya{{-- TODO :: @asofterspace.com! --}}ccercchi@hotmail.de">moya{{-- TODO :: @asofterspace.com! --}}ccercchi@hotmail.de</a>
+				<a href="mailto:moya@content(atdomainname)">moya@content(atdomainname)</a>
 			</div>
 		</section>
 
