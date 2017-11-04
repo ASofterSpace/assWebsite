@@ -70,7 +70,7 @@
 				</div>
 			</div>
 			
-			<div class="expander" onclick="expand.toggle(1)" id="expandlabel1">[expand this]</div><div class="expander" onclick="expand.toggleAll()">[expand all]</div>
+			<div class="expander" onclick="expand.toggle(1)" id="expandlabel1">[expand this]</div><div class="expander" onclick="expand.expandAll()">[expand all]</div>
 
 			<div onclick="expand.toggle(2)" id="expand2" class="expandable">
 				<h2>Why Space?</h2>
@@ -96,7 +96,7 @@
 				</div>
 			</div>
 				
-			<div class="expander" onclick="expand.toggle(2)" id="expandlabel2">[expand this]</div><div class="expander" onclick="expand.toggleAll()">[expand all]</div>
+			<div class="expander" onclick="expand.toggle(2)" id="expandlabel2">[expand this]</div><div class="expander" onclick="expand.expandAll()">[expand all]</div>
 
 			<div onclick="expand.toggle(3)" id="expand3" class="expandable">
 				<h2>But what about the people on Earth?</h2>
@@ -128,7 +128,7 @@
 				</div>
 			</div>
 				
-			<div class="expander" onclick="expand.toggle(3)" id="expandlabel3">[expand this]</div><div class="expander" onclick="expand.toggleAll()">[expand all]</div>
+			<div class="expander" onclick="expand.toggle(3)" id="expandlabel3">[expand this]</div><div class="expander" onclick="expand.expandAll()">[expand all]</div>
 
 			<div onclick="expand.toggle(4)" id="expand4" class="expandable">
 				<h2>Science and Universities</h2>
@@ -160,7 +160,7 @@
 				</div>
 			</div>
 				
-			<div class="expander" onclick="expand.toggle(4)" id="expandlabel4">[expand this]</div><div class="expander" onclick="expand.toggleAll()">[expand all]</div>
+			<div class="expander" onclick="expand.toggle(4)" id="expandlabel4">[expand this]</div><div class="expander" onclick="expand.expandAll()">[expand all]</div>
 
 			<div onclick="expand.toggle(5)" id="expand5" class="expandable">
 				<h2>Open Everything</h2>
@@ -178,7 +178,7 @@
 				</div>
 			</div>
 				
-			<div class="expander" onclick="expand.toggle(5)" id="expandlabel5">[expand this]</div><div class="expander" onclick="expand.toggleAll()">[expand all]</div>
+			<div class="expander" onclick="expand.toggle(5)" id="expandlabel5">[expand this]</div><div class="expander" onclick="expand.expandAll()">[expand all]</div>
 
 			<div onclick="expand.toggle(6)" id="expand6" class="expandable">
 				<h2>Military</h2>
@@ -202,7 +202,7 @@
 				</div>
 			</div>
 			
-			<div class="expander" onclick="expand.toggle(6)" id="expandlabel6">[expand this]</div><div class="expander" onclick="expand.toggleAll()">[expand all]</div>
+			<div class="expander" onclick="expand.toggle(6)" id="expandlabel6">[expand this]</div><div class="expander" onclick="expand.expandAll()">[expand all]</div>
 		</section>
 			
 		<section>
@@ -280,6 +280,15 @@
 		</section>
 
 		<div class="footerplaceholder">
+			{{--
+			this element is sized using CSS based on media queries, and the
+			size is then read out in toggleandcarousel.js to find out what
+			the default size in pixels for an expandable div should be
+			this element is not used for anything else and should be pretty
+			much invisible to the user =)
+			--}}
+			<div class="expandable" id="expandable_size_indicator">
+			</div>
 		</div>
 		
 		<footer>

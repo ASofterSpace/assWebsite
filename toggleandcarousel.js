@@ -5,28 +5,48 @@ one of these functions rather than two of them...
 */
 
 window.expand = {
+	
 	toanimate: [],
+	
+	indicatorHeight: 0,
+	
+	getDefaultHeight: function() {
+	
+		if (this.indicatorHeight == 0) {
+			var indicator = document.getElementById("expandable_size_indicator");
+			this.indicatorHeight = indicator.clientHeight;
+		}
+		
+		return this.indicatorHeight;
+	},
+	
 	toggle: function(elementNr) {
+	
 		var el = document.getElementById("expand" + elementNr);
-		var targetHeight = 54; // TODO :: replace 54 by config item once webengine can do this
 			
-		if ((el.style.height == "") || (el.style.height == "54px")) { // TODO :: replace 54 by config item once webengine can do this
+		if ((el.style.height == "") || (el.style.height == this.getDefaultHeight() + "px")) {
 			this.expand(elementNr);
 		} else {
 			this.collapse(elementNr);
 		}
 	},
+	
 	expand: function(elementNr) {
+	
 		document.getElementById("expandlabel" + elementNr).innerHTML = "[collapse this]";
 		var el = document.getElementById("expand" + elementNr);
 		this.resizeTo(el, el.scrollHeight);
 	},
+	
 	collapse: function(elementNr) {
+	
 		document.getElementById("expandlabel" + elementNr).innerHTML = "[expand this]";
 		var el = document.getElementById("expand" + elementNr);
-		this.resizeTo(el, 54);
+		this.resizeTo(el, this.getDefaultHeight());
 	},
+	
 	resizeTo: function(element, targetHeight) {
+	
 		for (var i = 0; i < this.toanimate.length; i++) {
 			if (this.toanimate[i].element === element) {
 				this.toanimate[i].height = targetHeight;
@@ -36,7 +56,9 @@ window.expand = {
 		
 		this.toanimate.push({element: element, height: targetHeight});
 	},
-	toggleAll: function() {
+	
+	expandAll: function() {
+	
 		this.expand(1);
 		this.expand(2);
 		this.expand(3);
@@ -60,7 +82,7 @@ window.setInterval(function() {
 		var anim = expand.toanimate[i];
 		var curHeight = anim.element.style.height;
 		if (curHeight == "") {
-			curHeight = 54; // TODO :: replace 54 by config item once webengine can do this
+			curHeight = expand.getDefaultHeight();
 		} else {
 			curHeight = parseFloat(curHeight);
 		}

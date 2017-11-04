@@ -53,7 +53,7 @@ header {
 	padding: 10px;
 	background-color: rgba(255, 255, 255, 0.9);
 	position: relative;
-	overflow-x: hidden;
+	overflow: hidden;
 	transition: background 0.5s, box-shadow 0.5s;
 }
 
@@ -141,7 +141,7 @@ section a {
 
 div.expandable {
 	margin-top: 20px;
-	height: 54px; /* TODO :: replace 54 by config item once webengine can do this */
+	height: 54px;
 	overflow: hidden;
 	position: relative;
 }
@@ -302,4 +302,80 @@ strong {
 /* makes things look at bit nicer in old IE... but in current IE / Edge, everything is just hopeless ^^ */
 img {
 	-ms-interpolation-mode: bicubic;
+}
+
+/* aaaand now for things that show more than one pixel per pixel: different font sizes!
+   (and adapted other styles...) */
+@media (min-resolution: 144dpi) {
+
+	body {
+		font-size: 150%;
+	}
+
+	div.headerbar {
+		top: 18px;
+	}
+	
+	div.footerplaceholder {
+		height: 135px;
+	}
+	
+	div.expandable {
+		height: 75px;
+	}
+	
+	img.backtotop {
+		height: 75px;
+		width: 75px;
+	}
+}
+
+@media (min-resolution: 192dpi) {
+
+	body {
+		font-size: 200%;
+	}
+
+	div.headerbar {
+		top: 12px;
+	}
+	
+	div.footerplaceholder {
+		height: 175px;
+	}
+	
+	div.expandable {
+		height: 92px;
+	}
+	
+	img.backtotop {
+		margin-top: 8px;
+		height: 100px;
+		width: 100px;
+	}
+}
+
+@media (min-resolution: 288dpi) {
+
+	body {
+		font-size: 300%;
+	}
+
+	div.headerbar {
+		top: 1px;
+	}
+	
+	div.footerplaceholder {
+		height: 222px;
+	}
+	
+	div.expandable {
+		height: 133px;
+	}
+	
+	img.backtotop {
+		margin-top: 8px;
+		height: 150px;
+		width: 150px;
+	}
 }
