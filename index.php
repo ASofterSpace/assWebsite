@@ -227,6 +227,20 @@
 				
 				<div class="person">
 					<div class="name">
+						Lisa-Marie Hörle
+					</div>
+					<div class="picbiocontainer">
+						<img class="pic" alt="Picture of Lisa" src="pics/lisa_1.jpg" />
+						<div class="bio">
+							Working as a sales assistant at a French company for several years Lisa is responsible for Sales, Marketing and Business Development. Also she is a member of the sales team at AIESEC (Association Internationale des Étudiants en Sciences Économiques et Commerciales) in Frankfurt/Germany.<br>
+							With the strong belief that every organisation can benefit from our services she helps universities and companies to become the best they can be.<br>
+							At the moment she is studying nutritional sciences at the Justus-Liebig University in Giessen.
+						</div>
+					</div>
+				</div>
+				
+				<div class="person">
+					<div class="name">
 						Rosemary Anne Milton
 					</div>
 					<div class="picbiocontainer">
