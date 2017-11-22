@@ -241,6 +241,19 @@
 				
 				<div class="person">
 					<div class="name">
+						Julian Corbet
+					</div>
+					<div class="picbiocontainer">
+						<img class="pic" alt="Picture of Julian" src="pics/julian_1.jpg" />
+						<div class="bio">
+							Currently taking classes in physics, machine learning and game theory at Frankfurt University, Julian is a free spirit, who likes interdisciplinary work and startup culture.<br>
+							Julian advises us on creating business opportunities and revenue growth in order to bolster the startup's cashflow.
+						</div>
+					</div>
+				</div>
+				
+				<div class="person">
+					<div class="name">
 						Rosemary Anne Milton
 					</div>
 					<div class="picbiocontainer">
