@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="@content(lang)">
 
 	<head>
@@ -47,8 +47,9 @@
 			
 			<div class="content">
 				Hey there,<br>
-				We are A Softer Space - a startup focused on creating software for space research (Mars, we see you!) and
-				scientific research in general with enthusiasm and flexibility rather than bureaucracy and legalese.<br>
+				We are A Softer Space - a new company focused on creating software for space research (Mars, we see you!),
+				scientific research in general and anything else which is actually useful to someone
+				with enthusiasm and flexibility rather than bureaucracy and legalese.<br>
 				Have fun exploring our site and do not hesitate to get in contact!<br>
 				Moya
 			</div>
@@ -185,7 +186,7 @@
 				
 				<div class="content">
 					We said before that everyone is welcome with us - however, there is one sector
-					we gladly choose to not work with: The miliary.<br>
+					we gladly choose to not work with: The military.<br>
 					A lot of aerospace companies take that sweet sweet military money, but we will not partake in it - no offense,
 					no fucking “defense” either that in practice seems to mean the same thing most of the time.<br>
 					The only thing our software might ever defend you from are natural disasters, and possibly zombies; never
