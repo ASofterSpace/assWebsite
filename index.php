@@ -283,17 +283,22 @@
 
 		<section>
 			<a name="contact"></a>
-			
+
 			<h1>Contact</h1>
-		
+
 			<div class="content">
 				Interested?<br>
 				Seen something you like?<br>
-				Just send me an email!
+				Just send us an email!
 			</div>
 
 			<div class="content">
 				<a href="mailto:moya@content(atdomainname)">moya@content(atdomainname)</a>
+			</div>
+
+			<div class="content">
+				You can also meet us at SpaceOps 2018 in Marseille, where I will present a <a href="http://tomschiller.de/ekse/index.php">paper about EKSE</a>.<br>
+				We cannot wait to meet you!
 			</div>
 		</section>
 
