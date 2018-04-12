@@ -22,6 +22,24 @@ section {
 	max-width: 900px;
 }
 
+@media (min-resolution: 1.5dppx) {
+	section {
+		max-width: 1350px;
+	}
+}
+
+@media (min-resolution: 2dppx) {
+	section {
+		max-width: 1800px;
+	}
+}
+
+@media (min-resolution: 3dppx) {
+	section {
+		max-width: 2700px;
+	}
+}
+
 /* below 500px width, do not make sections pretty... just squeeze the most space possible out of them! */
 @media (max-width: 499px) {
 	section {
@@ -54,6 +72,7 @@ header {
 	background-color: rgba(255, 255, 255, 0.9);
 	position: relative;
 	overflow: hidden;
+	box-shadow: 0px 0px 4px 4px rgba(255, 255, 255, 0.9);
 	transition: background 0.5s, box-shadow 0.5s;
 }
 
@@ -79,18 +98,24 @@ div.headerbar {
 	top: 25px;
 	left: 250px;
 	font-size: 125%;
-	width: 1000px;
+	width: 2000px;
 }
 
 /* between 550px and 700px, display the whole header bar nicely, but without the first item */
-@media (max-width: 699px) {
+@media (max-width: 699px),
+(min-resolution: 1.5dppx) and (max-width: 850px),
+(min-resolution: 2dppx) and (max-width: 1040px),
+(min-resolution: 3dppx) and (max-width: 1380px) {
 	#whatwedoitem {
 		display: none;
 	}
 }
 
 /* below 550px, only display our logo at the top, and avoid the items at all */
-@media (max-width: 549px) {
+@media (max-width: 549px),
+(min-resolution: 1.5dppx) and (max-width: 675px),
+(min-resolution: 2dppx) and (max-width: 810px),
+(min-resolution: 3dppx) and (max-width: 1050px) {
 	div.headerbar {
 		display: none;
 	}
