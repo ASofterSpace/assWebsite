@@ -252,7 +252,7 @@
 						</div>
 					</div>
 				</div>
-				
+
 				<div class="person">
 					<div class="name">
 						Rosemary Anne Milton
@@ -262,6 +262,19 @@
 						<div class="bio">
 							Ms. Milton attained a BSc. Psychology from The University of Manchester, which is an elite Russell Group university and ranked 7th in the United Kingdom.<br>
 							With a focus on research and practical knowledge gained by being an Assistant Manager she is the human management aspect of this startup.
+						</div>
+					</div>
+				</div>
+
+				<div class="person">
+					<div class="name">
+						Tomas Jennings
+					</div>
+					<div class="picbiocontainer">
+						<img class="pic" alt="Picture of Tomas" src="pics/tomas_1.jpg" />
+						<div class="bio">
+							Dividing his time between the U.S. and Iceland and with a keen interest in China, Tomas is able to coordinate our efforts across various parts of the world.<br>
+							After obtaining a BS in Mathematics at the University of Iceland, he now is also a proficient programmer with a focus on web development.
 						</div>
 					</div>
 				</div>
