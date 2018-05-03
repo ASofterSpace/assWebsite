@@ -10,19 +10,16 @@ This is the website of A Softer Space.
 
 ## Setup
 
-Just download the sources here and you're good to go!
+Download the WebEngine (which is a separate project here on github) into an adjacent directory on your hard drive.
 
-## Build
+Build the WebEngine (for more detailed instructions look at the readme over there.)
 
-Download the WebEngine (which is a separate project here on github)
+## Run
 
-Build the WebEngine (for more detailed instructions look at the readme over there)
-
-Startup the WebEngine, e.g. like this:
+Startup the WebEngine, e.g. by running
 
 ```
-cd ../WebEngine
-java -classpath bin;../Toolbox-java/bin com.asofterspace.webengine.Main
+webengine.bat
 ```
 
 Click on the name of the project - a softer space - on the left and select Preview (for a local preview) or the button next to (to build everything ready to upload it on a server.)
