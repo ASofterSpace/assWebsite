@@ -310,12 +310,14 @@
 			<div class="content carouselcontainer">
 				<div class="carousel" id="expcarousel">
 					{{-- first round --}}
+					<a href="http://www.recoded.co/en/" target="_blank"><img alt="Recoded logo" src="pics/exp_recoded.png" style="height: 50px; width: 160px;" /></a>
 					<a href="http://www.egscc.esa.int/" target="_blank"><img alt="EGS-CC logo" src="pics/exp_egscc.png" style="height: 50px; width: 278px;" /></a>
 					<a href="http://skyhook.is/" target="_blank"><img alt="Skyhook logo" src="pics/exp_skyhook.png" style="height: 55px; width: 246px;" /></a>
 					<a href="https://nasa.github.io/openmct/" target="_blank"><img alt="OpenMCT logo" src="pics/exp_openmct.png" style="height: 50px; width: 241px;" /></a>
 					<a href="http://www.bluebirdcargo.com/" target="_blank"><img alt="Bluebird Cargo logo" src="pics/exp_bluebird.png" style="height: 55px; width: 196px;" /></a>
 					<a href="http://tomschiller.de/reference_graphs/" target="_blank"><img alt="Graph Merging Library logo" src="pics/exp_gml.png" style="height: 50px; width: 121px;" /></a>
 					{{-- second round --}}
+					<a href="http://www.recoded.co/en/" target="_blank"><img alt="Recoded logo" src="pics/exp_recoded.png" style="height: 50px; width: 160px;" /></a>
 					<a href="http://www.egscc.esa.int/" target="_blank"><img id="expcarouselFirstImgSecondRound" alt="EGS-CC logo" src="pics/exp_egscc.png" style="height: 50px; width: 278px;" /></a>
 					<a href="http://skyhook.is/" target="_blank"><img alt="Skyhook logo" src="pics/exp_skyhook.png" style="height: 55px; width: 246px;" /></a>
 					<a href="https://nasa.github.io/openmct/" target="_blank"><img alt="OpenMCT logo" src="pics/exp_openmct.png" style="height: 50px; width: 241px;" /></a>
@@ -345,7 +347,9 @@
 					D-60488 Frankfurt
 				</div>
 				<div class="label center">
-					A Softer Space, 2017<br>
+					A Softer Space DE, Inhaber Tom Moya Schiller<br>
+					A Softer Space UK Ltd<br>
+					2018
 				</div>
 				<div class="label right">
 					<a href="#topofpage"><img class="backtotop" alt="Back to Top" src="pics/backtotop_light.png" /></a>
