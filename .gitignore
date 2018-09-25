@@ -8,3 +8,4 @@ pics/*_photo_*.png
 
 # Local compiled files that are ready to be uploaded to the server
 compiled/*
+previews/*
