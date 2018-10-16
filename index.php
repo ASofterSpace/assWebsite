@@ -14,16 +14,16 @@
 
 		{{-- CSS --}}
 		<link href="style.css?v=@version" media="all" rel="stylesheet" type="text/css"></link>
-		
+
 		<script src="toggleandcarousel.js?v=@version"></script>
 	</head>
-	
+
 	<body>
 		<a name="topofpage"></a>
-	
+
 		<header>
 			<img class="logo" alt="a softer space logo" src="pics/logo.png" />
-			
+
 			<div class="headerbar">
 				<div class="item" id="whatwedoitem">
 					<a href="#aboutus">What We Do</a>
@@ -39,12 +39,12 @@
 				</div>
 			</div>
 		</header>
-	
+
 		<section>
 			<a name="aboutus"></a>
-			
+
 			<h1>What We Do</h1>
-			
+
 			<div class="content">
 				Hey there,<br>
 				We are A Softer Space - a new company focused on creating software for space research (Mars, we see you!),
@@ -53,10 +53,10 @@
 				Have fun exploring our site and do not hesitate to get in contact!<br>
 				Moya
 			</div>
-			
+
 			<div onclick="expand.toggle(1)" id="expand1" class="expandable">
 				<h2>Hippies Into Space!</h2>
-				
+
 				<div class="content">
 					Hippies! Queers! Vegans! Punks! Feminists! Nerds! Kinksters! Refugees!<br>
 					Everyone is welcome here - we want to do fun space and science things together,
@@ -70,12 +70,12 @@
 					(preferably not much before summer 2018, as that is when we will officially start existing.)
 				</div>
 			</div>
-			
+
 			<div class="expander" onclick="expand.toggle(1)" id="expandlabel1">[expand this]</div><div class="expander" onclick="expand.expandAll()">[expand all]</div>
 
 			<div onclick="expand.toggle(2)" id="expand2" class="expandable">
 				<h2>Why Space?</h2>
-				
+
 				<div class="content">
 					We love space!<br>
 					Look at some slick Soviet-designed space vehicles with their
@@ -89,24 +89,24 @@
 					and sending back a supercool
 					<a href="https://en.wikipedia.org/wiki/Huygens_(spacecraft)#/media/File:Huygens_surface_color.jpg" target="_blank">hipster sepia photo</a>...<br>
 					Everything to do with space is awesome, cool - and yet incredibly difficult.
-					But doing the impossible makes us mighty. 
-					Only when struggling against the greatest odds can we as humans truly shine the brightest, 
+					But doing the impossible makes us mighty.
+					Only when struggling against the greatest odds can we as humans truly shine the brightest,
 					come up with wonderful innovations, and make giant leaps ahead.
 					And so we choose to do these things
 					<a href="https://en.wikipedia.org/wiki/We_choose_to_go_to_the_Moon" target="_blank">not because they are easy, but because they are hard</a>.
 				</div>
 			</div>
-				
+
 			<div class="expander" onclick="expand.toggle(2)" id="expandlabel2">[expand this]</div><div class="expander" onclick="expand.expandAll()">[expand all]</div>
 
 			<div onclick="expand.toggle(3)" id="expand3" class="expandable">
 				<h2>But what about the people on Earth?</h2>
-				
+
 				<div class="content">
 					<i>Shouldn't you spend, like, all your efforts on directly decreasing problems here on Earth,
 					as long as there are still people living in poverty, and wars going on, and diseases spreading around, and...?</i>
 				</div>
-					
+
 				<div class="content">
 					Yes, there are many problems that need to be addressed here on Earth.<br>
 					However, focusing on space and science in general already allows us to have a positive impact,
@@ -128,12 +128,12 @@
 					helping people out.
 				</div>
 			</div>
-				
+
 			<div class="expander" onclick="expand.toggle(3)" id="expandlabel3">[expand this]</div><div class="expander" onclick="expand.expandAll()">[expand all]</div>
 
 			<div onclick="expand.toggle(4)" id="expand4" class="expandable">
 				<h2>Science and Universities</h2>
-				
+
 				<div class="content">
 					We love science too!<br>
 					As focusing on space alone would be very narrow and ultimately might be a bit boring,
@@ -160,12 +160,12 @@
 					(but also feed our developers.)
 				</div>
 			</div>
-				
+
 			<div class="expander" onclick="expand.toggle(4)" id="expandlabel4">[expand this]</div><div class="expander" onclick="expand.expandAll()">[expand all]</div>
 
 			<div onclick="expand.toggle(5)" id="expand5" class="expandable">
 				<h2>Open Everything</h2>
-				
+
 				<div class="content">
 					We love FOSS
 					(<a href="https://en.wikipedia.org/wiki/Free_and_open-source_software" target="_blank">free and open source software</a>),
@@ -178,19 +178,24 @@
 					we cannot at this moment promise that we will always use the unlicense for everything we produce.
 				</div>
 			</div>
-				
+
 			<div class="expander" onclick="expand.toggle(5)" id="expandlabel5">[expand this]</div><div class="expander" onclick="expand.expandAll()">[expand all]</div>
 
 			<div onclick="expand.toggle(6)" id="expand6" class="expandable">
 				<h2>Military</h2>
-				
+
 				<div class="content">
 					We said before that everyone is welcome with us - however, there is one sector
 					we gladly choose to not work with: The military.<br>
 					A lot of aerospace companies take that sweet sweet military money, but we will not partake in it - no offense,
 					no fucking “defense” either that in practice seems to mean the same thing most of the time.<br>
 					The only thing our software might ever defend you from are natural disasters, and possibly zombies; never
-					other humans. Those you will just have to talk to, sorry.
+					other humans. Those you will just have to talk to, sorry.<br>
+					Sadly, even the European Space Agency, originally founded as entirely peaceful organisation,
+					by now has fallen into the trap of betraying its own values just to get more assignments:
+					“[...] “peaceful purposes” cannot be interpreted as restricting ESA’s capacity to conduct
+					activities of [...] military nature.” (ESA council note ESA/C(2003)153)<br>
+					<a href="https://xkcd.com/137/" target="_blank">FUCK. THAT. SHIT.</a><br><br>
 					We are with
 					<a href="http://slatestarcodex.com/2014/07/30/meditations-on-moloch/" target="_blank">Elua, not with Moloch</a>.<br>
 					If you want us to make software for weapons, well tough luck!
@@ -202,22 +207,22 @@
 					Srsly.
 				</div>
 			</div>
-			
+
 			<div class="expander" onclick="expand.toggle(6)" id="expandlabel6">[expand this]</div><div class="expander" onclick="expand.expandAll()">[expand all]</div>
 		</section>
-			
+
 		<section>
 			<a name="ourteam"></a>
-			
+
 			<h1>Our Team</h1>
-			
+
 			<div class="content">
 				<div class="person">
 					<div class="name">
 						Tom Moya Schiller
 					</div>
 					<div class="picbiocontainer">
-						<img class="pic" alt="Picture of Moya" src="pics/moya_2.jpg" />
+						<img class="pic" alt="Picture of Moya" src="pics/moya_3.jpg" />
 						<div class="bio">
 							As a Young Graduate Trainee at ESA's European Space Operations Centre in Germany, Moya is working with and creating EGS-CC based software.<br>
 							Interested in various fields, Moya previously worked as front- and backend developer for an aviation startup in Reykjavík and a horse racing track in Berlin.<br>
@@ -225,7 +230,7 @@
 						</div>
 					</div>
 				</div>
-				
+
 				<div class="person">
 					<div class="name">
 						Lisa-Marie Hörle
@@ -239,7 +244,7 @@
 						</div>
 					</div>
 				</div>
-				
+
 				<div class="person">
 					<div class="name">
 						Julian Corbet
@@ -304,9 +309,9 @@
 
 		<section>
 			<a name="experience"></a>
-			
+
 			<h1>Experience</h1>
-		
+
 			<div class="content carouselcontainer">
 				<div class="carousel" id="expcarousel">
 					{{-- first round --}}
@@ -338,7 +343,7 @@
 			<div class="expandable" id="expandable_size_indicator">
 			</div>
 		</div>
-		
+
 		<footer>
 			<div class="aligncontainer">
 				<div class="label">
@@ -357,7 +362,7 @@
 				</div>
 			</div>
 		</footer>
-		
+
 	</body>
-	
+
 </html>

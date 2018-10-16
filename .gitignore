@@ -9,3 +9,6 @@ pics/*_photo_*.png
 # Local compiled files that are ready to be uploaded to the server
 compiled/*
 previews/*
+
+# (Exsternal) documentation should have its own lifecycle and not be included here in git
+*.pdf

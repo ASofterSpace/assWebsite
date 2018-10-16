@@ -124,6 +124,7 @@ div.headerbar {
 img.logo {
 	width: 200px;
 	height: 49px;
+	min-height: 49px;
 }
 
 div.footerplaceholder {
