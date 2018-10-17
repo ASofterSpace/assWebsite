@@ -9,7 +9,21 @@
 	"files": [
 		"index.php",
 		"style.css",
-		"toggleandcarousel.js"
+		"toggleandcarousel.js",
+		"pics/logo.png",
+		"pics/moya_3.jpg",
+		"pics/julian_1.jpg",
+		"pics/lisa_1.jpg",
+		"pics/rosemary_1.jpg",
+		"pics/tomas_1.jpg",
+		"pics/bg2_final_1.png",
+		"pics/backtotop_light.png",
+		"pics/exp_bluebird.png",
+		"pics/exp_egscc.png",
+		"pics/exp_gml.png",
+		"pics/exp_openmct.png",
+		"pics/exp_recoded.png",
+		"pics/exp_skyhook.png"
 	],
-	"version": 147
+	"version": 159
 }

@@ -298,13 +298,13 @@
 			</div>
 
 			<div class="content">
-				<a href="mailto:moya@content(atdomainname)">moya@content(atdomainname)</a>
+				<a href="mailto:info@content(atdomainname)">info@content(atdomainname)</a>
 			</div>
 
-			<div class="content">
+			<!-- div class="content">
 				You can also meet us at SpaceOps 2018 in Marseille, where I will present a <a href="http://tomschiller.de/ekse/index.php">paper about EKSE</a>.<br>
 				We cannot wait to meet you!
-			</div>
+			</div -->
 		</section>
 
 		<section>
