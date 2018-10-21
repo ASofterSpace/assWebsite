@@ -8,12 +8,14 @@
 	},
 	"files": [
 		"index.php",
+		"team.php",
 		"style.css",
 		"toggleandcarousel.js",
 		"pics/logo.png",
 		"pics/moya_3.jpg",
-		"pics/julian_1.jpg",
 		"pics/lisa_1.jpg",
+		"pics/julian_1.jpg",
+		"pics/bene_1.jpg",
 		"pics/rosemary_1.jpg",
 		"pics/tomas_1.jpg",
 		"pics/bg2_final_1.png",
@@ -25,5 +27,5 @@
 		"pics/exp_recoded.png",
 		"pics/exp_skyhook.png"
 	],
-	"version": 159
+	"version": 216
 }

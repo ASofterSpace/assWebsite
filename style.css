@@ -81,13 +81,13 @@ header:hover {
 	box-shadow: 0px 0px 6px 6px rgba(245, 245, 245, 1);
 }
 
-header a {
+header > div > div > a {
 	color: #222;
 	text-decoration: none;
 	margin: 0px 16px 0px 8px;
 }
 
-header a:hover {
+header > div > div > a:hover {
 	color: #555;
 	box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 1);
 	background-color: rgba(255, 255, 255, 1);
@@ -125,6 +125,11 @@ img.logo {
 	width: 200px;
 	height: 49px;
 	min-height: 49px;
+	transition: transform 0.5s;
+}
+
+img.logo:hover {
+	transform: scale(1.15);
 }
 
 div.footerplaceholder {
@@ -214,6 +219,12 @@ div.center {
 	text-align: center;
 }
 
+div.personcardcontainer {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
 div.person:not(:last-child) {
 	margin-bottom: 20px;
 }
@@ -222,6 +233,32 @@ div.person > div.name {
 	margin-left: 170px;
 	font-style: italic;
 	font-size: 110%;
+	z-index: 500;
+}
+
+div.card {
+	display: inline-block;
+	position: relative;
+	height: 168px;
+	width: 140px;
+	margin-bottom: 0px !important;
+}
+
+div.card > div.name {
+	margin-left: 0px;
+	text-align: center;
+	bottom: 10px;
+	position: absolute;
+	width: 140px;
+}
+
+div.card a {
+	color: #222;
+	text-decoration: none;
+}
+
+div.card:hover a {
+	color: #555;
 }
 
 div.picbiocontainer {
@@ -236,10 +273,12 @@ div.person img.pic {
 	width: 130px;
 	border-radius: 75px;
 	transition: transform 0.5s;
+	z-index: 750;
 }
 
 div.person:hover img.pic {
 	transform: scale(1.35);
+	z-index: 1000;
 }
 
 div.person:hover {
@@ -275,6 +314,15 @@ h1 {
 	margin: 0;
 	font-size: 125%;
 	font-weight: normal;
+}
+
+h1 a {
+	color: #222;
+	text-decoration: none;
+}
+
+h1 a:hover {
+	color: #555;
 }
 
 h2 {

@@ -2,6 +2,9 @@
 pics/*_orig_*.png
 pics/*_photo_*.png
 
+# old pictures
+oldpics
+
 # Local preview files converted from PHP
 *.htm
 *.html
