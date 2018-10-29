@@ -9,8 +9,10 @@
 	"files": [
 		"index.php",
 		"team.php",
+		"whatwedo.php",
+		"worklog.php",
 		"style.css",
-		"toggleandcarousel.js",
+		"carousel.js",
 		"pics/logo.png",
 		"pics/moya_3.jpg",
 		"pics/lisa_1.jpg",
@@ -27,5 +29,5 @@
 		"pics/exp_recoded.png",
 		"pics/exp_skyhook.png"
 	],
-	"version": 216
+	"version": 239
 }

@@ -14,8 +14,6 @@
 
 		{{-- CSS --}}
 		<link href="style.css?v=@version" media="all" rel="stylesheet" type="text/css"></link>
-
-		<script src="toggleandcarousel.js?v=@version"></script>
 	</head>
 
 	<body>
