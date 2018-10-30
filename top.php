@@ -26,7 +26,7 @@
 
 			<div class="headerbar">
 				<div class="item" id="whatwedoitem">
-					<a href="index.php#aboutus">What We Do</a>
+					<a href="whatwedo.php">What We Do</a>
 				</div>
 				<div class="item">
 					<a href="team.php">Our Team</a>
