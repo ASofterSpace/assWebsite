@@ -12,7 +12,7 @@
 			<div class="picbiocontainer">
 				<img class="pic" alt="Picture of Moya" src="pics/moya_3.jpg" />
 				<div class="bio">
-					As a Young Graduate Trainee at ESA's European Space Operations Centre in Germany, Moya is working with and creating EGS-CC based software.<br>
+					As a Young Graduate Trainee at ESA's European Space Operations Centre in Germany, Moya has worked with and created EGS-CC based software.<br>
 					Interested in various fields, Moya previously worked as front- and backend developer for an aviation startup in Reykjavík and a horse racing track in Berlin.<br>
 					He graduated from the University of Iceland with a Master's degree in Computer Sciences after studying Mathematics and Physics, having written a thesis in Bioinformatics.<br>
 				</div>
@@ -27,9 +27,8 @@
 			<div class="picbiocontainer">
 				<img class="pic" alt="Picture of Lisa" src="pics/lisa_1.jpg" />
 				<div class="bio">
-					Working as a sales assistant at a French company for several years Lisa is responsible for Sales, Marketing and Business Development. Also she is a member of the sales team at AIESEC (Association Internationale des Étudiants en Sciences Économiques et Commerciales) in Frankfurt/Germany.<br>
-					With the strong belief that every organisation can benefit from our services she helps universities and companies to become the best they can be.<br>
-					At the moment she is studying nutritional sciences at the Justus-Liebig University in Giessen.
+					Working as a sales assistant at a French company for several years, Lisa is responsible for everything that keeps a business like ours together - such as accounting, communication and human resources.<br>
+					Besides A Softer Space she is interested in Psychology, Nutrition and Music.
 				</div>
 			</div>
 		</div>
