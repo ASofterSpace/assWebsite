@@ -280,25 +280,6 @@ div.picbiocontainer > div.bio {
 	min-height: 150px;
 }
 
-/* below 700px width, do not display people's faces next to their texts, but above or below the texts */
-@media (max-width: 699px) {
-	div.person > div.name {
-		margin-left: 0px;
-		text-align: center;
-		margin-bottom: 7px;
-	}
-	
-	div.person img.pic {
-		right: 10px;
-		margin: auto;
-	}
-	
-	div.picbiocontainer > div.bio {
-		margin-left: 0px;
-		padding-top: 137px;
-	}
-}
-
 h1 {
 	margin: 0;
 	font-size: 125%;
@@ -371,6 +352,25 @@ img {
 
 /* aaaand now for things that show more than one pixel per pixel: different font sizes!
    (and adapted other styles...) */
+
+@media (max-width: 699px),
+(min-resolution: 1.5dppx) and (max-width: 1049px),
+(min-resolution: 2dppx) and (max-width: 1399px),
+(min-resolution: 3dppx) and (max-width: 2099px) {
+	.above700 {
+		display: none;
+	}
+}
+
+@media (max-resolution: 1dppx) and (min-width: 700px),
+(max-resolution: 1.5dppx) and (min-width: 1050px),
+(max-resolution: 2dppx) and (min-width: 1400px),
+(min-width: 2100px) {
+	.below700 {
+		display: none;
+	}
+}
+
 @media (min-resolution: 144dpi) {
 
 	body {
@@ -394,6 +394,31 @@ img {
 		height: 74px;
 	}
 	
+	div.person > div.name {
+		margin-left: 255px;
+	}
+
+	div.picbiocontainer > div.bio {
+		margin-left: 255px;
+		min-height: 225px;
+	}
+
+	div.card {
+		height: 252px;
+		width: 210px;
+	}
+
+	div.card > div.name {
+		bottom: 15px;
+		width: 210px;
+	}
+
+	div.person img.pic {
+		border-radius: 112px;
+		height: 195px;
+		width: 195px;
+	}
+
 	div.carouselcontainer {
 		height: 97px;
 	}
@@ -429,6 +454,31 @@ img {
 	img.logo {
 		width: 400px;
 		height: 98px;
+	}
+
+	div.person > div.name {
+		margin-left: 340px;
+	}
+
+	div.picbiocontainer > div.bio {
+		margin-left: 340px;
+		min-height: 300px;
+	}
+
+	div.card {
+		height: 336px;
+		width: 280px;
+	}
+
+	div.card > div.name {
+		bottom: 20px;
+		width: 280px;
+	}
+
+	div.person img.pic {
+		border-radius: 150px;
+		height: 260px;
+		width: 260px;
 	}
 
 	div.carouselcontainer {
@@ -468,7 +518,32 @@ img {
 		width: 600px;
 		height: 147px;
 	}
-	
+
+	div.person > div.name {
+		margin-left: 510px;
+	}
+
+	div.picbiocontainer > div.bio {
+		margin-left: 510px;
+		min-height: 450px;
+	}
+
+	div.card {
+		height: 504px;
+		width: 420px;
+	}
+
+	div.card > div.name {
+		bottom: 30px;
+		width: 420px;
+	}
+
+	div.person img.pic {
+		border-radius: 225px;
+		height: 390px;
+		width: 390px;
+	}
+
 	div.carouselcontainer {
 		height: 195px;
 	}
@@ -481,5 +556,76 @@ img {
 		margin-top: 8px;
 		height: 150px;
 		width: 150px;
+	}
+}
+
+
+/* below 700px width, do not display people's faces next to their texts, but above or below the texts */
+@media (max-width: 699px) {
+	div.person > div.name {
+		margin-left: 0px;
+		text-align: center;
+		margin-bottom: 7px;
+	}
+	
+	div.person img.pic {
+		right: 10px;
+		margin: auto;
+	}
+	
+	div.picbiocontainer > div.bio {
+		margin-left: 0px;
+		padding-top: 137px;
+	}
+}
+@media (min-resolution: 1.5dppx) and (max-width: 1049px) {
+	div.person > div.name {
+		margin-left: 0px;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	
+	div.person img.pic {
+		right: 15px;
+		margin: auto;
+	}
+	
+	div.picbiocontainer > div.bio {
+		margin-left: 0px;
+		padding-top: 205px;
+	}
+}
+@media (min-resolution: 2dppx) and (max-width: 1399px) {
+	div.person > div.name {
+		margin-left: 0px;
+		text-align: center;
+		margin-bottom: 14px;
+	}
+	
+	div.person img.pic {
+		right: 20px;
+		margin: auto;
+	}
+	
+	div.picbiocontainer > div.bio {
+		margin-left: 0px;
+		padding-top: 274px;
+	}
+}
+@media (min-resolution: 3dppx) and (max-width: 2099px) {
+	div.person > div.name {
+		margin-left: 0px;
+		text-align: center;
+		margin-bottom: 21px;
+	}
+	
+	div.person img.pic {
+		right: 30px;
+		margin: auto;
+	}
+	
+	div.picbiocontainer > div.bio {
+		margin-left: 0px;
+		padding-top: 411px;
 	}
 }
