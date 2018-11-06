@@ -337,7 +337,7 @@ div.carouselcontainer {
 
 div.carousel {
 	position: absolute;
-	width: 5000px;
+	width: 50000px;
 }
 
 div.carousel > a {
@@ -346,6 +346,7 @@ div.carousel > a {
 
 div.carousel img {
 	transition: transform 0.5s;
+	height: 52px;
 }
 
 div.carousel img:hover {
@@ -376,6 +377,10 @@ img {
 		font-size: 150%;
 	}
 
+	header {
+		margin-top: 10px;
+	}
+
 	div.headerbar {
 		top: 18px;
 	}
@@ -384,6 +389,19 @@ img {
 		height: 135px;
 	}
 	
+	img.logo {
+		width: 300px;
+		height: 74px;
+	}
+	
+	div.carouselcontainer {
+		height: 97px;
+	}
+
+	div.carousel img {
+		height: 78px;
+	}
+
 	img.backtotop {
 		height: 75px;
 		width: 75px;
@@ -396,6 +414,10 @@ img {
 		font-size: 200%;
 	}
 
+	header {
+		margin-top: 0px;
+	}
+
 	div.headerbar {
 		top: 12px;
 	}
@@ -404,6 +426,19 @@ img {
 		height: 175px;
 	}
 	
+	img.logo {
+		width: 400px;
+		height: 98px;
+	}
+
+	div.carouselcontainer {
+		height: 130px;
+	}
+	
+	div.carousel img {
+		height: 104px;
+	}
+
 	img.backtotop {
 		margin-top: 8px;
 		height: 100px;
@@ -417,6 +452,10 @@ img {
 		font-size: 300%;
 	}
 
+	header {
+		margin-top: 0px;
+	}
+
 	div.headerbar {
 		top: 1px;
 	}
@@ -425,6 +464,19 @@ img {
 		height: 222px;
 	}
 	
+	img.logo {
+		width: 600px;
+		height: 147px;
+	}
+	
+	div.carouselcontainer {
+		height: 195px;
+	}
+	
+	div.carousel img {
+		height: 156px;
+	}
+
 	img.backtotop {
 		margin-top: 8px;
 		height: 150px;
