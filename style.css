@@ -103,9 +103,9 @@ div.headerbar {
 
 /* between 550px and 700px, display the whole header bar nicely, but without the first item */
 @media (max-width: 699px),
-(min-resolution: 1.5dppx) and (max-width: 850px),
-(min-resolution: 2dppx) and (max-width: 1040px),
-(min-resolution: 3dppx) and (max-width: 1380px) {
+(min-resolution: 1.5dppx) and (max-width: 900px),
+(min-resolution: 2dppx) and (max-width: 1220px),
+(min-resolution: 3dppx) and (max-width: 1750px) {
 	#whatwedoitem {
 		display: none;
 	}
@@ -113,9 +113,9 @@ div.headerbar {
 
 /* below 550px, only display our logo at the top, and avoid the items at all */
 @media (max-width: 549px),
-(min-resolution: 1.5dppx) and (max-width: 675px),
-(min-resolution: 2dppx) and (max-width: 810px),
-(min-resolution: 3dppx) and (max-width: 1050px) {
+(min-resolution: 1.5dppx) and (max-width: 800px),
+(min-resolution: 2dppx) and (max-width: 1040px),
+(min-resolution: 3dppx) and (max-width: 1420px) {
 	div.headerbar {
 		display: none;
 	}
@@ -382,7 +382,8 @@ img {
 	}
 
 	div.headerbar {
-		top: 18px;
+		top: 30px;
+		left: 340px;
 	}
 	
 	div.footerplaceholder {
@@ -444,7 +445,8 @@ img {
 	}
 
 	div.headerbar {
-		top: 12px;
+		top: 36px;
+		left: 430px;
 	}
 	
 	div.footerplaceholder {
@@ -507,7 +509,8 @@ img {
 	}
 
 	div.headerbar {
-		top: 1px;
+		top: 48px;
+		left: 630px;
 	}
 	
 	div.footerplaceholder {
