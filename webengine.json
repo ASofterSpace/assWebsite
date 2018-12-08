@@ -27,7 +27,11 @@
 		"pics/exp_gml.png",
 		"pics/exp_openmct.png",
 		"pics/exp_recoded.png",
-		"pics/exp_skyhook.png"
+		"pics/exp_skyhook.png",
+		"licenses/unlicense.txt",
+		"privacy/universalconverter.php",
+		"cdm/manual.pdf",
+		"xdc/generate.pdf"
 	],
-	"version": 283
+	"version": 301
 }
