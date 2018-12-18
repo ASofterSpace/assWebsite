@@ -28,10 +28,12 @@
 		"pics/exp_openmct.png",
 		"pics/exp_recoded.png",
 		"pics/exp_skyhook.png",
+		"flyers/mars/a_softer_space.png",
+		"flyers/software/a_softer_space.png",
 		"licenses/unlicense.txt",
 		"privacy/universalconverter.php",
 		"cdm/manual.pdf",
 		"xdc/generate.pdf"
 	],
-	"version": 301
+	"version": 306
 }
