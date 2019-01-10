@@ -33,7 +33,8 @@
 		"licenses/unlicense.txt",
 		"privacy/universalconverter.php",
 		"cdm/manual.pdf",
+		"cdm/cdm.zip",
 		"xdc/generate.pdf"
 	],
-	"version": 306
+	"version": 316
 }

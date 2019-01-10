@@ -13,5 +13,8 @@ oldpics
 compiled/*
 previews/*
 
-# (Exsternal) documentation should have its own lifecycle and not be included here in git
+# (External) documentation should have its own lifecycle and not be included here in git
 *.pdf
+
+# (External) program files etc. too!
+*.zip
