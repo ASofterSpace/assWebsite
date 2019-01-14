@@ -12,14 +12,91 @@ body {
 }
 
 section {
-	background-color: rgba(255, 255, 255, 0.98);
-	box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.98);
-	color: #222;
-	transition: background 0.5s, box-shadow 0.5s;
-	margin: 40px auto 40px auto;
-	padding: 10px;
+	position: relative;
+	margin: 25px auto 25px auto;
+	padding: 18px 27px 8px 27px;
 	width: 80%;
 	max-width: 900px;
+}
+
+div.insec {
+	position: relative;
+	background-color: rgb(255, 255, 255);
+	color: #222;
+	padding: 10px;
+	z-index: 100;
+}
+
+div.leftnavcontainer {
+	position: absolute;
+	top: 164px;
+	left: 0;
+}
+
+section.leftnav {
+	width: 200px;
+	text-align: center;
+	font-size: 115%;
+	font-weight: bold;
+	margin: 0px;
+	padding: 9px 63px 0px 63px;
+	opacity: 0.9;
+}
+
+section.leftnav > div.insec {
+	height: 25px;
+}
+
+section.leftnav > div.insec > a {
+	color: #300060;
+	text-decoration: none;
+}
+
+section.leftnav > div.insec > a > div {
+	transition: transform 0.3s;
+}
+
+section.leftnav > div.insec > a:hover > div {
+	transform: scale(1.1);
+}
+
+img.pix {
+	position: absolute;
+}
+
+img.secpix {
+	z-index: 10;
+}
+
+img.navpix {
+	z-index: 10;
+	top: 0;
+}
+
+img.headerpix {
+	right: 0;
+	top: 0;
+}
+
+img.footerpix {
+	right: 0;
+	top: 0;
+}
+
+img.left {
+	left: 0;
+}
+
+img.right {
+	right: 0;
+}
+
+img.top {
+	top: 0;
+}
+
+img.bottom {
+	bottom: 0;
 }
 
 @media (min-resolution: 1.5dppx) {
@@ -49,54 +126,48 @@ section {
 		padding-right: 0;
 		width: 99%;
 	}
-	
+
 	h1, h2 {
 		text-align: center;
 	}
-	
+
 	div.aligncontainer > div.center {
 		width: 80px;
 		left: 60%;
 	}
 }
 
-section:hover {
-	background-color: rgba(255, 255, 255, 1);
-	box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 1);
-	color: #000;
+header {
+	position: relative;
+	margin: 20px 0px 35px 0px;
 }
 
-header {
-	margin: 20px 0px 20px 0px;
-	padding: 10px;
-	background-color: rgba(255, 255, 255, 0.9);
+div.headerwhite {
+	margin: 0px 140px 0px 0px; /* right margin is width of pixels header minus a few px overlap */
+	height: 81px; /* height is height of pixels header */
+	background-color: rgb(255, 255, 255);
 	position: relative;
 	overflow: hidden;
-	box-shadow: 0px 0px 4px 4px rgba(255, 255, 255, 0.9);
-	transition: background 0.5s, box-shadow 0.5s;
 }
 
-header:hover {
-	background-color: rgba(245, 245, 245, 1);
-	box-shadow: 0px 0px 6px 6px rgba(245, 245, 245, 1);
+div.headerwhite > div > div {
+	transition: transform 0.3s;
 }
 
-header > div > div > a {
+div.headerwhite > div > div:hover {
+	transform: scale(1.1);
+}
+
+div.headerwhite > div > div > a {
 	color: #222;
 	text-decoration: none;
 	margin: 0px 16px 0px 8px;
 }
 
-header > div > div > a:hover {
-	color: #555;
-	box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 1);
-	background-color: rgba(255, 255, 255, 1);
-}
-
 div.headerbar {
 	position: absolute;
 	top: 25px;
-	left: 250px;
+	left: 220px;
 	font-size: 125%;
 	width: 2000px;
 }
@@ -126,10 +197,12 @@ img.logo {
 	height: 49px;
 	min-height: 49px;
 	transition: transform 0.5s;
+	padding-left: 10px;
+	padding-top: 13px;
 }
 
 img.logo:hover {
-	transform: scale(1.15);
+	transform: scale(1.1);
 }
 
 div.footerplaceholder {
@@ -142,28 +215,33 @@ footer {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	margin: 20px 0px 0px 0px;
-	padding: 10px 10px 15px 10px;
-	background-color: rgba(20, 20, 20, 0.8);
-	box-shadow: 0px 0px 5px 5px rgba(20, 20, 20, 0.8);
-	color: rgb(68,109,129);
-	transition: background 0.5s, box-shadow 0.5s, color 0.5s;
+	margin-top: 20px;
 }
 
-footer img {
+footer img.backtotop {
 	transition: transform 0.5s, opacity 0.5s;
-	opacity: 0.5;
+	opacity: 0.8;
 }
 
-footer:hover {
-	color: rgb(114,201,235);
-	background-color: rgb(30, 0, 60);
-	box-shadow: 0px 0px 10px 10px rgba(30, 0, 60, 1);
-}
-
-footer:hover img {
+footer img.backtotop:hover {
 	transform: scale(1.25);
-	opacity: 1;
+}
+
+div.footergray {
+	margin: 0px 169px 0px 0px;
+	padding: 10px 10px 15px 10px;
+	background-color: rgba(15, 0, 20, 0.9);
+	color: rgb(68,109,129);
+}
+
+img.footerpix {
+	opacity: 0.9;
+}
+
+a.footeratop {
+	position: absolute;
+	top: 10px;
+	right: 10px;
 }
 
 section a {
@@ -310,7 +388,7 @@ div.carouselcontainer {
 	height: 65px;
 	position: relative;
 	overflow-x: hidden;
-	
+
 	/* achieve margin using padding such that scaled images look nice */
 	margin: 0px;
 	padding: 8px 0 0 0; /* 8px 0 0 0: magic number 1 */
@@ -385,16 +463,16 @@ img {
 		top: 30px;
 		left: 340px;
 	}
-	
+
 	div.footerplaceholder {
 		height: 135px;
 	}
-	
+
 	img.logo {
 		width: 300px;
 		height: 74px;
 	}
-	
+
 	div.person > div.name {
 		margin-left: 255px;
 	}
@@ -448,11 +526,11 @@ img {
 		top: 36px;
 		left: 430px;
 	}
-	
+
 	div.footerplaceholder {
 		height: 175px;
 	}
-	
+
 	img.logo {
 		width: 400px;
 		height: 98px;
@@ -486,7 +564,7 @@ img {
 	div.carouselcontainer {
 		height: 130px;
 	}
-	
+
 	div.carousel img {
 		height: 104px;
 	}
@@ -512,11 +590,11 @@ img {
 		top: 48px;
 		left: 630px;
 	}
-	
+
 	div.footerplaceholder {
 		height: 222px;
 	}
-	
+
 	img.logo {
 		width: 600px;
 		height: 147px;
@@ -550,7 +628,7 @@ img {
 	div.carouselcontainer {
 		height: 195px;
 	}
-	
+
 	div.carousel img {
 		height: 156px;
 	}
@@ -570,12 +648,12 @@ img {
 		text-align: center;
 		margin-bottom: 7px;
 	}
-	
+
 	div.person img.pic {
 		right: 10px;
 		margin: auto;
 	}
-	
+
 	div.picbiocontainer > div.bio {
 		margin-left: 0px;
 		padding-top: 137px;
@@ -587,12 +665,12 @@ img {
 		text-align: center;
 		margin-bottom: 10px;
 	}
-	
+
 	div.person img.pic {
 		right: 15px;
 		margin: auto;
 	}
-	
+
 	div.picbiocontainer > div.bio {
 		margin-left: 0px;
 		padding-top: 205px;
@@ -604,12 +682,12 @@ img {
 		text-align: center;
 		margin-bottom: 14px;
 	}
-	
+
 	div.person img.pic {
 		right: 20px;
 		margin: auto;
 	}
-	
+
 	div.picbiocontainer > div.bio {
 		margin-left: 0px;
 		padding-top: 274px;
@@ -621,12 +699,12 @@ img {
 		text-align: center;
 		margin-bottom: 21px;
 	}
-	
+
 	div.person img.pic {
 		right: 30px;
 		margin: auto;
 	}
-	
+
 	div.picbiocontainer > div.bio {
 		margin-left: 0px;
 		padding-top: 411px;

@@ -12,32 +12,33 @@
 		</div>
 
 		<footer>
-			<div class="aligncontainer">
-				<div class="label above700">
-					Tom Moya Schiller<br>
-					Heerstraße 3 b<br>
-					D-60488 Frankfurt
-				</div>
-				<div class="label center above700">
-					A Softer Space DE, Inhaber Tom Moya Schiller<br>
-					VAT Nr: DE319451065<br>
-					<!-- A Softer Space UK Ltd<br> -->
-					2018
-				</div>
-				<div class="label below700">
-					A Softer Space DE, Inhaber Tom Moya Schiller<br>
-					Heerstraße 3 b<br>
-					D-60488 Frankfurt
-				</div>
-				<div class="label center below700">
-					<br>
-					VAT Nr:<br>
-					DE319451065<br>
-				</div>
-				<div class="label right">
-					<a href="#topofpage"><img class="backtotop" alt="Back to Top" src="pics/backtotop_light.png" /></a>
+			<div class="footergray">
+				<div class="aligncontainer">
+					<div class="label above700">
+						Tom Moya Schiller<br>
+						Heerstraße 3 b<br>
+						D-60488 Frankfurt
+					</div>
+					<div class="label center above700">
+						A Softer Space DE, Inhaber Tom Moya Schiller<br>
+						VAT Nr: DE319451065<br>
+						<!-- A Softer Space UK Ltd<br> -->
+						2018 - 2019
+					</div>
+					<div class="label below700">
+						A Softer Space DE, Inhaber Tom Moya Schiller<br>
+						Heerstraße 3 b<br>
+						D-60488 Frankfurt
+					</div>
+					<div class="label center below700">
+						<br>
+						VAT Nr:<br>
+						DE319451065<br>
+					</div>
 				</div>
 			</div>
+			<img class="pix footerpix" alt="pixelated design element" src="pics/pixels_footer.png" />
+			<a href="#topofpage" class="footeratop"><img class="backtotop" alt="back to top navigator" src="pics/backtotop_light.png" /></a>
 		</footer>
 
 	</body>

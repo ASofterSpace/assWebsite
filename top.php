@@ -16,26 +16,184 @@
 		<link href="style.css?v=@version" media="all" rel="stylesheet" type="text/css"></link>
 	</head>
 
-	<body>
+	<body
+	{{-- different backgrounds for different pages --}}
+	@if(page="mission.php")
+		style="background-image: url('pics/bg_esja_1.jpg');"
+	@endif
+	@if(page="products.php")
+		style="background-image: url('pics/bg_newton_1.jpg');"
+	@endif
+	@if(page="customers.php")
+		{{-- leave default --}}
+	@endif
+	@if(page="science.php")
+		style="background-image: url('pics/bg_newton_2.jpg');"
+	@endif
+	@if(page="games.php")
+		style="background-image: url('pics/bg_esja_2.jpg');"
+	@endif
+	@if(page="resources.php")
+		style="background-image: url('pics/bg_esja_1.jpg');"
+	@endif
+	@if(page="merchandise.php")
+		style="background-image: url('pics/bg_newton_1.jpg');"
+	@endif
+	@if(page="donations.php")
+		style="background-image: url('pics/bg_island_1.jpg');"
+	@endif
+	>
 		<a name="topofpage"></a>
 
-		<header>
-			<a href="/">
+	<header>
+		<div class="headerwhite">
+			<a href="index.php">
 				<img class="logo" alt="a softer space logo" src="pics/logo.png" />
 			</a>
-
 			<div class="headerbar">
-				<div class="item" id="whatwedoitem">
-					<a href="whatwedo.php">What We Do</a>
+				{{-- show top navigation in the header --}}
+				@if(page="mission.php")
+				/ <div class="item" id="whatwedoitem">
+					<a href="mission.htm">Mission</a>
 				</div>
-				<div class="item">
-					<a href="team.php">Our Team</a>
+				@endif
+				@if(page="products.php")
+				/ <div class="item" id="whatwedoitem">
+					<a href="products.htm">Products</a>
 				</div>
-				<div class="item">
-					<a href="index.php#contact">Contact</a>
+				@endif
+				@if(page="customers.php")
+				/ <div class="item" id="whatwedoitem">
+					<a href="customers.htm">Customers</a>
 				</div>
-				<div class="item">
-					<a href="index.php#experience">Experience</a>
+				@endif
+				@if(page="science.php")
+				/ <div class="item" id="whatwedoitem">
+					<a href="science.htm">Science</a>
 				</div>
+				@endif
+				@if(page="games.php")
+				/ <div class="item" id="whatwedoitem">
+					<a href="games.htm">Games</a>
+				</div>
+				@endif
+				@if(page="resources.php")
+				/ <div class="item" id="whatwedoitem">
+					<a href="resources.htm">Resources</a>
+				</div>
+				@endif
+				@if(page="merchandise.php")
+				/ <div class="item" id="whatwedoitem">
+					<a href="merchandise.htm">Merchandise</a>
+				</div>
+				@endif
+				@if(page="donations.php")
+				/ <div class="item" id="whatwedoitem">
+					<a href="donations.htm">Donations</a>
+				</div>
+				@endif
 			</div>
-		</header>
+		</div>
+		<img class="pix headerpix" alt="pixelated design element" src="pics/pixels_header.png" />
+	</header>
+
+	<div class="leftnavcontainer">
+		<section class="leftnav">
+			<div class="insec">
+				<a href="index.php">
+					<div>
+						Home
+				</div>
+			</a>
+			</div>
+			@include(navpix.php)
+		</section>
+				
+		<section class="leftnav">
+				<div class="insec">
+			<a href="mission.php">
+					<div>
+					Mission
+				</div>
+			</a>
+			</div>
+			@include(navpix.php)
+		</section>
+				
+		<section class="leftnav">
+				<div class="insec">
+			<a href="products.php">
+					<div>
+					Products
+				</div>
+			</a>
+			</div>
+			@include(navpix.php)
+		</section>
+				
+		<section class="leftnav">
+				<div class="insec">
+			<a href="customers.php">
+					<div>
+					Customers
+				</div>
+			</a>
+			</div>
+			@include(navpix.php)
+		</section>
+				
+		<section class="leftnav">
+				<div class="insec">
+			<a href="science.php">
+					<div>
+					Science
+				</div>
+			</a>
+			</div>
+			@include(navpix.php)
+		</section>
+				
+		<section class="leftnav">
+				<div class="insec">
+			<a href="games.php">
+					<div>
+					Games
+				</div>
+			</a>
+			</div>
+			@include(navpix.php)
+		</section>
+				
+		<section class="leftnav">
+				<div class="insec">
+			<a href="resources.php">
+					<div>
+					Resources
+				</div>
+			</a>
+			</div>
+			@include(navpix.php)
+		</section>
+				
+		<section class="leftnav">
+				<div class="insec">
+			<a href="merchandise.php">
+					<div>
+					Merchandise
+				</div>
+			</a>
+			</div>
+			@include(navpix.php)
+		</section>
+				
+		<section class="leftnav">
+			<div class="insec">
+				<a href="donations.php">
+					<div>
+						Donations
+					</div>
+				</a>
+			</div>
+			@include(navpix.php)
+		</section>
+	</div>
