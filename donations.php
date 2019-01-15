@@ -1,6 +1,6 @@
 ﻿@include(top.php)
 
-<section>
+<section style="opacity:0.9@rand(10)">
 	<div class="insec">
 		<h1>Giving What We Can</h1>
 
@@ -15,7 +15,7 @@
 	@include(secpix.php)
 </section>
 
-<section>
+<section style="opacity:0.9@rand(10)">
 	<div class="insec">
 		<h1>Donations in 2018</h1>
 
@@ -30,7 +30,7 @@
 	@include(secpix.php)
 </section>
 
-<section>
+<section style="opacity:0.9@rand(10)">
 	<div class="insec">
 		<h1>Effective Altruism</h1>
 

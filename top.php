@@ -13,10 +13,10 @@
 		<meta name="description" content="@content(description)">
 
 		{{-- CSS --}}
-		<link href="style.css?v=@version" media="all" rel="stylesheet" type="text/css"></link>
+		<link href="/style.css?v=@version" media="all" rel="stylesheet" type="text/css"></link>
 	</head>
 
-	<body
+	<body id="topofpage"
 	{{-- different backgrounds for different pages --}}
 	@if(page="mission.php")
 		style="background-image: url('pics/bg_esja_1.jpg');"
@@ -37,163 +37,105 @@
 		style="background-image: url('pics/bg_esja_1.jpg');"
 	@endif
 	@if(page="merchandise.php")
-		style="background-image: url('pics/bg_newton_1.jpg');"
+		{{-- leave default --}}
 	@endif
 	@if(page="donations.php")
 		style="background-image: url('pics/bg_island_1.jpg');"
 	@endif
 	>
-		<a name="topofpage"></a>
+
+	<a class="blogo" href="/index.php">
+		<img class="logo" alt="a softer space logo" src="/pics/logo.png" />
+	</a>
+	
+	{{-- TODO :: instead of navigating to nav.php, actually open an overlay or somesuch... would be more professional? --}}
+	<a class="burger" href="/nav.php">
+		<img alt="burger icon" src="/pics/burger.png" />
+	</a>
 
 	<header>
 		<div class="headerwhite">
-			<a href="index.php">
-				<img class="logo" alt="a softer space logo" src="pics/logo.png" />
+			<a class="alogo" href="/index.php">
+				<img class="logo" alt="a softer space logo" src="/pics/logo.png" />
 			</a>
 			<div class="headerbar">
 				{{-- show top navigation in the header --}}
 				@if(page="mission.php")
-				/ <div class="item" id="whatwedoitem">
-					<a href="mission.htm">Mission</a>
+				/ <div class="item">
+					<a href="/mission.php">Mission</a>
+				</div>
+				@endif
+				@if(page="licenses/unlicense.php")
+				/ <div class="item">
+					<a href="/mission.php">Mission</a>
+				</div> / <div class="item">
+					<a href="/licenses/unlicense.php">Unlicense</a>
 				</div>
 				@endif
 				@if(page="products.php")
-				/ <div class="item" id="whatwedoitem">
-					<a href="products.htm">Products</a>
+				/ <div class="item">
+					<a href="/products.php">Products</a>
+				</div>
+				@if(page="privacy/index.php")
+				/ <div class="item">
+					<a href="/products.php">Products</a>
+				</div> / <div class="item">
+					<a href="/privacy/index.php">Privacy Policies</a>
+				</div>
+				@endif
+				@if(page="privacy/universalconverter.php")
+				/ <div class="item">
+					<a href="/products.php">Products</a>
+				</div> / <div class="item">
+					<a href="/privacy/index.php">Privacy Policies</a>
+				</div> / <div class="item">
+					<a href="/privacy/universalconverter.php">UniversalConverter</a>
 				</div>
 				@endif
 				@if(page="customers.php")
-				/ <div class="item" id="whatwedoitem">
-					<a href="customers.htm">Customers</a>
+				/ <div class="item">
+					<a href="/customers.php">Customers</a>
 				</div>
 				@endif
 				@if(page="science.php")
-				/ <div class="item" id="whatwedoitem">
-					<a href="science.htm">Science</a>
+				/ <div class="item">
+					<a href="/science.php">Science</a>
 				</div>
 				@endif
 				@if(page="games.php")
-				/ <div class="item" id="whatwedoitem">
-					<a href="games.htm">Games</a>
+				/ <div class="item">
+					<a href="/games.php">Games</a>
 				</div>
 				@endif
 				@if(page="resources.php")
-				/ <div class="item" id="whatwedoitem">
-					<a href="resources.htm">Resources</a>
+				/ <div class="item">
+					<a href="/resources.php">Resources</a>
 				</div>
 				@endif
 				@if(page="merchandise.php")
-				/ <div class="item" id="whatwedoitem">
-					<a href="merchandise.htm">Merchandise</a>
+				/ <div class="item">
+					<a href="/merchandise.php">Merchandise</a>
 				</div>
 				@endif
 				@if(page="donations.php")
-				/ <div class="item" id="whatwedoitem">
-					<a href="donations.htm">Donations</a>
+				/ <div class="item">
+					<a href="/donations.php">Donations</a>
 				</div>
 				@endif
 			</div>
 		</div>
-		<img class="pix headerpix" alt="pixelated design element" src="pics/pixels_header.png" />
+		<img class="pix headerpix" alt="pixelated design element" src="/pics/pixels_header.png" />
 	</header>
 
-	<div class="leftnavcontainer">
-		<section class="leftnav">
-			<div class="insec">
-				<a href="index.php">
-					<div>
-						Home
-				</div>
-			</a>
-			</div>
-			@include(navpix.php)
-		</section>
-				
-		<section class="leftnav">
-				<div class="insec">
-			<a href="mission.php">
-					<div>
-					Mission
-				</div>
-			</a>
-			</div>
-			@include(navpix.php)
-		</section>
-				
-		<section class="leftnav">
-				<div class="insec">
-			<a href="products.php">
-					<div>
-					Products
-				</div>
-			</a>
-			</div>
-			@include(navpix.php)
-		</section>
-				
-		<section class="leftnav">
-				<div class="insec">
-			<a href="customers.php">
-					<div>
-					Customers
-				</div>
-			</a>
-			</div>
-			@include(navpix.php)
-		</section>
-				
-		<section class="leftnav">
-				<div class="insec">
-			<a href="science.php">
-					<div>
-					Science
-				</div>
-			</a>
-			</div>
-			@include(navpix.php)
-		</section>
-				
-		<section class="leftnav">
-				<div class="insec">
-			<a href="games.php">
-					<div>
-					Games
-				</div>
-			</a>
-			</div>
-			@include(navpix.php)
-		</section>
-				
-		<section class="leftnav">
-				<div class="insec">
-			<a href="resources.php">
-					<div>
-					Resources
-				</div>
-			</a>
-			</div>
-			@include(navpix.php)
-		</section>
-				
-		<section class="leftnav">
-				<div class="insec">
-			<a href="merchandise.php">
-					<div>
-					Merchandise
-				</div>
-			</a>
-			</div>
-			@include(navpix.php)
-		</section>
-				
-		<section class="leftnav">
-			<div class="insec">
-				<a href="donations.php">
-					<div>
-						Donations
-					</div>
-				</a>
-			</div>
-			@include(navpix.php)
-		</section>
-	</div>
+	{{-- opening the maincontainer that is closed in bottom
+	(which aligns EVERYTHING in the middle if the screen is VERY wide -
+	think desktop with two screens) --}}
+	<div class="maincontainer clearfix">
+
+		<div class="leftnavcontainer" 
+				@if(page="nav.php")
+					style="display:none !important"
+				@endif
+		>
+			@include(leftnavs.php)
+		</div>

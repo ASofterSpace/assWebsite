@@ -1,5 +1,6 @@
 # Non-final Pictures
 pics/*_orig_*.png
+pics/*_orig.png
 pics/*_photo_*.png
 
 # old pictures
