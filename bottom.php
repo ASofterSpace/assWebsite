@@ -1,4 +1,4 @@
-
+﻿
 		{{-- closing the maincontainer that was opened in top
 		(which aligns EVERYTHING in the middle if the screen is VERY wide -
 		think desktop with two screens) --}}
@@ -46,9 +46,6 @@
 			<img class="pix footerpix" alt="pixelated design element" src="/pics/pixels_footer.png" />
 			<a href="#topofpage" class="footeratop"><img class="backtotop" alt="back to top navigator" src="/pics/backtotop_light.png" /></a>
 		</footer>
-
-		{{-- scripts that are happier if the whole page already exists when they get loaded --}}
-		<script src="pix.js?v=@version"></script>
 
 	</body>
 

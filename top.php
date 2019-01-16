@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="@content(lang)">
 
 	<head>
@@ -44,83 +44,87 @@
 	@endif
 	>
 
-	<header>
-		<canvas id="cvHeader" style=""></canvas>
-			
-		{{-- TODO :: instead of navigating to nav.php, actually open an overlay or somesuch... would be more professional? or is this actually better? xD --}}
-		<a class="burger" href="/nav.php">
-			<img alt="burger icon" src="/pics/burger.png" />
-		</a>
+	<a class="blogo" href="/index.php">
+		<img class="logo" alt="a softer space logo" src="/pics/logo.png" />
+	</a>
+	
+	{{-- TODO :: instead of navigating to nav.php, actually open an overlay or somesuch... would be more professional? --}}
+	<a class="burger" href="/nav.php">
+		<img alt="burger icon" src="/pics/burger.png" />
+	</a>
 
-		<a class="alogo" href="/index.php">
-			<img class="logo" alt="a softer space logo" src="/pics/logo.png" />
-		</a>
-		
-		<div class="headerbar">
-			{{-- show top navigation in the header --}}
-			@if(page="mission.php")
-			/ <div class="item">
-				<a href="/mission.php">Mission</a>
+	<header>
+		<div class="headerwhite">
+			<a class="alogo" href="/index.php">
+				<img class="logo" alt="a softer space logo" src="/pics/logo.png" />
+			</a>
+			<div class="headerbar">
+				{{-- show top navigation in the header --}}
+				@if(page="mission.php")
+				/ <div class="item">
+					<a href="/mission.php">Mission</a>
+				</div>
+				@endif
+				@if(page="licenses/unlicense.php")
+				/ <div class="item">
+					<a href="/mission.php">Mission</a>
+				</div> / <div class="item">
+					<a href="/licenses/unlicense.php">Unlicense</a>
+				</div>
+				@endif
+				@if(page="products.php")
+				/ <div class="item">
+					<a href="/products.php">Products</a>
+				</div>
+				@if(page="privacy/index.php")
+				/ <div class="item">
+					<a href="/products.php">Products</a>
+				</div> / <div class="item">
+					<a href="/privacy/index.php">Privacy Policies</a>
+				</div>
+				@endif
+				@if(page="privacy/universalconverter.php")
+				/ <div class="item">
+					<a href="/products.php">Products</a>
+				</div> / <div class="item">
+					<a href="/privacy/index.php">Privacy Policies</a>
+				</div> / <div class="item">
+					<a href="/privacy/universalconverter.php">UniversalConverter</a>
+				</div>
+				@endif
+				@if(page="customers.php")
+				/ <div class="item">
+					<a href="/customers.php">Customers</a>
+				</div>
+				@endif
+				@if(page="science.php")
+				/ <div class="item">
+					<a href="/science.php">Science</a>
+				</div>
+				@endif
+				@if(page="games.php")
+				/ <div class="item">
+					<a href="/games.php">Games</a>
+				</div>
+				@endif
+				@if(page="resources.php")
+				/ <div class="item">
+					<a href="/resources.php">Resources</a>
+				</div>
+				@endif
+				@if(page="merchandise.php")
+				/ <div class="item">
+					<a href="/merchandise.php">Merchandise</a>
+				</div>
+				@endif
+				@if(page="donations.php")
+				/ <div class="item">
+					<a href="/donations.php">Donations</a>
+				</div>
+				@endif
 			</div>
-			@endif
-			@if(page="licenses/unlicense.php")
-			/ <div class="item">
-				<a href="/mission.php">Mission</a>
-			</div> / <div class="item">
-				<a href="/licenses/unlicense.php">Unlicense</a>
-			</div>
-			@endif
-			@if(page="products.php")
-			/ <div class="item">
-				<a href="/products.php">Products</a>
-			</div>
-			@if(page="privacy/index.php")
-			/ <div class="item">
-				<a href="/products.php">Products</a>
-			</div> / <div class="item">
-				<a href="/privacy/index.php">Privacy Policies</a>
-			</div>
-			@endif
-			@if(page="privacy/universalconverter.php")
-			/ <div class="item">
-				<a href="/products.php">Products</a>
-			</div> / <div class="item">
-				<a href="/privacy/index.php">Privacy Policies</a>
-			</div> / <div class="item">
-				<a href="/privacy/universalconverter.php">UniversalConverter</a>
-			</div>
-			@endif
-			@if(page="customers.php")
-			/ <div class="item">
-				<a href="/customers.php">Customers</a>
-			</div>
-			@endif
-			@if(page="science.php")
-			/ <div class="item">
-				<a href="/science.php">Science</a>
-			</div>
-			@endif
-			@if(page="games.php")
-			/ <div class="item">
-				<a href="/games.php">Games</a>
-			</div>
-			@endif
-			@if(page="resources.php")
-			/ <div class="item">
-				<a href="/resources.php">Resources</a>
-			</div>
-			@endif
-			@if(page="merchandise.php")
-			/ <div class="item">
-				<a href="/merchandise.php">Merchandise</a>
-			</div>
-			@endif
-			@if(page="donations.php")
-			/ <div class="item">
-				<a href="/donations.php">Donations</a>
-			</div>
-			@endif
 		</div>
+		<img class="pix headerpix" alt="pixelated design element" src="/pics/pixels_header.png" />
 	</header>
 
 	{{-- opening the maincontainer that is closed in bottom
@@ -128,8 +132,10 @@
 	think desktop with two screens) --}}
 	<div class="maincontainer clearfix">
 
-		@if(page!="nav.php")
-			<div class="leftnavcontainer">
-				@include(leftnavs.php)
-			</div>
-		@endif
+		<div class="leftnavcontainer" 
+				@if(page="nav.php")
+					style="display:none !important"
+				@endif
+		>
+			@include(leftnavs.php)
+		</div>

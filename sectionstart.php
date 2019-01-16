@@ -1,4 +1,2 @@
-{{-- the experience carousel on index.php is NOT using this! --}}
-<section>
-	<canvas id="cvSection@countup(sections)" style=""></canvas>
+<section style="opacity:0.9@rand(10)">
 	<div class="insec">
