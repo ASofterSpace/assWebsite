@@ -8,6 +8,7 @@ body {
 	background-image: url('pics/bg2_final_1.png');
 	background-size: cover;
 	margin: 0;
+	padding: 2em 0 0 0;
 	position: relative;
 	font-family: CarlitoRegular, Carlito, Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
 	font-size: 1em;
@@ -34,7 +35,7 @@ section {
 	position: relative;
 	margin: 2em 0 2em auto;
 	padding: 1em;
-	width: 60%;
+	width: 65%;
 	opacity: 0.95; /* just a default - will be randomized individually anyway */
 	transition: opacity 0.5s ease-in-out;
 }
@@ -57,7 +58,7 @@ div.insec {
 
 div.leftnavcontainer {
 	float: left;
-	margin-top: 1.5em;
+	margin-top: 2em;
 	margin-bottom: 2em;
 	width: 30%;
 }
@@ -95,45 +96,6 @@ section.leftnav > div.insec > a:hover > div {
 	transform: scale(1.1);
 }
 
-img.pix {
-	position: absolute;
-}
-
-img.secpix {
-	z-index: 10;
-}
-
-img.navpix {
-	z-index: 10;
-	top: 0;
-}
-
-img.headerpix {
-	right: 0;
-	top: 0;
-}
-
-img.footerpix {
-	right: 0;
-	top: 0;
-}
-
-img.left {
-	left: 0;
-}
-
-img.right {
-	right: 0;
-}
-
-img.top {
-	top: 0;
-}
-
-img.bottom {
-	bottom: 0;
-}
-
 a.paperpreview {
 	box-shadow: 0.2em 0.2em 0.5em rgba(0, 0, 0, 0.6);
 	position: absolute;
@@ -154,7 +116,7 @@ div.papertable {
 
 header {
 	position: relative;
-	margin: 2em 0 1.5em 0;
+	margin: 0 0 1em 0;
 	opacity: 0.98;
 	transition: opacity 0.5s ease-in-out;
 	height: 5.05em;
@@ -192,12 +154,17 @@ a.alogo {
 	z-index: 1000;
 }
 
-a.burger {
+a.aburger {
 	position: absolute;
-	top: 2.25em;
+	top: 0.55em;
 	left: 3%;
 	z-index: 1100;
 	display: none;
+}
+
+img.burger {
+	width: 4em;
+	height: 4em;
 }
 
 img.logo {
@@ -213,7 +180,7 @@ img.logo:hover {
 }
 
 div.footerplaceholder {
-	height: 9em;
+	height: 6em;
 	visibility: hidden;
 }
 
@@ -222,6 +189,7 @@ footer {
 	bottom: 0;
 	left: 0;
 	right: 0;
+	height: 5.1em;
 	margin-top: 2em;
 }
 
@@ -240,28 +208,18 @@ div.footertext {
 	left: 0;
 	top: 0;
 	right: 0;
-	color: rgb(68,109,129);
+	color: rgb(68, 109, 129);
 	z-index: 100;
 }
 
 div.footertextblock {
-	padding: 10px;
-}
-
-div.footergray {
-	margin: 0 169px 0 0;
-	background-color: rgba(15, 0, 20, 0.9);
-}
-
-img.footerpix {
-	opacity: 0.9;
-	z-index: 10;
+	padding: 0.7em;
 }
 
 a.footeratop {
 	position: absolute;
-	top: 10px;
-	right: 10px;
+	top: 0.5em;
+	right: 0.5em;
 	z-index: 1000;
 }
 
@@ -408,7 +366,27 @@ img {
 	}
 }
 
-/* Set the font size for different sizes, as everything else depends on it! */
+@media (max-width: 399px),
+(min-resolution: 1.5dppx) and (max-width: 599px),
+(min-resolution: 2dppx) and (max-width: 799px),
+(min-resolution: 3dppx) and (max-width: 1199px),
+(min-resolution: 4dppx) and (max-width: 1599px) {
+	.above400 {
+		display: none;
+	}
+}
+
+@media (max-resolution: 1dppx) and (min-width: 400px),
+(max-resolution: 1.5dppx) and (min-width: 600px),
+(max-resolution: 2dppx) and (min-width: 800px),
+(max-resolution: 3dppx) and (min-width: 1200px),
+(min-width: 1600px) {
+	.below400 {
+		display: none;
+	}
+}
+
+/* Set the font size for different sizes */
 @media (min-resolution: 1.5dppx) {
 	body {
 		font-size: 150%;
@@ -433,90 +411,75 @@ img {
 	}
 }
 
-
-@media (max-resolution: 1dppx) and (min-width: 2000px),
-	(max-resolution: 1.5dppx) and (min-width: 3000px),
-	(max-resolution: 2dppx) and (min-width: 4000px),
-	(max-resolution: 3dppx) and (min-width: 6000px),
-	(min-width: 8000px) {
+/* prevent content from getting insanely large horizontally on insanely large devices */
+@media (max-resolution: 1dppx) and (min-width: 1300px),
+(max-resolution: 1.5dppx) and (min-width: 1950px),
+(max-resolution: 2dppx) and (min-width: 2600px),
+(max-resolution: 3dppx) and (min-width: 3900px),
+(min-width: 5200px) {
 	div.maincontainer {
 		max-width: 90%;
 	}
 }
 
-@media (max-resolution: 1dppx) and (min-width: 1500px),
-	(max-resolution: 1.5dppx) and (min-width: 2250px),
-	(max-resolution: 2dppx) and (min-width: 3000px),
-	(max-resolution: 3dppx) and (min-width: 4500px),
-	(min-width: 6000px) {
-	section {
-		margin-right: 3%;
-	}
-}
-
-/*
-UNNECESSARY NONSENSE
-
-@media (max-width: 1200px),
-	(min-resolution: 1.5dppx) and (max-width: 1800px),
-	(min-resolution: 2dppx) and (max-width: 2400px),
-	(min-resolution: 3dppx) and (max-width: 3600px) {
-	div.leftnavcontainer {
-		width: 25%;
-	}
-	section {
-		width: 65%;
-	}
-}
-
-@media (max-width: 1000px),
-	(min-resolution: 1.5dppx) and (max-width: 1500px),
-	(min-resolution: 2dppx) and (max-width: 2000px),
-	(min-resolution: 3dppx) and (max-width: 3000px) {
+@media (max-resolution: 1dppx) and (min-width: 1600px),
+(max-resolution: 1.5dppx) and (min-width: 2400px),
+(max-resolution: 2dppx) and (min-width: 3200px),
+(max-resolution: 3dppx) and (min-width: 4800px),
+(min-width: 6400px) {
 	div.maincontainer {
-		max-width: 100%;
-	}
-	div.leftnavcontainer {
-		width: 20%;
-	}
-	section {
-		width: 68%;
+		max-width: 85%;
 	}
 }
 
-@media (max-width: 850px),
-	(min-resolution: 1.5dppx) and (max-width: 1275px),
-	(min-resolution: 2dppx) and (max-width: 1700px),
-	(min-resolution: 3dppx) and (max-width: 2550px) {
-	div.leftnavcontainer {
-		width: 12%;
-	}
-	section {
-		width: 70%;
+@media (max-resolution: 1dppx) and (min-width: 2000px),
+(max-resolution: 1.5dppx) and (min-width: 3000px),
+(max-resolution: 2dppx) and (min-width: 4000px),
+(max-resolution: 3dppx) and (min-width: 6000px),
+(min-width: 8000px) {
+	div.maincontainer {
+		max-width: 80%;
 	}
 }
-*/
 
-/* for 785px (49 em) and less, we need a radically different approach,
+/* for 785px and less, we need a radically different approach,
 making the left nav bar a dropdown (well, or something like that)! */
 
-@media (max-width: 49em) {
+@media (max-width: 785px),
+(min-resolution: 1.5dppx) and (max-width: 1178px),
+(min-resolution: 2dppx) and (max-width: 1570px),
+(min-resolution: 3dppx) and (max-width: 2355px),
+(min-resolution: 4dppx) and (max-width: 3140px) {
 	div.leftnavcontainer {
 		display: none;
 	}
 	section {
 		width: 100%;
+		box-sizing: border-box;
 	}
-	a.burger {
+	div.maincontainer {
+		max-width: 100%;
+	}
+	a.aburger {
 		display: block;
 	}
 	a.alogo {
 		top: 0;
 		left: 0;
-		right: 0;
+		right: 25%;
 		text-align: center;
 	}
 	div.headerbar {
+		display: none;
+	}
+}
+
+@media (max-width: 500px),
+(min-resolution: 1.5dppx) and (max-width: 750px),
+(min-resolution: 2dppx) and (max-width: 1000px),
+(min-resolution: 3dppx) and (max-width: 1500px),
+(min-resolution: 4dppx) and (max-width: 2000px) {
+	a.alogo {
 		display: none;
 	}
 }

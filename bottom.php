@@ -17,6 +17,7 @@
 		</div>
 
 		<footer>
+			<canvas id="cvFooter"></canvas>
 			<div class="footertext">
 				<div class="label above700 footertextblock">
 					Tom Moya Schiller<br>
@@ -29,21 +30,22 @@
 					<!-- A Softer Space UK Ltd<br> -->
 					2018 - 2019
 				</div>
-				<div class="label below700 footertextblock">
+				<div class="label below700 above400 footertextblock">
 					A Softer Space DE, Inhaber Tom Moya Schiller<br>
 					Heerstraße 3 b<br>
 					D-60488 Frankfurt
 				</div>
-				<div class="label center below700 footertextblock">
+				<div class="label center below700 above400 footertextblock">
 					<br>
 					VAT Nr:<br>
 					DE319451065<br>
 				</div>
+				<div class="label below400 footertextblock">
+					A Softer Space DE<br>
+					Heerstraße 3 b<br>
+					D-60488 Frankfurt
+				</div>
 			</div>
-			<div class="footergray" style="height:82px">
-				&nbsp;
-			</div>
-			<img class="pix footerpix" alt="pixelated design element" src="/pics/pixels_footer.png" />
 			<a href="#topofpage" class="footeratop"><img class="backtotop" alt="back to top navigator" src="/pics/backtotop_light.png" /></a>
 		</footer>
 

@@ -53,7 +53,7 @@ add facebook and twitter links
 @include(sectionend.php)
 
 <section>
-	<canvas id="cvSection@countup(sections)" style=""></canvas>
+	<canvas id="cvSection@countup(sections)"></canvas>
 	<div class="insec" style="padding-left:0; padding-right:0;">
 		<h2>Experience</h2>
 

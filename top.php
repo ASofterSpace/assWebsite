@@ -48,8 +48,8 @@
 		<canvas id="cvHeader" style=""></canvas>
 			
 		{{-- TODO :: instead of navigating to nav.php, actually open an overlay or somesuch... would be more professional? or is this actually better? xD --}}
-		<a class="burger" href="/nav.php">
-			<img alt="burger icon" src="/pics/burger.png" />
+		<a class="aburger" href="/nav.php">
+			<img class="burger" alt="burger icon" src="/pics/burger.png" />
 		</a>
 
 		<a class="alogo" href="/index.php">

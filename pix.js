@@ -14,8 +14,6 @@ var firstdisplay = true;
 
 
 
-
-
 // HEADER
 
 function redisplayHeader() {
@@ -82,8 +80,10 @@ function redisplayLeftNavs() {
 	for (var i = 0; i < amountOfNavEntries; i++) {
 
 		var canvas = document.getElementById("cvLeftnav" + i);
-		if (canvas.parentElement.className != "noopacity") {
-			canvas.parentElement.style.opacity = "0.9" + Math.floor(Math.random()*10);
+		if (firstdisplay) {
+			if (canvas.parentElement.className != "noopacity") {
+				canvas.parentElement.style.opacity = "0.9" + Math.floor(Math.random()*10);
+			}
 		}
 		var ctx = canvas.getContext("2d");
 		var width = canvas.offsetWidth;
@@ -105,7 +105,7 @@ function redisplayLeftNavs() {
 		ctx.fillRect(offsetLeft*px, offsetTop*px, mainWidth, mainHeight);
 
 		// now add a few white blocks here and there
-		var removeAmount = Math.floor(Math.random()*50);
+		var removeAmount = Math.floor(Math.random()*30);
 		for (var p = 0; p < removeAmount; p++) {
 			var leftNum = Math.floor(Math.random()*widthNum);
 			var topNum = Math.floor(Math.random()*heightNum);
@@ -171,8 +171,10 @@ function redisplaySections() {
 		if (!canvas) {
 			break;
 		}
-		if (canvas.parentElement.className != "noopacity") {
-			canvas.parentElement.style.opacity = "0.9" + Math.floor(Math.random()*10);
+		if (firstdisplay) {
+			if (canvas.parentElement.className != "noopacity") {
+				canvas.parentElement.style.opacity = "0.9" + Math.floor(Math.random()*10);
+			}
 		}
 		var ctx = canvas.getContext("2d");
 		var width = canvas.offsetWidth;
@@ -217,10 +219,34 @@ function redisplaySections() {
 			ctx.fillRect(leftPos, topPos, px, px);
 		}
 
-		// and remove a few others here and there
-		var removeAmount = Math.floor(Math.random()*10);
+		// and remove a few others here and there - once horizontally at the top and bottom,
+		// once vertically at the left and right, such that we never remove stuff from the middle
+		var removeAmount = Math.floor(Math.random()*5);
 		for (var p = 0; p < removeAmount; p++) {
 			var leftNum = Math.floor(Math.random()*mainWidthNum);
+			var topNum = Math.floor(Math.random()*4);
+			if (topNum > 1) {
+				topNum = mainHeightNum - (4 - topNum);
+			}
+			var leftPos = (offsetLeft+leftNum)*px;
+			var topPos = (offsetTop+topNum)*px;
+			// our blocky pixels are not properly aligned with the container;
+			// to make it less noticeable, we go from the sides inwards,
+			// meaning if we are over the middle, then come from the other side
+			if (leftPos > width / 2) {
+				leftPos = width - (offsetRight+mainWidthNum-leftNum)*px;
+			}
+			if (topPos > height / 2) {
+				topPos = height - (offsetBottom+mainHeightNum-topNum)*px;
+			}
+			ctx.clearRect(leftPos, topPos, px, px);
+		}
+		removeAmount = Math.floor(Math.random()*5);
+		for (var p = 0; p < removeAmount; p++) {
+			var leftNum = Math.floor(Math.random()*4);
+			if (leftNum > 1) {
+				leftNum = mainWidthNum - (4 - leftNum);
+			}
 			var topNum = Math.floor(Math.random()*mainHeightNum);
 			var leftPos = (offsetLeft+leftNum)*px;
 			var topPos = (offsetTop+topNum)*px;
@@ -233,12 +259,47 @@ function redisplaySections() {
 			if (topPos > height / 2) {
 				topPos = height - (offsetBottom+mainHeightNum-topNum)*px;
 			}
-			// stay away from the center! (otherwise, we cannot read anything anymore ^^)
-			if ((leftPos < width / 3) ||  (leftPos > 2 * width / 3)) {
-				ctx.clearRect(leftPos, topPos, px, px);
+			ctx.clearRect(leftPos, topPos, px, px);
+		}
+	}
+}
+
+
+
+// FOOTER
+
+function redisplayFooter() {
+
+	var canvas = document.getElementById("cvFooter");
+	var ctx = canvas.getContext("2d");
+	var width = canvas.offsetWidth;
+	var height = canvas.offsetHeight;
+	var removeAmount = Math.floor(height / px);
+	canvas.width = width;
+	canvas.height = height;
+
+	// draw the header all gray
+	ctx.fillStyle = "rgba(15, 0, 20, 0.9)";
+	ctx.fillRect(0, 0, width, height);
+
+	// now go over a top right triangle of blocks...
+	for (var x = 0; x < removeAmount; x++) {
+		for (var y = 0; y <= x; y++) {
+			// ... for each one deciding whether to remove or not
+			if (Math.random() < 0.1) {
+				ctx.clearRect(width - (1+removeAmount-x)*px, y*px, px, px);
 			}
 		}
 	}
+
+	// plus - also ensure that at least two pixels are removed in the top row,
+	// and one in the row below
+	var x = Math.floor(Math.random()*removeAmount);
+	ctx.clearRect(width - (1+removeAmount-x)*px, 0, px, px);
+	x = Math.floor(Math.random()*removeAmount);
+	ctx.clearRect(width - (1+removeAmount-x)*px, 0, px, px);
+	x = Math.floor(Math.random()*removeAmount);
+	ctx.clearRect(width - (1+removeAmount-x)*px, px, px, px);
 }
 
 
@@ -250,6 +311,8 @@ function redisplay() {
 	redisplayLeftNavs();
 
 	redisplaySections();
+
+	redisplayFooter();
 
 	firstdisplay = false;
 }
