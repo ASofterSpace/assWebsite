@@ -15,13 +15,13 @@
 
 	<div class="content">
 			<a href="/science/papers/ekse.pdf" class="paperpreview">
-				<img src="/science/papers/ekse_cover.png" style="width:100px; height:129px;" />
+				<img src="/science/papers/ekse_cover.png" />
 			</a>
-			<div style="margin-left:120px;min-height:129px">
+			<div class="papertable">
 				<table>
 					<tbody>
 						<tr>
-							<td style="min-width: 100px;">Resource:</td>
+							<td style="min-width: 6.5em;">Resource:</td>
 							<td>Conference Paper</td>
 						</tr>
 						<tr>
@@ -50,7 +50,7 @@
 							<td><a href="https://doi.org/10.2514/6.2018-2336">10.2514/6.2018-2336</a></td>
 						</tr>
 						<tr>
-							<td>Last updated:</td>
+							<td style="vertical-align: bottom;">Last updated:</td>
 							<td>25<sup>th</sup> April 2018</td>
 						</tr>
 					</tbody>

@@ -1,4 +1,4 @@
-﻿@include(top.php)
+@include(top.php)
 
 @include(sectionstart.php)
 	<h1>Poster Gallery</h1>
@@ -20,37 +20,31 @@
 	</div>
 @include(sectionend.php)
 
-<section id="poster_software" style="opacity:0.9@rand(10)">
-	<div class="insec">
-		<h2>A Softer Space Software-themed Poster</h2>
-		
-		<div class="content centerimg">
-			<img src="/pics/poster_software.png" />
-		</div>
+<a id="poster_software"></a>
+@include(sectionstart.php)
+	<h2>A Softer Space Software-themed Poster</h2>
+	
+	<div class="content centerimg">
+		<img src="/pics/poster_software.png" />
 	</div>
-	@include(secpix.php)
-</section>
+@include(sectionend.php)
 
-<section id="poster_mars" style="opacity:0.9@rand(10)">
-	<div class="insec">
-		<h2>A Softer Space Mars-themed Poster</h2>
-		
-		<div class="content centerimg">
-			<img src="/pics/poster_mars.png" />
-		</div>
+<a id="poster_mars"></a>
+@include(sectionstart.php)
+	<h2>A Softer Space Mars-themed Poster</h2>
+	
+	<div class="content centerimg">
+		<img src="/pics/poster_mars.png" />
 	</div>
-	@include(secpix.php)
-</section>
+@include(sectionend.php)
 
-<section id="poster_flipper_qnd" style="opacity:0.9@rand(10)">
-	<div class="insec">
-		<h2>Poster about Flipper QnD from vrCade</h2>
-		
-		<div class="content centerimg">
-			<img src="/pics/poster_flipper_qnd.png" />
-		</div>
+<a id="poster_flipper_qnd"></a>
+@include(sectionstart.php)
+	<h2>Poster about Flipper QnD from vrCade</h2>
+	
+	<div class="content centerimg">
+		<img src="/pics/poster_flipper_qnd.png" />
 	</div>
-	@include(secpix.php)
-</section>
+@include(sectionend.php)
 
 @include(bottom.php)
