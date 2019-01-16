@@ -34,19 +34,16 @@
 	</div>
 @include(sectionend.php)
 
-<section style="opacity:1">
-	<div class="insec">
-		<h2>Wallpaper</h2>
+@include(sectionstartnoopacity.php)
+	<h2>Wallpaper</h2>
 
-		<div class="content">
-			Some white wallpaper we have at home... not really impressive, but a good staple to have.
-		</div>
-		
-		<div class="content centerimg">
-			<img src="/pics/textures/wallpaper_1_continuous.jpg" />
-		</div>
+	<div class="content">
+		Some white wallpaper we have at home... not really impressive, but a good staple to have.
 	</div>
-	@include(secpix.php)
-</section>
+	
+	<div class="content centerimg">
+		<img src="/pics/textures/wallpaper_1_continuous.jpg" />
+	</div>
+@include(sectionend.php)
 
 @include(bottom.php)
