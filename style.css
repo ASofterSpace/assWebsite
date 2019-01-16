@@ -343,100 +343,106 @@ img {
 	-ms-interpolation-mode: bicubic;
 }
 
-/* aaaand now for things that show more than one pixel per pixel: different font sizes!
-   (and adapted other styles...) */
-
-@media (max-width: 699px),
-(min-resolution: 1.5dppx) and (max-width: 1049px),
-(min-resolution: 2dppx) and (max-width: 1399px),
-(min-resolution: 3dppx) and (max-width: 2099px),
-(min-resolution: 4dppx) and (max-width: 2799px) {
+/* here (and in some other places) we do not progress fully linearly, but instead we
+go lineraly first - e.g. 700px for 1 dppx, 1050px for 1.5 dppx, 1400px for 2 dppx,
+and THEN apply the average of the first and that, so the average of 700px and that,
+so we get 700px for 1 dppx, (700+1050)/2 = 875px for 1.5 dppx, 1050px for 2 dppx, ...
+*/
+@media all and (max-width: 699px),
+all and (min-resolution: 1.5dppx) and (max-width: 874px),
+all and (min-resolution: 2dppx) and (max-width: 1049px),
+all and (min-resolution: 3dppx) and (max-width: 1399px),
+all and (min-resolution: 4dppx) and (max-width: 1749px) {
 	.above700 {
 		display: none;
 	}
 }
 
-@media (max-resolution: 1dppx) and (min-width: 700px),
-(max-resolution: 1.5dppx) and (min-width: 1050px),
-(max-resolution: 2dppx) and (min-width: 1400px),
-(max-resolution: 3dppx) and (min-width: 2100px),
-(min-width: 2800px) {
+@media all and (max-resolution: 1dppx) and (min-width: 700px),
+all and (max-resolution: 1.5dppx) and (min-width: 875px),
+all and (max-resolution: 2dppx) and (min-width: 1050px),
+all and (max-resolution: 3dppx) and (min-width: 1400px),
+all and (min-width: 1750px) {
 	.below700 {
 		display: none;
 	}
 }
 
-@media (max-width: 399px),
-(min-resolution: 1.5dppx) and (max-width: 599px),
-(min-resolution: 2dppx) and (max-width: 799px),
-(min-resolution: 3dppx) and (max-width: 1199px),
-(min-resolution: 4dppx) and (max-width: 1599px) {
+@media all and (max-width: 399px),
+all and (min-resolution: 1.5dppx) and (max-width: 499px),
+all and (min-resolution: 2dppx) and (max-width: 599px),
+all and (min-resolution: 3dppx) and (max-width: 799px),
+all and (min-resolution: 4dppx) and (max-width: 999px) {
 	.above400 {
 		display: none;
 	}
 }
 
-@media (max-resolution: 1dppx) and (min-width: 400px),
-(max-resolution: 1.5dppx) and (min-width: 600px),
-(max-resolution: 2dppx) and (min-width: 800px),
-(max-resolution: 3dppx) and (min-width: 1200px),
-(min-width: 1600px) {
+@media all and (max-resolution: 1dppx) and (min-width: 400px),
+all and (max-resolution: 1.5dppx) and (min-width: 500px),
+all and (max-resolution: 2dppx) and (min-width: 600px),
+all and (max-resolution: 3dppx) and (min-width: 800px),
+all and (min-width: 1000px) {
 	.below400 {
 		display: none;
 	}
 }
 
-/* Set the font size for different sizes */
-@media (min-resolution: 1.5dppx) {
+/* here (and in some other places) we do not progress fully linearly, but instead we
+go lineraly first - e.g. 100% for 1 dppx, 150% for 1.5 dppx, 200% for 2 dppx,
+and THEN apply the average of the first and that, so the average of 100% and that,
+so we get 100% for 1 dppx, (100+150)/2 = 125% for 1.5 dppx, 150% for 2 dppx, ...
+*/
+@media all and (min-resolution: 1.5dppx) {
 	body {
-		font-size: 150%;
+		font-size: 125%;
 	}
 }
 
 @media (min-resolution: 2dppx) {
 	body {
-		font-size: 200%;
+		font-size: 150%;
 	}
 }
 
 @media (min-resolution: 3dppx) {
 	body {
-		font-size: 300%;
+		font-size: 200%;
 	}
 }
 
 @media (min-resolution: 4dppx) {
 	body {
-		font-size: 400%;
+		font-size: 250%;
 	}
 }
 
 /* prevent content from getting insanely large horizontally on insanely large devices */
-@media (max-resolution: 1dppx) and (min-width: 1300px),
-(max-resolution: 1.5dppx) and (min-width: 1950px),
-(max-resolution: 2dppx) and (min-width: 2600px),
-(max-resolution: 3dppx) and (min-width: 3900px),
-(min-width: 5200px) {
+@media all and (max-resolution: 1dppx) and (min-width: 1300px),
+all and (max-resolution: 1.5dppx) and (min-width: 1950px),
+all and (max-resolution: 2dppx) and (min-width: 2600px),
+all and (max-resolution: 3dppx) and (min-width: 3900px),
+all and (min-width: 5200px) {
 	div.maincontainer {
 		max-width: 90%;
 	}
 }
 
-@media (max-resolution: 1dppx) and (min-width: 1600px),
-(max-resolution: 1.5dppx) and (min-width: 2400px),
-(max-resolution: 2dppx) and (min-width: 3200px),
-(max-resolution: 3dppx) and (min-width: 4800px),
-(min-width: 6400px) {
+@media all and (max-resolution: 1dppx) and (min-width: 1600px),
+all and (max-resolution: 1.5dppx) and (min-width: 2400px),
+all and (max-resolution: 2dppx) and (min-width: 3200px),
+all and (max-resolution: 3dppx) and (min-width: 4800px),
+all and (min-width: 6400px) {
 	div.maincontainer {
 		max-width: 85%;
 	}
 }
 
-@media (max-resolution: 1dppx) and (min-width: 2000px),
-(max-resolution: 1.5dppx) and (min-width: 3000px),
-(max-resolution: 2dppx) and (min-width: 4000px),
-(max-resolution: 3dppx) and (min-width: 6000px),
-(min-width: 8000px) {
+@media all and (max-resolution: 1dppx) and (min-width: 2000px),
+all and (max-resolution: 1.5dppx) and (min-width: 3000px),
+all and (max-resolution: 2dppx) and (min-width: 4000px),
+all and (max-resolution: 3dppx) and (min-width: 6000px),
+all and (min-width: 8000px) {
 	div.maincontainer {
 		max-width: 80%;
 	}
@@ -445,11 +451,11 @@ img {
 /* for 785px and less, we need a radically different approach,
 making the left nav bar a dropdown (well, or something like that)! */
 
-@media (max-width: 785px),
-(min-resolution: 1.5dppx) and (max-width: 1178px),
-(min-resolution: 2dppx) and (max-width: 1570px),
-(min-resolution: 3dppx) and (max-width: 2355px),
-(min-resolution: 4dppx) and (max-width: 3140px) {
+@media all and (max-width: 785px),
+all and (min-resolution: 1.5dppx) and (max-width: 1178px),
+all and (min-resolution: 2dppx) and (max-width: 1570px),
+all and (min-resolution: 3dppx) and (max-width: 2355px),
+all and (min-resolution: 4dppx) and (max-width: 3140px) {
 	div.leftnavcontainer {
 		display: none;
 	}
@@ -466,7 +472,7 @@ making the left nav bar a dropdown (well, or something like that)! */
 	a.alogo {
 		top: 0;
 		left: 0;
-		right: 25%;
+		right: 15%;
 		text-align: center;
 	}
 	div.headerbar {
@@ -474,11 +480,35 @@ making the left nav bar a dropdown (well, or something like that)! */
 	}
 }
 
-@media (max-width: 500px),
-(min-resolution: 1.5dppx) and (max-width: 750px),
-(min-resolution: 2dppx) and (max-width: 1000px),
-(min-resolution: 3dppx) and (max-width: 1500px),
-(min-resolution: 4dppx) and (max-width: 2000px) {
+/* here (and in some other places) we do not progress fully linearly, but instead we
+go lineraly first - e.g. 500px for 1 dppx, 750px for 1.5 dppx, 1000px for 2 dppx,
+and THEN apply the average of the first and that, so the average of 500px and that,
+so we get 500px for 1 dppx, (500+750)/2 = 625px for 1.5 dppx, 750px for 2 dppx, ...
+*/
+@media all and (max-width: 500px),
+all and (min-resolution: 1.5dppx) and (max-width: 625px),
+all and (min-resolution: 2dppx) and (max-width: 750px),
+all and (min-resolution: 3dppx) and (max-width: 1000px),
+all and (min-resolution: 4dppx) and (max-width: 1250px) {
+	a.alogo {
+		transform: scale(0.75);
+	}
+	a.paperpreview {
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	div.papertable {
+		margin: 0;
+		padding-top: 9em;
+	}
+}
+@media all and (max-width: 360px),
+all and (min-resolution: 1.5dppx) and (max-width: 450px),
+all and (min-resolution: 2dppx) and (max-width: 540px),
+all and (min-resolution: 3dppx) and (max-width: 720px),
+all and (min-resolution: 4dppx) and (max-width: 850px) {
 	a.alogo {
 		display: none;
 	}

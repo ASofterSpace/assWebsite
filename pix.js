@@ -1,11 +1,15 @@
 
 // size of one blocky pixel
 var px = 8;
+var dppx = 1;
 
 // there might be browsers that do not have this... in that case, better get
 // the block size wrong than completely explode
 if (window.devicePixelRatio) {
-	px *= window.devicePixelRatio;
+	// however, not QUITE so large, e.g. 8 for dppx 1, and 10 for dppx 1.5, and 12 for dppx 2...
+	// instead of the more straightforward 8 for dppx 1, 12 for dppx 1.5, 16 for dppx 2
+	px *= 1 + 0.5*(window.devicePixelRatio - 1);
+	dppx = window.devicePixelRatio;
 }
 
 // is this the first time we are displaying stuff?
@@ -49,6 +53,13 @@ function redisplayHeader() {
 
 	// and once more, much further, but with a much lower threshold
 	var extraRemoveAmount = Math.ceil(removeAmount*3);
+	// for this size, we do not want the header to eat the (small) logo
+	if ((width < 600) || ((dppx > 1.5) && (width < 700)) ||
+		((dppx > 2) && (width < 800)) || ((dppx > 3) && (width < 1200)) ||
+		((dppx > 4) && (width < 1500))) {
+		extraRemoveAmount = Math.ceil(removeAmount*2);
+	}
+
 	for (var x = 0; x < extraRemoveAmount; x++) {
 		for (var y = 0; (y <= x) && (y < removeAmount); y++) {
 			// ... for each one deciding whether to remove or not
