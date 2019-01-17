@@ -118,18 +118,18 @@ function redisplayHeader() {
 
 function redisplayLeftNavs() {
 
-	// there are 9 nav entries: cvLeftnav0 until cvLeftnav8
-	var amountOfNavEntries = 9;
-
 	// we leave blocks: 2 top, 3 right, 1 bottom, 3 left
 	var offsetLeft = 3;
 	var offsetRight = 3;
 	var offsetTop = 2;
 	var offsetBottom = 1;
 
-	for (var i = 0; i < amountOfNavEntries; i++) {
+	for (var i = 0; true; i++) {
 
 		var canvas = document.getElementById("cvLeftnav" + i);
+		if (!canvas) {
+			break;
+		}
 		if (firstdisplay) {
 			if (canvas.parentElement.className != "noopacity") {
 				canvas.parentElement.style.opacity = "0.9" + Math.floor(Math.random()*10);
