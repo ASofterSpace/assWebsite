@@ -16,7 +16,7 @@
 		<link href="/style.css?v=@version" media="all" rel="stylesheet" type="text/css"></link>
 	</head>
 
-	<body id="topofpage"
+	<body
 	{{-- different backgrounds for different pages --}}
 	@if(page="mission.php")
 		style="background-image: url('pics/bg_esja_1.jpg');"
@@ -43,6 +43,8 @@
 		style="background-image: url('pics/bg_island_1.jpg');"
 	@endif
 	>
+	
+	<div id="topofpage">&nbsp;</div>
 
 	<header>
 		<canvas id="cvHeader" style=""></canvas>

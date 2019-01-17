@@ -18,6 +18,45 @@ var firstdisplay = true;
 
 
 
+// BODY RESIZING TO FILL FULL SCREEN
+
+function resizeBody() {
+
+	/**
+	soooo basically...
+	we have html and we have body; in the end, we want body to fill the full screen
+	(in case the content is less than the full screen), and we want body to expand
+	according to the content (if the content is more than the full screen)
+	traditionally, we would do this by setting height: 100% on html and min-height:
+	100% on body (min height on body such that it can also be larger if the content
+	is larger; height on the html, not min height, because two min heights inside
+	each other do not always get treated correctly and the inner one gets ignored)
+	in theory this works perfectly fine, but in practice body the background has
+	problems to then cover the body; therefore, we instead to the following:
+	we set both to min-height: 100%; and dynamically (on startup and on reach
+	resize) check if body is smaller than html, and if it is smaller, we set its
+	height manually to that of html... it is not as clean and clear as a css-only
+	solution, but this seems the only way to ensure cross-browserly that body clears
+	its contents AND fills the space vertically AND has no problems with background
+	cover (and no, even clearfix does not help elsewisely...)
+	the only only ONLY downside to this here is that if we dynamically expand the
+	browser, and then make it smaller again, the footer stays at the expanded state,
+	but that is not a big problem because (a) on refresh it goes back to normal,
+	and (b) there is nothing "wrong" being shown, we only just in that case have
+	more empty space above the footer than absolutely necessary
+	*/
+
+	var body = document.getElementsByTagName("body")[0];
+
+	var html = document.getElementsByTagName("html")[0];
+
+	if (body.clientHeight < html.clientHeight) {
+		body.style.minHeight = html.clientHeight + "px";
+	}
+}
+
+
+
 // HEADER
 
 function redisplayHeader() {
@@ -316,6 +355,8 @@ function redisplayFooter() {
 
 
 function redisplay() {
+
+	resizeBody();
 
 	redisplayHeader();
 
