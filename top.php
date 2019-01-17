@@ -54,7 +54,7 @@
 			<img class="burger" alt="burger icon" src="/pics/burger.png" />
 		</a>
 
-		<a class="alogo" href="/index.php">
+		<a class="alogo" href="/">
 			<img class="logo" alt="a softer space logo" src="/pics/logo.png" />
 		</a>
 		
@@ -80,14 +80,14 @@
 			/ <div class="item">
 				<a href="/products.php">Products</a>
 			</div> / <div class="item">
-				<a href="/privacy/index.php">Privacy Policies</a>
+				<a href="/privacy/">Privacy Policies</a>
 			</div>
 			@endif
 			@if(page="privacy/universalconverter.php")
 			/ <div class="item">
 				<a href="/products.php">Products</a>
 			</div> / <div class="item">
-				<a href="/privacy/index.php">Privacy Policies</a>
+				<a href="/privacy/">Privacy Policies</a>
 			</div> / <div class="item">
 				<a href="/privacy/universalconverter.php">UniversalConverter</a>
 			</div>

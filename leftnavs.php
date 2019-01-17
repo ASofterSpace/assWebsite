@@ -2,7 +2,7 @@
 <section class="leftnav">
 	<canvas id="cvLeftnav@countup(leftnavs)"></canvas>
 	<div class="insec">
-		<a href="/index.php">
+		<a href="/">
 			<div>
 				Home
 			</div>

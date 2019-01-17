@@ -57,6 +57,32 @@ function resizeBody() {
 
 
 
+// TAKING CARE OF CAROUSELS
+
+function adjustCarousels() {
+
+	var carousels = document.getElementsByClassName("carousel");
+
+	// if we have any carousels on the page...
+	for (var i = 0; i < carousels.length; i++) {
+
+		// ... get their containing insecs...
+		var carousel = carousels[i];
+		var insec = carousel.parentElement.parentElement;
+
+		// ... and set them to no padding, such that we expand the carousel the full width...
+		insec.style.paddingLeft = "0px";
+		insec.style.paddingRight = "0px";
+
+		// ... and finally adjust their containing sections to give exactly the right offsets
+		var section = insec.parentElement;
+		section.style.paddingLeft = 2*px+"px"; // magic number 2
+		section.style.paddingRight = 2*px+"px"; // magic number 3
+	}
+}
+
+
+
 // HEADER
 
 function redisplayHeader() {
@@ -209,8 +235,8 @@ function redisplayLeftNavs() {
 function redisplaySections() {
 
 	// we leave blocks: 2 top, 2 right, 2 bottom, 2 left
-	var offsetLeft = 2;
-	var offsetRight = 2;
+	var offsetLeft = 2; // magic number 2
+	var offsetRight = 2; // magic number 3
 	var offsetTop = 2;
 	var offsetBottom = 2;
 
@@ -357,6 +383,8 @@ function redisplayFooter() {
 function redisplay() {
 
 	resizeBody();
+
+	adjustCarousels();
 
 	redisplayHeader();
 

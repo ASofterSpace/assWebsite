@@ -13,7 +13,7 @@ window.setInterval(function() {
 		expcarousel.element.style.left = '-' + expcarousel.position + 'px';
 		expcarousel.position = expcarousel.position + 1;
 	}
-	
+
 	if (expcarousel.firstImgSecondRound == null) {
 		expcarousel.firstImgSecondRound = document.getElementById('expcarouselFirstImgSecondRound');
 	} else {
@@ -21,5 +21,5 @@ window.setInterval(function() {
 			expcarousel.position = 0;
 		}
 	}
-	
+
 }, 100);

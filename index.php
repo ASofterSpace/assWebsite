@@ -52,21 +52,20 @@ add facebook and twitter links
 	</div>
 @include(sectionend.php)
 
-<section>
-	<canvas id="cvSection@countup(sections)"></canvas>
-	<div class="insec" style="padding-left:0; padding-right:0;">
-		<h2>Experience</h2>
+@include(sectionstart.php)
+	<h2>Experience</h2>
 
-		<script src="carousel.js?v=@version"></script>
+	<script src="carousel.js?v=@version"></script>
 
-		<div class="content carouselcontainer">
-			<div class="carousel" id="expcarousel">
-				{{-- first round --}}
-				@include(expcarousel.php)
-				{{-- second round --}}
-				@include(expcarousel.php)
-			</div>
+	<div class="content carouselcontainer">
+		<div class="carousel" id="expcarousel">
+			{{-- first round --}}
+			@include(expcarousel.php)
+			<a id="expcarouselFirstImgSecondRound"></a>
+			{{-- second round --}}
+			@include(expcarousel.php)
 		</div>
+	</div>
 @include(sectionend.php)
 
 @include(sectionstart.php)
