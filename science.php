@@ -26,7 +26,7 @@
 						</tr>
 						<tr>
 							<td>File type:</td>
-							<td><a class="plain" href="/science/papers/ekse.pdf">PDF</a></td>
+							<td><a class="plain" href="/science/papers/ekse.pdf" target="_blank">PDF</a></td>
 						</tr>
 						<tr>
 							<td>Pages:</td>
@@ -47,7 +47,7 @@
 						</tr>
 						<tr>
 							<td>DOI:</td>
-							<td><a href="https://doi.org/10.2514/6.2018-2336">10.2514/6.2018-2336</a></td>
+							<td><a href="https://doi.org/10.2514/6.2018-2336" target="_blank">10.2514/6.2018-2336</a></td>
 						</tr>
 						<tr>
 							<td style="vertical-align: bottom;">Last updated:</td>
