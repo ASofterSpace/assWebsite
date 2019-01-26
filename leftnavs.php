@@ -13,7 +13,7 @@
 <section class="leftnav">
 	<canvas id="cvLeftnav@countup(leftnavs)"></canvas>
 	<div class="insec">
-		<a href="/mission.php">
+		<a href="/mission">
 			<div>
 				Mission
 			</div>
@@ -24,7 +24,7 @@
 <section class="leftnav">
 	<canvas id="cvLeftnav@countup(leftnavs)"></canvas>
 	<div class="insec">
-		<a href="/products.php">
+		<a href="/products">
 			<div>
 				Products
 			</div>
@@ -35,7 +35,7 @@
 <section class="leftnav">
 	<canvas id="cvLeftnav@countup(leftnavs)"></canvas>
 	<div class="insec">
-		<a href="/customers.php">
+		<a href="/customers">
 			<div>
 				Customers
 			</div>
@@ -46,7 +46,7 @@
 <section class="leftnav">
 	<canvas id="cvLeftnav@countup(leftnavs)"></canvas>
 	<div class="insec">
-		<a href="/science.php">
+		<a href="/science">
 			<div>
 				Science
 			</div>
@@ -57,7 +57,7 @@
 <section class="leftnav">
 	<canvas id="cvLeftnav@countup(leftnavs)"></canvas>
 	<div class="insec">
-		<a href="/games.php">
+		<a href="/games">
 			<div>
 				Games
 			</div>
@@ -68,7 +68,7 @@
 <section class="leftnav">
 	<canvas id="cvLeftnav@countup(leftnavs)"></canvas>
 	<div class="insec">
-		<a href="/resources.php">
+		<a href="/resources">
 			<div>
 				Resources
 			</div>
@@ -79,7 +79,7 @@
 <section class="leftnav">
 	<canvas id="cvLeftnav@countup(leftnavs)"></canvas>
 	<div class="insec">
-		<a href="/merchandise.php">
+		<a href="/merchandise">
 			<div>
 				Merchandise
 			</div>
@@ -90,7 +90,7 @@
 <section class="leftnav">
 	<canvas id="cvLeftnav@countup(leftnavs)"></canvas>
 	<div class="insec">
-		<a href="/donations.php">
+		<a href="/donations">
 			<div>
 				Donations
 			</div>

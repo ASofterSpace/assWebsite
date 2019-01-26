@@ -19,28 +19,31 @@
 	<body
 	{{-- different backgrounds for different pages --}}
 	@if(page="mission.php")
-		style="background-image: url('pics/bg_esja_1.jpg');"
+		style="background-image: url('/pics/bg_esja_1.jpg');"
 	@endif
 	@if(page="products.php")
-		style="background-image: url('pics/bg_newton_1.jpg');"
+		style="background-image: url('/pics/bg_newton_1.jpg');"
 	@endif
 	@if(page="customers.php")
 		{{-- leave default --}}
 	@endif
-	@if(page="science.php")
-		style="background-image: url('pics/bg_newton_2.jpg');"
+	@if(pageStart="science")
+		style="background-image: url('/pics/bg_newton_2.jpg');"
 	@endif
 	@if(page="games.php")
-		style="background-image: url('pics/bg_esja_2.jpg');"
+		style="background-image: url('/pics/bg_esja_2.jpg');"
 	@endif
-	@if(page="resources.php")
-		style="background-image: url('pics/bg_esja_1.jpg');"
+	@if(pageStart="resources")
+		style="background-image: url('/pics/bg_esja_1.jpg');"
 	@endif
 	@if(page="merchandise.php")
 		{{-- leave default --}}
 	@endif
 	@if(page="donations.php")
-		style="background-image: url('pics/bg_island_1.jpg');"
+		style="background-image: url('/pics/bg_island_1.jpg');"
+	@endif
+	@if(page="oops404.php")
+		style="background-image: url('/pics/bg_sos_1.jpg');"
 	@endif
 	>
 	
@@ -62,64 +65,107 @@
 			{{-- show top navigation in the header --}}
 			@if(page="mission.php")
 			/ <div class="item">
-				<a href="/mission.php">Mission</a>
+				<a href="/mission">Mission</a>
 			</div>
 			@endif
 			@if(page="licenses/unlicense.php")
 			/ <div class="item">
-				<a href="/mission.php">Mission</a>
+				<a href="/mission">Mission</a>
 			</div> / <div class="item">
-				<a href="/licenses/unlicense.php">Unlicense</a>
+				<a href="/licenses/unlicense">Unlicense</a>
 			</div>
 			@endif
 			@if(page="products.php")
 			/ <div class="item">
-				<a href="/products.php">Products</a>
+				<a href="/products">Products</a>
 			</div>
+			@endif
+			@if(page="cdm/index.php")
+			/ <div class="item">
+				<a href="/products">Products</a>
+			</div> / <div class="item">
+				<a href="/cdm">CDM Commandline Tool</a>
+			</div>
+			@endif
 			@if(page="privacy/index.php")
 			/ <div class="item">
-				<a href="/products.php">Products</a>
+				<a href="/products">Products</a>
 			</div> / <div class="item">
 				<a href="/privacy/">Privacy Policies</a>
 			</div>
 			@endif
 			@if(page="privacy/universalconverter.php")
 			/ <div class="item">
-				<a href="/products.php">Products</a>
+				<a href="/products">Products</a>
 			</div> / <div class="item">
 				<a href="/privacy/">Privacy Policies</a>
 			</div> / <div class="item">
-				<a href="/privacy/universalconverter.php">UniversalConverter</a>
+				<a href="/privacy/universalconverter">UniversalConverter</a>
 			</div>
 			@endif
 			@if(page="customers.php")
 			/ <div class="item">
-				<a href="/customers.php">Customers</a>
+				<a href="/customers">Customers</a>
 			</div>
 			@endif
-			@if(page="science.php")
+			@if(page="science/index.php")
 			/ <div class="item">
-				<a href="/science.php">Science</a>
+				<a href="/science">Science</a>
 			</div>
 			@endif
 			@if(page="games.php")
 			/ <div class="item">
-				<a href="/games.php">Games</a>
+				<a href="/games">Games</a>
 			</div>
 			@endif
-			@if(page="resources.php")
+			@if(page="resources/index.php")
 			/ <div class="item">
-				<a href="/resources.php">Resources</a>
+				<a href="/resources">Resources</a>
+			</div>
+			@endif
+			@if(page="resources/bricks_1.php")
+			/ <div class="item">
+				<a href="/resources">Resources</a>
+			</div> / <div class="item">
+				<a href="/bricks_1">Bricks 1</a>
+			</div>
+			@endif
+			@if(page="resources/bricks_2.php")
+			/ <div class="item">
+				<a href="/resources">Resources</a>
+			</div> / <div class="item">
+				<a href="/bricks_2">Bricks 2</a>
+			</div>
+			@endif
+			@if(page="resources/particleboard_1.php")
+			/ <div class="item">
+				<a href="/resources">Resources</a>
+			</div> / <div class="item">
+				<a href="/particleboard_1">Particleboard 1</a>
+			</div>
+			@endif
+			@if(page="resources/wallpaper_1.php")
+			/ <div class="item">
+				<a href="/resources">Resources</a>
+			</div> / <div class="item">
+				<a href="/wallpaper_1">Wallpaper 1</a>
+			</div>
+			@endif
+			@if(page="resources/wallpaper_2.php")
+			/ <div class="item">
+				<a href="/resources">Resources</a>
+			</div> / <div class="item">
+				<a href="/wallpaper_2">Wallpaper 2</a>
 			</div>
 			@endif
 			@if(page="merchandise.php")
 			/ <div class="item">
-				<a href="/merchandise.php">Merchandise</a>
+				<a href="/merchandise">Merchandise</a>
 			</div>
 			@endif
 			@if(page="donations.php")
 			/ <div class="item">
-				<a href="/donations.php">Donations</a>
+				<a href="/donations">Donations</a>
 			</div>
 			@endif
 		</div>
