@@ -359,6 +359,10 @@ strong {
 	font-weight: bold;
 }
 
+iframe {
+	max-width: 100%;
+}
+
 .clearfix {
 	overflow: auto;
 }
