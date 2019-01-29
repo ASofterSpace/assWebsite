@@ -4,7 +4,7 @@
 	<div class="insec">
 		<a href="/">
 			<div>
-				Home
+				@content(home)
 			</div>
 		</a>
 	</div>
@@ -15,7 +15,7 @@
 	<div class="insec">
 		<a href="/mission">
 			<div>
-				Mission
+				@content(mission)
 			</div>
 		</a>
 	</div>
@@ -26,7 +26,7 @@
 	<div class="insec">
 		<a href="/products">
 			<div>
-				Products
+				@content(products)
 			</div>
 		</a>
 	</div>
@@ -37,7 +37,7 @@
 	<div class="insec">
 		<a href="/customers">
 			<div>
-				Customers
+				@content(customers)
 			</div>
 		</a>
 	</div>
@@ -48,7 +48,7 @@
 	<div class="insec">
 		<a href="/science">
 			<div>
-				Science
+				@content(science)
 			</div>
 		</a>
 	</div>
@@ -59,7 +59,7 @@
 	<div class="insec">
 		<a href="/games">
 			<div>
-				Games
+				@content(games)
 			</div>
 		</a>
 	</div>
@@ -70,7 +70,7 @@
 	<div class="insec">
 		<a href="/resources">
 			<div>
-				Resources
+				@content(resources)
 			</div>
 		</a>
 	</div>
@@ -81,7 +81,7 @@
 	<div class="insec">
 		<a href="/merchandise">
 			<div>
-				Merchandise
+				@content(merchandise)
 			</div>
 		</a>
 	</div>
@@ -92,7 +92,7 @@
 	<div class="insec">
 		<a href="/donations">
 			<div>
-				Donations
+				@content(donations)
 			</div>
 		</a>
 	</div>

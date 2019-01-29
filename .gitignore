@@ -12,6 +12,7 @@ oldpics
 
 # Local compiled files that are ready to be uploaded to the server
 compiled/*
+compiled*/*
 previews/*
 
 # (External) documentation should have its own lifecycle and not be included here in git

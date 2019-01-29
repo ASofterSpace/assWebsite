@@ -65,38 +65,38 @@
 			{{-- show top navigation in the header --}}
 			@if(page="mission.php")
 			/ <div class="item">
-				<a href="/mission">Mission</a>
+				<a href="/mission">@content(mission)</a>
 			</div>
 			@endif
 			@if(page="licenses/unlicense.php")
 			/ <div class="item">
-				<a href="/mission">Mission</a>
+				<a href="/mission">@content(mission)</a>
 			</div> / <div class="item">
 				<a href="/licenses/unlicense">Unlicense</a>
 			</div>
 			@endif
 			@if(page="products.php")
 			/ <div class="item">
-				<a href="/products">Products</a>
+				<a href="/products">@content(products)</a>
 			</div>
 			@endif
 			@if(page="cdm/index.php")
 			/ <div class="item">
-				<a href="/products">Products</a>
+				<a href="/products">@content(products)</a>
 			</div> / <div class="item">
 				<a href="/cdm">CDM Commandline Tool</a>
 			</div>
 			@endif
 			@if(page="privacy/index.php")
 			/ <div class="item">
-				<a href="/products">Products</a>
+				<a href="/products">@content(products)</a>
 			</div> / <div class="item">
 				<a href="/privacy/">Privacy Policies</a>
 			</div>
 			@endif
 			@if(page="privacy/universalconverter.php")
 			/ <div class="item">
-				<a href="/products">Products</a>
+				<a href="/products">@content(products)</a>
 			</div> / <div class="item">
 				<a href="/privacy/">Privacy Policies</a>
 			</div> / <div class="item">
@@ -105,67 +105,67 @@
 			@endif
 			@if(page="customers.php")
 			/ <div class="item">
-				<a href="/customers">Customers</a>
+				<a href="/customers">@content(customers)</a>
 			</div>
 			@endif
 			@if(page="science/index.php")
 			/ <div class="item">
-				<a href="/science">Science</a>
+				<a href="/science">@content(science)</a>
 			</div>
 			@endif
 			@if(page="games.php")
 			/ <div class="item">
-				<a href="/games">Games</a>
+				<a href="/games">@content(games)</a>
 			</div>
 			@endif
 			@if(page="resources/index.php")
 			/ <div class="item">
-				<a href="/resources">Resources</a>
+				<a href="/resources">@content(resources)</a>
 			</div>
 			@endif
 			@if(page="resources/bricks_1.php")
 			/ <div class="item">
-				<a href="/resources">Resources</a>
+				<a href="/resources">@content(resources)</a>
 			</div> / <div class="item">
-				<a href="/bricks_1">Bricks 1</a>
+				<a href="/bricks_1">@content(bricks) 1</a>
 			</div>
 			@endif
 			@if(page="resources/bricks_2.php")
 			/ <div class="item">
-				<a href="/resources">Resources</a>
+				<a href="/resources">@content(resources)</a>
 			</div> / <div class="item">
-				<a href="/bricks_2">Bricks 2</a>
+				<a href="/bricks_2">@content(bricks) 2</a>
 			</div>
 			@endif
 			@if(page="resources/particleboard_1.php")
 			/ <div class="item">
-				<a href="/resources">Resources</a>
+				<a href="/resources">@content(resources)</a>
 			</div> / <div class="item">
-				<a href="/particleboard_1">Particleboard 1</a>
+				<a href="/particleboard_1">@content(particleboard) 1</a>
 			</div>
 			@endif
 			@if(page="resources/wallpaper_1.php")
 			/ <div class="item">
-				<a href="/resources">Resources</a>
+				<a href="/resources">@content(resources)</a>
 			</div> / <div class="item">
-				<a href="/wallpaper_1">Wallpaper 1</a>
+				<a href="/wallpaper_1">@content(wallpaper) 1</a>
 			</div>
 			@endif
 			@if(page="resources/wallpaper_2.php")
 			/ <div class="item">
-				<a href="/resources">Resources</a>
+				<a href="/resources">@content(resources)</a>
 			</div> / <div class="item">
-				<a href="/wallpaper_2">Wallpaper 2</a>
+				<a href="/wallpaper_2">@content(wallpaper) 2</a>
 			</div>
 			@endif
 			@if(page="merchandise.php")
 			/ <div class="item">
-				<a href="/merchandise">Merchandise</a>
+				<a href="/merchandise">@content(merchandise)</a>
 			</div>
 			@endif
 			@if(page="donations.php")
 			/ <div class="item">
-				<a href="/donations">Donations</a>
+				<a href="/donations">@content(donations)</a>
 			</div>
 			@endif
 		</div>
