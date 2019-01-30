@@ -1,6 +1,5 @@
 <div class="content">
-	The CDM Commandline Tool can be used to edit CDMs for EGS-CC directly from the commandline.<br>
-	Especially helpful can be the conversion between different CDM versions and the validation of existing CDMs.
+	@content(products_cdm_tool_intro)
 </div>
 
 <div class="content centerimg">
@@ -8,13 +7,13 @@
 </div>
 
 <div class="content">
-	Download: <a href="/cdm/cdm.zip">As ZIP (permalink)</a>
+	@content(download): <a href="/cdm/cdm.zip">@content(as_zip_permalink)</a>
 </div>
 
 <div class="content">
-	Manual: <a href="/cdm/manual.pdf">As PDF (permalink)</a>
+	@content(manual): <a href="/cdm/manual.pdf">@content(as_pdf_permalink)</a>
 </div>
 
 <div class="content">
-	Source code: Openly available on <a href="https://github.com/ASofterSpace/cdm">GitHub</a>
+	@content(sourcecode): @content(openly_available_on) <a href="https://github.com/ASofterSpace/cdm">GitHub</a>
 </div>

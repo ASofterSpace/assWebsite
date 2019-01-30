@@ -1,18 +1,18 @@
 @include(top.php)
 
 @include(sectionstart.php)
-	<h1>Oops!</h1>
+	<h1>@content(oops)</h1>
 
 	<div class="content">
-		You encountered a 404 error. :(
+		@content(404_intro_1)
 	</div>
 
 	<div class="content">
-		If you followed an external link to our site, then that link seems to no longer be valid.
+		@content(404_intro_2)
 	</div>
 
 	<div class="content">
-		If you followed an internal link on our site, you might want to <a href="mailto:info@asofterspace.com">tell us</a> about the problem!
+		@content(404_intro_3)
 	</div>
 @include(sectionend.php)
 
