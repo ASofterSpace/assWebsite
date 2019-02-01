@@ -6,6 +6,10 @@
 	<div class="content">
 		@content(index_welcome_section)
 	</div>
+	
+	<div class="content">
+		@content(index_welcome_other_languages)
+	</div>
 @include(sectionend.php)
 
 {{-- @include(sectionstart.php)

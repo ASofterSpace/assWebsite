@@ -41,6 +41,7 @@
 		"home": "Home",
 		"index_contact_section": "Have you seen something that you like?<br>Do you want to do research with us? Do you want to order custom software for you or your enterprise? Or just chat about the direction Star Wars has been going lately?<br>Just send us an email!",
 		"index_cookie_section": "Btw.: We are <strong>not</strong> asking for your consent about storing cookies on your computing device.<br>Why, you may ask?<br>Well... we like our software simple and dependable. So we are simply not storing any cookies on your computer, period! (And we are not using nonsensical thirdparty software either, which might otherwise do so without us knowing.)",
+		"index_welcome_other_languages": "Sprichst du lieber Deutsch?<br><a href=\"https://www.asofterspace.de/\">Hier geht es zur deutschen Seite.</a>",
 		"index_welcome_section": "Hey there,<br>We are A Softer Space.<br>We create software for space, science, and anything else that seems worthwhile.<br>If you want to learn more about us, you might want to look at our <a href=\"mission.php\">mission statements</a> or our <a href=\"customers.php\">customers</a>. Or maybe you want to see some <a href=\"products.php\">products</a> or <a href=\"games.php\">games</a> that we have been working on?<br>More interested in <a href=\"science.php\">science</a>? Want to learn about our <a href=\"donations.php\">donations</a>? Or do you just want to get some <a href=\"resources.php\">free resources</a>?<br>Whatever it is that you are looking for, I truly hope you will find it here.<br>Have a great day!<br>Moya",
 		"keywords": "software, space, java, javascript, php, egscc, openmct",
 		"lang": "en",
@@ -161,6 +162,7 @@
 		"home": "Start",
 		"index_contact_section": "Hast du etwas gesehen, das dir gefällt?<br>Möchtest du eine wissenschaftliche Veröffentlichung mit uns herausbringen? Oder möchtest du maßgeschneiderte Software für dich oder deine Firma beschaffen? Oder einfach nur darüber quasseln, wie sich Star Wars in den letzten Jahren so entwickelt hat?<br>Send uns einfach eine Email!",
 		"index_cookie_section": "Übrigens: Wir fragen <strong>nicht</strong> danach, ob wir Cookies speichern dürfen.<br>Warum, ist die Frage?<br>Nun... wir mögen unsere Software einfach und zuverlässig. Also speichern wir einfach keine Cookies, Punkt! (Und wir nutzen auch keine unsinnige Software von Drittparteien, die ansonsten ohne unser Wissen so etwas tun könnte.)",
+		"index_welcome_other_languages": "Do you prefer a different language?<br><a href=\"https://www.asofterspace.com/\">Here you can find our website in English.</a>",
 		"index_welcome_section": "Guten Tag,<br>Wir sind A Softer Space.<br>Wir erstellen Software für Raumfahrt, Wissenschaft und alles sonst, was sich sinnvoll anfühlt.<br>Wenn du mehr über uns erfahren möchtest, könntest du dir unsere <a href=\"mission.php\">Ziele und Visionen</a> oder unsere <a href=\"customers.php\">Kunden</a> anschauen. Vielleicht möchtest du ja auch ein paar <a href=\"products.php\">Produkte</a> oder <a href=\"games.php\">Spiele</a> sehen, an denen wir gearbeitet haben?<br>Doch eher an <a href=\"science.php\">Wissenschaft</a> interessiert? Möchtest du etwas über unsere <a href=\"donations.php\">Spendenaktivität</a> erfahren? Oder bist du einfach nur hier, um ein paar <a href=\"resources.php\">kostenlose Ressourcen</a> abzugreifen?<br>Ich hoffe, dass du hier findest, wonach auch immer du gerade suchst.<br>Einen interessanten Tag noch!<br>Moya",
 		"keywords": "Software, Raumfahrt, Java, JavaScript, PHP, EGSCC, OpenMCT",
 		"lang": "de",
@@ -320,5 +322,5 @@
 		"oops404.php",
 		"htaccess"
 	],
-	"version": 4925
+	"version": 5009
 }
