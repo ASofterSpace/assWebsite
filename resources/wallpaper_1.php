@@ -1,10 +1,10 @@
 @include(top.php)
 
 @include(sectionstart.php)
-	<h1>Wallpaper 1</h1>
+	<h1>@content(wallpaper) 1</h1>
 
 	<div class="content">
-		Some white wallpaper we have at home... not really impressive, but a good staple to have.
+		@content(resources_wallpaper_1_intro)
 	</div>
 	
 	@include(resource_disclaimer.php)
@@ -14,7 +14,7 @@
 @include(sectionend.php)
 
 @include(sectionstartnoopacity.php)
-	<h2>Original</h2>
+	<h2>@content(original)</h2>
 
 	@include(resource_kind_original.php)
 	
@@ -24,7 +24,7 @@
 @include(sectionend.php)
 
 @include(sectionstartnoopacity.php)
-	<h2>Continuous</h2>
+	<h2>@content(continuous)</h2>
 
 	@include(resource_kind_continuous.php)
 	

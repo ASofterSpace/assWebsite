@@ -1,17 +1,16 @@
 @include(top.php)
 
 @include(sectionstart.php)
-	<h1>Research</h1>
+	<h1>@content(research)</h1>
 
 	<div class="content">
-		Ideally, we would like to conduct a lot of interesting research and make all of it freely available.<br>
-		As you can see, we have not gotten very far with that yet - but if you are interested in partnering with us and getting some more research done, please do let us know!
+		@content(science_intro)
 	</div>
 @include(sectionend.php)
 
 <a id="ekse"></a>
 @include(sectionstart.php)
-	<h2>EKSE: A Command Line Interface for EGS-CC based Systems</h2>
+	<h2>@content(ekse_headline)</h2>
 
 	<div class="content">
 			<a href="/science/papers/ekse.pdf" class="paperpreview">
@@ -21,28 +20,28 @@
 				<table>
 					<tbody>
 						<tr>
-							<td style="min-width: 6.5em;">Resource:</td>
-							<td>Conference Paper</td>
+							<td style="min-width: 6.5em;">@content(resource_kind):</td>
+							<td>@content(conference_paper)</td>
 						</tr>
 						<tr>
-							<td>File type:</td>
+							<td>@content(file_type):</td>
 							<td><a class="plain" href="/science/papers/ekse.pdf" target="_blank">PDF</a></td>
 						</tr>
 						<tr>
-							<td>Pages:</td>
+							<td>@content(pages):</td>
 							<td>15</td>
 						</tr>
 						<tr>
-							<td>Size:</td>
+							<td>@content(size):</td>
 							<td>A4</td>
 						</tr>
 						<tr>
-							<td>Author:</td>
+							<td>@content(author):</td>
 							<td><a class="plain" href="mailto:moya@asofterspace.com">Tom Moya Schiller</a></td>
 						</tr>
 						<tr>
-							<td>Status:</td>
-							<td>Presented at the 2018 SpaceOps Conference Marseille, France</td>
+							<td>@content(status):</td>
+							<td>@content(ekse_status)</td>
 							{{-- <td>This is a preview of unpublished work.</td> --}}
 						</tr>
 						<tr>
@@ -50,8 +49,8 @@
 							<td><a href="https://doi.org/10.2514/6.2018-2336" target="_blank">10.2514/6.2018-2336</a></td>
 						</tr>
 						<tr>
-							<td style="vertical-align: bottom;">Last updated:</td>
-							<td>25<sup>th</sup> April 2018</td>
+							<td style="vertical-align: bottom;">@content(last_updated):</td>
+							<td>@content(ekse_update_date)</td>
 						</tr>
 					</tbody>
 				</table>

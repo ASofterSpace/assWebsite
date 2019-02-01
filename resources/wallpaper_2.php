@@ -1,10 +1,10 @@
 @include(top.php)
 
 @include(sectionstart.php)
-	<h1>Wallpaper 2</h1>
+	<h1>@content(wallpaper) 2</h1>
 
 	<div class="content">
-		More white wallpaper - this one is more grainy than Wallpaper 1.
+		@content(resources_wallpaper_2_intro)
 	</div>
 	
 	@include(resource_disclaimer.php)
@@ -14,7 +14,7 @@
 @include(sectionend.php)
 
 @include(sectionstartnoopacity.php)
-	<h2>Original</h2>
+	<h2>@content(original)</h2>
 
 	@include(resource_kind_original.php)
 	
@@ -24,7 +24,7 @@
 @include(sectionend.php)
 
 @include(sectionstartnoopacity.php)
-	<h2>Continuous</h2>
+	<h2>@content(continuous)</h2>
 
 	@include(resource_kind_continuous.php)
 	

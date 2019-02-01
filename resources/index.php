@@ -1,11 +1,10 @@
 @include(top.php)
 
 @include(sectionstart.php)
-	<h1>Textures</h1>
+	<h1>Textures @content(textures)</h1>
 
 	<div class="content">
-		As mentioned on our <a href="mission.php">mission page</a>, we actually believe in open access... a lot.<br>
-		We therefore proudly present a (very!) small archive of textures we created for our 3D and VR applications here - and who knows, maybe also other resources in the future.
+		@content(resources_intro)
 	</div>
 	
 	@include(resource_disclaimer.php)
@@ -13,7 +12,7 @@
 @include(sectionend.php)
 
 @include(sectionstart.php)
-	<h2>Bricks 1</h2>
+	<h2>@content(bricks) 1</h2>
 	
 	<a class="resource_preview" href="/resources/bricks_1">
 		<img src="/pics/textures/bricks_1_preview.jpg"></img>
@@ -22,12 +21,12 @@
 	</a>
 
 	<div class="content">
-		Just, well, bricks...
+		@content(resources_bricks_1_intro)
 	</div>
 @include(sectionend.php)
 
 @include(sectionstart.php)
-	<h2>Bricks 2</h2>
+	<h2>@content(bricks) 2</h2>
 
 	<a class="resource_preview" href="/resources/bricks_2">
 		<img src="/pics/textures/bricks_2_preview.jpg"></img>
@@ -35,12 +34,12 @@
 	</a>
 
 	<div class="content">
-		More bricks! Hooray!
+		@content(resources_bricks_2_intro)
 	</div>
 @include(sectionend.php)
 
 @include(sectionstart.php)
-	<h2>Particleboard 1</h2>
+	<h2>@content(particleboard) 1</h2>
 
 	<a class="resource_preview" href="/resources/particleboard_1">
 		<img src="/pics/textures/particleboard_1_preview.jpg"></img>
@@ -51,12 +50,12 @@
 	</a>
 
 	<div class="content">
-		This is a photograph of some particleboard we have at home. It also comes in different colors, as different colors are fun!
+		@content(resources_particleboard_1_intro)
 	</div>
 @include(sectionend.php)
 
 @include(sectionstartnoopacity.php)
-	<h2>Wallpaper 1</h2>
+	<h2>@content(wallpaper) 1</h2>
 
 	<a class="resource_preview" href="/resources/wallpaper_1">
 		<img src="/pics/textures/wallpaper_1_preview.jpg"></img>
@@ -65,12 +64,12 @@
 	</a>
 
 	<div class="content">
-		Some white wallpaper we have at home... not really impressive, but a good staple to have.
+		@content(resources_wallpaper_1_intro)
 	</div>
 @include(sectionend.php)
 
 @include(sectionstartnoopacity.php)
-	<h2>Wallpaper 2</h2>
+	<h2>@content(wallpaper) 2</h2>
 
 	<a class="resource_preview" href="/resources/wallpaper_2">
 		<img src="/pics/textures/wallpaper_2_preview.jpg"></img>
@@ -79,7 +78,7 @@
 	</a>
 
 	<div class="content">
-		More white wallpaper - this one is more grainy than Wallpaper 1.
+		@content(resources_wallpaper_2_intro)
 	</div>
 @include(sectionend.php)
 

@@ -1,4 +1,3 @@
-
 <div class="content">
-	This is the original version of the texture.
+	@content(resource_kind_original)
 </div>

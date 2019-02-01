@@ -87,18 +87,25 @@
 				<a href="/cdm">CDM Commandline Tool</a>
 			</div>
 			@endif
+			@if(page="xdc/index.php")
+			/ <div class="item">
+				<a href="/products">@content(products)</a>
+			</div> / <div class="item">
+				<a href="/xdc">XDC Report Creator</a>
+			</div>
+			@endif
 			@if(page="privacy/index.php")
 			/ <div class="item">
 				<a href="/products">@content(products)</a>
 			</div> / <div class="item">
-				<a href="/privacy/">Privacy Policies</a>
+				<a href="/privacy/">@content(privacy_policies)</a>
 			</div>
 			@endif
 			@if(page="privacy/universalconverter.php")
 			/ <div class="item">
 				<a href="/products">@content(products)</a>
 			</div> / <div class="item">
-				<a href="/privacy/">Privacy Policies</a>
+				<a href="/privacy/">@content(privacy_policies)</a>
 			</div> / <div class="item">
 				<a href="/privacy/universalconverter">UniversalConverter</a>
 			</div>

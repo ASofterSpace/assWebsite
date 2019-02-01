@@ -15,5 +15,5 @@
 </div>
 
 <div class="content">
-	@content(sourcecode): @content(openly_available_on) <a href="https://github.com/ASofterSpace/cdm">GitHub</a>
+	@content(sourcecode): @content(openly_available_on) <a href="https://github.com/ASofterSpace/cdm" target="_blank">GitHub</a>
 </div>

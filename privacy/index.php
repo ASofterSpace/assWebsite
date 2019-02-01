@@ -1,14 +1,14 @@
 @include(top.php)
 
 @include(sectionstart.php)
-	<h1>Privacy Policies</h1>
+	<h1>@content(privacy_policies)</h1>
 
 	<div class="content">
-		These are the privacy policies that we have provided for our products and games:
+		@content(privacy_policies_intro)
 	</div>
 	
 	<div class="content">
-		<a href="/privacy/universalconverter.php">UniversalConverter</a>
+		<a href="/privacy/universalconverter">UniversalConverter</a>
 	</div>
 @include(sectionend.php)
 

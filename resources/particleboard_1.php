@@ -1,10 +1,10 @@
 @include(top.php)
 
 @include(sectionstart.php)
-	<h1>Particleboard 1</h1>
+	<h1>@content(particleboard) 1</h1>
 
 	<div class="content">
-		This is a photograph of some particleboard we have at home. It also comes in different colors, as different colors are fun!
+		@content(resources_particleboard_1_intro)
 	</div>
 	
 	@include(resource_disclaimer.php)
@@ -14,7 +14,7 @@
 @include(sectionend.php)
 
 @include(sectionstart.php)
-	<h2>Original</h2>
+	<h2>@content(original)</h2>
 
 	@include(resource_kind_original.php)
 	
@@ -24,7 +24,7 @@
 @include(sectionend.php)
 
 @include(sectionstart.php)
-	<h2>Continuous</h2>
+	<h2>@content(continuous)</h2>
 
 	@include(resource_kind_continuous.php)
 	
@@ -34,7 +34,7 @@
 @include(sectionend.php)
 
 @include(sectionstart.php)
-	<h2>Purple</h2>
+	<h2>@content(purple)</h2>
 
 	@include(resource_kind_colored.php)
 	
@@ -44,7 +44,7 @@
 @include(sectionend.php)
 
 @include(sectionstart.php)
-	<h2>Silver</h2>
+	<h2>@content(silver)</h2>
 
 	@include(resource_kind_colored.php)
 	

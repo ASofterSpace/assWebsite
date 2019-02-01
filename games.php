@@ -12,6 +12,7 @@
 	</div>
 @include(sectionend.php)
 
+<a id="vrcade"></a>
 @include(sectionstart.php)
 	<h2>vrCade</h2>
 

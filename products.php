@@ -1,10 +1,10 @@
 @include(top.php)
 
 @include(sectionstart.php)
-	<h1>Products</h1>
+	<h1>@content(products)</h1>
 
 	<div class="content">
-		This is just a small selection of products we have created so far.
+		@content(products_intro)
 	</div>
 @include(sectionend.php)
 
@@ -20,20 +20,8 @@
 @include(sectionstart.php)
 	<h2>XDC Report Creator</h2>
 
-	<div class="content">
-		The XDC Report Creator is used to create XDC reports for the German startup <a href="https://www.right-basedonscience.de/">right. based on science</a>.
-	</div>
-	<div class="content centerimg">
-		<img src="/pics/products/xdcreportcreator.png" />
-	</div>
-
-	<div class="content">
-		Manual: <a href="/xdc/generate.pdf">As PDF (permalink)</a>
-	</div>
-
-	<div class="content">
-		Source code: The XDC Report Creator itself is closed-source (awww...), but it is largely based on our Java Toolbox, which is freely available on <a href="https://github.com/ASofterSpace/Toolbox-Java">GitHub</a> (yay!)
-	</div>
+	@include(xdc_overview.php)
+	
 @include(sectionend.php)
 
 <a id="ekse"></a>
@@ -41,19 +29,18 @@
 	<h2>EKSE</h2>
 
 	<div class="content">
-		The EGS-CC Karaf Shell Extension, short EKSE, is a tool that enables direct interaction with the backend of an EGS-CC-based system.<br>
-		(And if you are wondering what this EGS-CC might be - it the new collection of building blocks developed across Europe that can be used to assemble Monitoring and Control Systems for Spacecraft, Groundstations and basically anything else. <a href="http://www.egscc.esa.int/">Here</a> you can find more information about it.)
+		@content(products_ekse_intro_1)
 	</div>
 	<div class="content centerimg">
 		<img src="/pics/products/ekse.png" />
 	</div>
 
 	<div class="content">
-		Btw. - we have a whole <a href="science.php#ekse">paper about EKSE</a> in our science section!
+		@content(products_ekse_intro_2)
 	</div>
 
 	<div class="content">
-		Source code: The source code for EKSE is currently only available at ESOC, Darmstadt.
+		@content(sourcecode): @content(products_ekse_source_code)
 	</div>
 @include(sectionend.php)
 
@@ -62,7 +49,7 @@
 	<h2>UniversalConverter</h2>
 
 	<div class="content">
-		This was our first test app to learn more about smartphone app development. As the reader might infer from its name, it enables the conversion between various quantities. :)
+		@content(products_universalconverter_intro)
 	</div>
 	
 	<div class="content centerimg">
@@ -70,11 +57,11 @@
 	</div>
 
 	<div class="content">
-		Privacy policy: <a href="privacy/universalconverter.php">Policy document</a>
+		@content(privacy_policy): <a href="privacy/universalconverter.php">@content(policy_document)</a>
 	</div>
 
 	<div class="content">
-		Source code: Openly available on <a href="https://github.com/ASofterSpace/cdm">GitHub</a>
+		@content(sourcecode): @content(openly_available_on) <a href="https://github.com/ASofterSpace/UniversalConverter" target="_blank">GitHub</a>
 	</div>
 @include(sectionend.php)
 

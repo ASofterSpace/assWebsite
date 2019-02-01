@@ -1,10 +1,10 @@
 @include(top.php)
 
 @include(sectionstart.php)
-	<h1>Bricks 1</h1>
+	<h1>@content(bricks) 1</h1>
 
 	<div class="content">
-		Just, well, bricks...
+		@content(resources_bricks_1_intro)
 	</div>
 	
 	@include(resource_disclaimer.php)
@@ -14,7 +14,7 @@
 @include(sectionend.php)
 
 @include(sectionstart.php)
-	<h2>Original</h2>
+	<h2>@content(original)</h2>
 
 	@include(resource_kind_original.php)
 	
@@ -24,11 +24,10 @@
 @include(sectionend.php)
 
 @include(sectionstart.php)
-	<h2>Transparent</h2>
+	<h2>@content(transparent)</h2>
 
 	<div class="content">
-		Here, we edited the texture to be transparent such that it can be put on top of any wallpaper and then looks as if the wallpaper was ripped open and the bricks could be seen through.<br>
-		(However, if you want to be even more realistic, you should apply this kind of ripped up effect to your wallpaper directly, and place the bricks behind it - as in real life, the bricks are BEHIND the wallpaper, right? ^^)
+		@content(resources_transparent_explanation)
 	</div>
 	
 	<div class="content centerimg">
