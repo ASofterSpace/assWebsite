@@ -20,3 +20,7 @@ previews/*
 
 # (External) program files etc. too!
 *.zip
+
+# (External) presentations as well!
+*.pptx
+*.odp

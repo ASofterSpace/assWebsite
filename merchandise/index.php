@@ -1,6 +1,27 @@
 @include(top.php)
 
 @include(sectionstart.php)
+	<h1>@content(merch_presentations_headline)</h1>
+
+	<div class="content">
+		@content(merch_presentations_intro)
+	</div>
+	
+	<a class="resource_preview" href="@content(merch_presentations_pptx_just_href)">
+		<img src="/merchandise/ass_presentation_preview.png"></img>
+		<div class="resource_preview_fadeout"></div>
+	</a>
+
+	<div class="content">
+		@content(merch_presentations_pptx)
+	</div>
+	
+	<div class="content">
+		@content(merch_presentations_odp)
+	</div>
+@include(sectionend.php)
+
+@include(sectionstart.php)
 	<h1>@content(poster_gallery)</h1>
 
 	<div class="content">

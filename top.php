@@ -120,6 +120,11 @@
 				<a href="/science">@content(science)</a>
 			</div>
 			@endif
+			@if(page="tools.php")
+			/ <div class="item">
+				<a href="/tools">@content(tools)</a>
+			</div>
+			@endif
 			@if(page="games.php")
 			/ <div class="item">
 				<a href="/games">@content(games)</a>

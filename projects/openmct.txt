@@ -1,2 +1,0 @@
-Moya created the OpenMCT bridge between Open MCT from NASA and EGS-CC from ESA, DLR, Airbus and others.
-

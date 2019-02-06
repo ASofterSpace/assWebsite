@@ -54,6 +54,19 @@
 	</div>
 </section>
 
+{{--
+<section class="leftnav">
+	<canvas id="cvLeftnav@countup(leftnavs)"></canvas>
+	<div class="insec">
+		<a href="/tools">
+			<div>
+				@content(tools)
+			</div>
+		</a>
+	</div>
+</section>
+--}}
+
 <section class="leftnav">
 	<canvas id="cvLeftnav@countup(leftnavs)"></canvas>
 	<div class="insec">
