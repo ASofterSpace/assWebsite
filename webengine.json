@@ -128,8 +128,12 @@
 		"tools_intro": "The following are tools we made which have come in handy for us - maybe they will be useful for you too!",
 		"tools_packet_decoder_headline": "Packet Decoder",
 		"tools_packet_decoder_intro": "Enables you to decode a CCSDS or PUS packet which are used to communicate with real-life spacecraft.",
+		"tools_universal_converter_binary": "Binary",
+		"tools_universal_converter_decimal": "Decimal",
 		"tools_universal_converter_headline": "Universal Converter",
+		"tools_universal_converter_hexadecimal": "Hexadecimal",
 		"tools_universal_converter_intro": "Just like our <a href=\"/products#universalconverter\">Universal Converter app</a> this allows the conversion between various formats.",
+		"tools_universal_converter_octal": "Octal",
 		"transparent": "Transparent",
 		"wallpaper": "Wallpaper",
 		"welcome": "Welcome"
@@ -263,8 +267,12 @@
 		"tools_intro": "Die folgenden Werkzeuge haben wir zunächst einmal für uns selbst hergestellt, um unsere eigene Arbeit einfacher zu machen. Vielleicht sind sie ja auch für dich nützlich!",
 		"tools_packet_decoder_headline": "Paket Decoder",
 		"tools_packet_decoder_intro": "Ermöglicht es dir, CCSDS und PUS Pakete zu decodieren, die genutzt werden, um mit echten Satelliten zu kommunizieren.",
+		"tools_universal_converter_binary": "Binär",
+		"tools_universal_converter_decimal": "Dezimal",
 		"tools_universal_converter_headline": "Universeller Konverter",
+		"tools_universal_converter_hexadecimal": "Hexadezimal",
 		"tools_universal_converter_intro": "Wie unsere <a href=\"/products#universalconverter\">Universal Converter App</a> erlaubt dies die Konvertierung zwischen verschiedenen Formaten.",
+		"tools_universal_converter_octal": "Oktal",
 		"transparent": "Transparent",
 		"wallpaper": "Tapete",
 		"welcome": "Willkommen"
@@ -325,6 +333,7 @@
 		"pics/bg_esja_1.jpg",
 		"pics/bg_esja_2.jpg",
 		"pics/bg_island_1.jpg",
+		"pics/bg_solheimajokull_1.jpg",
 		"pics/bg_newton_1.jpg",
 		"pics/bg_newton_2.jpg",
 		"pics/bg2_final_1.png",
@@ -356,5 +365,5 @@
 		"oops404.php",
 		"htaccess"
 	],
-	"version": 5225
+	"version": 5643
 }

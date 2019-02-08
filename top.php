@@ -18,28 +18,31 @@
 
 	<body
 	{{-- different backgrounds for different pages --}}
-	@if(page="mission.php")
+	@if(pageStart="mission")
 		style="background-image: url('/pics/bg_esja_1.jpg');"
 	@endif
-	@if(page="products.php")
+	@if(pageStart="products")
 		style="background-image: url('/pics/bg_newton_1.jpg');"
 	@endif
-	@if(page="customers.php")
+	@if(pageStart="customers")
 		{{-- leave default --}}
 	@endif
 	@if(pageStart="science")
 		style="background-image: url('/pics/bg_newton_2.jpg');"
 	@endif
-	@if(page="games.php")
+	@if(pageStart="tools")
+		style="background-image: utl('/pics/bg_solheimajokull_1.jpg');"
+	@endif
+	@if(pageStart="games")
 		style="background-image: url('/pics/bg_esja_2.jpg');"
 	@endif
 	@if(pageStart="resources")
 		style="background-image: url('/pics/bg_esja_1.jpg');"
 	@endif
-	@if(page="merchandise.php")
+	@if(pageStart="merchandise")
 		{{-- leave default --}}
 	@endif
-	@if(page="donations.php")
+	@if(pageStart="donations")
 		style="background-image: url('/pics/bg_island_1.jpg');"
 	@endif
 	@if(page="oops404.php")

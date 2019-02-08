@@ -54,7 +54,6 @@
 	</div>
 </section>
 
-{{--
 <section class="leftnav">
 	<canvas id="cvLeftnav@countup(leftnavs)"></canvas>
 	<div class="insec">
@@ -65,7 +64,6 @@
 		</a>
 	</div>
 </section>
---}}
 
 <section class="leftnav">
 	<canvas id="cvLeftnav@countup(leftnavs)"></canvas>
