@@ -31,7 +31,7 @@
 		style="background-image: url('/pics/bg_newton_2.jpg');"
 	@endif
 	@if(pageStart="tools")
-		style="background-image: utl('/pics/bg_solheimajokull_1.jpg');"
+		style="background-image: url('/pics/bg_solheimajokull_1.jpg');"
 	@endif
 	@if(pageStart="games")
 		style="background-image: url('/pics/bg_esja_2.jpg');"
