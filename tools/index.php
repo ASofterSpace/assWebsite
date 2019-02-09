@@ -190,6 +190,7 @@
 			var seqCountStart = "";
 			var packetLengthStart = "";
 			var packetLength = null;
+			var dataFieldHeaderPresent = false;
 			
 			for (var i = 0; i < packetBytes.length; i++) {
 				var packetByte = packetBytes[i];
@@ -217,7 +218,8 @@
 						result += "\n";
 						var dataFieldHeaderFlag = packetByteStr.substr(4, 1);
 						result += "        " + dataFieldHeaderFlag + " ..... Data Field Header Flag: ";
-						if (dataFieldHeaderFlag == "1") {
+						dataFieldHeaderPresent = dataFieldHeaderFlag == "1";
+						if (dataFieldHeaderPresent) {
 							result += "Data Field Header present";
 						} else {
 							result += "No Data Field Header";
@@ -251,12 +253,12 @@
 						}
 						result += "\n";
 						seqCountStart = packetByteStr.substr(2, 6);
-						result += "      " + seqCountStart + " .. Sequence Counter start\n";
+						result += "      " + seqCountStart + " .. Source Sequence Counter start\n";
 						break;
 
 					case 3:
 						var seqCounter = parseInt(seqCountStart + packetByteStr, 2);
-						result += "    " + packetByteStr + " .. Sequence Counter end, SeqC value: " + seqCounter + "\n";
+						result += "    " + packetByteStr + " .. Source Sequence Counter end, SSC value: " + seqCounter + "\n";
 						break;
 
 					case 4:
@@ -267,6 +269,51 @@
 					case 5:
 						var packetLength = parseInt(packetLengthStart + packetByteStr, 2);
 						result += "    " + packetByteStr + " .. Packet Length end, length: " + packetLength + " bytes in packet data field\n";
+						break;
+						
+					case 6:
+						if (dataFieldHeaderPresent) {
+							var ccsdsSecHeaderFlag = packetByteStr.substr(0, 1);
+							result += "    " + ccsdsSecHeaderFlag + " ......... CCSDS Secondary Header Flag: ";
+							if (ccsdsSecHeaderFlag == "1") {
+								result += "CCSDS-defined secondary header\n";
+							} else {
+								result += "non-CCSDS-defined secondary header\n";
+							}
+							
+							if (pusType == "1") {
+								var tcPacketPusVersion = parseInt(packetByteStr.substr(1, 3), 2);
+								result += "     " + packetByteStr.substr(1, 3) + " ...... TC Packet PUS Version Number: " + tcPacketPusVersion + "\n";
+								var ackComplete = packetByteStr.substr(4, 1);
+								result += "        " + ackComplete + " ..... Acknowledgement Flag: ";
+								if (ackComplete == "1") {
+									result += "acknowledge completion of execution\n";
+								} else {
+									result += "do not acknowledge completion of execution\n";
+								}
+								var ackProgress = packetByteStr.substr(5, 1);
+								result += "         " + ackProgress + " .... Acknowledgement Flag: ";
+								if (ackProgress == "1") {
+									result += "acknowledge progress of execution\n";
+								} else {
+									result += "do not acknowledge progress of execution\n";
+								}
+								var ackStart = packetByteStr.substr(6, 1);
+								result += "          " + ackStart + " ... Acknowledgement Flag: ";
+								if (ackStart == "1") {
+									result += "acknowledge start of execution\n";
+								} else {
+									result += "do not acknowledge start of execution\n";
+								}
+								var ackAcceptance = packetByteStr.substr(7, 1);
+								result += "           " + ackAcceptance + " .. Acknowledgement Flag: ";
+								if (ackAcceptance == "1") {
+									result += "acknowledge acceptance of the packet\n";
+								} else {
+									result += "do not acknowledge acceptance of the packet\n";
+								}
+							}
+						}
 						break;
 				}
 				result += "\n";
