@@ -17,7 +17,16 @@ window.pD = {
 
 		var result = this.decodePacket(orig);
 
-		document.getElementById("pD-out").value = result;
+		result = result.split("\n\n").join("\n&nbsp;\n");
+		result = result.split("\n ").join("\n&nbsp;");
+		result = result.split("&nbsp;     ").join("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
+		result = result.split("&nbsp;    ").join("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
+		result = result.split("&nbsp;   ").join("&nbsp;&nbsp;&nbsp;&nbsp;");
+		result = result.split("&nbsp;  ").join("&nbsp;&nbsp;&nbsp;");
+		result = result.split("&nbsp; ").join("&nbsp;&nbsp;");
+		result = "<div>" + result.split("\n").join("</div><div>") + "</div>";
+
+		document.getElementById("pD-out").innerHTML = result;
 	},
 
 	guiPacketTypeChangeCall: function() {
@@ -48,8 +57,11 @@ window.pD = {
 		packetStr = packetStr.split('\t').join('');
 		packetStr = packetStr.split('0x').join('');
 
+		var addedExtraZero = false;
+
 		if (packetStr.length % 2 == 1) {
 			packetStr = "0" + packetStr;
+			addedExtraZero = true;
 		}
 
 		var packetStrBytes = [];
@@ -74,7 +86,8 @@ window.pD = {
 		var packetLength = null;
 		var dataFieldHeaderPresent = false;
 		var pecStart = "";
-		var spareBits1 = "";
+
+		var warnings = [];
 
 		for (var i = 0; i < packetBytes.length; i++) {
 			var packetByte = packetBytes[i];
@@ -86,28 +99,85 @@ window.pD = {
 			if (counter.length < 2) {
 				counter = "0" + counter;
 			}
-			result += counter + ": " + packetByteStr + " (" + packetStrBytes[i] + ")\n";
+
+			if (addedExtraZero && (i == 0)) {
+				result += counter + ": <span class='hidden'>0000</span>" + packetByteStr.substr(4, 4) + " (<span class='hidden'>0</span>" + packetStrBytes[i].substr(1, 1) + ")\n";
+			} else {
+				result += counter + ": " + packetByteStr + " (" + packetStrBytes[i] + ")\n";
+			}
 
 			switch (i) {
 				case 0:
 					ccsdsVersion = parseInt(packetByteStr.substr(0, 3), 2);
-					result += "    " + packetByteStr.substr(0, 3) + " ....... CCSDS Version Number: " + ccsdsVersion + "\n";
+					result += "    ";
+					if (addedExtraZero) {
+						result += "<span class='hidden'>";
+					}
+					result += packetByteStr.substr(0, 3) + " ....... CCSDS Version Number: " + ccsdsVersion;
+					if (addedExtraZero) {
+						result += "</span>";
+					}
+					result += "\n";
 					packetType = packetByteStr.substr(3, 1);
-					result += "       " + packetType + " ...... Packet Type: ";
+
+					var warn = false;
+					if (packetType == "1") {
+						if ((curPacketKind == "ccsdsTM") || (curPacketKind == "pusTM")) {
+							warnings.push("It seems that the reported packet kind does not correspond to the selected packet kind! (Telemetry packet selected, but packet indicates that it is a telecommand packet.)");
+							warn = true;
+						}
+					} else {
+						if ((curPacketKind == "ccsdsTC") || (curPacketKind == "pusTC")) {
+							warnings.push("It seems that the reported packet kind does not correspond to the selected packet kind! (Telecommand packet selected, but packet indicates that it is a telemetry packet.)");
+							warn = true;
+						}
+					}
+
+					result += "       ";
+					if (warn) {
+						result += "<span class='warn'>";
+					}
+					if (addedExtraZero) {
+						result += "<span class='hidden'>";
+					}
+					result += packetType + " ...... Packet Type: ";
 					if (packetType == "1") {
 						result += "Telecommand";
 						this.lastPacketKind = "ccsdsTC";
 					} else {
 						result += "Telemetry";
 					}
+					if (addedExtraZero) {
+						result += "</span>";
+					}
+					if (warn) {
+						result += "</span>";
+					}
 					result += "\n";
+
 					var dataFieldHeaderFlag = packetByteStr.substr(4, 1);
-					result += "        " + dataFieldHeaderFlag + " ..... Data Field Header Flag: ";
 					dataFieldHeaderPresent = dataFieldHeaderFlag == "1";
+
+					var warn = false;
+					if (!dataFieldHeaderPresent) {
+						if ((curPacketKind == "pusTM") || (curPacketKind == "pusTC")) {
+							warnings.push("It seems that the reported packet kind does not correspond to the selected packet kind! (PUS packet selected, but no data field header seems present, which is not allowed according to the PUS specification!)");
+							warn = true;
+						}
+					}
+
+					result += "        ";
+					if (warn) {
+						result += "<span class='warn'>";
+					}
+					result += dataFieldHeaderFlag + " ..... Data Field Header Flag: ";
 					if (dataFieldHeaderPresent) {
 						result += "Data Field Header present";
 					} else {
 						result += "No Data Field Header";
+					}
+					if (warn) {
+						result += "</span>";
 					}
 					result += "\n";
 					apidStart = packetByteStr.substr(5, 3);
@@ -148,28 +218,67 @@ window.pD = {
 
 				case 4:
 					packetLengthStart = packetByteStr;
-					result += "    " + packetLengthStart + " .. Packet Length start\n";
+					// set a span with a non-existing class which we can change later to warn if a warning becomes necessary
+					result += "    <span class='possiblywarnforpacketlength'>" + packetLengthStart + " .. Packet Length start</span>\n";
 					break;
 
 				case 5:
-					var packetLength = parseInt(packetLengthStart + packetByteStr, 2);
-					result += "    " + packetByteStr + " .. Packet Length end, length: " + packetLength + " bytes in packet data field\n";
+					// according to the PUS standard, this field is its actual value minus 1... because... why not .-.
+					var packetLength = parseInt(packetLengthStart + packetByteStr, 2) + 1;
+
+					var realLength = packetBytes.length;
+					var reportedLength = packetLength + 6;
+					var warn = false;
+					if (reportedLength != realLength) {
+						warnings.push("It seems that the reported packet length does not correspond with the actual length of the packet!\n(The reported length is " + reportedLength + " bytes, while the actual length seems to be " + realLength + " bytes.)");
+						warn = true;
+						// here, set the warning for the start of the packet length also, if necessary
+						result = result.replace("possiblywarnforpacketlength", "warn");
+					}
+
+					result += "    ";
+					if (warn) {
+						result += "<span class='warn'>";
+					}
+					result += packetByteStr + " .. Packet Length end, length: " + packetLength + " bytes in packet data field";
+					if (warn) {
+						result += "</span>";
+					}
+					result += "\n";
+
 					break;
 
 				case 6:
 					if (dataFieldHeaderPresent) {
 						var ccsdsSecHeaderFlag = packetByteStr.substr(0, 1);
-						result += "    " + ccsdsSecHeaderFlag + " ......... CCSDS Secondary Header Flag: ";
+
+						var warn = false;
 						if (ccsdsSecHeaderFlag == "1") {
-							result += "CCSDS-defined secondary header\n";
+							if ((curPacketKind == "pusTM") || (curPacketKind == "pusTC")) {
+								warnings.push("It seems that the reported packet kind does not correspond to the selected packet kind! (PUS packet selected, but a CCSDS-specified secondary header seems present, which is not allowed according to the PUS specification!)");
+								warn = true;
+							}
+						}
+
+						result += "    ";
+						if (warn) {
+							result += "<span class='warn'>";
+						}
+						result += ccsdsSecHeaderFlag + " ......... CCSDS Secondary Header Flag: ";
+						if (ccsdsSecHeaderFlag == "1") {
+							result += "CCSDS-defined secondary header";
 						} else {
-							result += "non-CCSDS-defined secondary header\n";
+							result += "non-CCSDS-defined secondary header";
 							if (packetType == "1") {
 								this.lastPacketKind = "pusTC";
 							} else {
 								this.lastPacketKind = "pusTM";
 							}
 						}
+						if (warn) {
+							result += "</span>";
+						}
+						result += "\n";
 
 						if ((curPacketKind == "pusTM") || (curPacketKind == "pusTC")) {
 							var tcPacketPusVersion = parseInt(packetByteStr.substr(1, 3), 2);
@@ -208,8 +317,24 @@ window.pD = {
 						}
 
 						if (curPacketKind == "pusTM") {
-							spareBits1 = packetByteStr.substr(4, 4);
-							result += "        " + spareBits1 + " .. Spare Bits (should all be zero)\n";
+							var spareBits1 = packetByteStr.substr(4, 4);
+
+							var warn = false;
+
+							if (spareBits1 != "0000") {
+								warnings.push("It seems that this PUS packet is slightly malformed! (The block of four spare bits in the data field header should be all zeroes according to the PUS standard.)");
+								warn = true;
+							}
+
+							result += "        ";
+							if (warn) {
+								result += "<span class='warn'>";
+							}
+							result += spareBits1 + " .. Spare Bits (should all be zero)";
+							if (warn) {
+								result += "</span>";
+							}
+							result += "\n";
 						}
 					}
 					break;
@@ -291,38 +416,11 @@ window.pD = {
 			result += "\n";
 		}
 
-		var realLength = packetBytes.length - 1;
-		var reportedLength = packetLength + 6;
-		if (reportedLength != realLength) {
-			result += "\n\nWARNING: It seems that the reported packet length does not correspond with the actual length of the packet!\n(The reported length is " + reportedLength + " bytes, while the actual length seems to be " + realLength + " bytes.)";
-		}
+		// remove trailing \n
+		result = result.substr(0, result.length - 1);
 
-		if (packetType == "1") {
-			if ((curPacketKind == "ccsdsTM") || (curPacketKind == "pusTM")) {
-				result += "\n\nWARNING: It seems that the reported packet kind does not correspond to the selected packet kind! (Telemetry packet selected, but packet indicates that it is a telecommand packet.)";
-			}
-		} else {
-			if ((curPacketKind == "ccsdsTC") || (curPacketKind == "pusTC")) {
-				result += "\n\nWARNING: It seems that the reported packet kind does not correspond to the selected packet kind! (Telecommand packet selected, but packet indicates that it is a telemetry packet.)";
-			}
-		}
-
-		if (!dataFieldHeaderPresent) {
-			if ((curPacketKind == "pusTM") || (curPacketKind == "pusTC")) {
-				result += "\n\nWARNING: It seems that the reported packet kind does not correspond to the selected packet kind! (PUS packet selected, but no data field header seems present, which is not allowed according to the PUS specification!)";
-			}
-		}
-
-		if (ccsdsSecHeaderFlag == "1") {
-			if ((curPacketKind == "pusTM") || (curPacketKind == "pusTC")) {
-				result += "\n\nWARNING: It seems that the reported packet kind does not correspond to the selected packet kind! (PUS packet selected, but a CCSDS-specified secondary header seems present, which is not allowed according to the PUS specification!)";
-			}
-		}
-
-		if (spareBits1 != "0000") {
-			if (curPacketKind == "pusTM") {
-				result += "\n\nWARNING: It seems that this PUS packet is slightly malformed! (The block of four spare bits in the data field header should be all zeroes according to the PUS standard.)";
-			}
+		for (var i = 0; i < warnings.length; i++) {
+			result += "\n<span class='warn'>WARNING:</span> " + warnings[i];
 		}
 
 		return result;

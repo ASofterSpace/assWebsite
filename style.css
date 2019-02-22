@@ -372,6 +372,24 @@ textarea {
 	height: 5em;
 }
 
+textarea.codebox, div.codecontainer, div.codeselector {
+	font-family: "Consolas", "Courier New", Courier, monospace;
+}
+
+/* we set this explicitly, as otherwise the default font size of the browser
+   actually overrides the inheritance from body... */
+textarea.codebox, div.codeselector {
+	font-size: 1em;
+}
+
+div.codecontainer span.warn {
+	color: #F00;
+}
+
+div.codecontainer span.hidden {
+	opacity: 0.5; /* use opacity instead of just color, such that we can combine warn and hidden */
+}
+
 div.option {
 	cursor: pointer;
 }
