@@ -126,6 +126,12 @@
 		"title": "a softer space",
 		"tools": "Tools",
 		"tools_intro": "The following are tools we made which have come in handy for us - maybe they will be useful for you too!",
+		"tools_packet_decoder_decode_as": "Decode as",
+		"tools_packet_decoder_decode_as_auto": "Automatic",
+		"tools_packet_decoder_decode_as_ccsds_tc": "CCSDS Telecommand Packet",
+		"tools_packet_decoder_decode_as_ccsds_tm": "CCSDS Telemetry Packet",
+		"tools_packet_decoder_decode_as_pus_tc": "PUS Telecommand Packet",
+		"tools_packet_decoder_decode_as_pus_tm": "PUS Telemetry Packet",
 		"tools_packet_decoder_headline": "Packet Decoder",
 		"tools_packet_decoder_intro": "Enables you to decode a CCSDS or PUS packet which are used to communicate with real-life spacecraft.",
 		"tools_universal_converter_binary": "Binary",
@@ -265,6 +271,12 @@
 		"title": "a softer space",
 		"tools": "Werkzeuge",
 		"tools_intro": "Die folgenden Werkzeuge haben wir zunächst einmal für uns selbst hergestellt, um unsere eigene Arbeit einfacher zu machen. Vielleicht sind sie ja auch für dich nützlich!",
+		"tools_packet_decoder_decode_as": "Decode as",
+		"tools_packet_decoder_decode_as_auto": "Automatic",
+		"tools_packet_decoder_decode_as_ccsds_tc": "CCSDS Telecommand Packet",
+		"tools_packet_decoder_decode_as_ccsds_tm": "CCSDS Telemetry Packet",
+		"tools_packet_decoder_decode_as_pus_tc": "PUS Telecommand Packet",
+		"tools_packet_decoder_decode_as_pus_tm": "PUS Telemetry Packet",
 		"tools_packet_decoder_headline": "Paket Decoder",
 		"tools_packet_decoder_intro": "Ermöglicht es dir, CCSDS und PUS Pakete zu decodieren, die genutzt werden, um mit echten Satelliten zu kommunizieren.",
 		"tools_universal_converter_binary": "Binär",
@@ -287,6 +299,8 @@
 		"customers.php",
 		"science/index.php",
 		"tools/index.php",
+		"tools/packetDecoder.js",
+		"tools/universalConverter.js",
 		"games.php",
 		"resources/index.php",
 		"resources/bricks_1.php",
@@ -365,5 +379,5 @@
 		"oops404.php",
 		"htaccess"
 	],
-	"version": 5775
+	"version": 6259
 }
