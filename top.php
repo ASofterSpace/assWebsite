@@ -49,12 +49,12 @@
 		style="background-image: url('/pics/bg_sos_1.jpg');"
 	@endif
 	>
-	
+
 	<div id="topofpage">&nbsp;</div>
 
 	<header>
 		<canvas id="cvHeader" style=""></canvas>
-			
+
 		{{-- TODO :: instead of navigating to nav.php, actually open an overlay or somesuch... would be more professional? or is this actually better? xD --}}
 		<a class="aburger" href="/nav.php">
 			<img class="burger" alt="burger icon" src="/pics/burger.png" />
@@ -63,7 +63,7 @@
 		<a class="alogo" href="/">
 			<img class="logo" alt="a softer space logo" src="/pics/logo.png" />
 		</a>
-		
+
 		<div class="headerbar">
 			{{-- show top navigation in the header --}}
 			@if(page="mission.php")

@@ -49,8 +49,9 @@
 		"manual": "Manual",
 		"merch_presentations_headline": "Presentation",
 		"merch_presentations_intro": "This presentation shows what A Softer Space is all about.",
-		"merch_presentations_odp": "<a href=\"/merchandise/A%20Softer%20Space.odp\" target=\"_blank\">Presentation as ODP (OpenDocument)</a>",
-		"merch_presentations_pptx": "<a href=\"/merchandise/A%20Softer%20Space.pptx\" target=\"_blank\">Presentation as PPTX (PowerPoint)</a>",
+		"merch_presentations_odp": "<a href=\"/merchandise/A%20Softer%20Space.odp\" target=\"_blank\">Presentation as ODP (Open Document)</a>",
+		"merch_presentations_pdf": "<a href=\"/merchandise/A%20Softer%20Space.pdf\" target=\"_blank\">Presentation as PDF (Portable Document)</a>",
+		"merch_presentations_pptx": "<a href=\"/merchandise/A%20Softer%20Space.pptx\" target=\"_blank\">Presentation as PPTX (Power Point)</a>",
 		"merch_presentations_pptx_just_href": "/merchandise/A%20Softer%20Space.pptx",
 		"merchandise": "Merchandise",
 		"merchandise_poster_gallery_headline_ass_mars": "A Softer Space Mars-themed Poster",
@@ -196,8 +197,9 @@
 		"manual": "Anleitung",
 		"merch_presentations_headline": "Präsentation",
 		"merch_presentations_intro": "Diese Präsentation zeigt, worum es uns bei A Softer Space geht.",
-		"merch_presentations_odp": "<a href=\"/merchandise/A%20Softer%20Space%20(DE).odp\" target=\"_blank\">Präsentation im ODP-Format (OpenDocument)</a>",
-		"merch_presentations_pptx": "<a href=\"/merchandise/A%20Softer%20Space%20(DE).pptx\" target=\"_blank\">Präsentation im PPTX-Format (PowerPoint)</a>",
+		"merch_presentations_odp": "<a href=\"/merchandise/A%20Softer%20Space%20(DE).odp\" target=\"_blank\">Präsentation im ODP-Format (Open Document)</a>",
+		"merch_presentations_pdf": "<a href=\"/merchandise/A%20Softer%20Space%20(DE).pdf\" target=\"_blank\">Präsentation im PDF-Format (Portable Document)</a>",
+		"merch_presentations_pptx": "<a href=\"/merchandise/A%20Softer%20Space%20(DE).pptx\" target=\"_blank\">Präsentation im PPTX-Format (Power Point)</a>",
 		"merch_presentations_pptx_just_href": "/merchandise/A%20Softer%20Space%20(DE).pptx",
 		"merchandise": "Merchandise",
 		"merchandise_poster_gallery_headline_ass_mars": "A Softer Space Poster mit dem Thema Mars",
@@ -316,6 +318,8 @@
 		"merchandise/A Softer Space (DE).odp",
 		"merchandise/A Softer Space (DE).pptx",
 		"merchandise/A Softer Space.odp",
+		"merchandise/A Softer Space (DE).pdf",
+		"merchandise/A Softer Space.pdf",
 		"merchandise/A Softer Space.pptx",
 		"merchandise/ass_presentation_preview.png",
 		"donations.php",
@@ -383,5 +387,5 @@
 		"oops404.php",
 		"htaccess"
 	],
-	"version": 6276
+	"version": 6391
 }

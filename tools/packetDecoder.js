@@ -52,6 +52,8 @@ window.pD = {
 
 		this.lastPacketKind = "ccsdsTM";
 
+		var warnings = [];
+
 		packetStr = packetStr.split(' ').join('');
 		packetStr = packetStr.split('\n').join('');
 		packetStr = packetStr.split('\t').join('');
@@ -62,6 +64,7 @@ window.pD = {
 		if (packetStr.length % 2 == 1) {
 			packetStr = "0" + packetStr;
 			addedExtraZero = true;
+			warnings.push("The data that you entered does not have an even length. To get complete bytes out of this, a leading zero was added.");
 		}
 
 		var packetStrBytes = [];
@@ -86,8 +89,6 @@ window.pD = {
 		var packetLength = null;
 		var dataFieldHeaderPresent = false;
 		var pecStart = "";
-
-		var warnings = [];
 
 		for (var i = 0; i < packetBytes.length; i++) {
 			var packetByte = packetBytes[i];
