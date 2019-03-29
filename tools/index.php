@@ -27,6 +27,7 @@
 		<div id="uC-in-octal" class="option" onclick="uC.setIn('octal');">@content(tools_universal_converter_octal)</div>
 		<div id="uC-in-decimal" class="option" onclick="uC.setIn('decimal');">@content(tools_universal_converter_decimal)</div>
 		<div id="uC-in-hexadecimal" class="option selected" onclick="uC.setIn('hexadecimal');">@content(tools_universal_converter_hexadecimal)</div>
+		<div id="uC-in-utf16" class="option" onclick="uC.setIn('utf16');">@content(tools_universal_converter_utf16)</div>
 
 		<div style="position: absolute; left: 50%; top: 0;">
 			<div>@content(tools_universal_converter_convert_to):</div>
@@ -34,6 +35,7 @@
 			<div id="uC-out-octal" class="option" onclick="uC.setOut('octal');">@content(tools_universal_converter_octal)</div>
 			<div id="uC-out-decimal" class="option" onclick="uC.setOut('decimal');">@content(tools_universal_converter_decimal)</div>
 			<div id="uC-out-hexadecimal" class="option" onclick="uC.setOut('hexadecimal');">@content(tools_universal_converter_hexadecimal)</div>
+			<div id="uC-out-utf16" class="option" onclick="uC.setOut('utf16');">@content(tools_universal_converter_utf16)</div>
 		</div>
 	</div>
 

@@ -143,6 +143,7 @@
 		"tools_universal_converter_hexadecimal": "Hexadecimal",
 		"tools_universal_converter_intro": "Just like our <a href=\"/products#universalconverter\">Universal Converter app</a> this allows the conversion between various formats.",
 		"tools_universal_converter_octal": "Octal",
+		"tools_universal_converter_utf16": "UTF-16 Text",
 		"transparent": "Transparent",
 		"wallpaper": "Wallpaper",
 		"welcome": "Welcome"
@@ -291,6 +292,7 @@
 		"tools_universal_converter_hexadecimal": "Hexadezimal",
 		"tools_universal_converter_intro": "Wie unsere <a href=\"/products#universalconverter\">Universal Converter App</a> erlaubt dies die Konvertierung zwischen verschiedenen Formaten.",
 		"tools_universal_converter_octal": "Oktal",
+		"tools_universal_converter_utf16": "UTF-16 Text",
 		"transparent": "Transparent",
 		"wallpaper": "Tapete",
 		"welcome": "Willkommen"
@@ -387,5 +389,5 @@
 		"oops404.php",
 		"htaccess"
 	],
-	"version": 6391
+	"version": 6479
 }

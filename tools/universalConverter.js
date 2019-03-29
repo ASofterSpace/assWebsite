@@ -11,6 +11,7 @@ window.uC = {
 		document.getElementById("uC-in-octal").className = "option";
 		document.getElementById("uC-in-decimal").className = "option";
 		document.getElementById("uC-in-hexadecimal").className = "option";
+		document.getElementById("uC-in-utf16").className = "option";
 
 		document.getElementById("uC-in-" + id).className = "option selected";
 
@@ -24,6 +25,7 @@ window.uC = {
 		document.getElementById("uC-out-octal").className = "option";
 		document.getElementById("uC-out-decimal").className = "option";
 		document.getElementById("uC-out-hexadecimal").className = "option";
+		document.getElementById("uC-out-utf16").className = "option";
 
 		document.getElementById("uC-out-" + id).className = "option selected";
 
@@ -44,6 +46,20 @@ window.uC = {
 
 		if (orig == "") {
 			return "";
+		}
+
+		var trueOrigKind = origKind;
+
+		if (origKind == "utf16") {
+			if (targetKind == "utf16") {
+				return orig;
+			}
+			var newOrig = "";
+			for (var i = 0; i < orig.length; i++) {
+				newOrig += orig.charCodeAt(i) + " ";
+			}
+			orig = newOrig;
+			origKind = "decimal";
 		}
 
 		var origBase = 10;
@@ -79,10 +95,49 @@ window.uC = {
 
 		orig = orig.trim();
 
-		var intermediate = parseInt(orig, origBase);
+		var origArr = orig.split(" ");
 
-		var result = (intermediate).toString(targetBase);
+		if (targetKind == "utf16") {
 
-		return result.toUpperCase();
+			var result = "";
+
+			for (var i = 0; i < origArr.length; i++) {
+
+				var intermediate = parseInt(origArr[i], origBase);
+
+				result += String.fromCharCode(intermediate);
+			}
+
+			return result;
+		}
+
+		for (var i = 0; i < origArr.length; i++) {
+
+			var intermediate = parseInt(origArr[i], origBase);
+
+			origArr[i] = (intermediate).toString(targetBase);
+
+			// UTF16 -> binary: left pad with zeroes
+			if (trueOrigKind == "utf16") {
+				if (targetKind == "binary") {
+					while (origArr[i].length < 8) {
+						origArr[i] = "0" + origArr[i];
+					}
+				}
+				if (targetKind == "hexadecimal") {
+					while (origArr[i].length < 2) {
+						origArr[i] = "0" + origArr[i];
+					}
+				}
+			}
+		}
+
+		var result = origArr.join(" ");
+
+		if (targetKind == "hexadecimal") {
+			result = result.toUpperCase();
+		}
+
+		return result;
 	},
 };
