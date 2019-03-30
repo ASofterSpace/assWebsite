@@ -90,6 +90,13 @@
 				<a href="/cdm">CDM Commandline Tool</a>
 			</div>
 			@endif
+			@if(page="pdfQrReader/index.php")
+			/ <div class="item">
+				<a href="/products">@content(products)</a>
+			</div> / <div class="item">
+				<a href="/pdfQrReader">PDF QR Reader</a>
+			</div>
+			@endif
 			@if(page="xdc/index.php")
 			/ <div class="item">
 				<a href="/products">@content(products)</a>

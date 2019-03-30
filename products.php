@@ -35,12 +35,20 @@
 	</div>
 @include(sectionend.php)
 
+<a id="pdfqrreader"></a>
+@include(sectionstart.php)
+	<h2>PDF QR Reader</h2>
+
+	@include(pdf_qr_reader_overview.php)
+
+@include(sectionend.php)
+
 <a id="xdcreportcreator"></a>
 @include(sectionstart.php)
 	<h2>XDC Report Creator</h2>
 
 	@include(xdc_overview.php)
-	
+
 @include(sectionend.php)
 
 <a id="ekse"></a>
@@ -70,7 +78,7 @@
 	<div class="content">
 		@content(products_universalconverter_intro)
 	</div>
-	
+
 	<div class="content centerimg">
 		<img src="/pics/products/universalconverter_feature_graphic.png" />
 	</div>
