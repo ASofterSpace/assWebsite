@@ -17,7 +17,7 @@
 	</div>
 
 	<div class="content">
-		<div>Input:</div>
+		<div>@content(input):</div>
 		<textarea id="uC-in" class="codebox" onchange="uC.doconvert()" oninput="uC.doconvert()">0</textarea>
 	</div>
 
@@ -40,7 +40,7 @@
 	</div>
 
 	<div class="content">
-		<div>Output:</div>
+		<div>@content(output):</div>
 		<textarea id="uC-out" class="codebox">0</textarea>
 	</div>
 @include(sectionend.php)
@@ -56,7 +56,7 @@
 	</div>
 
 	<div class="content">
-		<div>Input:</div>
+		<div>@content(input):</div>
 		<textarea id="pD-in" class="codebox" onchange="pD.guiDecodePacketCall()" oninput="pD.guiDecodePacketCall()">0890C00100100003190072DD7A82D70A3D00CDFF800000</textarea>
 	</div>
 
@@ -72,7 +72,7 @@
 	</div>
 
 	<div class="content">
-		<div>Output:</div>
+		<div>@content(output):</div>
 		<div id="pD-out" class="codecontainer"></div>
 	</div>
 @include(sectionend.php)
@@ -103,6 +103,31 @@
 @include(sectionend.php)
 
 <script src="/tools/textAnalyzer.js?v=@version"></script>
+
+
+@include(sectionstart.php)
+	<h2>@content(tools_json_formatter_headline)</h2>
+
+	<div class="content">
+		@content(tools_json_formatter_intro)
+	</div>
+
+	<div class="content">
+		<div>JSON @content(input):</div>
+		<textarea id="jF-in" class="codebox" onchange="jF.doformat()" oninput="jF.doformat()">{"a softer":"space"}</textarea>
+	</div>
+
+	<div class="content">
+		<div>JSON @content(output):</div>
+		<textarea id="jF-out" class="codebox">{
+&nbsp;&nbsp;"a softer": "space"
+}</textarea>
+	</div>
+
+	<!-- TODO :: add option to sort keys alphabetically -->
+@include(sectionend.php)
+
+<script src="/tools/jsonFormatter.js?v=@version"></script>
 
 
 @include(bottom.php)
