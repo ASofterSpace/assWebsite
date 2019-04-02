@@ -10,30 +10,44 @@ window.tA = {
 		var orig = document.getElementById("tA-in").value;
 
 		var words = 1;
+		var lines = 1;
+
 		if (orig.trim() == "") {
 			words = 0;
+			lines = 0;
 		}
+
 		var sentences = 0;
 		var characterOccurrences = [];
 		var lastChar = ' ';
 
 		for (var i = 0; i < orig.length; i++) {
+
 			var curChar = orig.charAt(i);
-			if ((curChar == " ") && (lastChar != " ")) {
-				words++;
+
+			if (curChar == "\n") {
+				lines++;
+				if ((lastChar != "\n") && (lastChar != " ")) {
+					words++;
+				}
+			} else {
+				if ((curChar == " ") && (lastChar != " ")) {
+					words++;
+				}
 			}
-			if ((curChar == "\n") && (lastChar != "\n") && (lastChar != " ")) {
-				words++;
-			}
+
 			if (this.isSentenceEnd(curChar) && !this.isSentenceEnd(lastChar)) {
 				sentences++;
 			}
+
 			var curCharVal = curChar.toUpperCase().charCodeAt(0);
+
 			if (characterOccurrences[curCharVal]) {
 				characterOccurrences[curCharVal] += 1;
 			} else {
 				characterOccurrences[curCharVal] = 1;
 			}
+
 			lastChar = curChar;
 		}
 
@@ -66,6 +80,7 @@ window.tA = {
 		}
 
 		document.getElementById("tA-out-length").innerHTML = "" + orig.length;
+		document.getElementById("tA-out-lines").innerHTML = "" + lines;
 		document.getElementById("tA-out-word-count").innerHTML = "" + words;
 		document.getElementById("tA-out-sentence-count").innerHTML = "" + sentences;
 		document.getElementById("tA-out-size-est").innerHTML = this.byteAmountToSizeString(orig.length);
@@ -101,3 +116,5 @@ window.tA = {
 	},
 
 };
+
+tA.doanalyze();

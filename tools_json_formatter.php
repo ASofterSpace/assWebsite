@@ -5,12 +5,12 @@
 
 <div class="content">
 	<div>JSON @content(input):</div>
-	<textarea id="jF-in" class="codebox" onchange="jF.doformat()" oninput="jF.doformat()">{"a softer":"space"}</textarea>
+	<textarea id="jF-in" class="codebox" onchange="jF.doformat()" oninput="jF.doformat()" style="white-space: pre;">{"a softer":"space"}</textarea>
 </div>
 
 <div class="content">
 	<div>JSON @content(output):</div>
-	<textarea id="jF-out" class="codebox">{
+	<textarea id="jF-out" class="codebox" style="white-space: pre;">{
 &nbsp;&nbsp;"a softer": "space"
 }</textarea>
 </div>

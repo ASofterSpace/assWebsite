@@ -145,3 +145,5 @@ window.uC = {
 		return result;
 	},
 };
+
+tA.doconvert();

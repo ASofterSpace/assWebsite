@@ -1,5 +1,5 @@
 
-<a href="http://www.recoded.co/en/" target="_blank"><img alt="Recoded logo" src="pics/exp_recoded.png"/></a>
+<a href="https://thebitbybit.com/" target="_blank"><img alt="Bit by Bit logo" src="pics/exp_bitbybit.png"/></a>
 <a href="http://skyhook.is/" target="_blank"><img alt="Skyhook logo" src="pics/exp_skyhook.png"/></a>
 <a href="https://www.right-basedonscience.de/" target="_blank"><img alt="Right based on science logo" src="pics/exp_right.png"/></a>
 <a href="https://nasa.github.io/openmct/" target="_blank"><img alt="OpenMCT logo" src="pics/exp_openmct.png"/></a>

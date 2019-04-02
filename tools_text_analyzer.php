@@ -5,11 +5,12 @@
 
 <div class="content">
 	<div>Text:</div>
-	<textarea id="tA-in" class="codebox" onchange="tA.doanalyze()" oninput="tA.doanalyze()"></textarea>
+	<textarea id="tA-in" class="codebox" onchange="tA.doanalyze()" oninput="tA.doanalyze()" style="white-space: pre;"></textarea>
 </div>
 
 <div class="content" style="position: relative;">
 	<div>@content(tools_text_analyzer_out_length): <span id="tA-out-length">0</span></div>
+	<div>@content(tools_text_analyzer_out_lines): <span id="tA-out-lines">0</span></div>
 	<div>@content(tools_text_analyzer_out_word_count): <span id="tA-out-word-count">0</span></div>
 	<div>@content(tools_text_analyzer_out_sentence_count): <span id="tA-out-sentence-count">0</span></div>
 	<div>@content(tools_text_analyzer_out_size_est): <span id="tA-out-size-est">0</span></div>

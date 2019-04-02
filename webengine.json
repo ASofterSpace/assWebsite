@@ -146,6 +146,7 @@
 		"tools_text_analyzer_headline": "Text Analyzer",
 		"tools_text_analyzer_intro": "Paste or write a text here, and some diagnostic output will be printed immediately, telling you whatever you might want to know about your text.",
 		"tools_text_analyzer_out_length": "Length",
+		"tools_text_analyzer_out_lines": "Lines",
 		"tools_text_analyzer_out_most_common_char": "Most common character",
 		"tools_text_analyzer_out_most_common_letter": "Most common letter",
 		"tools_text_analyzer_out_sentence_count": "Sentence count",
@@ -311,6 +312,7 @@
 		"tools_text_analyzer_headline": "Text Analyzer",
 		"tools_text_analyzer_intro": "Schreib hier einfach Text (oder kopiere ihn von woanders her.) Sofort zeigt der Text Analyzer alle möglichen Informationen über deinen Text an.",
 		"tools_text_analyzer_out_length": "Länge",
+		"tools_text_analyzer_out_lines": "Zeilen",
 		"tools_text_analyzer_out_most_common_char": "Am meisten auftretendes Schriftzeichen",
 		"tools_text_analyzer_out_most_common_letter": "Am meisten auftretender Buchstabe",
 		"tools_text_analyzer_out_sentence_count": "Satzanzahl",
@@ -403,7 +405,7 @@
 		"pics/bg_solheimajokull_1.jpg",
 		"pics/bg_newton_1.jpg",
 		"pics/bg_newton_2.jpg",
-		"pics/bg2_final_1.png",
+		"pics/bg_sourcecode_1.png",
 		"pics/bg_sos_1.jpg",
 		"pics/burger.png",
 		"pics/backtotop_light.png",
@@ -411,7 +413,7 @@
 		"pics/exp_egscc.png",
 		"pics/exp_gml.png",
 		"pics/exp_openmct.png",
-		"pics/exp_recoded.png",
+		"pics/exp_bitbybit.png",
 		"pics/exp_skyhook.png",
 		"pics/exp_right.png",
 		"pics/products/cdm_1.png",
@@ -431,5 +433,5 @@
 		"oops404.php",
 		"htaccess"
 	],
-	"version": 7333
+	"version": 7603
 }

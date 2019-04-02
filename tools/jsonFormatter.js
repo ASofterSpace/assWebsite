@@ -119,3 +119,5 @@ window.jF = {
 	}
 
 };
+
+tA.doformat();
