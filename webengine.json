@@ -130,7 +130,7 @@
 		"times": "times",
 		"title": "a softer space",
 		"tools": "Tools",
-		"tools_intro": "The following are tools we made which have come in handy for us - maybe they will be useful for you too!",
+		"tools_intro": "The following are tools we made which have come in handy for us - maybe they will be useful for you too!<br>As usual for us, the source codes for these tools are <a href=\"https://github.com/ASofterSpace/assWebsite/tree/master/tools\" target=\"_blank\">freely available on GitHub.</a>",
 		"tools_json_formatter_headline": "JSON Formatter",
 		"tools_json_formatter_intro": "Enter some JSON data and it will be output in a nicely formatted form.",
 		"tools_json_formatter_sort_alphabetically": "Sort object keys alphabetically",
@@ -294,7 +294,7 @@
 		"times": "mal",
 		"title": "a softer space",
 		"tools": "Werkzeuge",
-		"tools_intro": "Die folgenden Werkzeuge haben wir zunächst einmal für uns selbst hergestellt, um unsere eigene Arbeit einfacher zu machen. Vielleicht sind sie ja auch für dich nützlich!",
+		"tools_intro": "Die folgenden Werkzeuge haben wir zunächst einmal für uns selbst hergestellt, um unsere eigene Arbeit einfacher zu machen. Vielleicht sind sie ja auch für dich nützlich!<br>Wie bei uns üblich sind die Quelltexte dieser Werkzeuge <a href=\"https://github.com/ASofterSpace/assWebsite/tree/master/tools\" target=\"_blank\">frei verfügbar auf GitHub.</a>",
 		"tools_json_formatter_headline": "JSON Formatierer",
 		"tools_json_formatter_intro": "Gib JSON-Daten ein und sie werden nett formatiert wieder ausgegeben.",
 		"tools_json_formatter_sort_alphabetically": "Objektschlüssel alphabetisch sortieren",
@@ -429,5 +429,5 @@
 		"oops404.php",
 		"htaccess"
 	],
-	"version": 7225
+	"version": 7279
 }
