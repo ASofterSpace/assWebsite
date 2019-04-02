@@ -133,6 +133,7 @@
 		"tools_intro": "The following are tools we made which have come in handy for us - maybe they will be useful for you too!",
 		"tools_json_formatter_headline": "JSON Formatter",
 		"tools_json_formatter_intro": "Enter some JSON data and it will be output in a nicely formatted form.",
+		"tools_json_formatter_sort_alphabetically": "Sort object keys alphabetically",
 		"tools_packet_decoder_decode_as": "Decode as",
 		"tools_packet_decoder_decode_as_auto": "Automatic",
 		"tools_packet_decoder_decode_as_ccsds_tc": "CCSDS Telecommand Packet",
@@ -296,6 +297,7 @@
 		"tools_intro": "Die folgenden Werkzeuge haben wir zunächst einmal für uns selbst hergestellt, um unsere eigene Arbeit einfacher zu machen. Vielleicht sind sie ja auch für dich nützlich!",
 		"tools_json_formatter_headline": "JSON Formatierer",
 		"tools_json_formatter_intro": "Gib JSON-Daten ein und sie werden nett formatiert wieder ausgegeben.",
+		"tools_json_formatter_sort_alphabetically": "Objektschlüssel alphabetisch sortieren",
 		"tools_packet_decoder_decode_as": "Decode as",
 		"tools_packet_decoder_decode_as_auto": "Automatic",
 		"tools_packet_decoder_decode_as_ccsds_tc": "CCSDS Telecommand Packet",
@@ -340,10 +342,14 @@
 		"customers.php",
 		"science/index.php",
 		"tools/index.php",
+		"tools/jsonFormatter.php",
 		"tools/jsonFormatter.js",
 		"tools/packetDecoder.js",
+		"tools/packetDecoder.php",
 		"tools/textAnalyzer.js",
+		"tools/textAnalyzer.php",
 		"tools/universalConverter.js",
+		"tools/universalConverter.php",
 		"games.php",
 		"resources/index.php",
 		"resources/bricks_1.php",
@@ -423,5 +429,5 @@
 		"oops404.php",
 		"htaccess"
 	],
-	"version": 6801
+	"version": 7225
 }

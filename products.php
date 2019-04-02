@@ -10,7 +10,7 @@
 
 <a id="cdm"></a>
 @include(sectionstart.php)
-	<h2>CDM Commandline Tool</h2>
+	<h2><a href="/cdm">CDM Commandline Tool</a></h2>
 
 	@include(cdm_overview.php)
 
@@ -37,7 +37,7 @@
 
 <a id="pdfqrreader"></a>
 @include(sectionstart.php)
-	<h2>PDF QR Reader</h2>
+	<h2><a href="/pdfQrReader">PDF QR Reader</a></h2>
 
 	@include(pdf_qr_reader_overview.php)
 
@@ -45,7 +45,7 @@
 
 <a id="xdcreportcreator"></a>
 @include(sectionstart.php)
-	<h2>XDC Report Creator</h2>
+	<h2><a href="/xdc">XDC Report Creator</a></h2>
 
 	@include(xdc_overview.php)
 

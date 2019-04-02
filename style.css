@@ -398,6 +398,11 @@ div.selected {
 	font-weight: bold;
 }
 
+h2 > a {
+	color: #222;
+	text-decoration: none;
+}
+
 .clearfix {
 	overflow: auto;
 }

@@ -24,6 +24,15 @@
 	@if(pageStart="products")
 		style="background-image: url('/pics/bg_newton_1.jpg');"
 	@endif
+	@if(pageStart="cdm")
+		style="background-image: url('/pics/bg_newton_1.jpg');"
+	@endif
+	@if(pageStart="pdfQrReader")
+		style="background-image: url('/pics/bg_newton_1.jpg');"
+	@endif
+	@if(pageStart="xdc")
+		style="background-image: url('/pics/bg_newton_1.jpg');"
+	@endif
 	@if(pageStart="customers")
 		{{-- leave default --}}
 	@endif
@@ -130,9 +139,37 @@
 				<a href="/science">@content(science)</a>
 			</div>
 			@endif
-			@if(page="tools.php")
+			@if(page="tools/index.php")
 			/ <div class="item">
 				<a href="/tools">@content(tools)</a>
+			</div>
+			@endif
+			@if(page="tools/universalConverter.php")
+			/ <div class="item">
+				<a href="/tools">@content(tools)</a>
+			</div> / <div class="item">
+				<a href="/tools/universalConverter">@content(tools_universal_converter_headline)</a>
+			</div>
+			@endif
+			@if(page="tools/packetDecoder.php")
+			/ <div class="item">
+				<a href="/tools">@content(tools)</a>
+			</div> / <div class="item">
+				<a href="/tools/packetDecoder">@content(tools_packet_decoder_headline)</a>
+			</div>
+			@endif
+			@if(page="tools/textAnalyzer.php")
+			/ <div class="item">
+				<a href="/tools">@content(tools)</a>
+			</div> / <div class="item">
+				<a href="/tools/textAnalyzer">@content(tools_text_analyzer_headline)</a>
+			</div>
+			@endif
+			@if(page="tools/jsonFormatter.php")
+			/ <div class="item">
+				<a href="/tools">@content(tools)</a>
+			</div> / <div class="item">
+				<a href="/tools/jsonFormatter">@content(tools_json_formatter_headline)</a>
 			</div>
 			@endif
 			@if(page="games.php")
@@ -180,7 +217,7 @@
 				<a href="/wallpaper_2">@content(wallpaper) 2</a>
 			</div>
 			@endif
-			@if(page="merchandise.php")
+			@if(page="merchandise/index.php")
 			/ <div class="item">
 				<a href="/merchandise">@content(merchandise)</a>
 			</div>
