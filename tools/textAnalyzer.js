@@ -9,7 +9,10 @@ window.tA = {
 
 		var orig = document.getElementById("tA-in").value;
 
-		var words = 0;
+		var words = 1;
+		if (orig.trim() == "") {
+			words = 0;
+		}
 		var sentences = 0;
 		var characterOccurrences = [];
 		var lastChar = ' ';
@@ -17,6 +20,9 @@ window.tA = {
 		for (var i = 0; i < orig.length; i++) {
 			var curChar = orig.charAt(i);
 			if ((curChar == " ") && (lastChar != " ")) {
+				words++;
+			}
+			if ((curChar == "\n") && (lastChar != "\n") && (lastChar != " ")) {
 				words++;
 			}
 			if (this.isSentenceEnd(curChar) && !this.isSentenceEnd(lastChar)) {
