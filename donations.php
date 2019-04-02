@@ -6,7 +6,7 @@
 	<div class="content">
 		@content(donations_giving_what_we_can_intro_1)
 	</div>
-	
+
 	<div class="content">
 		@content(donations_giving_what_we_can_intro_2)
 	</div>
@@ -18,9 +18,13 @@
 	<div class="content">
 		@content(donations_2018_1)
 	</div>
-	
+
 	<div class="content">
 		@content(donations_2018_2)
+	</div>
+
+	<div class="content">
+		@content(donations_2018_3)
 	</div>
 @include(sectionend.php)
 
