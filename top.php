@@ -172,7 +172,7 @@
 				<a href="/tools/jsonFormatter">@content(tools_json_formatter_headline)</a>
 			</div>
 			@endif
-			@if(page="games.php")
+			@if(page="games/index.php")
 			/ <div class="item">
 				<a href="/games">@content(games)</a>
 			</div>

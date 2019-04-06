@@ -58,6 +58,7 @@
 	<div class="content">
 		@content(products_ekse_intro_1)
 	</div>
+
 	<div class="content centerimg">
 		<img src="/pics/products/ekse.png" />
 	</div>
@@ -89,6 +90,22 @@
 
 	<div class="content">
 		@content(sourcecode): @content(openly_available_on) <a href="https://github.com/ASofterSpace/UniversalConverter" target="_blank">GitHub</a>
+	</div>
+@include(sectionend.php)
+
+<a id="assEditor"></a>
+@include(sectionstart.php)
+	<h2>A Softer Space Editor</h2>
+
+	<div class="content">
+		@content(products_assEditor_intro_1)
+	</div>
+	<div class="content centerimg">
+		<img src="/pics/products/assEditor_1.png" />
+	</div>
+
+	<div class="content">
+		@content(sourcecode): @content(openly_available_on) <a href="https://github.com/ASofterSpace/assEditor" target="_blank">GitHub</a>
 	</div>
 @include(sectionend.php)
 

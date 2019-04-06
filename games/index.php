@@ -31,4 +31,25 @@
 	</div>
 @include(sectionend.php)
 
+<a id="wallbreak_online"></a>
+@include(sectionstart.php)
+	<h2>Wallbreak Online</h2>
+
+	<div class="content">
+		@content(games_wallbreak_online_intro)
+	</div>
+
+	<div class="content centerimg">
+		<img src="/pics/games/wallbreak_online_1.png" />
+	</div>
+
+	<div class="content">
+		@content(games_wallbreak_online_lets_play)
+	</div>
+
+	<div class="content">
+		@content(games_wallbreak_online_source_code)
+	</div>
+@include(sectionend.php)
+
 @include(bottom.php)
