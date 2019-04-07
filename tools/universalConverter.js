@@ -69,8 +69,6 @@ window.uC = {
 			return "";
 		}
 
-		var trueOrigKind = origKind;
-
 		// preprocess input: make base64 and URI-encoded text look internally just like regular utf16 text
 		switch (origKind) {
 			case "base64":
@@ -94,6 +92,8 @@ window.uC = {
 		// consolidate input: split the input string into an array of input values
 		var origArr;
 
+		var doLeftPad = false;
+
 		switch (origKind) {
 
 			case "babylonian":
@@ -106,6 +106,8 @@ window.uC = {
 					origArr.push(orig.charCodeAt(i));
 				}
 				origKind = "decimal";
+				// remember that we might want to left-pad output such as binary later on
+				doLeftPad = true;
 				break;
 
 			// binary, octal, decimal, hexadecimal
@@ -152,7 +154,7 @@ window.uC = {
 				case "binary":
 					origArr[i] = (origArr[i]).toString(2);
 					// UTF16 -> binary: left pad with zeroes
-					if (trueOrigKind == "utf16") {
+					if (doLeftPad) {
 						while (origArr[i].length < 8) {
 							origArr[i] = "0" + origArr[i];
 						}
@@ -170,7 +172,7 @@ window.uC = {
 				case "hexadecimal":
 					origArr[i] = (origArr[i]).toString(16);
 					// UTF16 -> hex: left pad with zeroes
-					if (trueOrigKind == "utf16") {
+					if (doLeftPad) {
 						while (origArr[i].length < 2) {
 							origArr[i] = "0" + origArr[i];
 						}
