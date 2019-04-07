@@ -157,7 +157,7 @@
 		"tools_text_analyzer_out_size_est": "Estimated size when saved as plain text file",
 		"tools_text_analyzer_out_word_count": "Word count",
 		"tools_universal_converter_babylonian": "Babylonian Numerals",
-		"tools_universal_converter_base64": "Base64",
+		"tools_universal_converter_base64": "Base64-Encoded Text",
 		"tools_universal_converter_binary": "Binary",
 		"tools_universal_converter_convert_from": "Convert from",
 		"tools_universal_converter_convert_to": "Convert to",
@@ -333,7 +333,7 @@
 		"tools_text_analyzer_out_size_est": "Geschätzte Größe beim Speichern als Textdatei",
 		"tools_text_analyzer_out_word_count": "Wortanzahl",
 		"tools_universal_converter_babylonian": "Babylonische Zahlen",
-		"tools_universal_converter_base64": "Base64",
+		"tools_universal_converter_base64": "Base64-Kodierter Text",
 		"tools_universal_converter_binary": "Binär",
 		"tools_universal_converter_convert_from": "Von",
 		"tools_universal_converter_convert_to": "Zu",
@@ -468,5 +468,5 @@
 		"oops404.php",
 		"htaccess"
 	],
-	"version": 8607
+	"version": 8551
 }
