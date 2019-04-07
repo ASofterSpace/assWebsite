@@ -169,7 +169,8 @@
 		"tools_universal_converter_morse": "Morse Code",
 		"tools_universal_converter_octal": "Octal",
 		"tools_universal_converter_roman": "Roman Numerals",
-		"tools_universal_converter_utf16": "UTF-16 Text",
+		"tools_universal_converter_uri": "URI-Encoded Text",
+		"tools_universal_converter_utf16": "Regular Text (UTF-16)",
 		"transparent": "Transparent",
 		"wallpaper": "Wallpaper",
 		"welcome": "Welcome"
@@ -344,7 +345,8 @@
 		"tools_universal_converter_morse": "Morsezeichen",
 		"tools_universal_converter_octal": "Oktal",
 		"tools_universal_converter_roman": "Römische Zahlen",
-		"tools_universal_converter_utf16": "UTF-16 Text",
+		"tools_universal_converter_uri": "URI-Kodierter Text",
+		"tools_universal_converter_utf16": "Normaler Text (UTF-16)",
 		"transparent": "Transparent",
 		"wallpaper": "Tapete",
 		"welcome": "Willkommen"
@@ -466,5 +468,5 @@
 		"oops404.php",
 		"htaccess"
 	],
-	"version": 8495
+	"version": 8607
 }

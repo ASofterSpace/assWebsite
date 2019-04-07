@@ -13,6 +13,7 @@
 	<!-- div id="uC-in-roman" class="option" onclick="uC.setIn('roman');"><span id="uC-inspan-roman">@content(tools_universal_converter_roman)</span></div>
 	<div id="uC-in-morse" class="option" onclick="uC.setIn('morse');"><span id="uC-inspan-morse">@content(tools_universal_converter_morse)</span></div -->
 	<div id="uC-in-utf16" class="option" onclick="uC.setIn('utf16');"><span id="uC-inspan-utf16">@content(tools_universal_converter_utf16)</span></div>
+	<div id="uC-in-uri" class="option" onclick="uC.setIn('uri');"><span id="uC-inspan-uri">@content(tools_universal_converter_uri)</span></div>
 	<div id="uC-in-base64" class="option" onclick="uC.setIn('base64');"><span id="uC-inspan-base64">@content(tools_universal_converter_base64)</span></div>
 
 	<div style="position: absolute; left: 50%; top: 0;">
@@ -25,6 +26,7 @@
 		<!-- div id="uC-out-roman" class="option" onclick="uC.setOut('roman');">@content(tools_universal_converter_roman)</div>
 		<div id="uC-out-morse" class="option" onclick="uC.setOut('morse');">@content(tools_universal_converter_morse)</div -->
 		<div id="uC-out-utf16" class="option selected" onclick="uC.setOut('utf16');">@content(tools_universal_converter_utf16)</div>
+		<div id="uC-out-uri" class="option" onclick="uC.setOut('uri');">@content(tools_universal_converter_uri)</div>
 		<div id="uC-out-base64" class="option" onclick="uC.setOut('base64');">@content(tools_universal_converter_base64)</div>
 	</div>
 

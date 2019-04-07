@@ -6,9 +6,8 @@
 window.uC = {
 
 	// TODO :: also add Java / Ecore UUID conversion
-	// TODO :: also add URL encode
 
-	allFields: ["binary", "octal", "decimal", "hexadecimal", "babylonian", /* "roman", "morse", */ "utf16", "base64"],
+	allFields: ["binary", "octal", "decimal", "hexadecimal", "babylonian", /* "roman", "morse", */ "utf16", "uri", "base64"],
 
 	inKind: "hexadecimal",
 
@@ -72,18 +71,28 @@ window.uC = {
 
 		var trueOrigKind = origKind;
 
+		// preprocess input: make base64 and URI-encoded text look internally just like regular utf16 text
+		switch (origKind) {
+			case "base64":
+				try {
+					orig = atob(orig);
+				} catch (error) {
+					orig = "";
+				}
+				origKind = "utf16";
+				break;
+			case "uri":
+				try {
+					orig = decodeURIComponent(orig);
+				} catch (error) {
+					orig = "";
+				}
+				origKind = "utf16";
+				break;
+		}
+
 		// consolidate input: split the input string into an array of input values
 		var origArr;
-
-		if (origKind == "base64") {
-			// preprocess input base64 to look internally just like regular utf16 text
-			try {
-				orig = atob(orig);
-			} catch (error) {
-				orig = "";
-			}
-			origKind = "utf16";
-		}
 
 		switch (origKind) {
 
@@ -169,6 +178,7 @@ window.uC = {
 					break;
 
 				case "utf16":
+				case "uri":
 				case "base64":
 					origArr[i] = String.fromCharCode(origArr[i]);
 					break;
@@ -195,7 +205,19 @@ window.uC = {
 				break;
 
 			case "base64":
-				result = btoa(origArr.join(""));
+				try {
+					result = btoa(origArr.join(""));
+				} catch (error) {
+					result = "";
+				}
+				break;
+
+			case "uri":
+				try {
+					result = encodeURIComponent(origArr.join(""));
+				} catch (error) {
+					result = "";
+				}
 				break;
 
 			// binary, octal, decimal
