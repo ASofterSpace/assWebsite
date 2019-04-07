@@ -5,9 +5,9 @@
 
 window.uC = {
 
-	inKind: "hexadecimal",
+	inKind: "decimal",
 
-	outKind: "binary",
+	outKind: "hexadecimal",
 
 
 	setIn: function(id) {
@@ -44,6 +44,21 @@ window.uC = {
 		var result = this.convert(orig, this.inKind, this.outKind);
 
 		document.getElementById("uC-out").value = result;
+
+		// adjust the connecting line between input and output
+		var el = document.getElementById("uC-inspan-" + this.inKind);
+		var x1 = el.offsetWidth + 5;
+		el = document.getElementById("uC-in-" + this.inKind);
+		var y1 = el.offsetTop + (el.offsetHeight / 2);
+
+		el = document.getElementById("uC-out-" + this.outKind);
+		var x2 = el.offsetParent.offsetLeft - 5;
+		var y2 = el.offsetTop + (el.offsetHeight / 2);
+
+		document.getElementById("uC-connector").setAttribute('x1', x1);
+		document.getElementById("uC-connector").setAttribute('y1', y1);
+		document.getElementById("uC-connector").setAttribute('x2', x2);
+		document.getElementById("uC-connector").setAttribute('y2', y2);
 	},
 
 	convert: function(orig, origKind, targetKind) {
@@ -146,4 +161,4 @@ window.uC = {
 	},
 };
 
-tA.doconvert();
+uC.doconvert();

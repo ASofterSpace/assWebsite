@@ -120,4 +120,4 @@ window.jF = {
 
 };
 
-tA.doformat();
+jF.doformat();
