@@ -112,7 +112,7 @@ window.uC = {
 
 			// binary, octal, decimal, hexadecimal
 			default:
-				origArr = orig.trim().split(" ");
+				origArr = orig.trim().split("\n").join(" ").split(" ");
 		}
 
 		// convert to intermediate form: array of input values to array of integers
@@ -155,8 +155,14 @@ window.uC = {
 					origArr[i] = (origArr[i]).toString(2);
 					// UTF16 -> binary: left pad with zeroes
 					if (doLeftPad) {
-						while (origArr[i].length < 8) {
-							origArr[i] = "0" + origArr[i];
+						if (origArr[i].length > 8) {
+							while (origArr[i].length < 16) {
+								origArr[i] = "0" + origArr[i];
+							}
+						} else {
+							while (origArr[i].length < 8) {
+								origArr[i] = "0" + origArr[i];
+							}
 						}
 					}
 					break;
@@ -173,8 +179,14 @@ window.uC = {
 					origArr[i] = (origArr[i]).toString(16);
 					// UTF16 -> hex: left pad with zeroes
 					if (doLeftPad) {
-						while (origArr[i].length < 2) {
-							origArr[i] = "0" + origArr[i];
+						if (origArr[i].length > 2) {
+							while (origArr[i].length < 4) {
+								origArr[i] = "0" + origArr[i];
+							}
+						} else {
+							while (origArr[i].length < 2) {
+								origArr[i] = "0" + origArr[i];
+							}
 						}
 					}
 					break;
