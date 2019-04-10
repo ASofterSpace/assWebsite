@@ -1,19 +1,19 @@
 @include(top.php)
 
 @include(sectionstart.php)
-	<h1>Textures @content(textures)</h1>
+	<h1>@content(textures)</h1>
 
 	<div class="content">
 		@content(resources_intro)
 	</div>
-	
+
 	@include(resource_disclaimer.php)
-	
+
 @include(sectionend.php)
 
 @include(sectionstart.php)
 	<h2>@content(bricks) 1</h2>
-	
+
 	<a class="resource_preview" href="/resources/bricks_1">
 		<img src="/pics/textures/bricks_1_preview.jpg"></img>
 		<img src="/pics/textures/bricks_1_in_wall_preview.jpg"></img>
