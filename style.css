@@ -128,6 +128,10 @@ a.paperpreview, a.paperpreview > img {
 	width: 6.25em;
 }
 
+a.paperpreview > img {
+	display: block;
+}
+
 div.papertable {
 	margin-left: 8em;
 	min-height: 8.063em;
