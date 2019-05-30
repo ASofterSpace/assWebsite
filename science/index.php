@@ -233,6 +233,43 @@
 			</table>
 		</div>
 	</div>
+
+	<div class="content">
+		<a href="/science/papers/reference_graphs/GML.htm" target="_blank" class="paperpreview">
+			<img src="/science/papers/reference_graphs_gml_cover.png" />
+		</a>
+		<div class="papertable">
+			<table>
+				<tbody>
+					<tr>
+						<td style="min-width: 6.5em;">@content(resource_kind):</td>
+						<td>@content(web_application)</td>
+					</tr>
+					<tr>
+						<td>@content(file_type):</td>
+						<td><a class="plain" href="/science/papers/reference_graphs/GML.htm" target="_blank">HTML</a></td>
+					</tr>
+					<tr>
+						<td>@content(tabs):</td>
+						<td>5</td>
+					</tr>
+					<tr>
+						<td>@content(author):</td>
+						<td><a class="plain" href="mailto:moya@asofterspace.com">Tom Moya Schiller</a></td>
+					</tr>
+					<tr>
+						<td>@content(status):</td>
+						<td>@content(reference_graphs_status)</td>
+						{{-- <td>This is a preview of unpublished work.</td> --}}
+					</tr>
+					<tr>
+						<td style="vertical-align: bottom;">@content(last_updated):</td>
+						<td>@content(reference_graphs_gml_update_date)</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
 @include(sectionend.php)
 
 @include(bottom.php)

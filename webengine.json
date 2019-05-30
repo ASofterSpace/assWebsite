@@ -121,6 +121,7 @@
 		"products_xdc_github": "The XDC Report Creator itself is closed-source (awww...), but it is largely based on our Java Toolbox, which is freely available on <a href=\"https://github.com/ASofterSpace/Toolbox-Java\" target=\"_blank\">GitHub</a> (yay!)",
 		"products_xdc_intro": "The XDC Report Creator is used to create XDC reports for the German startup <a href=\"https://www.right-basedonscience.de/\" target=\"_blank\">right. based on science</a>.",
 		"purple": "Purple",
+		"reference_graphs_gml_update_date": "27<sup>th</sup> January 2016",
 		"reference_graphs_headline": "Reference Graph Construction and Merging for Human Genomic Sequences",
 		"reference_graphs_presentation_update_date": "27<sup>th</sup> January 2016",
 		"reference_graphs_status": "Defended at the University of Iceland in January 2016",
@@ -151,6 +152,7 @@
 		"slides": "Slides",
 		"sourcecode": "Source code",
 		"status": "Status",
+		"tabs": "Tabs",
 		"textures": "Textures",
 		"times": "times",
 		"title": "a softer space",
@@ -194,6 +196,7 @@
 		"transparent": "Transparent",
 		"university_presentation": "University Presentation",
 		"wallpaper": "Wallpaper",
+		"web_application": "Web Application",
 		"welcome": "Welcome"
 	},
 	"contentde": {
@@ -318,6 +321,7 @@
 		"products_xdc_github": "Der XDC Report Creator selbst ist nicht quelloffen (schade!), aber er basiert zu großen Teilen auf unserer Java Toolbox, die frei verfügbar auf <a href=\"https://github.com/ASofterSpace/Toolbox-Java\" target=\"_blank\">GitHub</a> herumliegt (jippey!)",
 		"products_xdc_intro": "Der XDC Report Creator wird vom Startup-Unternehmen <a href=\"https://www.right-basedonscience.de/\" target=\"_blank\">right. based on science</a> genutzt, um XDC-Berichte zu erstellen.",
 		"purple": "Lila",
+		"reference_graphs_gml_update_date": "27. Januar 2016",
 		"reference_graphs_headline": "Konstruktion und Vereinigung von Referenzgraphen für menschliche Genomsequenzen",
 		"reference_graphs_presentation_update_date": "27. Januar 2016",
 		"reference_graphs_status": "Im Januar 2016 an der Universität Islands verteidigt",
@@ -348,6 +352,7 @@
 		"slides": "Folien",
 		"sourcecode": "Quelltext",
 		"status": "Status",
+		"tabs": "Tabs",
 		"textures": "Texturen",
 		"times": "mal",
 		"title": "a softer space",
@@ -391,6 +396,7 @@
 		"transparent": "Transparent",
 		"university_presentation": "Universitäts-Präsentation",
 		"wallpaper": "Tapete",
+		"web_application": "Webanwendung",
 		"welcome": "Willkommen"
 	},
 	"files": [
@@ -518,5 +524,5 @@
 		"oops404.php",
 		"htaccess"
 	],
-	"version": 9070
+	"version": 9069
 }
