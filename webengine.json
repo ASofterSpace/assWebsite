@@ -516,6 +516,7 @@
 		"science/papers/reference_graphs_presentation_cover.png",
 		"science/papers/reference_graphs_cover.png",
 		"science/papers/reference_graphs.pdf",
+		"science/papers/reference_graphs/*",
 		"science/papers/rewinding_the_clock_presentation_cover.png",
 		"science/papers/rewinding_the_clock.pptx",
 		"xdc/generate.pdf",
