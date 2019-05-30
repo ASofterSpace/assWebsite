@@ -26,7 +26,7 @@
 
 	<div class="content">
 		<div style="position:relative;padding-top:56.25%;">
-			<iframe src="https://www.youtube.com/embed/7mkDv6NCrKQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%;"></iframe>
+			<iframe src="https://www.youtube-nocookie.com/embed/7mkDv6NCrKQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%;"></iframe>
 		</div>
 	</div>
 @include(sectionend.php)
