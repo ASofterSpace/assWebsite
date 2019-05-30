@@ -13,26 +13,42 @@
 @include(sectionend.php)
 
 @include(sectionstart.php)
+	<h1>@content(donations_headline_2019)</h1>
+
+	<div class="content">
+		@content(donations_2019_malaria_1)
+	</div>
+
+	<div class="content">
+		@content(donations_2019_gutenberg)
+	</div>
+
+	<div class="content">
+		@content(donations_2019_end)
+	</div>
+@include(sectionend.php)
+
+@include(sectionstart.php)
 	<h1>@content(donations_headline_2018)</h1>
 
 	<div class="content">
-		@content(donations_2018_1)
+		@content(donations_2018_malaria_1)
 	</div>
 
 	<div class="content">
-		@content(donations_2018_2)
+		@content(donations_2018_malaria_2)
 	</div>
 
 	<div class="content">
-		@content(donations_2018_3)
+		@content(donations_2018_patreon)
 	</div>
 
 	<div class="content">
-		@content(donations_2018_4)
+		@content(donations_2018_wikipedia)
 	</div>
 
 	<div class="content">
-		@content(donations_2018_5)
+		@content(donations_2018_end)
 	</div>
 @include(sectionend.php)
 
