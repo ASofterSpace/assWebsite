@@ -1,7 +1,8 @@
 @include(top.php)
 
 @include(sectionstart.php)
-	<h1>@content(textures)</h1>
+	{{-- <h1>@content(textures)</h1> --}}
+	<h1>@content(resources)</h1>
 
 	<div class="content">
 		@content(resources_intro)

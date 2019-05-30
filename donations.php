@@ -1,7 +1,7 @@
 @include(top.php)
 
 @include(sectionstart.php)
-	<h1>Giving What We Can</h1>
+	<h1>@content(donations)</h1>
 
 	<div class="content">
 		@content(donations_giving_what_we_can_intro_1)

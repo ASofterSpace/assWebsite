@@ -1,6 +1,14 @@
 @include(top.php)
 
 @include(sectionstart.php)
+	<h1>@content(merchandise)</h1>
+
+	<div class="content">
+		@content(merch_intro)
+	</div>
+@include(sectionend.php)
+
+@include(sectionstart.php)
 	<h1>@content(merch_presentations_headline)</h1>
 
 	<div class="content">
