@@ -7,6 +7,7 @@
 		"as_zip_permalink": "As ZIP (permalink)",
 		"atdomainname": "@asofterspace.com",
 		"author": "Author",
+		"based_on": "based on",
 		"bricks": "Bricks",
 		"conference_paper": "Conference Paper",
 		"conference_presentation": "Conference Presentation",
@@ -121,7 +122,7 @@
 		"products_xdc_intro": "The XDC Report Creator is used to create XDC reports for the German startup <a href=\"https://www.right-basedonscience.de/\" target=\"_blank\">right. based on science</a>.",
 		"purple": "Purple",
 		"reference_graphs_headline": "Reference Graph Construction and Merging for Human Genomic Sequences",
-		"reference_graphs_presentation_update_date": "29<sup>th</sup> August 2017",
+		"reference_graphs_presentation_update_date": "27<sup>th</sup> January 2016",
 		"reference_graphs_status": "Defended at the University of Iceland in January 2016",
 		"reference_graphs_update_date": "29<sup>th</sup> August 2017",
 		"research": "Research",
@@ -191,6 +192,7 @@
 		"tools_universal_converter_uri": "URI-Encoded Text",
 		"tools_universal_converter_utf16": "Regular Text (Unicode)",
 		"transparent": "Transparent",
+		"university_presentation": "University Presentation",
 		"wallpaper": "Wallpaper",
 		"welcome": "Welcome"
 	},
@@ -202,6 +204,7 @@
 		"as_zip_permalink": "Als ZIP (Permalink)",
 		"atdomainname": "@asofterspace.com",
 		"author": "Autor",
+		"based_on": "basierend auf",
 		"bricks": "Ziegelsteine",
 		"conference_paper": "Konferenz-Artikel",
 		"conference_presentation": "Konferenz-Präsentation",
@@ -316,7 +319,7 @@
 		"products_xdc_intro": "Der XDC Report Creator wird vom Startup-Unternehmen <a href=\"https://www.right-basedonscience.de/\" target=\"_blank\">right. based on science</a> genutzt, um XDC-Berichte zu erstellen.",
 		"purple": "Lila",
 		"reference_graphs_headline": "Konstruktion und Vereinigung von Referenzgraphen für menschliche Genomsequenzen",
-		"reference_graphs_presentation_update_date": "29. August 2017",
+		"reference_graphs_presentation_update_date": "27. Januar 2016",
 		"reference_graphs_status": "Im Januar 2016 an der Universität Islands verteidigt",
 		"reference_graphs_update_date": "29. August 2017",
 		"research": "Forschung",
@@ -386,6 +389,7 @@
 		"tools_universal_converter_uri": "URI-Kodierter Text",
 		"tools_universal_converter_utf16": "Normaler Text (Unicode)",
 		"transparent": "Transparent",
+		"university_presentation": "Universitäts-Präsentation",
 		"wallpaper": "Tapete",
 		"welcome": "Willkommen"
 	},
@@ -502,6 +506,8 @@
 		"science/papers/ekse.pdf",
 		"science/papers/ekse_presentation.pptx",
 		"science/papers/ekse_presentation_cover.png",
+		"science/papers/reference_graphs_gml_cover.png",
+		"science/papers/reference_graphs_presentation_cover.png",
 		"science/papers/reference_graphs_cover.png",
 		"science/papers/reference_graphs.pdf",
 		"science/papers/rewinding_the_clock_presentation_cover.png",
@@ -512,5 +518,5 @@
 		"oops404.php",
 		"htaccess"
 	],
-	"version": 9068
+	"version": 9070
 }
