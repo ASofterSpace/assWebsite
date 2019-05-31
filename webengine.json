@@ -142,6 +142,7 @@
 		"resources_wallpaper_1_intro": "Some white wallpaper we have at home... not really impressive, but a good staple to have.",
 		"resources_wallpaper_2_intro": "More white wallpaper - this one is more grainy than Wallpaper 1.",
 		"rewinding_the_clock_headline": "Rewinding the Clock: Playback Concepts in EGS-CC",
+		"rewinding_the_clock_paper_status": "Published by A Softer Space, as ESAW does not publish papers",
 		"rewinding_the_clock_presentation_update_date": "22<sup>nd</sup> May 2019",
 		"rewinding_the_clock_status": "Presented at the 7th European Ground System Architecture Workshop in Darmstadt, Germany",
 		"rewinding_the_clock_update_date": "22<sup>nd</sup> May 2019",
@@ -342,6 +343,7 @@
 		"resources_wallpaper_1_intro": "Ein bisschen weiße Tapete... nicht wirklich umwerfend, aber doch immer wieder hilfreich.",
 		"resources_wallpaper_2_intro": "Noch mehr weite Tapete - diese ist etwas gröber als Tapete 1.",
 		"rewinding_the_clock_headline": "Die Uhr zurückdrehen: Playback-Konzepte in EGS-CC",
+		"rewinding_the_clock_paper_status": "Von A Softer Space veröffentlicht, da ESAW keine Artikel veröffentlicht",
 		"rewinding_the_clock_presentation_update_date": "22. Mai 2019",
 		"rewinding_the_clock_status": "Präsentiert auf dem 7. European Ground System Architecture Workshop in Darmstadt, Germany",
 		"rewinding_the_clock_update_date": "22. Mai 2019",
@@ -519,11 +521,13 @@
 		"science/papers/reference_graphs/*",
 		"science/papers/rewinding_the_clock_presentation_cover.png",
 		"science/papers/rewinding_the_clock.pptx",
+		"science/papers/rewinding_the_clock_cover.png",
+		"science/papers/rewinding_the_clock.pdf",
 		"xdc/generate.pdf",
 		"licenses/unlicense.txt",
 		"licenses/unlicense.php",
 		"oops404.php",
 		"htaccess"
 	],
-	"version": 9070
+	"version": 9072
 }
