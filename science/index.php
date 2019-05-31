@@ -206,7 +206,7 @@
 					</tr>
 					<tr>
 						<td>@content(file_type):</td>
-						<td><a class="plain" href="/science/papers/reference_graphs/slides.htm" target="_blank">HTML</a> (@content(based_on): <a href="https://github.com/hakimel/reveal.js">reveal.js</a>)</td>
+						<td><a class="plain" href="/science/papers/reference_graphs/slides.htm" target="_blank">HTML</a> (@content(based_on): <a href="https://github.com/hakimel/reveal.js" target="_blank">reveal.js</a>)</td>
 					</tr>
 					<tr>
 						<td>@content(slides):</td>
