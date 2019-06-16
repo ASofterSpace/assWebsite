@@ -113,6 +113,20 @@
 				<a href="/xdc">XDC Report Creator</a>
 			</div>
 			@endif
+			@if(page="iprawareness/index.php")
+			/ <div class="item">
+				<a href="/products">@content(products)</a>
+			</div> / <div class="item">
+				<a href="/iprawareness">IPR Awareness</a>
+			</div>
+			@endif
+			@if(page="vrcodeanalyzer/index.php")
+			/ <div class="item">
+				<a href="/products">@content(products)</a>
+			</div> / <div class="item">
+				<a href="/vrcodeanalyzer">VR Code Analyzer</a>
+			</div>
+			@endif
 			@if(page="privacy/index.php")
 			/ <div class="item">
 				<a href="/products">@content(products)</a>

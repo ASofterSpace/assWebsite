@@ -24,6 +24,10 @@
 	</div>
 
 	<div class="content">
+		@content(donations_2019_bergwaldprojekt)
+	</div>
+
+	<div class="content">
 		@content(donations_2019_end)
 	</div>
 @include(sectionend.php)
