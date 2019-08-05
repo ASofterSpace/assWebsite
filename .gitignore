@@ -17,6 +17,8 @@ previews/*
 
 # (External) documentation should have its own lifecycle and not be included here in git
 *.pdf
+*.doc
+*.docx
 
 # (External) program files etc. too!
 *.zip

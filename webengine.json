@@ -5,6 +5,7 @@
 		"404_intro_3": "If you followed an internal link on our site, you might want to <a href=\"mailto:info@asofterspace.com\">tell us</a> about the problem!",
 		"as_pdf_permalink": "As PDF (permalink)",
 		"as_zip_permalink": "As ZIP (permalink)",
+		"ass_baselink": "asofterspace.com",
 		"atdomainname": "@asofterspace.com",
 		"author": "Author",
 		"based_on": "based on",
@@ -171,6 +172,7 @@
 		"times": "times",
 		"title": "a softer space",
 		"tools": "Tools",
+		"tools_dependency_field_guide_headline": "Dependency Field Guide",
 		"tools_intro": "The following are tools we made which have come in handy for us - maybe they will be useful for you too!<br>As usual for us, the source codes for these tools are <a href=\"https://github.com/ASofterSpace/assWebsite/tree/master/tools\" target=\"_blank\">freely available on GitHub.</a>",
 		"tools_json_formatter_headline": "JSON Formatter",
 		"tools_json_formatter_intro": "Enter some JSON data and it will be output in a nicely formatted form.",
@@ -219,6 +221,7 @@
 		"404_intro_3": "Wenn du einem internen Link auf unserer Seite gefolgt bist, dann <a href=\"mailto:info@asofterspace.com\">sprich uns</a> bitte auf das Problem an!",
 		"as_pdf_permalink": "Als PDF (Permalink)",
 		"as_zip_permalink": "Als ZIP (Permalink)",
+		"ass_baselink": "asofterspace.de",
 		"atdomainname": "@asofterspace.com",
 		"author": "Autor",
 		"based_on": "basierend auf",
@@ -385,6 +388,7 @@
 		"times": "mal",
 		"title": "a softer space",
 		"tools": "Werkzeuge",
+		"tools_dependency_field_guide_headline": "Dependency Field Guide",
 		"tools_intro": "Die folgenden Werkzeuge haben wir zunächst einmal für uns selbst hergestellt, um unsere eigene Arbeit einfacher zu machen. Vielleicht sind sie ja auch für dich nützlich!<br>Wie bei uns üblich sind die Quelltexte dieser Werkzeuge <a href=\"https://github.com/ASofterSpace/assWebsite/tree/master/tools\" target=\"_blank\">frei verfügbar auf GitHub.</a>",
 		"tools_json_formatter_headline": "JSON Formatierer",
 		"tools_json_formatter_intro": "Gib JSON-Daten ein und sie werden nett formatiert wieder ausgegeben.",
@@ -450,6 +454,8 @@
 		"tools/packetDecoder.php",
 		"tools/textAnalyzer.js",
 		"tools/textAnalyzer.php",
+		"tools/dependencyFieldGuide.php",
+		"tools/dependencyFieldGuide.pdf",
 		"tools/universalConverter.js",
 		"tools/universalConverter.php",
 		"games/index.php",
@@ -557,5 +563,5 @@
 		"oops404.php",
 		"htaccess"
 	],
-	"version": 9075
+	"version": 9081
 }

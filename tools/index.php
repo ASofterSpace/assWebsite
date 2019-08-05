@@ -10,6 +10,18 @@
 
 
 @include(sectionstart.php)
+	<h2><a href="/tools/dependencyFieldGuide">@content(tools_dependency_field_guide_headline)</a></h2>
+
+	@include(tools_dependency_field_guide_1.php)
+
+	<div class="content">
+		@include(tools_dependency_field_guide_2.php)
+	</div>
+
+@include(sectionend.php)
+
+
+@include(sectionstart.php)
 	<h2><a href="/tools/universalConverter">@content(tools_universal_converter_headline)</a></h2>
 
 	@include(tools_universal_converter.php)
