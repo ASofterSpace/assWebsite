@@ -1,5 +1,5 @@
 
-	Do you have a friend who might benefit from the Dependency Field Guide? You can share it with them by sending them this link:
+	@content(tools_dependency_field_guide_friend)
 </div>
 
 <div class="content">

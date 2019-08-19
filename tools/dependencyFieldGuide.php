@@ -6,7 +6,7 @@
 	@include(tools_dependency_field_guide_1.php)
 
 	<div class="content">
-		Yours,
+		@content(tools_dependency_field_guide_yours)
 	</div>
 
 	<div class="content">

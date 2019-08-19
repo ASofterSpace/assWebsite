@@ -172,7 +172,13 @@
 		"times": "times",
 		"title": "a softer space",
 		"tools": "Tools",
+		"tools_dependency_field_guide_call_to_action": "Dig in right away. Please send us an email at <a href=\"mailto:info@asofterspace.com\">info@asofterspace.com</a> if you have any questions at all.",
+		"tools_dependency_field_guide_click_for_free": "Click on the link below to get your free PDF",
+		"tools_dependency_field_guide_download_link": "Download the Dependency Field Guide",
+		"tools_dependency_field_guide_friend": "Do you have a friend who might benefit from the Dependency Field Guide? You can share it with them by sending them this link:",
 		"tools_dependency_field_guide_headline": "Dependency Field Guide",
+		"tools_dependency_field_guide_keep_on_track": "What you learn by reading the Dependency Field Guide will keep your software project on track, teaching you how to pick exactly those external dependencies that you can trust to be stable and maintainable, while avoiding bloating your project with it.",
+		"tools_dependency_field_guide_yours": "Yours,",
 		"tools_intro": "The following are tools we made which have come in handy for us - maybe they will be useful for you too!<br>As usual for us, the source codes for these tools are <a href=\"https://github.com/ASofterSpace/assWebsite/tree/master/tools\" target=\"_blank\">freely available on GitHub.</a>",
 		"tools_json_formatter_headline": "JSON Formatter",
 		"tools_json_formatter_intro": "Enter some JSON data and it will be output in a nicely formatted form.",
@@ -388,7 +394,13 @@
 		"times": "mal",
 		"title": "a softer space",
 		"tools": "Werkzeuge",
+		"tools_dependency_field_guide_call_to_action": "Lies am besten gleich los - und bitte sende uns eine Email an <a href=\"mailto:info@asofterspace.com\">info@asofterspace.com</a>, falls du irgendwelche Fragen haben solltest.",
+		"tools_dependency_field_guide_click_for_free": "Klicke auf den Link um dein kostenloses PDF zu erhalten",
+		"tools_dependency_field_guide_download_link": "Lade den Dependency Field Guide herunter",
+		"tools_dependency_field_guide_friend": "Hast du Freunde, die vom Dependency Field Guide profitieren könnten? Du kannst gern den Link zu dieser Seite verschicken:",
 		"tools_dependency_field_guide_headline": "Dependency Field Guide",
+		"tools_dependency_field_guide_keep_on_track": "Was du durch das Lesen des Dependency Field Guides lernst, wird dir dabei helfen, dein Softwareprojekt auf dem richtigen Kurs zu halten. Dir wird erklärt, wie du genau die externen Abhängigkeiten auswählen kannst, die stabil und wartbar sind - und es vermeidest, dein Projekt zu sehr aufzublähen.",
+		"tools_dependency_field_guide_yours": "Mit fröhlichen Grüßen,",
 		"tools_intro": "Die folgenden Werkzeuge haben wir zunächst einmal für uns selbst hergestellt, um unsere eigene Arbeit einfacher zu machen. Vielleicht sind sie ja auch für dich nützlich!<br>Wie bei uns üblich sind die Quelltexte dieser Werkzeuge <a href=\"https://github.com/ASofterSpace/assWebsite/tree/master/tools\" target=\"_blank\">frei verfügbar auf GitHub.</a>",
 		"tools_json_formatter_headline": "JSON Formatierer",
 		"tools_json_formatter_intro": "Gib JSON-Daten ein und sie werden nett formatiert wieder ausgegeben.",
@@ -563,5 +575,5 @@
 		"oops404.php",
 		"htaccess"
 	],
-	"version": 9082
+	"version": 9083
 }
