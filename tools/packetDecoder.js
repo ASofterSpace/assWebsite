@@ -114,7 +114,7 @@ window.pD = {
 			switch (i) {
 				case 0:
 					ccsdsVersion = parseInt(packetByteStr.substr(0, 3), 2);
-					result += "	";
+					result += "    ";
 					if (addedExtraZero) {
 						result += "<span class='hidden'>";
 					}
@@ -138,7 +138,7 @@ window.pD = {
 						}
 					}
 
-					result += "	   ";
+					result += "       ";
 					if (warn) {
 						result += "<span class='warn'>";
 					}
@@ -171,7 +171,7 @@ window.pD = {
 						}
 					}
 
-					result += "		";
+					result += "        ";
 					if (warn) {
 						result += "<span class='warn'>";
 					}
@@ -186,17 +186,17 @@ window.pD = {
 					}
 					result += "\n";
 					apidStart = packetByteStr.substr(5, 3);
-					result += "		 " + apidStart + " .. Application Process ID start\n";
+					result += "         " + apidStart + " .. Application Process ID start\n";
 					break;
 
 				case 1:
 					apid = parseInt(apidStart + packetByteStr, 2);
-					result += "	" + packetByteStr + " .. Application Process ID end, APID value: " + apid + "\n";
+					result += "    " + packetByteStr + " .. Application Process ID end, APID value: " + apid + "\n";
 					break;
 
 				case 2:
 					var seqFlags = packetByteStr.substr(0, 2);
-					result += "	" + seqFlags + " ........ Sequence Flags: ";
+					result += "    " + seqFlags + " ........ Sequence Flags: ";
 					switch (seqFlags) {
 						case "00":
 							result += "Continuation Packet";
@@ -213,18 +213,18 @@ window.pD = {
 					}
 					result += "\n";
 					seqCountStart = packetByteStr.substr(2, 6);
-					result += "	  " + seqCountStart + " .. Source Sequence Counter start\n";
+					result += "      " + seqCountStart + " .. Source Sequence Counter start\n";
 					break;
 
 				case 3:
 					var seqCounter = parseInt(seqCountStart + packetByteStr, 2);
-					result += "	" + packetByteStr + " .. Source Sequence Counter end, SSC value: " + seqCounter + "\n";
+					result += "    " + packetByteStr + " .. Source Sequence Counter end, SSC value: " + seqCounter + "\n";
 					break;
 
 				case 4:
 					packetLengthStart = packetByteStr;
 					// set a span with a non-existing class which we can change later to warn if a warning becomes necessary
-					result += "	<span class='possiblywarnforpacketlength'>" + packetLengthStart + " .. Packet Length start</span>\n";
+					result += "    <span class='possiblywarnforpacketlength'>" + packetLengthStart + " .. Packet Length start</span>\n";
 					break;
 
 				case 5:
@@ -241,7 +241,7 @@ window.pD = {
 						result = result.replace("possiblywarnforpacketlength", "warn");
 					}
 
-					result += "	";
+					result += "    ";
 					if (warn) {
 						result += "<span class='warn'>";
 					}
@@ -265,7 +265,7 @@ window.pD = {
 							}
 						}
 
-						result += "	";
+						result += "    ";
 						if (warn) {
 							result += "<span class='warn'>";
 						}
@@ -287,33 +287,33 @@ window.pD = {
 
 						if ((curPacketKind == "pusTM") || (curPacketKind == "pusTC")) {
 							var tcPacketPusVersion = parseInt(packetByteStr.substr(1, 3), 2);
-							result += "	 " + packetByteStr.substr(1, 3) + " ...... PUS Version Number: " + tcPacketPusVersion + "\n";
+							result += "     " + packetByteStr.substr(1, 3) + " ...... PUS Version Number: " + tcPacketPusVersion + "\n";
 						}
 
 						if (curPacketKind == "pusTC") {
 							var ackComplete = packetByteStr.substr(4, 1);
-							result += "		" + ackComplete + " ..... Acknowledgement Flag: ";
+							result += "        " + ackComplete + " ..... Acknowledgement Flag: ";
 							if (ackComplete == "1") {
 								result += "acknowledge completion of execution\n";
 							} else {
 								result += "do not acknowledge completion of execution\n";
 							}
 							var ackProgress = packetByteStr.substr(5, 1);
-							result += "		 " + ackProgress + " .... Acknowledgement Flag: ";
+							result += "         " + ackProgress + " .... Acknowledgement Flag: ";
 							if (ackProgress == "1") {
 								result += "acknowledge progress of execution\n";
 							} else {
 								result += "do not acknowledge progress of execution\n";
 							}
 							var ackStart = packetByteStr.substr(6, 1);
-							result += "		  " + ackStart + " ... Acknowledgement Flag: ";
+							result += "          " + ackStart + " ... Acknowledgement Flag: ";
 							if (ackStart == "1") {
 								result += "acknowledge start of execution\n";
 							} else {
 								result += "do not acknowledge start of execution\n";
 							}
 							var ackAcceptance = packetByteStr.substr(7, 1);
-							result += "		   " + ackAcceptance + " .. Acknowledgement Flag: ";
+							result += "           " + ackAcceptance + " .. Acknowledgement Flag: ";
 							if (ackAcceptance == "1") {
 								result += "acknowledge acceptance of the packet\n";
 							} else {
@@ -331,7 +331,7 @@ window.pD = {
 								warn = true;
 							}
 
-							result += "		";
+							result += "        ";
 							if (warn) {
 								result += "<span class='warn'>";
 							}
@@ -348,7 +348,7 @@ window.pD = {
 					if (dataFieldHeaderPresent) {
 						if ((curPacketKind == "pusTM") || (curPacketKind == "pusTC")) {
 							var pusServiceType = parseInt(packetByteStr, 2);
-							result += "	" + packetByteStr + " .. PUS Service Type: " + pusServiceType + " ";
+							result += "    " + packetByteStr + " .. PUS Service Type: " + pusServiceType + " ";
 							if (pusServiceType > 127) {
 								result += "(mission-specific)";
 							} else {
@@ -370,7 +370,7 @@ window.pD = {
 					if (dataFieldHeaderPresent) {
 						if ((curPacketKind == "pusTM") || (curPacketKind == "pusTC")) {
 							var pusServiceSubType = parseInt(packetByteStr, 2);
-							result += "	" + packetByteStr + " .. PUS Service Subtype: " + pusServiceSubType + " ";
+							result += "    " + packetByteStr + " .. PUS Service Subtype: " + pusServiceSubType + " ";
 							if ((pusServiceType > 127) || (pusServiceSubType > 127)) {
 								result += "(mission-specific)";
 							} else {
@@ -403,7 +403,7 @@ window.pD = {
 					if (dataFieldHeaderPresent) {
 						if ((curPacketKind == "pusTM") || (curPacketKind == "pusTC")) {
 							pecStart = packetByteStr;
-							result += "	" + pecStart + " .. Packet Error Control start\n";
+							result += "    " + pecStart + " .. Packet Error Control start\n";
 						}
 					}
 					break;
@@ -412,7 +412,7 @@ window.pD = {
 					if (dataFieldHeaderPresent) {
 						if ((curPacketKind == "pusTM") || (curPacketKind == "pusTC")) {
 							var pec = parseInt(pecStart + packetByteStr, 2);
-							result += "	" + packetByteStr + " .. Packet Error Control end, full PEC: " + pec + "\n";
+							result += "    " + packetByteStr + " .. Packet Error Control end, full PEC: " + pec + "\n";
 						}
 					}
 					break;
