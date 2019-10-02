@@ -74,6 +74,7 @@
 		"merch_presentations_pptx_just_href": "/merchandise/A%20Softer%20Space.pptx",
 		"merchandise": "Merchandise",
 		"merchandise_flyer_gallery_headline_ass_mars": "A Softer Space Mars-themed Flyer",
+		"merchandise_flyer_gallery_headline_ass_process": "A Softer Space Process-oriented Flyer",
 		"merchandise_flyer_gallery_headline_ass_software": "A Softer Space Software-themed Flyer",
 		"merchandise_flyer_gallery_headline_ass_vr": "A Softer Space VR-themed Flyer",
 		"merchandise_flyer_gallery_intro": "These are some flyers we have designed:",
@@ -298,9 +299,10 @@
 		"merch_presentations_pptx": "<a href=\"/merchandise/A%20Softer%20Space%20(DE).pptx\" target=\"_blank\">Präsentation im PPTX-Format (Power Point)</a>",
 		"merch_presentations_pptx_just_href": "/merchandise/A%20Softer%20Space%20(DE).pptx",
 		"merchandise": "Merchandise",
-		"merchandise_flyer_gallery_headline_ass_mars": "A Softer Space Poster mit dem Thema Mars",
-		"merchandise_flyer_gallery_headline_ass_software": "A Softer Space Poster mit dem Thema Software",
-		"merchandise_flyer_gallery_headline_ass_vr": "A Softer Space Poster mit dem Thema Virtual Reality",
+		"merchandise_flyer_gallery_headline_ass_mars": "A Softer Space Flyer mit dem Thema Mars",
+		"merchandise_flyer_gallery_headline_ass_process": "A Softer Space Flyer über unsere Entwicklungsprozess",
+		"merchandise_flyer_gallery_headline_ass_software": "A Softer Space Flyer mit dem Thema Software",
+		"merchandise_flyer_gallery_headline_ass_vr": "A Softer Space Flyer mit dem Thema Virtual Reality",
 		"merchandise_flyer_gallery_intro": "Dies sind ein paar Flyer, die wir erstellt haben:",
 		"merchandise_poster_gallery_headline_vrcade_flipperqnd": "Poster über Flipper QnD aus vrCade",
 		"merchandise_poster_gallery_intro": "Hier ist ein Poster, das wir erstellt haben:",
@@ -512,6 +514,8 @@
 		"pics/flyer_software_en.png",
 		"pics/flyer_mars_en.png",
 		"pics/flyer_vr_en.png",
+		"pics/flyer_process_en.png",
+		"pics/flyer_process_de.png",
 		"pics/flyer_software_de.png",
 		"pics/flyer_mars_de.png",
 		"pics/flyer_vr_de.png",
@@ -585,5 +589,5 @@
 		"oops404.php",
 		"htaccess"
 	],
-	"version": 9084
+	"version": 9085
 }

@@ -45,6 +45,10 @@
 	</div>
 
 	<div class="content">
+		<a href="#flyer_process">@content(merchandise_flyer_gallery_headline_ass_process)</a>
+	</div>
+
+	<div class="content">
 		<a href="#flyer_software">@content(merchandise_flyer_gallery_headline_ass_software)</a>
 	</div>
 
@@ -71,6 +75,15 @@
 
 	<div class="content centerimg">
 		<img src="/pics/flyer_vr_@content(lang).png" />
+	</div>
+@include(sectionend.php)
+
+<a id="flyer_process"></a>
+@include(sectionstart.php)
+	<h2>@content(merchandise_flyer_gallery_headline_ass_process)</h2>
+
+	<div class="content centerimg">
+		<img src="/pics/flyer_process_@content(lang).png" />
 	</div>
 @include(sectionend.php)
 
