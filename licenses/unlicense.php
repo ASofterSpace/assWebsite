@@ -35,7 +35,7 @@
 	</div>
 
 	<div class="content">
-		For more information, please refer to <http://unlicense.org/>
+		For more information, please refer to <a href="http://unlicense.org/" target="_blank">http://unlicense.org/</a>
 	</div>
 @include(sectionend.php)
 
