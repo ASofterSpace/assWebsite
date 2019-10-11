@@ -21,8 +21,8 @@
 			<div class="footertext">
 				<div class="label above700 footertextblock">
 					Tom Moya Schiller<br>
-					Heerstraße 3 b<br>
-					D-60488 Frankfurt
+					Intzestraße 1<br>
+					D-60314 Frankfurt
 				</div>
 				<div class="label center above700 footertextblock">
 					A Softer Space DE, Inhaber Tom Moya Schiller<br>
@@ -32,8 +32,8 @@
 				</div>
 				<div class="label below700 footertextblock">
 					A Softer Space DE<span class="above400">, Inhaber Tom Moya Schiller</span><br>
-					Heerstraße 3 b<br>
-					D-60488 Frankfurt
+					Intzestraße 1<br>
+					D-60314 Frankfurt
 				</div>
 				<div class="label center below700 above400 footertextblock">
 					<br>
