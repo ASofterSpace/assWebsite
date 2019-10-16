@@ -511,14 +511,14 @@
 		"carousel.js",
 		"pix.js",
 		"pics/logo.png",
-		"pics/flyer_software_en.png",
-		"pics/flyer_mars_en.png",
-		"pics/flyer_vr_en.png",
-		"pics/flyer_process_en.png",
-		"pics/flyer_process_de.png",
 		"pics/flyer_software_de.png",
+		"pics/flyer_software_en.png",
 		"pics/flyer_mars_de.png",
+		"pics/flyer_mars_en.png",
 		"pics/flyer_vr_de.png",
+		"pics/flyer_vr_en.png",
+		"pics/flyer_process_de.png",
+		"pics/flyer_process_en.png",
 		"pics/poster_flipper_qnd.png",
 		"pics/textures/bricks_1.jpg",
 		"pics/textures/bricks_1_preview.jpg",
@@ -566,8 +566,6 @@
 		"pics/products/universalconverter_feature_graphic.png",
 		"pics/products/assEditor_1.png",
 		"pics/games/wallbreak_online_1.png",
-		"flyers/mars/a_softer_space.png",
-		"flyers/software/a_softer_space.png",
 		"privacy/index.php",
 		"privacy/universalconverter.php",
 		"science/papers/ekse_cover.png",
@@ -589,5 +587,5 @@
 		"oops404.php",
 		"htaccess"
 	],
-	"version": 9088
+	"version": 9089
 }
