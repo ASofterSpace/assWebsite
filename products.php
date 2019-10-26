@@ -101,7 +101,7 @@
 		@content(products_assEditor_intro_1)
 	</div>
 	<div class="content centerimg">
-		<img src="/pics/products/assEditor_1.png" />
+		<img src="/pics/products/assEditor_2.png" />
 	</div>
 
 	<div class="content">

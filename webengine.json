@@ -564,7 +564,7 @@
 		"pics/products/ekse.png",
 		"pics/products/xdcreportcreator.png",
 		"pics/products/universalconverter_feature_graphic.png",
-		"pics/products/assEditor_1.png",
+		"pics/products/assEditor_2.png",
 		"pics/games/wallbreak_online_1.png",
 		"privacy/index.php",
 		"privacy/universalconverter.php",
@@ -587,5 +587,5 @@
 		"oops404.php",
 		"htaccess"
 	],
-	"version": 9089
+	"version": 9093
 }
