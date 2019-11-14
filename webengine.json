@@ -178,8 +178,12 @@
 		"tools": "Tools",
 		"tools_deck_building_calculator_cards": "cards",
 		"tools_deck_building_calculator_cards_as": "cards as",
+		"tools_deck_building_calculator_cat": "Cat",
+		"tools_deck_building_calculator_dog": "Dog",
 		"tools_deck_building_calculator_headline": "Deck Building Calculator",
 		"tools_deck_building_calculator_intro": "This helps you calculate some odds while building decks. Good luck!",
+		"tools_deck_building_calculator_king": "King",
+		"tools_deck_building_calculator_queen": "Queen",
 		"tools_deck_building_calculator_result": "The probability of drawing at least one of each kinds of marked cards is roughly:",
 		"tools_deck_building_calculator_you_draw": "You draw",
 		"tools_deck_building_calculator_you_have_a_deck_of": "You have a deck of",
@@ -412,8 +416,12 @@
 		"tools": "Werkzeuge",
 		"tools_deck_building_calculator_cards": "Karten",
 		"tools_deck_building_calculator_cards_as": "Karten als",
+		"tools_deck_building_calculator_cat": "Katze",
+		"tools_deck_building_calculator_dog": "Hund",
 		"tools_deck_building_calculator_headline": "Deckbaurechner",
 		"tools_deck_building_calculator_intro": "Dieser Rechner soll beim Deckbau helfen. Viel Glück!",
+		"tools_deck_building_calculator_king": "König",
+		"tools_deck_building_calculator_queen": "Dame",
 		"tools_deck_building_calculator_result": "Die Wahrscheinlichkeit, wenigstens eine von jeder Art der markierten Karten zu ziehen, ist etwa:",
 		"tools_deck_building_calculator_you_draw": "Du ziehst",
 		"tools_deck_building_calculator_you_have_a_deck_of": "Du hast ein Deck mit",
@@ -605,5 +613,5 @@
 		"oops404.php",
 		"htaccess"
 	],
-	"version": 9108
+	"version": 9109
 }
