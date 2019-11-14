@@ -15,7 +15,7 @@
 </div>
 
 <div class="content">
-	<div>You draw <input type="text" id="dBC-draw-amount" onchange="dBC.docalculate()" onkeyup="dBC.docalculate()" value="13"></input> @content(tools_deck_building_calculator_cards).</div>
+	<div>@content(tools_deck_building_calculator_you_draw) <input type="text" id="dBC-draw-amount" onchange="dBC.docalculate()" onkeyup="dBC.docalculate()" value="13"></input> @content(tools_deck_building_calculator_cards).</div>
 </div>
 
 <div class="content">
