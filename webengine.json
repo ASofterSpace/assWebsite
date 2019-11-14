@@ -176,6 +176,13 @@
 		"times": "times",
 		"title": "a softer space",
 		"tools": "Tools",
+		"tools_deck_building_calculator_cards": "cards",
+		"tools_deck_building_calculator_cards_as": "cards as",
+		"tools_deck_building_calculator_headline": "Deck Building Calculator",
+		"tools_deck_building_calculator_intro": "This helps you calculate some odds while building decks. Good luck!",
+		"tools_deck_building_calculator_result": "The probability of drawing at least one of each kinds of marked cards is roughly:",
+		"tools_deck_building_calculator_you_have_a_deck_of": "You have a deck of",
+		"tools_deck_building_calculator_you_mark": "You mark",
 		"tools_dependency_field_guide_call_to_action": "Dig in right away. Please send us an email at <a href=\"mailto:info@asofterspace.com\">info@asofterspace.com</a> if you have any questions at all.",
 		"tools_dependency_field_guide_click_for_free": "Click on the link below to get your free PDF",
 		"tools_dependency_field_guide_download_link": "Download the Dependency Field Guide",
@@ -402,6 +409,13 @@
 		"times": "mal",
 		"title": "a softer space",
 		"tools": "Werkzeuge",
+		"tools_deck_building_calculator_cards": "Karten",
+		"tools_deck_building_calculator_cards_as": "Karten als",
+		"tools_deck_building_calculator_headline": "Deckbaurechner",
+		"tools_deck_building_calculator_intro": "Dieser Rechner soll beim Deckbau helfen. Viel Glück!",
+		"tools_deck_building_calculator_result": "Die Wahrscheinlichkeit, wenigstens eine von jeder Art der markierten Karten zu ziehen, ist etwa:",
+		"tools_deck_building_calculator_you_have_a_deck_of": "Du hast ein Deck mit",
+		"tools_deck_building_calculator_you_mark": "Du markierst",
 		"tools_dependency_field_guide_call_to_action": "Lies am besten gleich los - und bitte sende uns eine Email an <a href=\"mailto:info@asofterspace.com\">info@asofterspace.com</a>, falls du irgendwelche Fragen haben solltest.",
 		"tools_dependency_field_guide_click_for_free": "Klicke auf den Link um dein kostenloses PDF zu erhalten",
 		"tools_dependency_field_guide_download_link": "Lade den Dependency Field Guide herunter",
@@ -478,6 +492,8 @@
 		"tools/dependencyFieldGuide.pdf",
 		"tools/universalConverter.js",
 		"tools/universalConverter.php",
+		"tools/deckBuildingCalculator.php",
+		"tools/deckBuildingCalculator.js",
 		"games/index.php",
 		"games/wallbreak_online/play.php",
 		"games/wallbreak_online/up00.png",
@@ -587,5 +603,5 @@
 		"oops404.php",
 		"htaccess"
 	],
-	"version": 9103
+	"version": 9111
 }

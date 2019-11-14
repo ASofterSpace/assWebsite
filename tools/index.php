@@ -53,4 +53,12 @@
 @include(sectionend.php)
 
 
+@include(sectionstart.php)
+	<h2><a href="/tools/deckBuildingCalculator">@content(tools_deck_building_calculator_headline)</a></h2>
+
+	@include(tools_deck_building_calculator.php)
+
+@include(sectionend.php)
+
+
 @include(bottom.php)
