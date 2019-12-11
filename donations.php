@@ -16,7 +16,11 @@
 	<h1>@content(donations_headline_2019)</h1>
 
 	<div class="content">
-		@content(donations_2019_malaria_1)
+		@content(donations_2019_malaria_and_strongminds)
+	</div>
+
+	<div class="content">
+		@content(donations_2019_internetarchive)
 	</div>
 
 	<div class="content">

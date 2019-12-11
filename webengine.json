@@ -31,7 +31,8 @@
 		"donations_2019_bergwaldprojekt": "Lastly we donated 80.00 € to the &ldquo;<a href=\"https://www.bergwaldprojekt.de/\">Bergwaldprojekt</a>&rdquo; which facilitates volunteer reforestation projects.",
 		"donations_2019_end": "Just as in 2018 - keep up the awesome work again! :)",
 		"donations_2019_gutenberg": "We also donated $107.37 (100.00 €) to <a href=\"https://www.gutenberg.org/\">Project Gutenberg.</a>",
-		"donations_2019_malaria_1": "In 2019, we will again donate 10% of our income to the <a href=\"https://www.againstmalaria.com/\" target=\"_blank\">Against Malaria Foundation.</a>",
+		"donations_2019_internetarchive": "Additionally, we donated 100.00 € to the <a href=\"https://archive.org/\">Internet Archive.</a>",
+		"donations_2019_malaria_and_strongminds": "In 2019, we have donated 3877.00 € each to the <a href=\"https://www.againstmalaria.com/\" target=\"_blank\">Against Malaria Foundation</a> and <a href=\"https://strongminds.org/\" target=\"_blank\">Strongminds</a>.",
 		"donations_ea_headline": "Effective Altruism",
 		"donations_ea_intro": "If you want to learn more about impactful giving and get involved yourself, <a href=\"https://www.effectivealtruism.org/\" target=\"_blank\">Effective Altruism</a> is a great place to do so.",
 		"donations_giving_what_we_can_intro_1": "We believe in the idea behind the <a href=\"https://www.givingwhatwecan.org/\" target=\"_blank\">Giving What We Can</a> initiative.",
@@ -269,7 +270,8 @@
 		"donations_2019_bergwaldprojekt": "Außerdem gingen 80,00 € an das <a href=\"https://www.bergwaldprojekt.de/\">Bergwaldprojekt</a>, das Wiederaufforstungsprojekte mit Freiwilligen durchführt.",
 		"donations_2019_end": "Wie schon 2018 - macht mit der tollen Arbeit weiter, ihr alle! :)",
 		"donations_2019_gutenberg": "Wir haben auch 107,37 $ (100,00 €) an <a href=\"https://www.gutenberg.org/\">Projekt Gutenberg</a> gespendet.",
-		"donations_2019_malaria_1": "2019 werden wir wieder 10% unseres Einkommens an die <a href=\"https://www.againstmalaria.com/\" target=\"_blank\">Against Malaria Foundation</a> spenden.",
+		"donations_2019_internetarchive": "Zusätzlichen gingne 100,00 € an das <a href=\"https://archive.org/\">Internet Archiv</a>.",
+		"donations_2019_malaria_and_strongminds": "2019 haben wir je 3877,00 € an die <a href=\"https://www.againstmalaria.com/\" target=\"_blank\">Against Malaria Foundation</a> und an <a href=\"https://strongminds.org/\" target=\"_blank\">Strongminds</a> gespendet.",
 		"donations_ea_headline": "Effektiver Altruismus",
 		"donations_ea_intro": "Wenn du mehr darüber erfahren möchtest, wirkungsvoll zu spenden und selbst einbezogen werden möchtest, dann ist der <a href=\"https://www.effectivealtruism.org/\" target=\"_blank\">Effektive Altruismus</a> genau richtig für dich.",
 		"donations_giving_what_we_can_intro_1": "Wir glauben an die Idee hinter der <a href=\"https://www.givingwhatwecan.org/\" target=\"_blank\">Giving What We Can</a> Initiative.",
@@ -613,5 +615,5 @@
 		"oops404.php",
 		"htaccess"
 	],
-	"version": 9109
+	"version": 9111
 }
