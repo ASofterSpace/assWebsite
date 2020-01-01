@@ -236,6 +236,11 @@
 				<a href="/merchandise">@content(merchandise)</a>
 			</div>
 			@endif
+			@if(page="jobs.php")
+			/ <div class="item">
+				<a href="/jobs">@content(jobs)</a>
+			</div>
+			@endif
 			@if(page="donations.php")
 			/ <div class="item">
 				<a href="/donations">@content(donations)</a>
