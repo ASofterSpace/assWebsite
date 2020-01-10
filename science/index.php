@@ -8,6 +8,52 @@
 	</div>
 @include(sectionend.php)
 
+<a id="dev_funk"></a>
+@include(sectionstart.php)
+	<h2>@content(dev_funk_headline)</h2>
+
+	<div class="content">
+		<a href="/science/papers/dev_funk.pptx" target="_blank" class="paperpreview">
+			<img src="/science/papers/dev_funk_presentation_cover.png" />
+		</a>
+		<div class="papertable">
+			<table>
+				<tbody>
+					<tr>
+						<td style="min-width: 6.5em;">@content(resource_kind):</td>
+						<td>@content(conference_presentation)</td>
+					</tr>
+					<tr>
+						<td>@content(file_type):</td>
+						<td><a class="plain" href="/science/papers/dev_funk.pptx" target="_blank">PPTX</a></td>
+					</tr>
+					<tr>
+						<td>@content(slides):</td>
+						<td>24</td>
+					</tr>
+					<tr>
+						<td>@content(size):</td>
+						<td>16 : 9</td>
+					</tr>
+					<tr>
+						<td>@content(author):</td>
+						<td><a class="plain" href="mailto:moya@asofterspace.com">Tom Moya Schiller</a></td>
+					</tr>
+					<tr>
+						<td>@content(status):</td>
+						<td>@content(dev_funk_status)</td>
+						{{-- <td>This is a preview of unpublished work.</td> --}}
+					</tr>
+					<tr>
+						<td style="vertical-align: bottom;">@content(last_updated):</td>
+						<td>@content(dev_funk_presentation_update_date)</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+@include(sectionend.php)
+
 <a id="rewinding_the_clock"></a>
 @include(sectionstart.php)
 	<h2>@content(rewinding_the_clock_headline)</h2>

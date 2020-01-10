@@ -28,7 +28,7 @@
 					A Softer Space DE, Inhaber Tom Moya Schiller<br>
 					VAT Nr: DE319451065<br>
 					<!-- A Softer Space UK Ltd<br> -->
-					2018 - 2019
+					2018 - 2020
 				</div>
 				<div class="label below700 footertextblock">
 					A Softer Space DE<span class="above400">, Inhaber Tom Moya Schiller</span><br>
