@@ -65,7 +65,7 @@
 		"index_welcome_section": "Hey there,<br><br>We are A Softer Space.<br><br>We create software for space, science, and anything else that seems worthwhile. Our aim is to provide simple and reliable products without any of the red tape: software, not paperwork.<br>Located in Frankfurt, Germany, we serve customers all over the globe. These services range from building legacy system interfaces up to creating brand new virtual reality applications - and anything in between.<br><br>If you want to learn more about us, you might want to look at our <a href=\"mission\">mission statements</a> or our <a href=\"customers\">customers</a>. Or maybe you want to see some <a href=\"products\">products</a> or <a href=\"games\">games</a> that we have been working on?<br>More interested in <a href=\"science\">science</a>? Want to learn about our <a href=\"donations\">donations</a>? Or do you just want to get some <a href=\"resources\">free resources</a>?<br>Whatever it is that you are looking for, I truly hope you will find it here.<br><br>Have an interesting day!<br>Moya",
 		"input": "Input",
 		"jobs": "Jobs",
-		"jobs_call_to_action": "Want to apply? Just send a quick email to <a href=\"mailto:moya@asofterspace.com\">moya@asofterspace.com</a>... We are excited to get to know you!",
+		"jobs_call_to_action": "Want to apply? Just send a quick email to <a href=\"mailto:jobs@asofterspace.com\">jobs@asofterspace.com</a>... We are excited to get to know you!",
 		"jobs_intro": "Hey you!<br>Yeah, <strong>YOU</strong>! :)<br>We need YOU to get on board and reach the stars together...",
 		"jobs_searching": "Right now, we are searching for:<br><br>Programmers in the area of Frankfurt / Darmstadt in Germany who are interested in the space sector.<br>A gross salary of about 1800 € / month is intended for this position.<br>Previous experience is not necessary, we are happy to teach you on the fly. :)",
 		"keywords": "software, space, java, javascript, php, egscc, openmct",
@@ -311,7 +311,7 @@
 		"index_welcome_section": "Guten Tag,<br><br>Wir sind A Softer Space.<br><br>Wir erstellen Software für Raumfahrt, Wissenschaft und alles sonst, was sich sinnvoll anfühlt. Unser Ziel ist es, einfache und zuverlässige Produkte ohne übermäßig viel Bürokratie zu erstellen: Software statt Papierkrieg.<br>Von Frankfurt aus helfen wir Kunden auf der ganzen Welt. Unsere Dienstleistungen reichen dabei von der Entwicklung von Legacy-System-Schnittstellen bis hin zur Entwicklung brandneuer VR-Anwendungen - und allem dazwischen.<br><br>Wenn du mehr über uns erfahren möchtest, könntest du dir unsere <a href=\"mission\">Ziele und Visionen</a> oder unsere <a href=\"customers\">Kunden</a> anschauen. Vielleicht möchtest du ja auch ein paar <a href=\"products\">Produkte</a> oder <a href=\"games\">Spiele</a> sehen, an denen wir gearbeitet haben?<br>Doch eher an <a href=\"science\">Wissenschaft</a> interessiert? Möchtest du etwas über unsere <a href=\"donations\">Spendenaktivität</a> erfahren? Oder bist du einfach nur hier, um ein paar <a href=\"resources\">kostenlose Ressourcen</a> abzugreifen?<br>Ich hoffe, dass du hier findest, wonach auch immer du gerade suchst.<br><br>Einen interessanten Tag noch!<br>Moya",
 		"input": "Eingabe",
 		"jobs": "Jobs",
-		"jobs_call_to_action": "Möchtest du dich bewerben? Send einfach eine kurze Email an <a href=\"mailto:moya@asofterspace.com\">moya@asofterspace.com</a>... Wir freuen uns darauf, dich kennenzulernen!",
+		"jobs_call_to_action": "Möchtest du dich bewerben? Send einfach eine kurze Email an <a href=\"mailto:jobs@asofterspace.com\">jobs@asofterspace.com</a>... Wir freuen uns darauf, dich kennenzulernen!",
 		"jobs_intro": "Hey du!<br>Ja, <strong>DU</strong>! :)<br>Wir brauchen DICH um gemeinsam die Sterne zu erreichen...",
 		"jobs_searching": "Jetzt gerade suchen wir nach:<br><br>Programmierer*innen (m/w/d) im Raum Frankfurt / Darmstadt, die am Raumfahrtsektor interessiert sind.<br>Gehaltlich sind hierfür etwa 1800 € brutto pro Monat vorgesehen.<br>Vorerfahrung ist nicht notwendig, denn wir können dir gern alles notwendige beibringen. :)",
 		"keywords": "Software, Raumfahrt, Java, JavaScript, PHP, EGSCC, OpenMCT",
@@ -632,5 +632,5 @@
 		"oops404.php",
 		"htaccess"
 	],
-	"version": 9115
+	"version": 9116
 }
