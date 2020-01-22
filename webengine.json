@@ -67,7 +67,7 @@
 		"jobs": "Jobs",
 		"jobs_call_to_action": "Want to apply? Just send a quick email to <a href=\"mailto:jobs@asofterspace.com\">jobs@asofterspace.com</a>... We are excited to get to know you!",
 		"jobs_intro": "Hey you!<br>Yeah, <strong>YOU</strong>! :)<br>We need YOU to get on board and reach the stars together...",
-		"jobs_searching": "Right now, we are searching for:<br><br>Programmers in the area of Frankfurt / Darmstadt in Germany who are interested in the space sector.<br>A gross salary of about 1800 € / month is intended for this position.<br>Previous experience is not necessary, we are happy to teach you on the fly. :)",
+		"jobs_searching": "Right now, we are searching for:<br><br>Programmers in the area of Frankfurt / Darmstadt in Germany who are interested in the space sector.<br>A gross salary of about 1800 € / month is intended for the six month training period of this permanent position. As soon as you are being placed in a project, your income will raise depending on the particular project.<br>Previous experience is not necessary, we are happy to teach you on the fly. :)",
 		"keywords": "software, space, java, javascript, php, egscc, openmct",
 		"lang": "en",
 		"last_updated": "Last updated",
@@ -313,7 +313,7 @@
 		"jobs": "Jobs",
 		"jobs_call_to_action": "Möchtest du dich bewerben? Send einfach eine kurze Email an <a href=\"mailto:jobs@asofterspace.com\">jobs@asofterspace.com</a>... Wir freuen uns darauf, dich kennenzulernen!",
 		"jobs_intro": "Hey du!<br>Ja, <strong>DU</strong>! :)<br>Wir brauchen DICH um gemeinsam die Sterne zu erreichen...",
-		"jobs_searching": "Jetzt gerade suchen wir nach:<br><br>Programmierer*innen (m/w/d) im Raum Frankfurt / Darmstadt, die am Raumfahrtsektor interessiert sind.<br>Gehaltlich sind hierfür etwa 1800 € brutto pro Monat vorgesehen.<br>Vorerfahrung ist nicht notwendig, denn wir können dir gern alles notwendige beibringen. :)",
+		"jobs_searching": "Jetzt gerade suchen wir nach:<br><br>Programmierer*innen (m/w/d) im Raum Frankfurt / Darmstadt, die am Raumfahrtsektor interessiert sind.<br>Für diese unbefristete Stelle sind für die sechsmonatige Einarbeitungszeit etwa 1800 € brutto pro Monat vorgesehen. Sobald du bei einem konkreten Projekt eingesetzt wirst, erhöht sich dann der Verdienst nochmal je nach Projekt.<br>Vorerfahrung ist nicht notwendig, denn wir können dir gern alles notwendige beibringen. :)",
 		"keywords": "Software, Raumfahrt, Java, JavaScript, PHP, EGSCC, OpenMCT",
 		"lang": "de",
 		"last_updated": "Zuletzt aktualisiert",
@@ -632,5 +632,5 @@
 		"oops404.php",
 		"htaccess"
 	],
-	"version": 9116
+	"version": 9117
 }
