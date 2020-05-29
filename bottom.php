@@ -20,18 +20,18 @@
 			<canvas id="cvFooter"></canvas>
 			<div class="footertext">
 				<div class="label above700 footertextblock">
-					Tom Moya Schiller<br>
+					Tom Moya Schau<br>
 					Intzestraße 1<br>
 					D-60314 Frankfurt
 				</div>
 				<div class="label center above700 footertextblock">
-					A Softer Space DE, Inhaber Tom Moya Schiller<br>
+					A Softer Space DE, Inhaber Tom Moya Schau<br>
 					VAT Nr: DE319451065<br>
 					<!-- A Softer Space UK Ltd<br> -->
 					2018 - 2020
 				</div>
 				<div class="label below700 footertextblock">
-					A Softer Space DE<span class="above400">, Inhaber Tom Moya Schiller</span><br>
+					A Softer Space DE<span class="above400">, Inhaber Tom Moya Schau</span><br>
 					Intzestraße 1<br>
 					D-60314 Frankfurt
 				</div>
