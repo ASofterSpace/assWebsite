@@ -8,6 +8,29 @@
 	</div>
 @include(sectionend.php)
 
+<a id="assMusician"></a>
+@include(sectionstart.php)
+	<h2>A Softer Space Musician</h2>
+
+	<div class="content">
+		@content(products_assMusician_intro_1)
+	</div>
+	<div class="content centerimg">
+		<a href="https://www.youtube.com/channel/UC3FXZ7fjLp_V-bGILOo_nKg/" target="_blank">
+			<img src="/pics/products/more_drums_1.png" />
+		</a>
+	</div>
+
+	<div class="content">
+		@content(tryit): <a href="https://www.youtube.com/channel/UC3FXZ7fjLp_V-bGILOo_nKg/" target="_blank">YouTube</a>
+	</div>
+
+	<div class="content">
+		@content(sourcecode): @content(openly_available_on) <a href="https://github.com/ASofterSpace/assMusician" target="_blank">GitHub</a>
+	</div>
+
+@include(sectionend.php)
+
 <a id="cdm"></a>
 @include(sectionstart.php)
 	<h2><a href="/cdm">CDM Commandline Tool</a></h2>

@@ -265,7 +265,7 @@ div.content {
 	max-height: 999999px; /* prevent chrome font boosting through this monstrosity */
 }
 
-div.content > img {
+div.content > img, div.content > a > img {
 	max-width: 100%;
 }
 
