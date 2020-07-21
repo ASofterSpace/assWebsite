@@ -8,6 +8,20 @@
 	</div>
 @include(sectionend.php)
 
+<a id="sve"></a>
+@include(sectionstart.php)
+	<h2>@content(customers_sve_headline)</h2>
+
+	<div class="content">
+		@content(customers_sve_intro)
+	</div>
+	<div class="content">
+		<div class="testimonial">@content(customers_sve_testimonial)</div>
+		<div class="byName">Jan Kolmas</div>
+		<div class="byTitle">@content(co-founder) & COO</div>
+	</div>
+@include(sectionend.php)
+
 <a id="esa"></a>
 @include(sectionstart.php)
 	<h2>@content(customers_esa_headline)</h2>

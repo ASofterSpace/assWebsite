@@ -2,11 +2,11 @@
 
 @include(sectionstartnoopacity.php)
 	<h1>@content(welcome)</h1>
-	
+
 	<div class="content">
 		@content(index_welcome_section)
 	</div>
-	
+
 	<div class="content">
 		@content(index_welcome_other_languages)
 	</div>
@@ -45,7 +45,7 @@ add facebook and twitter links
 @include(sectionend.php)
 
 @include(sectionstart.php)
-	<h2>@content(experience)</h2>
+	<h2><a href="/customers">@content(experience)</a></h2>
 
 	<script src="carousel.js?v=@version"></script>
 

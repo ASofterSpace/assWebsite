@@ -405,6 +405,18 @@ div.selected {
 	font-weight: bold;
 }
 
+div.testimonial {
+	padding-left: 8%;
+	font-style: italic;
+}
+div.byName, div.byTitle {
+	text-align: right;
+	padding-right: 12%;
+}
+div.byName {
+	font-weight: bold;
+}
+
 h2 > a {
 	color: #222;
 	text-decoration: none;
