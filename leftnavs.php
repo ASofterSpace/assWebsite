@@ -98,7 +98,7 @@
 	</div>
 </section>
 
-<section class="leftnav">
+{{-- <section class="leftnav">
 	<canvas id="cvLeftnav@countup(leftnavs)"></canvas>
 	<div class="insec">
 		<a href="/jobs">
@@ -107,7 +107,7 @@
 			</div>
 		</a>
 	</div>
-</section>
+</section> --}}
 
 <section class="leftnav">
 	<canvas id="cvLeftnav@countup(leftnavs)"></canvas>
