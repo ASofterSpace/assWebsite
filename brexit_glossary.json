@@ -1,0 +1,16 @@
+{
+	"categories": [
+		{
+			"name_en": "General Terms",
+			"name_de": "Allgemeine Begriffe",
+			"terms": [
+				{
+					"name_en": "Brexit",
+					"name_de": "Brexit",
+					"content_en": "The act of the UK leaving the EU"
+					"content_de": "Das Verlassen der EU durch das Vereinigte Königreich"
+				}
+			]
+		}
+	]
+}

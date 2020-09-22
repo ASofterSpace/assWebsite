@@ -9,6 +9,9 @@
 		"atdomainname": "@asofterspace.com",
 		"author": "Author",
 		"based_on": "based on",
+		"brexit": "Brexit",
+		"brexit_intro_1": "On 31 January 2020, the UK has left the EU, starting the transition period which will end on 31 December 2020. In anticipation of the new trade environment after this date, new IT systems are being created and integrated with existing ones right now.",
+		"brexit_intro_2": "We at A Softer Space don't know much about politics, but we do know a thing or two about IT systems - and we are here to help, first of all with a glossary of terms that might become important for you to know real soon.",
 		"bricks": "Bricks",
 		"co-founder": "Co-founder",
 		"conference_paper": "Conference Paper",
@@ -265,6 +268,9 @@
 		"atdomainname": "@asofterspace.com",
 		"author": "Autor",
 		"based_on": "basierend auf",
+		"brexit": "Brexit",
+		"brexit_intro_1": "Am 31. Januar 2020 hat das Vereinigte Königreich von Großbritannien und Nordirland die EU verlassen und eine Übergangsperiode begonnen, die am 31. Dezember 2020 enden wird. In Vorbereitung auf das neue Handelsumfeld nach diesem Datum werden nun neue IT-Lösungen erschaffen und mit bereits vorhandenen Systemen integriert.",
+		"brexit_intro_2": "Wir bei A Softer Space haben nicht viel Ahnung von Politik, doch wir wissen das eine oder andere über Informationstechnik - und wir sind hier, um zu helfen. Zunächst veröffentlichen wir hier eine Übersicht voller Begriffe, die schon bald sehr wichtig werden könnten.",
 		"bricks": "Ziegelsteine",
 		"co-founder": "Mitgründer",
 		"conference_paper": "Konferenz-Artikel",
@@ -516,6 +522,7 @@
 		"nav.php",
 		"mission.php",
 		"products.php",
+		"brexit.php",
 		"jobs.php",
 		"cdm/index.php",
 		"cdm/manual.pdf",
@@ -656,5 +663,5 @@
 	],
 	"uploadStrDE": "C:\\home\\system\\psftp\\psftp.exe ubuntu@185.12.7.253 -i C:\\home\\prog\\webdev\\sec\\cloudsigmaprivate.ppk -b ",
 	"uploadStrEN": "C:\\home\\system\\psftp\\psftp.exe ubuntu@185.12.7.253 -i C:\\home\\prog\\webdev\\sec\\cloudsigmaprivate.ppk -b ",
-	"version": 9154
+	"version": 9163
 }

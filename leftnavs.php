@@ -35,6 +35,17 @@
 <section class="leftnav">
 	<canvas id="cvLeftnav@countup(leftnavs)"></canvas>
 	<div class="insec">
+		<a href="/brexit">
+			<div>
+				@content(brexit)
+			</div>
+		</a>
+	</div>
+</section>
+
+<section class="leftnav">
+	<canvas id="cvLeftnav@countup(leftnavs)"></canvas>
+	<div class="insec">
 		<a href="/customers">
 			<div>
 				@content(customers)
