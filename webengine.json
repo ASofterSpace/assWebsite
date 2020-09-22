@@ -663,5 +663,5 @@
 	],
 	"uploadStrDE": "C:\\home\\system\\psftp\\psftp.exe ubuntu@185.12.7.253 -i C:\\home\\prog\\webdev\\sec\\cloudsigmaprivate.ppk -b ",
 	"uploadStrEN": "C:\\home\\system\\psftp\\psftp.exe ubuntu@185.12.7.253 -i C:\\home\\prog\\webdev\\sec\\cloudsigmaprivate.ppk -b ",
-	"version": 9165
+	"version": 9169
 }

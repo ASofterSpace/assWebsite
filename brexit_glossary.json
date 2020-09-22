@@ -26,7 +26,25 @@
 					"name_en": "HMRC",
 					"name_de": "HMRC",
 					"content_en": "Her Majesty's Revenue and Customs, department of the UK Government",
-					"content_de": "Finanz- und Zollbehörde Ihrer Majestät (e. Her Majesty's Revenue and Customs), Abteilung der Regierung des VK"
+					"content_de": "Finanz- und Zollbehörde Ihrer Majestät (e. Her Majesty's Revenue and Customs), Behörde des VK"
+				},
+				{
+					"name_en": "Defra",
+					"name_de": "Defra",
+					"content_en": "Department for Environment, Food and Rural Affairs, department of the UK Government",
+					"content_de": "Abteilung für Umwelt, Nahrung und Ländliche Angelegenheiten (e. Department for Environment, Food and Rural Affairs), Behörde des VK"
+				},
+				{
+					"name_en": "RPA",
+					"name_de": "RPA",
+					"content_en": "Rural Payments Agency, executive agency of @link(Defra)",
+					"content_de": "Ländliche Zahlbehörde (e. Rural Payments Agency), Exekutivbehörde zugehörig zu @link(Defra)"
+				},
+				{
+					"name_en": "FCA",
+					"name_de": "FCA",
+					"content_en": "Financial Conduct Authority, an independent financial regulator in the UK",
+					"content_de": "Finanzhandlungsaufsicht (e. Financial Conduct Authority), eine unabhängige Finanzmarktaufsichtsbehörde des VK"
 				},
 				{
 					"name_en": "WCO",
@@ -41,6 +59,48 @@
 					"content_de": "Welthandelsorganisation (e. WTO / World Trade Organisation)"
 				}
 			]
-		}
+		},
+		{
+			"name_en": "Core IT Systems",
+			"name_de": "Wichtigste IT-Systeme",
+			"terms": [
+				{
+					"name_en": "GVMS",
+					"name_de": "GVMS",
+					"content_en": "Goods Vehicle Movement Service, new central IT system introduced by @link(HMRC) for handling the international movement of goods",
+					"content_de": "Waren-Fahrzeug-Bewegungsservice (e. Goods Vehicle Movement Service), neues zentrales von @link(HMRC) eingeführtes IT-System, das den internationalen Warenverkehr behandelt"
+				},
+				{
+					"name_en": "CHIEF",
+					"name_de": "CHIEF",
+					"content_en": "Customs Handling of Import and Export Freight system, pre-existing IT system of @link(HMRC) recording the movement of goods by land, air and sea",
+					"content_de": "Zollabfertigungsfrachtsystem für Import und Export (e. Customs Handling of Import and Export Freight system), zuvor existierendes IT-System von @link(HMRC) das Frachtbewegungen über Land, Luft und See aufnimmt"
+				}
+			]
+		},
+		{
+			"name_en": "Further IT Terms",
+			"name_de": "Weitere IT-Begriffe",
+			"terms": [
+				{
+					"name_en": "GMR",
+					"name_de": "GMR",
+					"content_en": "Goods Movement Record (generating @link(gmrId) and containing @link(MRN), @link(ERN), @link(DUCR), @link(EORI), @link(ATA) and @link(TIR)) - for more info, see <a href='https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/goods-movement-system-haulier-api/1.0' target='_blank'>GVMS API</a>",
+					"content_de": "Warentransportdaten (e. Goods Movement Record), generiert @link(gmrId) und beinhaltet @link(MRN), @link(ERN), @link(DUCR), @link(EORI), @link(ATA) und @link(TIR) - für weitere Informationen, siehe <a href='https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/goods-movement-system-haulier-api/1.0' target='_blank'>GVMS API</a>"
+				},
+				{
+					"name_en": "Safety and Security declarations",
+					"name_de": "Schutz- und Sicherheitserklärung",
+					"content_en": "siehe @link(ENS)",
+					"content_de": "siehe @link(ENS)"
+				},
+				{
+					"name_en": "ENS",
+					"name_de": "ENS",
+					"content_en": "Electronic Entry Summary declarations, aka safety and security declarations, processed by @link(ICS)",
+					"content_de": "Zusammenfassende Elektronische Einfuhrmeldung (e. Electronic Entry Summary declarations), auch bekannt als Schutz- und Sicherheitserklärung, von @link(ICS) verarbeitet"
+				},
+			]
+		},
 	]
 }
