@@ -7,8 +7,38 @@
 				{
 					"name_en": "Brexit",
 					"name_de": "Brexit",
-					"content_en": "The act of the UK leaving the EU"
+					"content_en": "The act of the UK leaving the EU",
 					"content_de": "Das Verlassen der EU durch das Vereinigte Königreich"
+				},
+				{
+					"name_en": "EU",
+					"name_de": "EU",
+					"content_en": "European Union, consisting now of 27 member states",
+					"content_de": "Europäische Union, nun bestehend aus 27 Mitgliedsstaaten"
+				},
+				{
+					"name_en": "UK",
+					"name_de": "VK",
+					"content_en": "United Kingdom of Great Britain and Northern Ireland",
+					"content_de": "Vereinigtes Königreich von Großbritannien und Nordirland (e. UK / United Kingdom of Great Britain and Northern Ireland)"
+				},
+				{
+					"name_en": "HMRC",
+					"name_de": "HMRC",
+					"content_en": "Her Majesty's Revenue and Customs, department of the UK Government",
+					"content_de": "Finanz- und Zollbehörde Ihrer Majestät (e. Her Majesty's Revenue and Customs), Abteilung der Regierung des VK"
+				},
+				{
+					"name_en": "WCO",
+					"name_de": "WZO",
+					"content_en": "World Customs Organisation",
+					"content_de": "Weltzollorganisation (e. WCO / World Customs Organisation)"
+				},
+				{
+					"name_en": "WTO",
+					"name_de": "WHO",
+					"content_en": "World Trade Organisation",
+					"content_de": "Welthandelsorganisation (e. WTO / World Trade Organisation)"
 				}
 			]
 		}
