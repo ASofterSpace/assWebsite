@@ -287,8 +287,8 @@
 			"name_de": "Identifikationsnummern",
 			"terms": [
 				{
-					"name_en": "Commodity Codes",
-					"name_de": "Warennummern",
+					"name_en": "Commodity Code",
+					"name_de": "Warennummer",
 					"content_en": "A number containing 6, 8 or 10 digits (6 digits worldwide, 8 or 10 for trading within the @link(EU).) Based on this number, the necessary customs dusties can be looked up as well as the presence of preferential treatments, restrictions or prohibitions for import, transit and export.",
 					"content_de": "Eine Zahl, die aus 6, 8 oder 10 Ziffern besteht (6 Ziffern weltweit, 8 oder 10 im @link(EU)-internen Handel). Basierend auf dieser Zahl können anfallende Zölle sowie das Vorliegen von bevorzugter Behandlung oder Import/Transit/Export-Restriktionen nachgeschlagen werden."
 				},
