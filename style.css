@@ -379,7 +379,26 @@ textarea {
 	height: 8em;
 }
 
-textarea.codebox, div.codecontainer, div.codeselector {
+div.codeblock, span.inlinecodeblock {
+	white-space: nowrap;
+	font-size: 95%;
+	background: rgba(0, 0, 0, 0.1);
+}
+
+span.inlinecodeblock {
+	overflow: none;
+	border-radius: 3pt;
+	padding: 2pt 4pt 1pt 4pt;
+}
+
+div.codeblock {
+	overflow-x: auto;
+	border-radius: 6pt;
+	padding: 5pt 6pt 3pt 6pt;
+	margin: 2pt 8pt 2pt 0pt;
+}
+
+textarea.codebox, div.codecontainer, div.codeselector, div.codeblock, span.inlinecodeblock {
 	font-family: "Consolas", "Courier New", Courier, monospace;
 }
 

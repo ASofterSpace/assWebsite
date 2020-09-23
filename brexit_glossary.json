@@ -65,10 +65,16 @@
 					"content_de": "Mehrwertsteuer"
 				},
 				{
-					"name_en": "Commodity Codes",
-					"name_de": "Warennummern",
-					"content_en": "A number containing 6, 8 or 10 digits (6 digits worldwide, 8 or 10 for trading within the @link(EU).) Based on this number, the necessary customs dusties can be looked up as well as the presence of preferential treatments, restrictions or prohibitions for import, transit and export.",
-					"content_de": "Eine Zahl, die aus 6, 8 oder 10 Ziffern besteht (6 Ziffern weltweit, 8 oder 10 im @link(EU)-internen Handel). Basierend auf dieser Zahl können anfallende Zölle sowie das Vorliegen von bevorzugter Behandlung oder Import/Transit/Export-Restriktionen nachgeschlagen werden."
+					"name_en": "ATA carnet",
+					"name_de": "ATA carnet",
+					"content_en": "International customs and temporary export-import document in the ATA system, see: <a href='https://www.gov.uk/taking-goods-out-uk-temporarily/get-an-ata-carnet' target='_blank'>gov.uk ATA carnet webpage</a>",
+					"content_de": ""
+				},
+				{
+					"name_en": "ATA",
+					"name_de": "ATA",
+					"content_en": "Admission Temporaire / Temporary Admission system, see: <a href='http://www.wcoomd.org/en/topics/facilitation/instrument-and-tools/conventions/pf_ata_system_conven.aspx' target='_blank'>WCO ATA webpage</a>",
+					"content_de": ""
 				},
 			]
 		},
@@ -145,25 +151,25 @@
 				{
 					"name_en": "Trade Tariff",
 					"name_de": "Trade Tariff",
-					"content_en": "Allows you to look up @link(commodity codes), duty and @link(VAT) rates in the @link(UK), see: <a href='https://www.gov.uk/trade-tariff' target='_blank'>https://www.gov.uk/trade-tariff</a>",
-					"content_de": "Ermöglicht es, @link(Warennummern), Zoll- und @link(MwSt.)-Raten im @link(VK) nachzuschlagen, siehe: <a href='https://www.gov.uk/trade-tariff' target='_blank'>https://www.gov.uk/trade-tariff</a>"
+					"content_en": "Allows you to look up @link(commodity codes), duty and @link(VAT) rates in the @link(UK), see: <a href='https://www.gov.uk/trade-tariff' target='_blank'>gov.uk Trade Tariff webpage</a>",
+					"content_de": "Ermöglicht es, @link(Warennummern), Zoll- und @link(MwSt.)-Raten im @link(VK) nachzuschlagen, siehe: <a href='https://www.gov.uk/trade-tariff' target='_blank'>Trade Tariff Unterseite von gov.uk</a>"
 				},
 				{
-					"name_en": "",
-					"name_de": "",
-					"content_en": "",
+					"name_en": "ALVS",
+					"name_de": "ALVS",
+					"content_en": "Automatic Licence Verification System",
 					"content_de": ""
 				},
 				{
-					"name_en": "",
-					"name_de": "",
-					"content_en": "",
+					"name_en": "GMS",
+					"name_de": "GMS",
+					"content_en": "Guarantee Management System",
 					"content_de": ""
 				},
 				{
-					"name_en": "",
-					"name_de": "",
-					"content_en": "",
+					"name_en": "CCS-UK",
+					"name_de": "CCS-UK",
+					"content_en": "Cargo Community System-UK, @link(UK)'s electronic air cargo community and system containing data exchange switch and database, see: <a href='https://ccs-uk-ug.org/index.php/products/ccs-uk-system' target='_blank'>CCS-UK website</a>",
 					"content_de": ""
 				}
 			]
@@ -181,14 +187,434 @@
 				{
 					"name_en": "Safety and Security declarations",
 					"name_de": "Schutz- und Sicherheitserklärung",
-					"content_en": "see @link(ENS)",
-					"content_de": "siehe @link(ENS)"
+					"content_en": "See: @link(ENS)",
+					"content_de": "Siehe: @link(ENS)"
 				},
 				{
 					"name_en": "ENS",
 					"name_de": "ENS",
 					"content_en": "Electronic Entry Summary declarations, aka safety and security declarations, processed by @link(ICS)",
 					"content_de": "Zusammenfassende Elektronische Einfuhrmeldung (e. Electronic Entry Summary declarations), auch bekannt als Schutz- und Sicherheitserklärung, von @link(ICS) verarbeitet"
+				},
+				{
+					"name_en": "API",
+					"name_de": "API",
+					"content_en": "Application Programming Interface, an interface offered by one software product enabling another piece of software to communicate and integrate with it",
+					"content_de": ""
+				},
+				{
+					"name_en": "IDMSX",
+					"name_de": "IDMSX",
+					"content_en": "Hierarchical database system used by CHIEF",
+					"content_de": ""
+				},
+				{
+					"name_en": "VME",
+					"name_de": "VME",
+					"content_en": "Proprietary, yet open, operating system on which CHIEF runs",
+					"content_de": ""
+				},
+				{
+					"name_en": "DTI",
+					"name_de": "DTI",
+					"content_en": "Direct Trader Input, a link to CHIEF",
+					"content_de": ""
+				},
+				{
+					"name_en": "Web Dec",
+					"name_de": "Web Dec",
+					"content_en": "Web Declaration",
+					"content_de": ""
+				},
+				{
+					"name_en": "XML",
+					"name_de": "XML",
+					"content_en": "Extensible Markup Language, used as language for messages sent via TFE to ICS",
+					"content_de": ""
+				},
+				{
+					"name_en": "TIS",
+					"name_de": "TIS",
+					"content_en": "Technical Interface Specification, e.g. for ICS",
+					"content_de": ""
+				},
+				{
+					"name_en": "UCR",
+					"name_de": "UCR",
+					"content_en": "Unique Consignment Reference, a DUCR structure recommended by WCO",
+					"content_de": ""
+				},
+				{
+					"name_en": "EDIFACT",
+					"name_de": "EDIFACT",
+					"content_en": "Electronic Data Interchange for Administration, Commerce and Transport",
+					"content_de": ""
+				},
+				{
+					"name_en": "EDCS",
+					"name_de": "EDCS",
+					"content_en": "Electronic Data Capture Service",
+					"content_de": ""
+				},
+				{
+					"name_en": "AIS",
+					"name_de": "AIS",
+					"content_en": "Advance Information System, module for CCS-UK",
+					"content_de": ""
+				},
+				{
+					"name_en": "CCS RO-RO",
+					"name_de": "CCS RO-RO",
+					"content_en": "Module for CCS-UK",
+					"content_de": ""
+				},
+				{
+					"name_en": "ACP go",
+					"name_de": "ACP go",
+					"content_en": "Precursor to CCS-UK",
+					"content_de": ""
+				},
+				{
+					"name_en": "LACES",
+					"name_de": "LACES",
+					"content_en": "Precursor to ACP go",
+					"content_de": ""
+				}
+			]
+		},
+		{
+			"name_en": "Identification Numbers",
+			"name_de": "Identifikationsnummern",
+			"terms": [
+				{
+					"name_en": "Commodity Codes",
+					"name_de": "Warennummern",
+					"content_en": "A number containing 6, 8 or 10 digits (6 digits worldwide, 8 or 10 for trading within the @link(EU).) Based on this number, the necessary customs dusties can be looked up as well as the presence of preferential treatments, restrictions or prohibitions for import, transit and export.",
+					"content_de": "Eine Zahl, die aus 6, 8 oder 10 Ziffern besteht (6 Ziffern weltweit, 8 oder 10 im @link(EU)-internen Handel). Basierend auf dieser Zahl können anfallende Zölle sowie das Vorliegen von bevorzugter Behandlung oder Import/Transit/Export-Restriktionen nachgeschlagen werden."
+				},
+				{
+					"name_en": "Government Gateway user ID",
+					"name_de": "Government Gateway user ID",
+					"content_en": "Identification number needed to register for using GVMS",
+					"content_de": ""
+				},
+				{
+					"name_en": "gmrId",
+					"name_de": "gmrId",
+					"content_en": "Goods Movement Reference (issued by HMRC based on a GMR), looks like e.g. <span class='inlinecodeblock'>GMRI 0005 J2FN</span>",
+					"content_de": ""
+				},
+				{
+					"name_en": "MRN",
+					"name_de": "MRN",
+					"content_en": "Movement Reference Number, issued by ICS",
+					"content_de": ""
+				},
+				{
+					"name_en": "ERN",
+					"name_de": "ERN",
+					"content_en": "Employer Reference Number, aka Employer PAYE Reference",
+					"content_de": ""
+				},
+				{
+					"name_en": "DUCR",
+					"name_de": "DUCR",
+					"content_en": "Declaration Unique Consignment Reference, main reference key to any CHIEF declaration, see: <a href='https://www.gov.uk/guidance/the-importance-of-the-declaration-unique-consignment-reference-ducr' target='_blank'>gov.uk DUCR webpage</a>",
+					"content_de": ""
+				},
+				{
+					"name_en": "EORI",
+					"name_de": "EORI",
+					"content_en": "Economic Operators Registration and Identification number, needed to move goods between the UK and non-EU countries, and from Jan 2021 to move goods between UK and EU, see <a href='https://www.gov.uk/eori' target='_blank'>gov.uk EORI webpage</a> and <a href='https://ec.europa.eu/taxation_customs/business/customs-procedures/general-overview/economic-operators-registration-identification-number-eori_en' target='_blank'>europa.eu EORI webpage</a>",
+					"content_de": ""
+				},
+				{
+					"name_en": "TIR",
+					"name_de": "TIR",
+					"content_en": "Transport International Routiers, see: <a href='https://www.gov.uk/government/publications/community-common-transit-and-tir-newsletters' target='_blank'>gov.uk TIR newsletters</a>",
+					"content_de": ""
+				},
+				{
+					"name_en": "VAT number",
+					"name_de": "MwSt.-Nummer",
+					"content_en": "Identification number for VAT purposes",
+					"content_de": ""
+				},
+				{
+					"name_en": "UTR",
+					"name_de": "UTR",
+					"content_en": "Unique Taxpayer Reference",
+					"content_de": ""
+				},
+				{
+					"name_en": "SIC code",
+					"name_de": "SIC code",
+					"content_en": "Standard Industrial Classification code",
+					"content_de": ""
+				},
+			]
+		},
+		{
+			"name_en": "Forms",
+			"name_de": "Formulare",
+			"terms": [
+				{
+					"name_en": "C88 1-8",
+					"name_de": "C88 1-8",
+					"content_en": "",
+					"content_de": ""
+				},
+				{
+					"name_en": "C88A",
+					"name_de": "C88A",
+					"content_en": "",
+					"content_de": ""
+				},
+				{
+					"name_en": "C88/ESS",
+					"name_de": "C88/ESS",
+					"content_en": "Export Security Single Administrative Document",
+					"content_de": ""
+				},
+				{
+					"name_en": "C89",
+					"name_de": "C89",
+					"content_en": "value build-up sheet",
+					"content_de": ""
+				},
+				{
+					"name_en": "C1402",
+					"name_de": "C1402",
+					"content_en": "",
+					"content_de": ""
+				},
+				{
+					"name_en": "C130EX",
+					"name_de": "C130EX",
+					"content_en": "",
+					"content_de": ""
+				},
+				{
+					"name_en": "C515",
+					"name_de": "C515",
+					"content_en": "Bulk importer details form",
+					"content_de": ""
+				},
+				{
+					"name_en": "C515A",
+					"name_de": "C515A",
+					"content_en": "Bulk exporter details form",
+					"content_de": ""
+				},
+				{
+					"name_en": "SAD",
+					"name_de": "SAD",
+					"content_en": "Single Administrative Document, refers to C88 1-8 and C88A, see: <a href='https://www.gov.uk/government/publications/import-and-export-single-administrative-document-c88a'>gov.uk SAD webpage</a>",
+					"content_de": ""
+				},
+			]
+		},
+		{
+			"name_en": "Procedures",
+			"name_de": "Prozeduren",
+			"terms": [
+				{
+					"name_en": "CFSP",
+					"name_de": "CFSP",
+					"content_en": "Customs Freight Simplified Procedures, see: <a href='https://www.gov.uk/government/publications/chief-customs-freight-simplified-procedures-cfsp-contact-list'>gov.uk CFSP webpage</a>",
+					"content_de": ""
+				},
+				{
+					"name_en": "Fallback",
+					"name_de": "Fallback",
+					"content_en": "Procedures to be used if CHIEF system and/or the local computerised inventory control systems are not available",
+					"content_de": ""
+				},
+				{
+					"name_en": "Short Term procedures",
+					"name_de": "Short Term procedures",
+					"content_en": "Fallback procedures in case of system unavailability of up to 24 hours, allow for the manual clearance of goods during fallback but require that the declaration information is later keyed into the computer system",
+					"content_de": ""
+				},
+				{
+					"name_en": "Long term procedures",
+					"name_de": "Long term procedures",
+					"content_en": "Fallback procedures in case of system unavailability of over 24 hours, do not require the declaration information to be keyed in",
+					"content_de": ""
+				},
+				{
+					"name_en": "Simplified Declaration Procedure",
+					"name_de": "Simplified Declaration Procedure",
+					"content_en": "",
+					"content_de": ""
+				},
+				{
+					"name_en": "Local Control Procedures",
+					"name_de": "Local Control Procedures",
+					"content_en": "",
+					"content_de": ""
+				},
+				{
+					"name_en": "PEACH",
+					"name_de": "PEACH",
+					"content_en": "Procedure for Electronic Application for Certificates",
+					"content_de": ""
+				},
+			]
+		},
+		{
+			"name_en": "CHIEF Interfaces",
+			"name_de": "CHIEF-Schnittstellen",
+			"terms": [
+				{
+					"name_en": "HCI",
+					"name_de": "HCI",
+					"content_en": "Human Computer Interface for CHIEF",
+					"content_de": ""
+				},
+				{
+					"name_en": "EDI",
+					"name_de": "EDI",
+					"content_en": "Electronic Data Interchange for CHIEF",
+					"content_de": ""
+				},
+			]
+		},
+		{
+			"name_en": "CHIEF Transactions",
+			"name_de": "CHIEF-Transaktionen",
+			"terms": [
+				{
+					"name_en": "ISAD",
+					"name_de": "ISAD",
+					"content_en": "",
+					"content_de": ""
+				},
+				{
+					"name_en": "IC21",
+					"name_de": "IC21",
+					"content_en": "",
+					"content_de": ""
+				},
+				{
+					"name_en": "IWRD",
+					"name_de": "IWRD",
+					"content_en": "",
+					"content_de": ""
+				},
+				{
+					"name_en": "XTCE",
+					"name_de": "XTCE",
+					"content_en": "",
+					"content_de": ""
+				},
+				{
+					"name_en": "AIME",
+					"name_de": "AIME",
+					"content_en": "",
+					"content_de": ""
+				},
+				{
+					"name_en": "ISDI",
+					"name_de": "ISDI",
+					"content_en": "Only available via EDI",
+					"content_de": ""
+				},
+				{
+					"name_en": "ISDW",
+					"name_de": "ISDW",
+					"content_en": "Only available via EDI",
+					"content_de": ""
+				},
+			]
+		},
+		{
+			"name_en": "Other Terms",
+			"name_de": "Andere Begriffe",
+			"terms": [
+				{
+					"name_en": "Pre-Shipment Advices",
+					"name_de": "Pre-Shipment Advices",
+					"content_en": "",
+					"content_de": ""
+				},
+				{
+					"name_en": "MIB",
+					"name_de": "MIB",
+					"content_en": "Merchandise in Baggage",
+					"content_de": ""
+				},
+				{
+					"name_en": "CIE",
+					"name_de": "CIE",
+					"content_en": "Customs Input Entry",
+					"content_de": ""
+				},
+				{
+					"name_en": "EPU",
+					"name_de": "EPU",
+					"content_en": "Entry Processing Unit, see: <a href='https://www.gov.uk/government/publications/uk-trade-tariff-european-processing-unit-sites'>gov.uk EPU webpage</a>",
+					"content_de": ""
+				},
+				{
+					"name_en": "HMRC/IMS security",
+					"name_de": "HMRC/IMS security",
+					"content_en": "",
+					"content_de": ""
+				},
+				{
+					"name_en": "C21",
+					"name_de": "C21",
+					"content_en": "",
+					"content_de": ""
+				},
+				{
+					"name_en": "INF",
+					"name_de": "INF",
+					"content_en": "Information sheet",
+					"content_de": ""
+				},
+				{
+					"name_en": "FEC",
+					"name_de": "FEC",
+					"content_en": "Front End Credibility in the CHIEF system",
+					"content_de": ""
+				},
+				{
+					"name_en": "PEACH Advance Notification",
+					"name_de": "PEACH Advance Notification",
+					"content_en": "",
+					"content_de": ""
+				},
+				{
+					"name_en": "TARIC code",
+					"name_de": "TARIC code",
+					"content_en": "",
+					"content_de": ""
+				},
+				{
+					"name_en": "PAYE",
+					"name_de": "PAYE",
+					"content_en": "Pay-as-you-earn tax",
+					"content_de": ""
+				},
+				{
+					"name_en": "TAD",
+					"name_de": "TAD",
+					"content_en": "Transit Accompanying Document",
+					"content_de": ""
+				},
+				{
+					"name_en": "AEOC",
+					"name_de": "AEOC",
+					"content_en": "Authorised Economic Operator for Customs Simplifications",
+					"content_de": ""
+				},
+				{
+					"name_en": "CTC",
+					"name_de": "CTC",
+					"content_en": "Common Transit Convention",
+					"content_de": ""
 				},
 			]
 		},
