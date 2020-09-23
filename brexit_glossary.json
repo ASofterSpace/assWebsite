@@ -57,12 +57,24 @@
 					"name_de": "WHO",
 					"content_en": "World Trade Organisation",
 					"content_de": "Welthandelsorganisation (e. WTO / World Trade Organisation)"
-				}
+				},
+				{
+					"name_en": "VAT",
+					"name_de": "MwSt.",
+					"content_en": "Value Added Tax",
+					"content_de": "Mehrwertsteuer"
+				},
+				{
+					"name_en": "Commodity Codes",
+					"name_de": "Warennummern",
+					"content_en": "A number containing 6, 8 or 10 digits (6 digits worldwide, 8 or 10 for trading within the @link(EU).) Based on this number, the necessary customs dusties can be looked up as well as the presence of preferential treatments, restrictions or prohibitions for import, transit and export.",
+					"content_de": "Eine Zahl, die aus 6, 8 oder 10 Ziffern besteht (6 Ziffern weltweit, 8 oder 10 im @link(EU)-internen Handel). Basierend auf dieser Zahl können anfallende Zölle sowie das Vorliegen von bevorzugter Behandlung oder Import/Transit/Export-Restriktionen nachgeschlagen werden."
+				},
 			]
 		},
 		{
 			"name_en": "Core IT Systems",
-			"name_de": "Wichtigste IT-Systeme",
+			"name_de": "Wichtige IT-Systeme",
 			"terms": [
 				{
 					"name_en": "GVMS",
@@ -75,6 +87,84 @@
 					"name_de": "CHIEF",
 					"content_en": "Customs Handling of Import and Export Freight system, pre-existing IT system of @link(HMRC) recording the movement of goods by land, air and sea",
 					"content_de": "Zollabfertigungsfrachtsystem für Import und Export (e. Customs Handling of Import and Export Freight system), zuvor existierendes IT-System von @link(HMRC) das Frachtbewegungen über Land, Luft und See aufnimmt"
+				},
+				{
+					"name_en": "CDS",
+					"name_de": "CDS",
+					"content_en": "Customs Declaration Service",
+					"content_de": ""
+				},
+				{
+					"name_en": "MSS",
+					"name_de": "MSS",
+					"content_en": "Management Support System (an interfacing database with the @link(CHIEF) system)",
+					"content_de": ""
+				},
+				{
+					"name_en": "CSP's",
+					"name_de": "CSP's",
+					"content_en": "Community System Providers (five independent trade systems)",
+					"content_de": ""
+				},
+				{
+					"name_en": "EMCS",
+					"name_de": "EMCS",
+					"content_en": "Excise Movement Control System, aimed at all Excise businesses who are currently involved in the movement of goods in/under duty suspense",
+					"content_de": ""
+				},
+				{
+					"name_en": "ICS",
+					"name_de": "ICS",
+					"content_en": "Import Control System, provided for the use of traders responsible for bringing goods into the EU that require Safety & Security checks and therefore @link(ENS)",
+					"content_de": ""
+				},
+				{
+					"name_en": "NCTS",
+					"name_de": "NCTS",
+					"content_en": "New Community Transit System, a basic, free to use service, suitable for low volume users",
+					"content_de": ""
+				},
+				{
+					"name_en": "NES",
+					"name_de": "NES",
+					"content_en": "New National Export System for traders to submit (3rd country) Export Declarations to the @link(CHIEF) system",
+					"content_de": ""
+				},
+				{
+					"name_en": "FAS",
+					"name_de": "FAS",
+					"content_en": "Flexible Accounting System",
+					"content_de": ""
+				},
+				{
+					"name_en": "TFE",
+					"name_de": "TFE",
+					"content_en": "Trader Front End, used to submit @link(ICS) declarations in the form of @link(XML) messages",
+					"content_de": ""
+				},
+				{
+					"name_en": "Trade Tariff",
+					"name_de": "Trade Tariff",
+					"content_en": "Allows you to look up @link(commodity codes), duty and @link(VAT) rates in the @link(UK), see: <a href='https://www.gov.uk/trade-tariff' target='_blank'>https://www.gov.uk/trade-tariff</a>",
+					"content_de": "Ermöglicht es, @link(Warennummern), Zoll- und @link(MwSt.)-Raten im @link(VK) nachzuschlagen, siehe: <a href='https://www.gov.uk/trade-tariff' target='_blank'>https://www.gov.uk/trade-tariff</a>"
+				},
+				{
+					"name_en": "",
+					"name_de": "",
+					"content_en": "",
+					"content_de": ""
+				},
+				{
+					"name_en": "",
+					"name_de": "",
+					"content_en": "",
+					"content_de": ""
+				},
+				{
+					"name_en": "",
+					"name_de": "",
+					"content_en": "",
+					"content_de": ""
 				}
 			]
 		},
@@ -91,7 +181,7 @@
 				{
 					"name_en": "Safety and Security declarations",
 					"name_de": "Schutz- und Sicherheitserklärung",
-					"content_en": "siehe @link(ENS)",
+					"content_en": "see @link(ENS)",
 					"content_de": "siehe @link(ENS)"
 				},
 				{
