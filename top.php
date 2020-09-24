@@ -33,6 +33,9 @@
 	@if(pageStart="xdc")
 		style="background-image: url('/pics/bg_newton_1.jpg');"
 	@endif
+	@if(pageStart="brexit")
+		style="background-image: url('/pics/bg_brexit_1.jpg');"
+	@endif
 	@if(pageStart="customers")
 		{{-- leave default --}}
 	@endif

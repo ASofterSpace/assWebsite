@@ -612,6 +612,7 @@
 		"pics/textures/wallpaper_2_preview.jpg",
 		"pics/textures/wallpaper_2_continuous.jpg",
 		"pics/textures/wallpaper_2_continuous_preview.jpg",
+		"pics/bg_brexit_1.jpg",
 		"pics/bg_esja_1.jpg",
 		"pics/bg_esja_2.jpg",
 		"pics/bg_island_1.jpg",
@@ -663,5 +664,5 @@
 	],
 	"uploadStrDE": "C:\\home\\system\\psftp\\psftp.exe ubuntu@185.12.7.253 -i C:\\home\\prog\\webdev\\sec\\cloudsigmaprivate.ppk -b ",
 	"uploadStrEN": "C:\\home\\system\\psftp\\psftp.exe ubuntu@185.12.7.253 -i C:\\home\\prog\\webdev\\sec\\cloudsigmaprivate.ppk -b ",
-	"version": 9177
+	"version": 9178
 }
