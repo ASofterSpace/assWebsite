@@ -39,6 +39,44 @@
 
 @include(sectionend.php)
 
+<a id="assWorkbench"></a>
+@include(sectionstart.php)
+	<h2>A Softer Space Workbench</h2>
+
+	<div class="content">
+		@content(products_assWorkbench_intro_1)
+	</div>
+
+	<div class="content centerimg">
+		<img src="/pics/products/assWorkbench_3.png" />
+	</div>
+
+	<div class="content">
+		@content(sourcecode): @content(openly_available_on) <a href="https://github.com/ASofterSpace/assWorkbench" target="_blank">GitHub</a>
+	</div>
+@include(sectionend.php)
+
+<a id="ekse"></a>
+@include(sectionstart.php)
+	<h2>EKSE</h2>
+
+	<div class="content">
+		@content(products_ekse_intro_1)
+	</div>
+
+	<div class="content centerimg">
+		<img src="/pics/products/ekse.png" />
+	</div>
+
+	<div class="content">
+		@content(products_ekse_intro_2)
+	</div>
+
+	<div class="content">
+		@content(sourcecode): @content(products_ekse_source_code)
+	</div>
+@include(sectionend.php)
+
 <a id="ledsolutions"></a>
 @include(sectionstart.php)
 	<h2>@content(products_led_solutions_headline)</h2>
@@ -72,27 +110,6 @@
 
 	@include(xdc_overview.php)
 
-@include(sectionend.php)
-
-<a id="ekse"></a>
-@include(sectionstart.php)
-	<h2>EKSE</h2>
-
-	<div class="content">
-		@content(products_ekse_intro_1)
-	</div>
-
-	<div class="content centerimg">
-		<img src="/pics/products/ekse.png" />
-	</div>
-
-	<div class="content">
-		@content(products_ekse_intro_2)
-	</div>
-
-	<div class="content">
-		@content(sourcecode): @content(products_ekse_source_code)
-	</div>
 @include(sectionend.php)
 
 <a id="universalconverter"></a>

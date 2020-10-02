@@ -132,8 +132,9 @@
 		"privacy_policy_universalconverter_intro_3": "Also, no data regarding the use of the flashlight is collected, stored or transmitted anywhere.",
 		"privacy_policy_universalconverter_intro_4": "The user has the full right to withdraw their consent and request the deletion of all data by contacting e.g. <a href=\"mailto:info@asofterspace.com\">info@asofterspace.com</a> (which however will result in no action at all, as no data is collected in the first place.)",
 		"products": "Products",
-		"products_assEditor_intro_1": "After becoming increasingly frustrated with existing editors - especially code completion features that delay the input in a noticeable way - we have started creating our own source code editor. It is optimized for allowing fast typing speed above all else and contains some other nifty features as well.",
+		"products_assEditor_intro_1": "After becoming increasingly frustrated with existing editors - especially code completion features that delay the input in a noticeable way - we have started creating our own source code editor.<br>It is optimized for allowing fast typing speed above all else and contains some other nifty features as well as basic ones such as automated code generation and context-aware autocompletion.",
 		"products_assMusician_intro_1": "A little program that reads in a song... and outputs the same song with lots of drums! Yayyy!<br>The resulting remixes are then uploaded to YouTube...",
+		"products_assWorkbench_intro_1": "Work often consists of remembering tasks that have been done in a similar way months, even years ago, whose solutions can be used for tackling current obstacles. However, remembering details about such tasks years later is hard.<br>Therefore, we have created the A Softer Space Workbench, which allows logging work in different freely configurable projects using a per-project customizable user interface. Work tasks can be logged on this interface in detail, can be linked to each other in various ways and can be searched later on to not get forgotten.",
 		"products_cdm_tool_intro": "The CDM Commandline Tool can be used to edit CDMs for EGS-CC directly from the commandline.<br>Especially helpful can be the conversion between different CDM versions and the validation of existing CDMs.",
 		"products_ekse_intro_1": "The EGS-CC Karaf Shell Extension, short EKSE, is a tool that enables direct interaction with the backend of an EGS-CC based system.<br>(And if you are wondering what this EGS-CC might be - it the new collection of building blocks developed across Europe that can be used to assemble Monitoring and Control Systems for Spacecraft, Groundstations and basically anything else. <a href=\"http://www.egscc.esa.int/\" target=\"_blank\">Here</a> you can find more information about it.)",
 		"products_ekse_intro_2": "Btw. - we have a whole <a href=\"science#ekse\">paper about EKSE</a> in our science section!",
@@ -391,8 +392,9 @@
 		"privacy_policy_universalconverter_intro_3": "Außerdem werden auch keine Daten bezüglich der Nutzung der Taschenlampe gesammelt, gespeichert oder irgendwohin übertragen.",
 		"privacy_policy_universalconverter_intro_4": "Nutzer haben das volle Recht darauf, ihr Einverständnis zu widerrufen und die Löschung aller Daten zu fordern, indem sie sich beispielsweise an <a href=\"mailto:info@asofterspace.com\">info@asofterspace.com</a> wenden (was aber zu keiner Aktion führen wird, da ja von vornherein keine Daten gesammelt werden, und somit auch nichts vorhanden ist, was gelöscht werden kann.)",
 		"products": "Produkte",
-		"products_assEditor_intro_1": "Nachdem uns bereits existierende Editoren mehr und mehr frustriert haben - gerade mit automatischen Vervollständigungsroutinen, die die Eingabe spürbar verzögern - haben wir begonnen, unseren eigenen Quelltext-Editor zu schreiben. Er ist darauf optimiert, schnelles Eintippen zu ermöglichen und bietet auch noch ein paar andere raffinierte Features.",
+		"products_assEditor_intro_1": "Nachdem uns bereits existierende Editoren mehr und mehr frustriert haben - gerade mit automatischen Vervollständigungsroutinen, die die Eingabe spürbar verzögern - haben wir begonnen, unseren eigenen Quelltext-Editor zu schreiben.<br>Er ist darauf optimiert, schnelles Eintippen zu ermöglichen und bietet auch noch ein paar andere raffinierte Features zusätzlich zu bekannten Features wie automatisierter Code-Generierung und kontextabhängiger automatischer Vervollständigung.",
 		"products_assMusician_intro_1": "Ein kleines Programm, das einen Song einliest... und den gleichen Song mit haufenweise Trommeln wieder ausspuckt! Jippey!<br>Das Ergebnis wird dann auf YouTube hochgeladen...",
+		"products_assWorkbench_intro_1": "Arbeit besteht oft zu einem Teil daraus, sich an Aufgaben zu erinnern, die Monate oder sogar Jahre zuvor schon einmal ähnlich gelöst wurden, und deren Lösungen für aktuelle Aufgaben hilfreiche Ansätze beinhalten. Sich nach solch langer Zeit noch an Details zu erinnern ist aber schwierig.<br>Daher haben wir die A Softer Space Workbench erschaffen, die es ermöglicht, an verschiedenen frei konfigurierbaren Projekten zu arbeiten und jeweils eine anpassbare Projektoberfläche bereitgestellt zu bekommen. Abgearbeitete Aufgaben können in dieser Oberfläche detailliert eingetragen, miteinander verlinkt und durchsucht werden, sodass sie niemals in Vergessenheit geraten.",
 		"products_cdm_tool_intro": "Das CDM Commandline Tool kann genutzt werden, um CDMs für EGS-CC direkt von der Kommandozeile aus zu editieren.<br>Besonders hilfreich sind die Konvertierung zwischen verschiedenen CDM-Versionen und die Validierung existierender CDMs.",
 		"products_ekse_intro_1": "Die EGS-CC Karaf Shell Erweiterung, kurz EKSE, ist ein Tool das die direkte Interaktion mit dem Backend eines auf EGS-CC basierenden Systems ermöglicht.<br>(Und falls du dich fragst, was dieses EGS-CC wohl sein mag - das ist eine neue Sammlung an Bausteinen, die über ganz Europa verteilt entwickelt wurden und mit denen man sich ein Monitoring- und Control-System für Raumschiffe, Bodenstationen und so ziemlich alles andere auch zusammenbauen kann. <a href=\"http://www.egscc.esa.int/\" target=\"_blank\">Hier</a> kannst du mehr darüber erfahren.)",
 		"products_ekse_intro_2": "Übrigens - wir haben einen ganzen <a href=\"science#ekse\">Artikel über EKSE</a> auf unserer Wissenschaftsseite!",
@@ -637,6 +639,7 @@
 		"pics/products/xdcreportcreator.png",
 		"pics/products/universalconverter_feature_graphic.png",
 		"pics/products/assEditor_2.png",
+		"pics/products/assWorkbench_3.png",
 		"pics/products/more_drums_1.png",
 		"pics/games/wallbreak_online_1.png",
 		"privacy/index.php",
@@ -664,5 +667,5 @@
 	],
 	"uploadStrDE": "C:\\home\\system\\psftp\\psftp.exe ubuntu@185.12.7.253 -i C:\\home\\prog\\webdev\\sec\\cloudsigmaprivate.ppk -b ",
 	"uploadStrEN": "C:\\home\\system\\psftp\\psftp.exe ubuntu@185.12.7.253 -i C:\\home\\prog\\webdev\\sec\\cloudsigmaprivate.ppk -b ",
-	"version": 9178
+	"version": 9181
 }
