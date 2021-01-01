@@ -45,7 +45,8 @@
 		"donations_2019_malaria_and_strongminds": "In 2019, we have donated 3877.00 € to the <a href=\"https://www.againstmalaria.com/\" target=\"_blank\">Against Malaria Foundation</a> and $4293.00 (3860.44 €) to <a href=\"https://strongminds.org/\" target=\"_blank\">Strongminds</a>.",
 		"donations_2019_patreon": "Lastly, in 2019 we also donated a total of 225.10 € via <a href=\"https://www.patreon.com/\" target=\"_blank\">Patreon</a> to awesome content creators.",
 		"donations_2020_end": "Donations donations... Whoop whoop!",
-		"donations_2020_refuge": "In 2020, we have donated 100.00 € to <a href=\"https://www.refuge.org.uk/\" target=\"_blank\">Refuge</a>, which is working against domestic violence in the UK.",
+		"donations_2020_malaria_sci_sens": "In 2020, we have donated 4055.93 € to the <a href=\"https://www.againstmalaria.com/\" target=\"_blank\">Against Malaria Foundation</a>, 4055.94 € to the <a href=\"https://schistosomiasiscontrolinitiative.org/\" target=\"_blank\">SCI Foundation</a> and 4055.93 € to the <a href=\"https://www.sens.org/\" target=\"_blank\">SENS Foundation</a>.",
+		"donations_2020_refuge": "Additionally, we have donated 100.00 € to <a href=\"https://www.refuge.org.uk/\" target=\"_blank\">Refuge</a>, which is working against domestic violence in the UK.",
 		"donations_ea_headline": "Effective Altruism",
 		"donations_ea_intro": "If you want to learn more about impactful giving and get involved yourself, <a href=\"https://www.effectivealtruism.org/\" target=\"_blank\">Effective Altruism</a> is a great place to do so.",
 		"donations_giving_what_we_can_intro_1": "We believe in the idea behind the <a href=\"https://www.givingwhatwecan.org/\" target=\"_blank\">Giving What We Can</a> initiative.",
@@ -305,7 +306,8 @@
 		"donations_2019_malaria_and_strongminds": "2019 haben wir 3877,00 € an die <a href=\"https://www.againstmalaria.com/\" target=\"_blank\">Against Malaria Foundation</a> und 4293,00 $ (3860,44 €) an <a href=\"https://strongminds.org/\" target=\"_blank\">Strongminds</a> gespendet.",
 		"donations_2019_patreon": "Zusätzlich haben wir 2019 auch noch insgesamt 225,10 € über <a href=\"https://www.patreon.com/\" target=\"_blank\">Patreon</a> an coole Projekte gespendet.",
 		"donations_2020_end": "Spenden, Spenden... Jippey!",
-		"donations_2020_refuge": "2020 haben wir 100,00 € an <a href=\"https://www.refuge.org.uk/\" target=\"_blank\">Refuge</a> gespendet, eine Organisation, die Opfern häuslicher Gewalt hilft.",
+		"donations_2020_malaria_sci_sens": "2020 haben wir 4055,93 € an die <a href=\"https://www.againstmalaria.com/\" target=\"_blank\">Against Malaria Foundation</a>, 4055,94 € an die <a href=\"https://schistosomiasiscontrolinitiative.org/\" target=\"_blank\">SCI-Stiftung</a> und 4055,93 € an die <a href=\"https://www.sens.org/\" target=\"_blank\">SENS-Stiftung</a> gespendet.",
+		"donations_2020_refuge": "Zusätzlichen haben wir noch 100,00 € an <a href=\"https://www.refuge.org.uk/\" target=\"_blank\">Refuge</a> gespendet, eine Organisation, die Opfern häuslicher Gewalt hilft.",
 		"donations_ea_headline": "Effektiver Altruismus",
 		"donations_ea_intro": "Wenn du mehr darüber erfahren möchtest, wirkungsvoll zu spenden und selbst einbezogen werden möchtest, dann ist der <a href=\"https://www.effectivealtruism.org/\" target=\"_blank\">Effektive Altruismus</a> genau richtig für dich.",
 		"donations_giving_what_we_can_intro_1": "Wir glauben an die Idee hinter der <a href=\"https://www.givingwhatwecan.org/\" target=\"_blank\">Giving What We Can</a> Initiative.",
@@ -667,5 +669,5 @@
 	],
 	"uploadStrDE": "C:\\home\\system\\psftp\\psftp.exe ubuntu@185.12.7.253 -i C:\\home\\prog\\webdev\\sec\\cloudsigmaprivate.ppk -b ",
 	"uploadStrEN": "C:\\home\\system\\psftp\\psftp.exe ubuntu@185.12.7.253 -i C:\\home\\prog\\webdev\\sec\\cloudsigmaprivate.ppk -b ",
-	"version": 9181
+	"version": 9186
 }

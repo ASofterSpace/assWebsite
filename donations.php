@@ -16,6 +16,10 @@
 	<h1>@content(donations_headline_2020)</h1>
 
 	<div class="content">
+		@content(donations_2020_malaria_sci_sens)
+	</div>
+
+	<div class="content">
 		@content(donations_2020_refuge)
 	</div>
 
