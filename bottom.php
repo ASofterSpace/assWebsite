@@ -37,7 +37,7 @@
 				</div>
 				<div class="label center below700 above400 footertextblock">
 					<br>
-					VAT Nr:<br>
+					@content(vat_nr):<br>
 					DE319451065<br>
 				</div>
 			</div>

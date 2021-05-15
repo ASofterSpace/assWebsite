@@ -32,6 +32,7 @@
 	</div>
 </section>
 
+{{--
 <section class="leftnav">
 	<canvas id="cvLeftnav@countup(leftnavs)"></canvas>
 	<div class="insec">
@@ -42,6 +43,7 @@
 		</a>
 	</div>
 </section>
+--}}
 
 <section class="leftnav">
 	<canvas id="cvLeftnav@countup(leftnavs)"></canvas>
@@ -126,6 +128,20 @@
 		<a href="/donations">
 			<div>
 				@content(donations)
+			</div>
+		</a>
+	</div>
+</section>
+
+{{-- create some distance between the previous item and the legal notice --}}
+<div style="height: 1.5em;">&nbsp;</div>
+
+<section class="leftnav">
+	<canvas id="cvLeftnav@countup(leftnavs)"></canvas>
+	<div class="insec">
+		<a href="/imprint">
+			<div>
+				@content(imprint)
 			</div>
 		</a>
 	</div>
