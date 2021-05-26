@@ -50,6 +50,7 @@
 		"donations_2021_end": "Everything is pretty ridiculous in the world lately, so hopefully, these donations will do some good in the long run...",
 		"donations_2021_ffgz": "We donated 256.00 € to <a href=\"https://www.ffgzstuttgart.de/\" target=\"_blank\">FF*GZ</a>, the Feministische Frauen*gesundheitszentrum Stuttgart e.V. (Feminist Women*healthcenter in Stuttgart, Germany.)",
 		"donations_2021_lifespan": "Since January 2021 we are donating 100.00 $ a month to <a href=\"https://www.lifespan.io/\" target=\"_blank\">lifespan.io</a>, an organisation that tries to enable a longer life for every human by coordinating and financing scientific research.",
+		"donations_2021_pearl": "In 2021 we have donated 4000.00 $ (3302.08 €) to the <a href=\"https://www.lifespan.io/campaigns/pearl-participatory-evaluation-of-aging-with-rapamycin-for-longevity\" target=\"_blank\">PEARL trial</a>, a double-blind, randomized, placebo-controlled trial in 200 humans over 12 months on using a drug called Rapamycin for delaying aging.",
 		"donations_ea_headline": "Effective Altruism",
 		"donations_ea_intro": "If you want to learn more about impactful giving and get involved yourself, <a href=\"https://www.effectivealtruism.org/\" target=\"_blank\">Effective Altruism</a> is a great place to do so.",
 		"donations_giving_what_we_can_intro_1": "We believe in the idea behind the <a href=\"https://www.givingwhatwecan.org/\" target=\"_blank\">Giving What We Can</a> initiative.",
@@ -318,6 +319,7 @@
 		"donations_2021_end": "Überall auf der Welt geht es gerade drunter und drüber - hoffentlich können diese Spenden ein bisschen dabei helfen, langfristig die Situation für alle besser zu machen...",
 		"donations_2021_ffgz": "Wir haben 256,00 € ans <a href=\"https://www.ffgzstuttgart.de/\" target=\"_blank\">FF*GZ</a> gespendet, das Feministische Frauen*gesundheitszentrum Stuttgart e.V.",
 		"donations_2021_lifespan": "Seit Januar 2021 spenden wir 100,00 $ (82,37 €) pro Monat an <a href=\"https://www.lifespan.io/\" target=\"_blank\">lifespan.io</a>, eine Organisation, die versucht, durch Koordination und Finanzierung wissenschaftlicher Forschung ein langes Leben für alle Menschen zu ermöglichen.",
+		"donations_2021_pearl": "2021 haben wir 4000,00 $ (3302,08 €) an die <a href=\"https://www.lifespan.io/campaigns/pearl-participatory-evaluation-of-aging-with-rapamycin-for-longevity\" target=\"_blank\">PEARL Studie</a> gespendet, eine doppelblinde, randomisierte, placebokontrollierte Studie an 200 Menschen über einen Zeitraum von 12 Monaten mit einem Medikament namens Rapamycin zur Erforschung der möglichen Verlangsamung des Alterns.",
 		"donations_ea_headline": "Effektiver Altruismus",
 		"donations_ea_intro": "Wenn du mehr darüber erfahren möchtest, wirkungsvoll zu spenden und selbst einbezogen werden möchtest, dann ist der <a href=\"https://www.effectivealtruism.org/\" target=\"_blank\">Effektive Altruismus</a> genau richtig für dich.",
 		"donations_giving_what_we_can_intro_1": "Wir glauben an die Idee hinter der <a href=\"https://www.givingwhatwecan.org/\" target=\"_blank\">Giving What We Can</a> Initiative.",
@@ -684,5 +686,5 @@
 	],
 	"uploadStrDE": "C:\\home\\system\\psftp\\psftp.exe ubuntu@185.12.7.253 -i C:\\home\\prog\\webdev\\sec\\cloudsigmaprivate.ppk -b ",
 	"uploadStrEN": "C:\\home\\system\\psftp\\psftp.exe ubuntu@185.12.7.253 -i C:\\home\\prog\\webdev\\sec\\cloudsigmaprivate.ppk -b ",
-	"version": 9190
+	"version": 9191
 }
