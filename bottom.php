@@ -21,8 +21,8 @@
 			<div class="footertext">
 				<div class="label above700 footertextblock">
 					Tom Moya Schau<br>
-					Intzestraße 1<br>
-					D-60314 Frankfurt
+					Landwehr 8<br>
+					D-63450 Hanau
 				</div>
 				<div class="label center above700 footertextblock">
 					A Softer Space DE, Inhaber Tom Moya Schau<br>
@@ -32,8 +32,8 @@
 				</div>
 				<div class="label below700 footertextblock">
 					A Softer Space DE<span class="above400">, Inhaber Tom Moya Schau</span><br>
-					Intzestraße 1<br>
-					D-60314 Frankfurt
+					Landwehr 8<br>
+					D-63450 Hanau
 				</div>
 				<div class="label center below700 above400 footertextblock">
 					<br>
