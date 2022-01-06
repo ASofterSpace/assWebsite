@@ -16,6 +16,14 @@
 	<h1>@content(donations_headline_2021)</h1>
 
 	<div class="content">
+		@content(donations_2021_amf)
+	</div>
+
+	<div class="content">
+		@content(donations_2021_strongminds)
+	</div>
+
+	<div class="content">
 		@content(donations_2021_pearl)
 	</div>
 
@@ -24,7 +32,15 @@
 	</div>
 
 	<div class="content">
+		@content(donations_2021_typhoon)
+	</div>
+
+	<div class="content">
 		@content(donations_2021_ffgz)
+	</div>
+
+	<div class="content">
+		@content(donations_2021_allout)
 	</div>
 
 	<div class="content">

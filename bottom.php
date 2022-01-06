@@ -28,7 +28,7 @@
 					A Softer Space DE, Inhaber Tom Moya Schau<br>
 					VAT Nr: DE319451065<br>
 					{{-- A Softer Space UK Ltd<br> --}}
-					2018 - 2021
+					2018 - 2022
 				</div>
 				<div class="label below700 footertextblock">
 					A Softer Space DE<span class="above400">, Inhaber Tom Moya Schau</span><br>
