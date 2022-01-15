@@ -20,9 +20,9 @@
 			<canvas id="cvFooter"></canvas>
 			<div class="footertext">
 				<div class="label above700 footertextblock">
-					Tom Moya Schau<br>
-					Landwehr 8<br>
-					D-63450 Hanau
+					A Softer Space<br>
+					Bad Nauheimer Str. 4<br>
+					D-64289 Darmstadt
 				</div>
 				<div class="label center above700 footertextblock">
 					A Softer Space DE, Inhaber Tom Moya Schau<br>
@@ -32,8 +32,8 @@
 				</div>
 				<div class="label below700 footertextblock">
 					A Softer Space DE<span class="above400">, Inhaber Tom Moya Schau</span><br>
-					Landwehr 8<br>
-					D-63450 Hanau
+					Bad Nauheimer Str. 4<br>
+					D-64289 Darmstadt
 				</div>
 				<div class="label center below700 above400 footertextblock">
 					<br>
