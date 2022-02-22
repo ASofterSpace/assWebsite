@@ -14,7 +14,7 @@ window.pD = {
 	// TODO :: ccsdsFrame
 	packetKind: "auto",
 
-	lastPacketKind: "ccsdsTM",
+	detectedPacketKind: "ccsdsTM",
 
 	guiDecodePacketCall: function() {
 		var orig = document.getElementById("pD-in").value;
@@ -31,6 +31,14 @@ window.pD = {
 		result = "<div>" + result.split("\n").join("</div><div>") + "</div>";
 
 		document.getElementById("pD-out").innerHTML = result;
+
+		var pDtype = document.getElementById("pD-type");
+		document.getElementById("pD-type-detected").innerHTML = "";
+		for (var i = 0; i < pDtype.options.length; i++) {
+			if (this.detectedPacketKind == pDtype.options[i].value) {
+				document.getElementById("pD-type-detected").innerHTML = pDtype.options[i].text;
+			}
+		}
 	},
 
 	guiPacketTypeChangeCall: function() {
@@ -46,7 +54,7 @@ window.pD = {
 
 		if (curPacketKind == "auto") {
 			this.doDecode(packetStr, curPacketKind);
-			curPacketKind = this.lastPacketKind;
+			curPacketKind = this.detectedPacketKind;
 		}
 
 		return this.doDecode(packetStr, curPacketKind);
@@ -54,7 +62,7 @@ window.pD = {
 
 	doDecode: function(packetStr, curPacketKind) {
 
-		this.lastPacketKind = "ccsdsTM";
+		this.detectedPacketKind = "ccsdsTM";
 
 		var warnings = [];
 
@@ -148,7 +156,7 @@ window.pD = {
 					result += packetType + " ...... Packet Type: ";
 					if (packetType == "1") {
 						result += "Telecommand";
-						this.lastPacketKind = "ccsdsTC";
+						this.detectedPacketKind = "ccsdsTC";
 					} else {
 						result += "Telemetry";
 					}
@@ -275,9 +283,9 @@ window.pD = {
 						} else {
 							result += "non-CCSDS-defined secondary header";
 							if (packetType == "1") {
-								this.lastPacketKind = "pusTC";
+								this.detectedPacketKind = "pusTC";
 							} else {
-								this.lastPacketKind = "pusTM";
+								this.detectedPacketKind = "pusTM";
 							}
 						}
 						if (warn) {

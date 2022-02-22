@@ -17,6 +17,9 @@
 		<option value="pusTM">@content(tools_packet_decoder_decode_as_pus_tm)</option>
 		<option value="pusTC">@content(tools_packet_decoder_decode_as_pus_tc)</option>
 	</select>
+	<div>
+		@content(tools_packet_decoder_autodetected): <span id="pD-type-detected"></span>
+	</div>
 </div>
 
 <div class="content">

@@ -233,6 +233,7 @@
 		"tools_json_formatter_headline": "JSON Formatter",
 		"tools_json_formatter_intro": "Enter some JSON data and it will be output in a nicely formatted form.",
 		"tools_json_formatter_sort_alphabetically": "Sort object keys alphabetically",
+		"tools_packet_decoder_autodetected": "Automatically detected",
 		"tools_packet_decoder_decode_as": "Decode as",
 		"tools_packet_decoder_decode_as_auto": "Automatic",
 		"tools_packet_decoder_decode_as_ccsds_tc": "CCSDS Telecommand Packet",
@@ -507,6 +508,7 @@
 		"tools_json_formatter_headline": "JSON Formatierer",
 		"tools_json_formatter_intro": "Gib JSON-Daten ein und sie werden nett formatiert wieder ausgegeben.",
 		"tools_json_formatter_sort_alphabetically": "Objektschlüssel alphabetisch sortieren",
+		"tools_packet_decoder_autodetected": "Automatisch erkannt",
 		"tools_packet_decoder_decode_as": "Decode as",
 		"tools_packet_decoder_decode_as_auto": "Automatic",
 		"tools_packet_decoder_decode_as_ccsds_tc": "CCSDS Telecommand Packet",
@@ -697,5 +699,5 @@
 	],
 	"uploadStrDE": "C:\\home\\system\\psftp\\psftp.exe ubuntu@185.12.7.253 -i C:\\home\\prog\\webdev\\sec\\cloudsigmaprivate.ppk -b ",
 	"uploadStrEN": "C:\\home\\system\\psftp\\psftp.exe ubuntu@185.12.7.253 -i C:\\home\\prog\\webdev\\sec\\cloudsigmaprivate.ppk -b ",
-	"version": 9202
+	"version": 9205
 }
