@@ -16,6 +16,10 @@
 	<h1>@content(donations_headline_2022)</h1>
 
 	<div class="content">
+		@content(donations_2022_opensourceseeds)
+	</div>
+
+	<div class="content">
 		@content(donations_2022_ukraine)
 	</div>
 
