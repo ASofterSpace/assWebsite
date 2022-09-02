@@ -58,6 +58,7 @@
 		"donations_2021_typhoon": "We gave 276.45 $ (256.32 €) directly to people affected by super typhoon Rai in the Philippines.",
 		"donations_2022_nabu": "Also, we donated 250.00 € to the German NGO <a href=\"https://www.nabu.de/\" target=\"_blank\">Nabu</a>, to support the creation of nature preserves for the lesser spotted eagle. Have fun little eagle! :)",
 		"donations_2022_opensourceseeds": "2050.00 € went to the <a href=\"https://www.startnext.com/en/roggen\" target=\"_blank\">A rye that belongs to all of us</a> initiative of <a href=\"https://opensourceseeds.org/\" target=\"_blank\">OpenSourceSeeds</a> for the development of an open source rye variety (varyety? ^^)",
+		"donations_2022_person_1": "We donated 256.00 € for a queer Black person's trauma therapy.",
 		"donations_2022_ukraine": "The situation in Ukraine is terrible right now. We donated 229.65 € to the organisation <a href=\"https://voices.org.ua/en/\" target=\"_blank\">Voices of Children</a>, which cares for children in Eastern Ukraine that have been traumatised by the war, as well as 200.00 € via Libereco to Vostok SOS, who provide humanitarian emergency aid directly within Ukraine. 150.00 € went to Bassliner, which organized evacuation bus tours. To help people who are openly protesting against war and violence inside Russia and are being put under massive pressure, we have also given 123.45 € to Anarchist Black Cross Moscow. Finally, 100.00 € went to the evacuateafricansfromua initiative, which aims to enable any and all people to leave Ukraine, which currently is blocked or made much more difficult e.g. just based on someone's skin color.",
 		"donations_ea_headline": "Effective Altruism",
 		"donations_ea_intro": "If you want to learn more about impactful giving and get involved yourself, <a href=\"https://www.effectivealtruism.org/\" target=\"_blank\">Effective Altruism</a> is a great place to do so.",
@@ -67,7 +68,7 @@
 		"donations_headline_2019": "Donations in 2019: 8,242.54 €",
 		"donations_headline_2020": "Donations in 2020: 12,267.80 €",
 		"donations_headline_2021": "Donations in 2021: 15,385.86 €",
-		"donations_headline_2022": "Donations in 2022 so far: 3,103.10 €",
+		"donations_headline_2022": "Donations in 2022 so far: 3,359.10 €",
 		"download": "Download",
 		"ekse_headline": "EKSE: A Command Line Interface for EGS-CC based Systems",
 		"ekse_presentation_update_date": "25<sup>th</sup> April 2018",
@@ -337,6 +338,7 @@
 		"donations_2021_typhoon": "276,45 $ (256,32 €) haben wir direkt an Menschen gespendet, die in den Philippinen vom Supertaifun Rai betroffen waren.",
 		"donations_2022_nabu": "Außerdem haben wir 250,00 € an den <a href=\"https://www.nabu.de/\" target=\"_blank\">Nabu</a> gespendet, um das Anlegen von Schutzgebieten für den Schreiadler zu unterstützen. Wir wünschen fröhliches Schreien! :)",
 		"donations_2022_opensourceseeds": "2050,00 € gingen an die Initiative <a href=\"https://www.startnext.com/roggen\" target=\"_blank\">Ein Roggen, der uns allen gehört</a> von <a href=\"https://opensourceseeds.org/\" target=\"_blank\">OpenSourceSeeds</a> für die Entwicklung einer Open-Source-Roggensorte.",
+		"donations_2022_person_1": "Wir haben 256,00 € gespendet, damit eine queere schwarze Person notwendige Traumatherapie erhalten kann.",
 		"donations_2022_ukraine": "Die Lage in der Ukraine ist gerade echt schrecklich. Wir haben 229,65 € an die Hilfsorganisation <a href=\"https://voices.org.ua/en/\" target=\"_blank\">Voices of Children</a> gespendet, die sich um kriegstraumatisierte Kinder in der östlichen Ukraine kümmern, sowie 200,00 € über Libereco an Vostok SOS, die humanitäre Soforthilfe in der Ukraine leisten. Auch gingen 150,00 € an Bassliner, die Evakuierungsbusreisen organisieren. Da Menschen zu helfen, die innerhalb Russlands offen gegen Krieg und Gewalt demonstrieren und dort massiv unter Druck gesetzt werden, haben wir auch 123,45 € an die Organisation Anarchist Black Cross Moscow gespendet. Schließlich gingen auch 100,00 € an die evacuateafricansfromua-Initiative, die versucht, Menschen jeder Herkunft die Ausreise aus der Ukraine zu ermöglichen, was Menschen bspw. aufgrund ihrer Hautfarbe aktuell teils verwehrt wird.",
 		"donations_ea_headline": "Effektiver Altruismus",
 		"donations_ea_intro": "Wenn du mehr darüber erfahren möchtest, wirkungsvoll zu spenden und selbst einbezogen werden möchtest, dann ist der <a href=\"https://www.effectivealtruism.org/\" target=\"_blank\">Effektive Altruismus</a> genau richtig für dich.",
@@ -346,7 +348,7 @@
 		"donations_headline_2019": "Spenden im Jahr 2019: 8.242,54 €",
 		"donations_headline_2020": "Spenden im Jahr 2020: 12.267,80 €",
 		"donations_headline_2021": "Spenden im Jahr 2021: 15.385,86 €",
-		"donations_headline_2022": "Spenden im Jahr 2022 bis jetzt: 3.103,10 €",
+		"donations_headline_2022": "Spenden im Jahr 2022 bis jetzt: 3.359,10 €",
 		"download": "Download",
 		"ekse_headline": "EKSE: Ein Kommandozeilen-Interface für EGS-CC-basierte Systeme",
 		"ekse_presentation_update_date": "25. April 2018",
@@ -707,5 +709,5 @@
 	],
 	"uploadStrDE": "C:\\home\\system\\psftp\\psftp.exe ubuntu@185.12.7.253 -i C:\\home\\prog\\webdev\\sec\\cloudsigmaprivate.ppk -b ",
 	"uploadStrEN": "C:\\home\\system\\psftp\\psftp.exe ubuntu@185.12.7.253 -i C:\\home\\prog\\webdev\\sec\\cloudsigmaprivate.ppk -b ",
-	"version": 9220
+	"version": 9223
 }
