@@ -54,6 +54,14 @@
 
 
 @include(sectionstart.php)
+	<h2><a href="/tools/relationshipMenu">@content(tools_relationship_menu_headline)</a></h2>
+
+	@include(tools_relationship_menu.php)
+
+@include(sectionend.php)
+
+
+@include(sectionstart.php)
 	<h2><a href="/tools/deckBuildingCalculator">@content(tools_deck_building_calculator_headline)</a></h2>
 
 	@include(tools_deck_building_calculator.php)

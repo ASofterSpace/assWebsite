@@ -62,6 +62,10 @@
 	@endif
 	>
 
+	<script>
+		window._globalSiteLang = "@content(lang)";
+	</script>
+
 	<div id="topofpage">&nbsp;</div>
 
 	<header>
