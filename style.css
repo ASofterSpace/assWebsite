@@ -50,6 +50,19 @@ section:hover {
 	opacity: 1 !important; /* make this important to get over the randomized values */
 }
 
+input.input-checkbox {
+	width: 18pt;
+	height: 18pt;
+}
+
+input.input-checkbox, label.input-checkbox-label {
+	vertical-align: middle;
+}
+
+label.input-checkbox-label {
+	padding-left: 4pt;
+}
+
 div.insec {
 	position: relative;
 	color: #222;
@@ -513,25 +526,65 @@ all and (min-width: 1600px) {
 
 @media all and (min-resolution: 1.5dppx) {
 	body {
-		font-size: 150%;
+		font-size: 132%;
+	}
+	div.insec {
+		font-size: 145%;
+	}
+	input.input-checkbox {
+		width: 27pt;
+		height: 27pt;
+	}
+	label.input-checkbox-label {
+		padding-left: 5pt;
 	}
 }
 
 @media all and (min-resolution: 2dppx) {
 	body {
-		font-size: 200%;
+		font-size: 140%;
+	}
+	div.insec {
+		font-size: 154%;
+	}
+	input.input-checkbox {
+		width: 30pt;
+		height: 30pt;
+	}
+	label.input-checkbox-label {
+		padding-left: 6pt;
 	}
 }
 
 @media all and (min-resolution: 3dppx) {
 	body {
-		font-size: 300%;
+		font-size: 150%;
+	}
+	div.insec {
+		font-size: 165%;
+	}
+	input.input-checkbox {
+		width: 32pt;
+		height: 32pt;
+	}
+	label.input-checkbox-label {
+		padding-left: 8pt;
 	}
 }
 
 @media all and (min-resolution: 4dppx) {
 	body {
-		font-size: 400%;
+		font-size: 175%;
+	}
+	div.insec {
+		font-size: 192%;
+	}
+	input.input-checkbox {
+		width: 48pt;
+		height: 48pt;
+	}
+	label.input-checkbox-label {
+		padding-left: 10pt;
 	}
 }
 

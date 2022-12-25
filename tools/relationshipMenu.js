@@ -68,8 +68,8 @@ window.rM = {
 				html += "<b>" + key + "</b><br>";
 
 				for (var i = 0; i < cats[key].length; i++) {
-					html += "<input type='checkbox' id='rM-input-" + inputNum + "' name='rM-input-" + inputNum + "' >";
-					html += "<label for='rM-input-" + inputNum + "'>" + cats[key][i] + "</label><br>";
+					html += "<input class='input-checkbox' type='checkbox' id='rM-input-" + inputNum + "' name='rM-input-" + inputNum + "' >";
+					html += "<label class='input-checkbox-label' for='rM-input-" + inputNum + "'>" + cats[key][i] + "</label><br>";
 					inputNum++;
 				}
 
