@@ -12,8 +12,18 @@
 	</div>
 @include(sectionend.php)
 
+{{--
+@include(sectionstart.php)
+	<h1>@content(donations_headline_2023)</h1>
+@include(sectionend.php)
+--}}
+
 @include(sectionstart.php)
 	<h1>@content(donations_headline_2022)</h1>
+
+	<div class="content">
+		@content(donations_2022_private)
+	</div>
 
 	<div class="content">
 		@content(donations_2022_opensourceseeds)
