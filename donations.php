@@ -40,6 +40,14 @@
 	<div class="content">
 		@content(donations_2022_nabu)
 	</div>
+
+	<div class="content">
+		@content(donations_2022_lifespan)
+	</div>
+
+	<div class="content">
+		@content(donations_2022_patreon)
+	</div>
 @include(sectionend.php)
 
 @include(sectionstart.php)
