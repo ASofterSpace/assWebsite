@@ -63,6 +63,7 @@
 		"donations_2022_person_1": "We donated 256.00 € for someone to get their needed trauma therapy and another 256.00 € for helping people enter the EU legally who otherwise wouldn't have been able to do so.",
 		"donations_2022_private": "12500.00 € were donated to a private project.",
 		"donations_2022_ukraine": "The situation in Ukraine is terrible right now. We donated 229.65 € to the organisation <a href=\"https://voices.org.ua/en/\" target=\"_blank\">Voices of Children</a>, which cares for children in Eastern Ukraine that have been traumatised by the war, as well as 200.00 € via Libereco to Vostok SOS, who provide humanitarian emergency aid directly within Ukraine. 150.00 € went to Bassliner, which organized evacuation bus tours. To help people who are openly protesting against war and violence inside Russia and are being put under massive pressure, we have also given 123.45 € to Anarchist Black Cross Moscow. Finally, 100.00 € went to the evacuateafricansfromua initiative, which aims to enable any and all people to leave Ukraine, which currently is blocked or made much more difficult e.g. just based on someone's skin color.",
+		"donations_2023_femibrightfuture": "We donated 125.00 € to Femi Bright Future to distribute period products and provide a safer space to learn skills to cover menstrual product costs independently.",
 		"donations_ea_headline": "Effective Altruism",
 		"donations_ea_intro": "If you want to learn more about impactful giving and get involved yourself, <a href=\"https://www.effectivealtruism.org/\" target=\"_blank\">Effective Altruism</a> is a great place to do so.",
 		"donations_giving_what_we_can_intro_1": "We believe in the idea behind the <a href=\"https://www.givingwhatwecan.org/\" target=\"_blank\">Giving What We Can</a> initiative.",
@@ -72,7 +73,7 @@
 		"donations_headline_2020": "Donations in 2020: 12,267.80 €",
 		"donations_headline_2021": "Donations in 2021: 15,385.86 €",
 		"donations_headline_2022": "Donations in 2022: 18,531.57 €",
-		"donations_headline_2023": "Donations in 2023 so far: 0.00 €",
+		"donations_headline_2023": "Donations in 2023 so far: 125.00 €",
 		"download": "Download",
 		"ekse_headline": "EKSE: A Command Line Interface for EGS-CC based Systems",
 		"ekse_presentation_update_date": "25<sup>th</sup> April 2018",
@@ -353,6 +354,7 @@
 		"donations_2022_person_1": "Wir haben 256,00 € gespendet, damit eine Person für sie notwendige Traumatherapie erhalten kann und noch einmal 256,00 € um es Menschen zu ermöglichen, legal in die EU einzureisen, die sonst diese Möglichkeit nicht gehabt hätten.",
 		"donations_2022_private": "12500,00 € wurden an ein privates Vorhaben gespendet.",
 		"donations_2022_ukraine": "Die Lage in der Ukraine ist gerade echt schrecklich. Wir haben 229,65 € an die Hilfsorganisation <a href=\"https://voices.org.ua/en/\" target=\"_blank\">Voices of Children</a> gespendet, die sich um kriegstraumatisierte Kinder in der östlichen Ukraine kümmern, sowie 200,00 € über Libereco an Vostok SOS, die humanitäre Soforthilfe in der Ukraine leisten. Auch gingen 150,00 € an Bassliner, die Evakuierungsbusreisen organisieren. Da Menschen zu helfen, die innerhalb Russlands offen gegen Krieg und Gewalt demonstrieren und dort massiv unter Druck gesetzt werden, haben wir auch 123,45 € an die Organisation Anarchist Black Cross Moscow gespendet. Schließlich gingen auch 100,00 € an die evacuateafricansfromua-Initiative, die versucht, Menschen jeder Herkunft die Ausreise aus der Ukraine zu ermöglichen, was Menschen bspw. aufgrund ihrer Hautfarbe aktuell teils verwehrt wird.",
+		"donations_2023_femibrightfuture": "Wir haben 125,00 € an Femi Bright Future gespendet, um Menstruationsprodukte zu verteilen und einen sichereren Ort zum Erlernen von Fähigkeiten bereitzustellen, mit denen die Menschen für die Kosten dieser Produkte in Zukunft selbst aufkommen können.",
 		"donations_ea_headline": "Effektiver Altruismus",
 		"donations_ea_intro": "Wenn du mehr darüber erfahren möchtest, wirkungsvoll zu spenden und selbst einbezogen werden möchtest, dann ist der <a href=\"https://www.effectivealtruism.org/\" target=\"_blank\">Effektive Altruismus</a> genau richtig für dich.",
 		"donations_giving_what_we_can_intro_1": "Wir glauben an die Idee hinter der <a href=\"https://www.givingwhatwecan.org/\" target=\"_blank\">Giving What We Can</a> Initiative.",
@@ -362,7 +364,7 @@
 		"donations_headline_2020": "Spenden im Jahr 2020: 12.267,80 €",
 		"donations_headline_2021": "Spenden im Jahr 2021: 15.385,86 €",
 		"donations_headline_2022": "Spenden im Jahr 2022: 18.531,57 €",
-		"donations_headline_2023": "Spenden im Jahr 2023 bis jetzt: 0.00 €",
+		"donations_headline_2023": "Spenden im Jahr 2023 bis jetzt: 125,00 €",
 		"download": "Download",
 		"ekse_headline": "EKSE: Ein Kommandozeilen-Interface für EGS-CC-basierte Systeme",
 		"ekse_presentation_update_date": "25. April 2018",
@@ -731,5 +733,5 @@
 	],
 	"uploadStrDE": "C:\\home\\system\\psftp\\psftp.exe ubuntu@185.12.7.253 -i C:\\home\\prog\\webdev\\sec\\cloudsigmaprivate.ppk -b ",
 	"uploadStrEN": "C:\\home\\system\\psftp\\psftp.exe ubuntu@185.12.7.253 -i C:\\home\\prog\\webdev\\sec\\cloudsigmaprivate.ppk -b ",
-	"version": 9248
+	"version": 9249
 }
