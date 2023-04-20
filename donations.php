@@ -16,7 +16,15 @@
 	<h1>@content(donations_headline_2023)</h1>
 
 	<div class="content">
+		@content(donations_2023_fac)
+	</div>
+
+	<div class="content">
 		@content(donations_2023_femibrightfuture)
+	</div>
+
+	<div class="content">
+		@content(donations_2023_person_1)
 	</div>
 @include(sectionend.php)
 
