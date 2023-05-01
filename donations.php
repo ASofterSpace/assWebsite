@@ -24,6 +24,10 @@
 	</div>
 
 	<div class="content">
+		@content(donations_2023_thrive)
+	</div>
+
+	<div class="content">
 		@content(donations_2023_person_1)
 	</div>
 
