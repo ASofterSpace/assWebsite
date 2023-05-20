@@ -34,6 +34,10 @@
 	<div class="content">
 		@content(donations_2023_person_2)
 	</div>
+
+	<div class="content">
+		@content(donations_2023_person_3)
+	</div>
 @include(sectionend.php)
 
 @include(sectionstart.php)
