@@ -28,15 +28,7 @@
 	</div>
 
 	<div class="content">
-		@content(donations_2023_person_1)
-	</div>
-
-	<div class="content">
-		@content(donations_2023_person_2)
-	</div>
-
-	<div class="content">
-		@content(donations_2023_person_3)
+		@content(donations_2023_individuals)
 	</div>
 @include(sectionend.php)
 
