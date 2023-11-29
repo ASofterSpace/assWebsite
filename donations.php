@@ -16,11 +16,19 @@
 	<h1>@content(donations_headline_2023)</h1>
 
 	<div class="content">
+		@content(donations_2023_givedirectly)
+	</div>
+
+	<div class="content">
 		@content(donations_2023_fac)
 	</div>
 
 	<div class="content">
 		@content(donations_2023_femibrightfuture)
+	</div>
+
+	<div class="content">
+		@content(donations_2023_agsg)
 	</div>
 
 	<div class="content">
