@@ -28,15 +28,15 @@
 	</div>
 
 	<div class="content">
+		@content(donations_2023_thrive)
+	</div>
+
+	<div class="content">
 		@content(donations_2023_femibrightfuture)
 	</div>
 
 	<div class="content">
 		@content(donations_2023_agsg)
-	</div>
-
-	<div class="content">
-		@content(donations_2023_thrive)
 	</div>
 
 	<div class="content">
