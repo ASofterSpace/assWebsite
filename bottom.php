@@ -21,8 +21,8 @@
 			<div class="footertext">
 				<div class="label above700 footertextblock">
 					A Softer Space<br>
-					Bad Nauheimer Str. 4<br>
-					D-64289 Darmstadt
+					Kiesstr. 84<br>
+					D-64287 Darmstadt
 				</div>
 				<div class="label center above700 footertextblock">
 					A Softer Space DE, Inhaber*in Moya Schiller<br>
@@ -31,8 +31,8 @@
 				</div>
 				<div class="label below700 footertextblock">
 					A Softer Space DE<span class="above400">, Inhaber*in Moya Schiller</span><br>
-					Bad Nauheimer Str. 4<br>
-					D-64289 Darmstadt
+					Kiesstr. 84<br>
+					D-64287 Darmstadt
 				</div>
 				<div class="label center below700 above400 footertextblock">
 					<br>

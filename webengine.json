@@ -99,7 +99,7 @@
 		"games_wallbreak_online_source_code": "As usual for us, the source code for this game is <a href=\"https://github.com/ASofterSpace/assWebsite/tree/master/games/wallbreak_online\" target=\"_blank\">freely available on GitHub.</a>",
 		"home": "Welcome",
 		"imprint": "Legal Notice",
-		"imprint_content": "A Softer Space DE, Inhaber*in Moya Schiller<br>Bad Nauheimer Str. 4<br>64289 Darmstadt<br>Germany<br><br><i>Captain:</i><br>Moya Schiller (Freelancer)<br><br><i>Contact Details:</i><br><a href=\"mailto:info@asofterspace.com\">info@asofterspace.com</a><br>+49 176 511 27307<br><br><i>VAT Nr:</i><br>DE319451065<br><br><i>General Liability Insurance with:</i><br>HISCOX SA<br>Arnulfstraße 31<br>80636 Munich<br>Germany",
+		"imprint_content": "A Softer Space DE, Inhaber*in Moya Schiller<br>Kiesstr. 84<br>64287 Darmstadt<br>Germany<br><br><i>Captain:</i><br>Moya Schiller (Freelancer)<br><br><i>Contact Details:</i><br><a href=\"mailto:info@asofterspace.com\">info@asofterspace.com</a><br>+49 176 511 27307<br><br><i>VAT Nr:</i><br>DE319451065<br><br><i>General Liability Insurance with:</i><br>HISCOX SA<br>Arnulfstraße 31<br>80636 Munich<br>Germany",
 		"index_contact_section": "Have you seen something that you like?<br>Do you want to do research with us? Do you want to order custom software for you or your enterprise? Or just chat about the direction Star Wars has been going lately?<br>Just send us an email!",
 		"index_cookie_section": "Btw.: We are <strong>not</strong> asking for your consent about storing cookies on your computing device.<br>Why, you may ask?<br>Well... we like our software simple and dependable. So we are simply not storing any cookies on your computer, period!<br>(And we are not using nonsensical thirdparty software either, which might otherwise do so without us knowing. We actually do have some embedded youtube videos, but by using the youtube-nocookie URL, no cookies are set when the page is loaded. It is to be expected though that Google will happily set a few cookies when you actually click on such a video.)",
 		"index_welcome_other_languages": "Sprichst du lieber Deutsch?<br><a href=\"https://www.asofterspace.de/\">Hier geht es zur deutschen Seite.</a>",
@@ -397,7 +397,7 @@
 		"games_wallbreak_online_source_code": "Wie bei uns üblich ist der Quelltext dieses Spiels <a href=\"https://github.com/ASofterSpace/assWebsite/tree/master/games/wallbreak_online\" target=\"_blank\">frei verfügbar auf GitHub.</a>",
 		"home": "Willkommen",
 		"imprint": "Impressum",
-		"imprint_content": "A Softer Space DE, Inhaber*in Moya Schiller<br>Bad Nauheimer Str. 4<br>64289 Darmstadt<br>Deutschland<br><br><i>Captain:</i><br>Moya Schiller (Freiberufler)<br><br><i>Kontakt:</i><br><a href=\"mailto:info@asofterspace.com\">info@asofterspace.com</a><br>+49 176 511 27307<br><br><i>USt-IdNr.:</i><br>DE319451065<br><br><i>Betriebs-Haftpflichtversicherung bei:</i><br>HISCOX SA<br>Arnulfstraße 31<br>80636 München",
+		"imprint_content": "A Softer Space DE, Inhaber*in Moya Schiller<br>Kiesstr. 84<br>64287 Darmstadt<br>Deutschland<br><br><i>Captain:</i><br>Moya Schiller (Freiberufler)<br><br><i>Kontakt:</i><br><a href=\"mailto:info@asofterspace.com\">info@asofterspace.com</a><br>+49 176 511 27307<br><br><i>USt-IdNr.:</i><br>DE319451065<br><br><i>Betriebs-Haftpflichtversicherung bei:</i><br>HISCOX SA<br>Arnulfstraße 31<br>80636 München",
 		"index_contact_section": "Hast du etwas gesehen, das dir gefällt?<br>Möchtest du eine wissenschaftliche Veröffentlichung mit uns herausbringen? Oder möchtest du maßgeschneiderte Software für dich oder deine Firma beschaffen? Oder einfach nur darüber quasseln, wie sich Star Wars in den letzten Jahren so entwickelt hat?<br>Send uns einfach eine Email!",
 		"index_cookie_section": "Übrigens: Wir fragen <strong>nicht</strong> danach, ob wir Cookies speichern dürfen.<br>Warum, ist die Frage?<br>Nun... wir mögen unsere Software einfach und zuverlässig. Also speichern wir einfach keine Cookies, Punkt!<br>(Und wir nutzen auch keine unsinnige Software von Drittparteien, die ansonsten ohne unser Wissen so etwas tun könnte. Wir haben zwar eingebettete Youtube-Videos, nutzen für diese aber die youtube-nocookie-URL, sodass beim Laden der Seite keine Cookies gesetzt werden; sobald man auf ein solches Video klickt ist es jedoch zu erwarten, dass Google ein paar Cookies setzen wird.)",
 		"index_welcome_other_languages": "Do you prefer a different language?<br><a href=\"https://www.asofterspace.com/\">Here you can find our website in English.</a>",
@@ -748,5 +748,5 @@
 	],
 	"uploadStrDE": "C:\\home\\system\\psftp\\psftp.exe ubuntu@185.12.7.253 -i C:\\home\\prog\\webdev\\sec\\cloudsigmaprivate.ppk -b ",
 	"uploadStrEN": "C:\\home\\system\\psftp\\psftp.exe ubuntu@185.12.7.253 -i C:\\home\\prog\\webdev\\sec\\cloudsigmaprivate.ppk -b ",
-	"version": 9293
+	"version": 9294
 }
