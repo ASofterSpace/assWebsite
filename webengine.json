@@ -71,6 +71,7 @@
 		"donations_2023_patreon": "Lastly, in 2023 we also donated a total of 1450.73 € via <a href=\"https://www.patreon.com/\" target=\"_blank\">Patreon</a> to awesome content creators.",
 		"donations_2023_private": "24000.00 € were donated to a private project.",
 		"donations_2023_thrive": "We donated 153.79 € to presenters at the <a href=\"https://thrivevirtualcon.com/\" target=\"_blank\">THRIVE - BDSM &amp; Mental Health Conference</a>.",
+		"donations_2024_individuals": "We donated 42.00 € to a person with financial problems.",
 		"donations_ea_headline": "Effective Altruism",
 		"donations_ea_intro": "If you want to learn more about impactful giving and get involved yourself, <a href=\"https://www.effectivealtruism.org/\" target=\"_blank\">Effective Altruism</a> is a great place to do so.",
 		"donations_giving_what_we_can_intro_1": "We believe in the idea behind the <a href=\"https://www.givingwhatwecan.org/\" target=\"_blank\">Giving What We Can</a> initiative.",
@@ -80,7 +81,8 @@
 		"donations_headline_2020": "Donations in 2020: 12,267.80 €",
 		"donations_headline_2021": "Donations in 2021: 15,385.86 €",
 		"donations_headline_2022": "Donations in 2022: 18,531.57 €",
-		"donations_headline_2023": "Donations in 2023 so far: 29,205.52 €",
+		"donations_headline_2023": "Donations in 2023: 29,205.52 €",
+		"donations_headline_2024": "Donations in 2024 so far: 42.00 €",
 		"download": "Download",
 		"ekse_headline": "EKSE: A Command Line Interface for EGS-CC based Systems",
 		"ekse_presentation_update_date": "25<sup>th</sup> April 2018",
@@ -369,6 +371,7 @@
 		"donations_2023_patreon": "Zusätzlich haben wir 2023 auch noch insgesamt 1450,73 € über <a href=\"https://www.patreon.com/\" target=\"_blank\">Patreon</a> an coole Projekte gespendet.",
 		"donations_2023_private": "24000,00 € wurden an ein privates Vorhaben gespendet.",
 		"donations_2023_thrive": "Wir haben 153,79 € an Menschen gespendet, die bei der <a href=\"https://thrivevirtualcon.com/\" target=\"_blank\">THRIVE - Konferenz zu BDSM &amp; Psychischer Gesundheit</a> Workshops angeboten haben.",
+		"donations_2024_individuals": "42,00 € gingen direkt an eine Person mit finanziellen Problemen.",
 		"donations_ea_headline": "Effektiver Altruismus",
 		"donations_ea_intro": "Wenn du mehr darüber erfahren möchtest, wirkungsvoll zu spenden und selbst einbezogen werden möchtest, dann ist der <a href=\"https://www.effectivealtruism.org/\" target=\"_blank\">Effektive Altruismus</a> genau richtig für dich.",
 		"donations_giving_what_we_can_intro_1": "Wir glauben an die Idee hinter der <a href=\"https://www.givingwhatwecan.org/\" target=\"_blank\">Giving What We Can</a> Initiative.",
@@ -378,7 +381,8 @@
 		"donations_headline_2020": "Spenden im Jahr 2020: 12.267,80 €",
 		"donations_headline_2021": "Spenden im Jahr 2021: 15.385,86 €",
 		"donations_headline_2022": "Spenden im Jahr 2022: 18.531,57 €",
-		"donations_headline_2023": "Spenden im Jahr 2023 bis jetzt: 29.205,52 €",
+		"donations_headline_2023": "Spenden im Jahr 2023: 29.205,52 €",
+		"donations_headline_2024": "Spenden im Jahr 2024 bis jetzt: 42,00 €",
 		"download": "Download",
 		"ekse_headline": "EKSE: Ein Kommandozeilen-Interface für EGS-CC-basierte Systeme",
 		"ekse_presentation_update_date": "25. April 2018",
@@ -748,5 +752,5 @@
 	],
 	"uploadStrDE": "C:\\home\\system\\psftp\\psftp.exe ubuntu@185.12.7.253 -i C:\\home\\prog\\webdev\\sec\\cloudsigmaprivate.ppk -b ",
 	"uploadStrEN": "C:\\home\\system\\psftp\\psftp.exe ubuntu@185.12.7.253 -i C:\\home\\prog\\webdev\\sec\\cloudsigmaprivate.ppk -b ",
-	"version": 9294
+	"version": 9295
 }
