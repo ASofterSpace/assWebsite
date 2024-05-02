@@ -18,6 +18,10 @@
 	<div class="content">
 		@content(donations_2024_individuals)
 	</div>
+
+	<div class="content">
+		@content(donations_2024_jungundnaiv)
+	</div>
 @include(sectionend.php)
 
 @include(sectionstart.php)
