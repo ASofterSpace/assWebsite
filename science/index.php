@@ -37,7 +37,7 @@
 					</tr>
 					<tr>
 						<td>@content(author):</td>
-						<td><a class="plain" href="mailto:moya@asofterspace.com">Tom Moya Schiller</a></td>
+						<td><a class="plain" href="mailto:moya@asofterspace.com">Moya Schiller</a></td>
 					</tr>
 					<tr>
 						<td>@content(status):</td>
@@ -83,7 +83,7 @@
 					</tr>
 					<tr>
 						<td>@content(author):</td>
-						<td><a class="plain" href="mailto:moya@asofterspace.com">Tom Moya Schiller</a></td>
+						<td><a class="plain" href="mailto:moya@asofterspace.com">Moya Schiller</a></td>
 					</tr>
 					<tr>
 						<td>@content(status):</td>
@@ -124,7 +124,7 @@
 					</tr>
 					<tr>
 						<td>@content(author):</td>
-						<td><a class="plain" href="mailto:moya@asofterspace.com">Tom Moya Schiller</a></td>
+						<td><a class="plain" href="mailto:moya@asofterspace.com">Moya Schiller</a></td>
 					</tr>
 					<tr>
 						<td>@content(status):</td>
@@ -170,7 +170,7 @@
 					</tr>
 					<tr>
 						<td>@content(author):</td>
-						<td><a class="plain" href="mailto:moya@asofterspace.com">Tom Moya Schiller</a></td>
+						<td><a class="plain" href="mailto:moya@asofterspace.com">Moya Schiller</a></td>
 					</tr>
 					<tr>
 						<td>@content(status):</td>
@@ -215,7 +215,7 @@
 					</tr>
 					<tr>
 						<td>@content(author):</td>
-						<td><a class="plain" href="mailto:moya@asofterspace.com">Tom Moya Schiller</a></td>
+						<td><a class="plain" href="mailto:moya@asofterspace.com">Moya Schiller</a></td>
 					</tr>
 					<tr>
 						<td>@content(status):</td>
@@ -261,7 +261,7 @@
 					</tr>
 					<tr>
 						<td>@content(author):</td>
-						<td><a class="plain" href="mailto:moya@asofterspace.com">Tom Moya Schiller</a></td>
+						<td><a class="plain" href="mailto:moya@asofterspace.com">Moya Schiller</a></td>
 					</tr>
 					<tr>
 						<td>@content(status):</td>
@@ -305,7 +305,7 @@
 					</tr>
 					<tr>
 						<td>@content(author):</td>
-						<td><a class="plain" href="mailto:moya@asofterspace.com">Tom Moya Schiller</a></td>
+						<td><a class="plain" href="mailto:moya@asofterspace.com">Moya Schiller</a></td>
 					</tr>
 					<tr>
 						<td>@content(status):</td>
@@ -342,7 +342,7 @@
 					</tr>
 					<tr>
 						<td>@content(author):</td>
-						<td><a class="plain" href="mailto:moya@asofterspace.com">Tom Moya Schiller</a></td>
+						<td><a class="plain" href="mailto:moya@asofterspace.com">Moya Schiller</a></td>
 					</tr>
 					<tr>
 						<td>@content(status):</td>
