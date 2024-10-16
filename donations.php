@@ -24,6 +24,10 @@
 	</div>
 
 	<div class="content">
+		@content(donations_2024_bergwaldprojekt)
+	</div>
+
+	<div class="content">
 		@content(donations_2024_LGBTKakuma)
 	</div>
 @include(sectionend.php)
