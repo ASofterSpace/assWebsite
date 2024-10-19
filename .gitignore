@@ -3,9 +3,6 @@ pics/*_orig_*.png
 pics/*_orig.png
 pics/*_photo_*.png
 
-# pictures that we do not own
-pics/hiscox*
-
 # old pictures
 oldpics
 
