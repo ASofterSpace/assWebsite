@@ -15,6 +15,7 @@ compiled/*
 compiled*/*
 previews/*
 temp/*
+webengineless*
 
 # (External) documentation should have its own lifecycle and not be included here in git
 *.pdf
