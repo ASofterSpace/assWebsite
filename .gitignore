@@ -29,3 +29,6 @@ webengineless*
 *.pptx
 *.odp
 science/papers/reference_graphs/*
+
+# server-only files
+boundless/signup.php
