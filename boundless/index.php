@@ -28,6 +28,13 @@
 				<input type="text" id="email" name="email" required />
 			</div>
 			<div>
+				<label for="amount">If you would like to preorder the comic, please enter how many copies you would like to preorder:</label>
+				<input type="number" id="amount" name="amount" value="0" />
+			</div>
+			<div style="display: none;">
+				<input type="hidden" id="language" name="language" value="en" />
+			</div>
+			<div>
 				<input type="submit" value="Subscribe!" />
 			</div>
 		</form>
