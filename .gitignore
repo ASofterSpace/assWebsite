@@ -4,7 +4,8 @@ pics/*_orig.png
 pics/*_photo_*.png
 
 # old pictures
-oldpics
+/oldpics
+/temp_old
 
 # Local preview files converted from PHP
 *.htm
@@ -32,3 +33,5 @@ science/papers/reference_graphs/*
 
 # server-only files
 boundless/signup.php
+/team
+/pics/team

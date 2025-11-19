@@ -14,6 +14,16 @@
 
 		{{-- CSS --}}
 		<link href="/style.css?v=@version" media="all" rel="stylesheet" type="text/css"></link>
+
+		{{-- redirect in case of boundless.asofterspace.com --}}
+		<script>
+			if (window.location.hostname.indexOf("boundless.asofterspace.com") >= 0) {
+				window.location = "https://asofterspace.com/boundless/";
+			}
+			if (window.location.hostname.indexOf("boundless.asofterspace.de") >= 0) {
+				window.location = "https://asofterspace.de/boundless/";
+			}
+		</script>
 	</head>
 
 	<body
