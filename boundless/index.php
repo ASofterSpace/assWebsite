@@ -71,6 +71,20 @@
 				float: right;
 			}
 
+			img.previewpage.leftofthree {
+				margin-left: 5%;
+			}
+			img.previewpage.middleofthree {
+				margin-right: 8%;
+				margin-left: 0;
+				float: right;
+			}
+			img.previewpage.rightofthree {
+				margin-right: 5%;
+				margin-left: 0;
+				float: right;
+			}
+
 			img.previewpage.middleofthreestack {
 				position: relative;
 				z-index: 16;
@@ -86,6 +100,7 @@
 
 			div.container {
 				position: relative;
+				overflow: auto;
 			}
 
 			form > div {
@@ -105,6 +120,10 @@
 			paypal-cart-button {
 				float: right;
 			}
+
+			paypal-add-to-cart-button > div > div > div {
+				margin: auto;
+			}
 		</style>
 	</head>
 	<body>
@@ -117,7 +136,7 @@
 		<h1>Boundless - Tentacles Below!</h1>
 		<p>“Boundless - Tentacles Below!” is the name of an adventure-filled comicbook full of polyamorous pirates.</p>
 
-		<div>
+		<div class="container">
 			<img class="previewpage rightoftwo slightturnleft" src="../pics/boundless/page03.jpg" />
 			<img class="previewpage leftoftwo slightturnright" src="../pics/boundless/cover.jpg" />
 		</div>
@@ -143,22 +162,33 @@
 		<p>Hot off the printing press: the first batch of Boundless comics is ready to be shipped!</p>
 		<p>Would you like to receive a copy? How about a special tshirt to commemorate the occasion?</p>
 
-		{{-- paypal button: just the comic --}}
-		<paypal-add-to-cart-button data-id="SM8BBTEPTQP3E"></paypal-add-to-cart-button>
-		<script>
-			cartPaypal.AddToCart({ id: "SM8BBTEPTQP3E" })
-		</script>
-
-		<div>
-			<img class="previewpage rightoftwo slightturnleft" src="../pics/boundless/page07.jpg" />
-			<img class="previewpage leftoftwo slightturnright" src="../pics/boundless/page06.jpg" />
+		<div class="container">
+			<img class="previewpage rightofthree slightturnleft" src="../pics/boundless/page07.jpg" />
+			<img class="previewpage middleofthree slightturnright" src="../pics/boundless/page06.jpg" />
+			<img class="previewpage leftofthree slightturnright" src="../pics/boundless/cover.jpg" />
 		</div>
 
-		{{-- paypal button: comic + tshirt bundle --}}
-		<paypal-add-to-cart-button data-id="GPPE2NBBSWJFJ"></paypal-add-to-cart-button>
-		<script>
-			cartPaypal.AddToCart({ id: "GPPE2NBBSWJFJ" })
-		</script>
+		<div>
+			{{-- paypal button: just the comic --}}
+			<paypal-add-to-cart-button data-id="SM8BBTEPTQP3E"></paypal-add-to-cart-button>
+			<script>
+				cartPaypal.AddToCart({ id: "SM8BBTEPTQP3E" })
+			</script>
+		</div>
+
+		<div class="container">
+			<img class="previewpage rightofthree slightturnleft" src="../pics/boundless/tshirt_mockup.jpg" />
+			<img class="previewpage middleofthree slightturnright" src="../pics/boundless/sticker_trans.png" />
+			<img class="previewpage leftofthree slightturnright" src="../pics/boundless/cover.jpg" />
+		</div>
+
+		<div>
+			{{-- paypal button: comic + sticker + tshirt bundle --}}
+			<paypal-add-to-cart-button data-id="GPPE2NBBSWJFJ"></paypal-add-to-cart-button>
+			<script>
+				cartPaypal.AddToCart({ id: "GPPE2NBBSWJFJ" })
+			</script>
+		</div>
 
 		<div class="container">
 			<img class="previewpage leftofthreestack slightturnleft" src="../pics/boundless/cover.jpg" />
@@ -166,11 +196,13 @@
 			<img class="previewpage middleofthreestack" src="../pics/boundless/cover.jpg" />
 		</div>
 
-		{{-- paypal button: 3 comics --}}
-		<paypal-add-to-cart-button data-id="XUGN2YVMLG59W"></paypal-add-to-cart-button>
-		<script>
-			cartPaypal.AddToCart({ id: "XUGN2YVMLG59W" })
-		</script>
+		<div>
+			{{-- paypal button: 3 comics --}}
+			<paypal-add-to-cart-button data-id="XUGN2YVMLG59W"></paypal-add-to-cart-button>
+			<script>
+				cartPaypal.AddToCart({ id: "XUGN2YVMLG59W" })
+			</script>
+		</div>
 
 		<div>
 			<img class="previewpage slightturnright" src="../pics/boundless/page27.jpg" />
@@ -199,5 +231,7 @@
 		<p>(You can reach out to us via <a target="_blank" href="mailto:boundless@asofterspace.com">boundless@asofterspace.com</a> - we are looking forward to your emails!)</p>
 
 		<img class="divider" src="../pics/boundless/divider.png" />
+
+		<p>Also check out <a href="https://www.instagram.com/drudgefreedom" target="_blank">Freedom&apos;s instagram page</a>!</p>
 	</body>
 </html>
