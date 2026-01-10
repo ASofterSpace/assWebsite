@@ -232,6 +232,10 @@
 
 		<img class="divider" src="../pics/boundless/divider.png" />
 
-		<p>Also check out <a href="https://www.instagram.com/drudgefreedom" target="_blank">Freedom&apos;s instagram page</a>!</p>
+		<p>Conceived and produced by: <b>Moya</b></p>
+		<p>Script and story by: <a href="www.joshwagner.xyz" target="_blank"><b>Josh Wagner</b></a></p>
+		<p>Lines and colors by: <a href="https://www.instagram.com/drudgefreedom" target="_blank"><b>Freedom Drudge</b></a></p>
+		<p>Letters by: <b>Joachim Heijndermans</b></p>
+		<p>Pre-press by: <b>(Sergio)</b></p>
 	</body>
 </html>
